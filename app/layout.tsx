@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Orbitron } from "next/font/google";
+import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -29,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${orbitron.variable} font-sans`}>
+        <GoogleAnalytics />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <div className="flex min-h-screen flex-col">
             <Header />

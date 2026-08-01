@@ -60,11 +60,24 @@ export default function PrivacyPage() {
           </p>
           <h3>Analytics</h3>
           <p>
-            We may use privacy-conscious analytics or hosting dashboards that summarize
-            traffic (pages viewed, countries, devices). These tools should not be used
-            to sell personal profiles. If we introduce a specific analytics vendor, this
-            policy will be updated with the vendor name and opt-out options where
-            available.
+            We use <strong>Google Analytics 4</strong> (measurement ID{" "}
+            {siteConfig.googleAnalyticsId}) to understand aggregate traffic such as
+            pages viewed, approximate geography, device type, and referral sources.
+            Google may process IP address and cookie or similar identifiers under its
+            own privacy policy. You can learn more at{" "}
+            <a
+              href="https://policies.google.com/privacy"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Google&apos;s Privacy Policy
+            </a>{" "}
+            and opt out of Google Analytics via browser add-ons or your browser
+            settings where available.
+          </p>
+          <p>
+            We may also use hosting or CDN dashboards (for example Cloudflare) that
+            summarize request logs for security and reliability.
           </p>
         </section>
 
@@ -76,8 +89,9 @@ export default function PrivacyPage() {
             for basic functionality are not used to track you across other websites.
           </p>
           <p>
-            If advertising or third-party marketing cookies are added later, we will
-            update this page and provide notice before those features go live.
+            Google Analytics may set or read cookies (or similar storage) to distinguish
+            visits. If advertising or additional marketing cookies are added later, we
+            will update this page before those features go live.
           </p>
         </section>
 

@@ -9,9 +9,11 @@ export const siteConfig = {
   creator: "Guildrun Hub",
   gameVersion: "Demo 0.5.1",
   contactEmail: "contact@guildrunhub.online",
+  /** Google Analytics 4 measurement ID (gtag.js). */
+  googleAnalyticsId: "G-MN3QZETG27",
   dataNotes:
     "Database extracted from Guildrun Demo 0.5.1 game sheets. Balance-sensitive values may change with future patches.",
-  legalUpdatedAt: "2026-07-29",
+  legalUpdatedAt: "2026-08-01",
   faq: [
     {
       question: "What is Guildrun?",
