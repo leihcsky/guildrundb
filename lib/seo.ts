@@ -56,7 +56,13 @@ export function buildMetadata({
     ? absoluteUrl(image)
     : absoluteUrl(siteConfig.branding.ogImage);
   const fullTitle =
-    title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
+    title === siteConfig.name ||
+    title.includes(`| ${siteConfig.name}`) ||
+    title.startsWith(`${siteConfig.name} `) ||
+    title.startsWith(`${siteConfig.name}—`) ||
+    title.startsWith(`${siteConfig.name} -`)
+      ? title
+      : `${title} | ${siteConfig.name}`;
 
   return {
     title: fullTitle,

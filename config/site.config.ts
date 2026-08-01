@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "GuildrunHub",
   game: "Guildrun",
   description:
-    "Unofficial fan wiki for Guildrun — heroes, relics, items, classes, builds, and guides.",
+    "Guildrun wiki for heroes, relics, items, classes, builds, and guides.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://guildrunhub.online",
   locale: "en_US",
   creator: "Guildrun Hub",
@@ -50,14 +50,15 @@ export const siteConfig = {
     href: "/about",
   },
   seo: {
-    homeTitle: "Guildrun Hub — Unofficial Fan Wiki for Heroes, Relics & Builds",
+    // Query-facing: lead with "Guildrun wiki". Unofficial disclosure lives in chrome / About, not meta.
+    homeTitle: "Guildrun Wiki — Heroes, Relics, Items & Builds",
     homeDescription:
-      "Unofficial fan wiki for Guildrun Demo 0.5.1 — searchable heroes, 300+ relics, items, classes, builds, and guides. Independent of Leyline.",
+      "Guildrun wiki for Demo 0.5.1 — searchable heroes, 300+ relics, items, classes, builds, and guides. Look up stats, effects, and synergies.",
     lists: {
       heroes: {
         title: "Guildrun Heroes — Roster, Classes & Abilities",
         description:
-          "Unofficial roster of all 25 Guildrun heroes with classes, abilities, specializations, and synergy relics.",
+          "Browse all 25 Guildrun heroes with classes, abilities, specializations, and synergy relics.",
       },
       relics: {
         title: "Relic Index — Effects, Rarity & Keywords",
