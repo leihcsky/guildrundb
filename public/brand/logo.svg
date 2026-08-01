@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="40" viewBox="0 0 168 40" fill="none" role="img" aria-label="Guildrun Hub">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+  <!-- Mark background -->
+  <rect x="2" y="4" width="32" height="32" rx="8" fill="url(#logo-gradient)"/>
+  <!-- Hub icon inside mark (scaled to 32×32 offset) -->
+  <!-- Center node -->
+  <circle cx="18" cy="20" r="3" fill="#042F2E"/>
+  <!-- Top node -->
+  <circle cx="18" cy="12" r="2" fill="#042F2E"/>
+  <!-- Bottom-left node -->
+  <circle cx="11" cy="27" r="2" fill="#042F2E"/>
+  <!-- Bottom-right node -->
+  <circle cx="25" cy="27" r="2" fill="#042F2E"/>
+  <!-- Connectors -->
+  <line x1="18" y1="14" x2="18" y2="17" stroke="#042F2E" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="12.5" y1="25.5" x2="15.8" y2="22.2" stroke="#042F2E" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="23.5" y1="25.5" x2="20.2" y2="22.2" stroke="#042F2E" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Wordmark -->
+  <text x="44" y="26" fill="#5EEAD4" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="700">Guildrun Hub</text>
+</svg>

@@ -1,0 +1,33 @@
+import Link from "next/link";
+import type { Relic } from "@/types";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { EntityImage } from "@/components/shared/entity-image";
+import { TagList } from "@/components/mechanics/tag-list";
+
+export function RelicCard({ relic }: { relic: Relic }) {
+  return (
+    <Link href={`/relics/${relic.slug}`} className="block h-full">
+      <Card className="h-full">
+        <CardHeader className="flex-row items-center gap-3 space-y-0">
+          <EntityImage src={relic.image} alt={relic.name} size={56} />
+          <div className="min-w-0">
+            <CardTitle className="truncate">{relic.name}</CardTitle>
+            {(relic.rarity || relic.type) && (
+              <div className="mt-2 flex flex-wrap gap-2">
+                {relic.rarity ? <Badge>{relic.rarity}</Badge> : null}
+                {relic.type ? <Badge variant="outline">{relic.type}</Badge> : null}
+              </div>
+            )}
+          </div>
+        </CardHeader>
+        <CardContent className="space-y-3">
+          <p className="line-clamp-2 whitespace-pre-line text-sm text-muted-foreground">
+            {relic.effect || "Effect data pending."}
+          </p>
+          <TagList tags={relic.tags} limit={3} linkable={false} />
+        </CardContent>
+      </Card>
+    </Link>
+  );
+}

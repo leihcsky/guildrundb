@@ -1,0 +1,1277 @@
+[
+  {
+    "id": 101,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_101.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_101.Name",
+    "name": "The Electric",
+    "nameZh": "唤雷",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Electric",
+      "runtimeTitle": "The Electric",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 102,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_102.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_102.Name",
+    "name": "The Mighty",
+    "nameZh": "勇武",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Mighty",
+      "runtimeTitle": "The Mighty",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 103,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_103.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_103.Name",
+    "name": "The Olympic",
+    "nameZh": "神威",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Olympic",
+      "runtimeTitle": "The Olympic",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 201,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_201.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_201.Name",
+    "name": "The Conduit",
+    "nameZh": "魔力源泉",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Conduit",
+      "runtimeTitle": "The Conduit",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 202,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_202.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_202.Name",
+    "name": "The Hunter",
+    "nameZh": "狩猎本能",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Hunter",
+      "runtimeTitle": "The Hunter",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 203,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_203.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_203.Name",
+    "name": "The Sniper",
+    "nameZh": "百步穿杨",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Sniper",
+      "runtimeTitle": "The Sniper",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 301,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_301.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_301.Name",
+    "name": "The Champion",
+    "nameZh": "擂台霸主",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Champion",
+      "runtimeTitle": "The Champion",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 302,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_302.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_302.Name",
+    "name": "The Brawler",
+    "nameZh": "狂野斗士",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Brawler",
+      "runtimeTitle": "The Brawler",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 303,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_303.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_303.Name",
+    "name": "The Boxer",
+    "nameZh": "铁腕拳师",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Boxer",
+      "runtimeTitle": "The Boxer",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 401,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_401.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_401.Name",
+    "name": "The Shadow",
+    "nameZh": "遁影无形",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Shadow",
+      "runtimeTitle": "The Shadow",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 402,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_402.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_402.Name",
+    "name": "The Collector",
+    "nameZh": "赏金收割",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Collector",
+      "runtimeTitle": "The Collector",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 403,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_403.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_403.Name",
+    "name": "The Nightshade",
+    "nameZh": "夜幕幽影",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Nightshade",
+      "runtimeTitle": "The Nightshade",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 501,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_501.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_501.Name",
+    "name": "The Cruel",
+    "nameZh": "暴虐之心",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Cruel",
+      "runtimeTitle": "The Cruel",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 502,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_502.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_502.Name",
+    "name": "The Serpent's Kiss",
+    "nameZh": "毒蛇之吻",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Serpent's Kiss",
+      "runtimeTitle": "The Serpent's Kiss",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 503,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_503.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_503.Name",
+    "name": "The Bladedancer",
+    "nameZh": "刀锋之舞",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Bladedancer",
+      "runtimeTitle": "The Bladedancer",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 601,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_601.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_601.Name",
+    "name": "The Crescendo",
+    "nameZh": "激昂乐章",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Crescendo",
+      "runtimeTitle": "The Crescendo",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 602,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_602.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_602.Name",
+    "name": "The Resplendent",
+    "nameZh": "璀璨光辉",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Resplendent",
+      "runtimeTitle": "The Resplendent",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 603,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_603.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_603.Name",
+    "name": "The Harmony",
+    "nameZh": "谐律之音",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Harmony",
+      "runtimeTitle": "The Harmony",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 701,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_701.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_701.Name",
+    "name": "The Keen-Eyed",
+    "nameZh": "锐利之眼",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Keen-Eyed",
+      "runtimeTitle": "The Keen-Eyed",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 702,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_702.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_702.Name",
+    "name": "The Wild",
+    "nameZh": "狂野连斩",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Wild",
+      "runtimeTitle": "The Wild",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 703,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_703.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_703.Name",
+    "name": "The Spark",
+    "nameZh": "元素侵袭",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Spark",
+      "runtimeTitle": "The Spark",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 801,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_801.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_801.Name",
+    "name": "The Bloomer",
+    "nameZh": "绽放之灵",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Bloomer",
+      "runtimeTitle": "The Bloomer",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 802,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_802.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_802.Name",
+    "name": "The Fae's Kiss",
+    "nameZh": "仙灵之吻",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Fae's Kiss",
+      "runtimeTitle": "The Fae's Kiss",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 803,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_803.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_803.Name",
+    "name": "The Earth's Child",
+    "nameZh": "大地之子",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Earth's Child",
+      "runtimeTitle": "The Earth's Child",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 901,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_901.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_901.Name",
+    "name": "The Dealer",
+    "nameZh": "黑市庄家",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Dealer",
+      "runtimeTitle": "The Dealer",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 902,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_902.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_902.Name",
+    "name": "The Executive",
+    "nameZh": "执行董事",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Executive",
+      "runtimeTitle": "The Executive",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 903,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_903.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_903.Name",
+    "name": "The Hoarder",
+    "nameZh": "敛财狂徒",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Hoarder",
+      "runtimeTitle": "The Hoarder",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1001,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1001.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1001.Name",
+    "name": "The Right Hand",
+    "nameZh": "得力助手",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Right Hand",
+      "runtimeTitle": "The Right Hand",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1002,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1002.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1002.Name",
+    "name": "The Lustrous",
+    "nameZh": "耀目之华",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Lustrous",
+      "runtimeTitle": "The Lustrous",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1003,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1003.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1003.Name",
+    "name": "The Tycoon",
+    "nameZh": "商业大亨",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Tycoon",
+      "runtimeTitle": "The Tycoon",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1101,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1101.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1101.Name",
+    "name": "The Tectonic",
+    "nameZh": "撼地震击",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Tectonic",
+      "runtimeTitle": "The Tectonic",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1102,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1102.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1102.Name",
+    "name": "The Protector",
+    "nameZh": "不屈壁垒",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Protector",
+      "runtimeTitle": "The Protector",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1103,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1103.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1103.Name",
+    "name": "The Friend",
+    "nameZh": "忠实挚友",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Friend",
+      "runtimeTitle": "The Friend",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1201,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1201.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1201.Name",
+    "name": "The Haughty",
+    "nameZh": "狂傲之姿",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Haughty",
+      "runtimeTitle": "The Haughty",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1202,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1202.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1202.Name",
+    "name": "The Winter's Bite",
+    "nameZh": "凛冬之咬",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Winter's Bite",
+      "runtimeTitle": "The Winter's Bite",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1203,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1203.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1203.Name",
+    "name": "The Bristleguard",
+    "nameZh": "荆棘战甲",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Bristleguard",
+      "runtimeTitle": "The Bristleguard",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1301,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1301.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1301.Name",
+    "name": "The Iron",
+    "nameZh": "铁血战意",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Iron",
+      "runtimeTitle": "The Iron",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1302,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1302.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1302.Name",
+    "name": "The Juggernaut",
+    "nameZh": "不灭战狂",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Juggernaut",
+      "runtimeTitle": "The Juggernaut",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1303,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1303.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1303.Name",
+    "name": "The Momentous",
+    "nameZh": "万钧之势",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Momentous",
+      "runtimeTitle": "The Momentous",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1401,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1401.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1401.Name",
+    "name": "The Stoked",
+    "nameZh": "狂热",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Stoked",
+      "runtimeTitle": "The Stoked",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1402,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1402.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1402.Name",
+    "name": "The Inferno",
+    "nameZh": "炼狱",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Inferno",
+      "runtimeTitle": "The Inferno",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1403,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1403.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1403.Name",
+    "name": "The Detonator",
+    "nameZh": "爆燃",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Detonator",
+      "runtimeTitle": "The Detonator",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1501,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1501.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1501.Name",
+    "name": "The Stylish",
+    "nameZh": "时尚",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Stylish",
+      "runtimeTitle": "The Stylish",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1502,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1502.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1502.Name",
+    "name": "The Sharp",
+    "nameZh": "锋锐",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Sharp",
+      "runtimeTitle": "The Sharp",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1503,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1503.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1503.Name",
+    "name": "The Elegant",
+    "nameZh": "优雅",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Elegant",
+      "runtimeTitle": "The Elegant",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1601,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1601.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1601.Name",
+    "name": "The Investor",
+    "nameZh": "一本万利",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Investor",
+      "runtimeTitle": "The Investor",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1602,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1602.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1602.Name",
+    "name": "The Glacier",
+    "nameZh": "极寒冰川",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Glacier",
+      "runtimeTitle": "The Glacier",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1603,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1603.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1603.Name",
+    "name": "The Avalanche",
+    "nameZh": "凛冽雪崩",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Avalanche",
+      "runtimeTitle": "The Avalanche",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1701,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1701.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1701.Name",
+    "name": "The Fashionable",
+    "nameZh": "珠光宝气",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Fashionable",
+      "runtimeTitle": "The Fashionable",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1702,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1702.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1702.Name",
+    "name": "The Ostentatious",
+    "nameZh": "华丽夺目",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Ostentatious",
+      "runtimeTitle": "The Ostentatious",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1703,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1703.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1703.Name",
+    "name": "The Magnanimous",
+    "nameZh": "恩赐解脱",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Magnanimous",
+      "runtimeTitle": "The Magnanimous",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1801,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1801.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1801.Name",
+    "name": "The Glutton",
+    "nameZh": "饕餮",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Glutton",
+      "runtimeTitle": "The Glutton",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1802,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1802.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1802.Name",
+    "name": "The Enraged",
+    "nameZh": "狂怒",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Enraged",
+      "runtimeTitle": "The Enraged",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 1803,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_1803.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_1803.Name",
+    "name": "The Brute",
+    "nameZh": "凶残",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Brute",
+      "runtimeTitle": "The Brute",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2001,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2001.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2001.Name",
+    "name": "The Falling Snow",
+    "nameZh": "漫天飞雪",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Falling Snow",
+      "runtimeTitle": "The Falling Snow",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2002,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2002.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2002.Name",
+    "name": "The Warband",
+    "nameZh": "战团之魂",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Warband",
+      "runtimeTitle": "The Warband",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2003,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2003.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2003.Name",
+    "name": "The Frostbite",
+    "nameZh": "刺骨寒霜",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Frostbite",
+      "runtimeTitle": "The Frostbite",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2101,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2101.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2101.Name",
+    "name": "The Searing",
+    "nameZh": "红莲业火",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Searing",
+      "runtimeTitle": "The Searing",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2102,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2102.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2102.Name",
+    "name": "The Tempered",
+    "nameZh": "千锤百炼",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Tempered",
+      "runtimeTitle": "The Tempered",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2103,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2103.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2103.Name",
+    "name": "The Enlightened",
+    "nameZh": "无我化境",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Enlightened",
+      "runtimeTitle": "The Enlightened",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2201,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2201.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2201.Name",
+    "name": "The Spicy",
+    "nameZh": "火爆悍将",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Spicy",
+      "runtimeTitle": "The Spicy",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2202,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2202.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2202.Name",
+    "name": "The Seasoned",
+    "nameZh": "历战之躯",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Seasoned",
+      "runtimeTitle": "The Seasoned",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2203,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2203.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2203.Name",
+    "name": "The Lover",
+    "nameZh": "挚爱守护",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Lover",
+      "runtimeTitle": "The Lover",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2301,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2301.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2301.Name",
+    "name": "The Breezy",
+    "nameZh": "轻灵微风",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Breezy",
+      "runtimeTitle": "The Breezy",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2302,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2302.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2302.Name",
+    "name": "The Lover",
+    "nameZh": "挚爱守护",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Lover",
+      "runtimeTitle": "The Lover",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2303,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2303.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2303.Name",
+    "name": "The Brisk",
+    "nameZh": "凛冽寒风",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Brisk",
+      "runtimeTitle": "The Brisk",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2401,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2401.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2401.Name",
+    "name": "The Greedy",
+    "nameZh": "无尽贪欲",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Greedy",
+      "runtimeTitle": "The Greedy",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2402,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2402.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2402.Name",
+    "name": "The Sanguine",
+    "nameZh": "血色幽影",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Sanguine",
+      "runtimeTitle": "The Sanguine",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2403,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2403.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2403.Name",
+    "name": "The Kingpin",
+    "nameZh": "嗜血枭雄",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Kingpin",
+      "runtimeTitle": "The Kingpin",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2601,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2601.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2601.Name",
+    "name": "The Unstoppable",
+    "nameZh": "势不可挡",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Unstoppable",
+      "runtimeTitle": "The Unstoppable",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2602,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2602.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2602.Name",
+    "name": "The Bold",
+    "nameZh": "无畏战雄",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Bold",
+      "runtimeTitle": "The Bold",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2603,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2603.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2603.Name",
+    "name": "The Intrepid",
+    "nameZh": "破阵先锋",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Intrepid",
+      "runtimeTitle": "The Intrepid",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2701,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2701.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2701.Name",
+    "name": "The Selfless",
+    "nameZh": "博爱",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Selfless",
+      "runtimeTitle": "The Selfless",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2702,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2702.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2702.Name",
+    "name": "The Benevolent",
+    "nameZh": "仁心",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Benevolent",
+      "runtimeTitle": "The Benevolent",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2703,
+    "kind": "heroSpecialization",
+    "keys": {
+      "Name": "HeroSpecializations.HeroSpecialization_2703.Name"
+    },
+    "nameKey": "HeroSpecializations.HeroSpecialization_2703.Name",
+    "name": "The Radiant",
+    "nameZh": "圣辉",
+    "images": {},
+    "balancing": {
+      "disabledInGame": false,
+      "title": "The Radiant",
+      "runtimeTitle": "The Radiant",
+      "exportedSource": "GuildrunExport"
+    }
+  }
+]

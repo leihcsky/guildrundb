@@ -1,0 +1,106 @@
+{
+  "heroes": {
+    "aria": {
+      "classSlugs": ["mage"],
+      "role": "Back-line magic carry and dual-debuff engine"
+    },
+    "dragomir": {
+      "classSlugs": ["assassin"],
+      "role": "Melee executioner with economy scaling"
+    },
+    "fiona": {
+      "classSlugs": ["mystic"],
+      "role": "Shield support with economy and scaling branches"
+    },
+    "funke": {
+      "classSlugs": ["mage"],
+      "role": "Area Burn mage"
+    },
+    "grace": {
+      "classSlugs": ["mystic"],
+      "role": "Late-fight shield, healing, and resurrection support",
+      "activeAbilityId": 29
+    },
+    "gustav": {
+      "classSlugs": ["mystic"],
+      "role": "Zone-control Mystic and shield engine"
+    },
+    "hoyoung": {
+      "classSlugs": ["assassin"],
+      "role": "Long-range back-line executioner"
+    },
+    "irini": {
+      "classSlugs": ["duelist"],
+      "role": "Attack-speed Duelist with late-fight payoff"
+    },
+    "kai": {
+      "classSlugs": ["warrior"],
+      "role": "Shield-powered melee Warrior",
+      "activeAbilityId": 28
+    },
+    "karsu": {
+      "classSlugs": ["duelist"],
+      "role": "Ranged Duelist and Frost applicator"
+    },
+    "logan": {
+      "classSlugs": ["warrior"],
+      "role": "Physical finisher with permanent growth"
+    },
+    "ming": {
+      "classSlugs": ["vanguard"],
+      "role": "High-health Rush Vanguard and Burn aura"
+    },
+    "niklas": {
+      "classSlugs": ["vanguard"],
+      "role": "Item-consuming Vanguard economy engine"
+    },
+    "nyx": {
+      "classSlugs": ["duelist"],
+      "role": "Rush-refresh melee Duelist"
+    },
+    "pimenta": {
+      "classSlugs": ["tank"],
+      "role": "Front-line Poison Tank and formation anchor"
+    },
+    "pollen": {
+      "classSlugs": ["mystic"],
+      "role": "Sustain field Mystic and status hub"
+    },
+    "ratna": {
+      "classSlugs": ["mage"],
+      "role": "Crit-control Mage with kill scaling"
+    },
+    "reyna": {
+      "classSlugs": ["warrior"],
+      "role": "Combo Warrior with self-shielding"
+    },
+    "rip": {
+      "classSlugs": ["vanguard"],
+      "role": "High-health Rush bruiser"
+    },
+    "rowan": {
+      "classSlugs": ["vanguard", "tank"],
+      "role": "Dual-class defensive anchor"
+    },
+    "sal": {
+      "classSlugs": ["mage"],
+      "role": "Short-range Frost Mage and formation support"
+    },
+    "skorn": {
+      "classSlugs": ["tank"],
+      "role": "Retaliation Tank and status front line"
+    },
+    "tilly": {
+      "classSlugs": ["warrior", "duelist"],
+      "role": "Dual-class tempo carry and Shard engine"
+    },
+    "yuuna": {
+      "classSlugs": ["assassin"],
+      "role": "Crit Assassin and low-health finisher"
+    },
+    "zuri": {
+      "classSlugs": ["tank", "assassin"],
+      "role": "Crit-scaling hybrid Tank and Assassin"
+    }
+  }
+}

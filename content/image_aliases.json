@@ -1,0 +1,35 @@
+{
+  "heroes": {
+    "Hoyoung": "Hoyoung",
+    "HoYoung": "Hoyoung",
+    "Nyx": "Nyxa",
+    "Joey": "Joey",
+    "Joe": "Joey",
+    "Yuuna": "Ayaka",
+    "Zuri": "Selkhera",
+    "Aria": "Seraphael",
+    "Pollen": "Floeria",
+    "Rowan": "Rook",
+    "Rip": "Cenk",
+    "Karsu": "Javryn",
+    "Kai": "Joey",
+    "Grace": "Josephina"
+  },
+  "activeAbilities": {},
+  "passiveAbilities": {},
+  "relics": {},
+  "items": {},
+  "enemies": {},
+  "heroClasses": {
+    "1": "Warrior",
+    "2": "Tank"
+  },
+  "guilds": {
+    "1": "GuildBanner_Sporty",
+    "2": "GuildBanner_Urban",
+    "3": "GuildBanner_Luxury",
+    "4": "GuildBanner_Punk",
+    "5": "GuildBanner_Boho",
+    "6": "GuildBanner_Corporate"
+  }
+}

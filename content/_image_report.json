@@ -1,0 +1,7426 @@
+{
+  "spriteRoot": "E:\\unity-temp\\outnew\\Sprite",
+  "contentDir": "D:\\dev\\github\\guildrundb\\content",
+  "publicMedia": "D:\\dev\\github\\guildrundb\\public\\media",
+  "spriteCount": 1900,
+  "matched": {
+    "heroes": 25,
+    "activeAbilities": 25,
+    "passiveAbilities": 87,
+    "relics": 346,
+    "items": 162,
+    "rankModifiers": 0,
+    "heroSpecializations": 0,
+    "enemies": 0,
+    "heroClasses": 7,
+    "guilds": 6
+  },
+  "missing": {
+    "activeAbilities": [
+      {
+        "id": 100,
+        "name": "Rejuvenating Blow",
+        "tried": [
+          "ActiveAbility_100",
+          "ActiveAbility_100"
+        ]
+      },
+      {
+        "id": 101,
+        "name": "Slam",
+        "tried": [
+          "ActiveAbility_101",
+          "ActiveAbility_101"
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Wild Shot",
+        "tried": [
+          "ActiveAbility_102",
+          "ActiveAbility_102"
+        ]
+      },
+      {
+        "id": 103,
+        "name": null,
+        "tried": [
+          "ActiveAbility_103",
+          "ActiveAbility_103"
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Frost Storm",
+        "tried": [
+          "ActiveAbility_104",
+          "ActiveAbility_104"
+        ]
+      },
+      {
+        "id": 105,
+        "name": "Fire Storm",
+        "tried": [
+          "ActiveAbility_105",
+          "ActiveAbility_105"
+        ]
+      },
+      {
+        "id": 106,
+        "name": "Bash",
+        "tried": [
+          "ActiveAbility_106",
+          "ActiveAbility_106"
+        ]
+      },
+      {
+        "id": 107,
+        "name": "Vine Snag",
+        "tried": [
+          "ActiveAbility_107",
+          "ActiveAbility_107"
+        ]
+      },
+      {
+        "id": 108,
+        "name": "Ensnare",
+        "tried": [
+          "ActiveAbility_108",
+          "ActiveAbility_108"
+        ]
+      },
+      {
+        "id": 109,
+        "name": "Noxious Venom",
+        "tried": [
+          "ActiveAbility_109",
+          "ActiveAbility_109"
+        ]
+      },
+      {
+        "id": 110,
+        "name": "Bounce",
+        "tried": [
+          "ActiveAbility_110",
+          "ActiveAbility_110"
+        ]
+      },
+      {
+        "id": 111,
+        "name": "Bash",
+        "tried": [
+          "ActiveAbility_111",
+          "ActiveAbility_111"
+        ]
+      },
+      {
+        "id": 112,
+        "name": "Wild Shot",
+        "tried": [
+          "ActiveAbility_112",
+          "ActiveAbility_112"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "Frost Storm",
+        "tried": [
+          "ActiveAbility_113",
+          "ActiveAbility_113"
+        ]
+      },
+      {
+        "id": 114,
+        "name": "Fire Storm",
+        "tried": [
+          "ActiveAbility_114",
+          "ActiveAbility_114"
+        ]
+      },
+      {
+        "id": 115,
+        "name": "Noxious Venom",
+        "tried": [
+          "ActiveAbility_115",
+          "ActiveAbility_115"
+        ]
+      },
+      {
+        "id": 116,
+        "name": "Ensnare",
+        "tried": [
+          "ActiveAbility_116",
+          "ActiveAbility_116"
+        ]
+      },
+      {
+        "id": 117,
+        "name": "Bounce",
+        "tried": [
+          "ActiveAbility_117",
+          "ActiveAbility_117"
+        ]
+      },
+      {
+        "id": 118,
+        "name": "Frost Storm",
+        "tried": [
+          "ActiveAbility_118",
+          "ActiveAbility_118"
+        ]
+      },
+      {
+        "id": 119,
+        "name": "Fire Storm",
+        "tried": [
+          "ActiveAbility_119",
+          "ActiveAbility_119"
+        ]
+      },
+      {
+        "id": 20101,
+        "name": "Flame Breath",
+        "tried": [
+          "ActiveAbility_20101",
+          "ActiveAbility_20101"
+        ]
+      },
+      {
+        "id": 20102,
+        "name": "Frost Breath",
+        "tried": [
+          "ActiveAbility_20102",
+          "ActiveAbility_20102"
+        ]
+      },
+      {
+        "id": 20103,
+        "name": "Poison Breath",
+        "tried": [
+          "ActiveAbility_20103",
+          "ActiveAbility_20103"
+        ]
+      },
+      {
+        "id": 20104,
+        "name": "Anger",
+        "tried": [
+          "ActiveAbility_20104",
+          "ActiveAbility_20104"
+        ]
+      },
+      {
+        "id": 20105,
+        "name": "Venomous Bite",
+        "tried": [
+          "ActiveAbility_20105",
+          "ActiveAbility_20105"
+        ]
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "id": 115,
+        "name": "Lizard Leap",
+        "tried": [
+          "PassiveAbility_115",
+          "PassiveAbility_115"
+        ]
+      }
+    ],
+    "relics": [
+      {
+        "id": 534,
+        "name": "Vanguard's Endurance Banner",
+        "tried": [
+          "Relic_534",
+          "Relic_534"
+        ]
+      },
+      {
+        "id": 709,
+        "name": "Shield Bauble",
+        "tried": [
+          "Relic_709",
+          "Relic_709"
+        ]
+      },
+      {
+        "id": 900,
+        "name": "The Red Rift",
+        "tried": [
+          "Relic_900",
+          "Relic_900"
+        ]
+      },
+      {
+        "id": 1029,
+        "name": "Victory Vessel",
+        "tried": [
+          "Relic_1029",
+          "Relic_1029"
+        ]
+      },
+      {
+        "id": 5000,
+        "name": "Rapid Growth",
+        "tried": [
+          "Relic_5000",
+          "Relic_5000"
+        ]
+      },
+      {
+        "id": 5001,
+        "name": "Steady Growth",
+        "tried": [
+          "Relic_5001",
+          "Relic_5001"
+        ]
+      },
+      {
+        "id": 5002,
+        "name": "Pain",
+        "tried": [
+          "Relic_5002",
+          "Relic_5002"
+        ]
+      },
+      {
+        "id": 5003,
+        "name": "Improvidence",
+        "tried": [
+          "Relic_5003",
+          "Relic_5003"
+        ]
+      },
+      {
+        "id": 5004,
+        "name": "Decay",
+        "tried": [
+          "Relic_5004",
+          "Relic_5004"
+        ]
+      },
+      {
+        "id": 5005,
+        "name": "Immunity",
+        "tried": [
+          "Relic_5005",
+          "Relic_5005"
+        ]
+      },
+      {
+        "id": 5011,
+        "name": "Rapid Growth",
+        "tried": [
+          "Relic_5011",
+          "Relic_5011"
+        ]
+      },
+      {
+        "id": 5012,
+        "name": "Steady Growth",
+        "tried": [
+          "Relic_5012",
+          "Relic_5012"
+        ]
+      },
+      {
+        "id": 5013,
+        "name": "Pain",
+        "tried": [
+          "Relic_5013",
+          "Relic_5013"
+        ]
+      },
+      {
+        "id": 5014,
+        "name": "Improvidence",
+        "tried": [
+          "Relic_5014",
+          "Relic_5014"
+        ]
+      },
+      {
+        "id": 5015,
+        "name": "Decay",
+        "tried": [
+          "Relic_5015",
+          "Relic_5015"
+        ]
+      },
+      {
+        "id": 5016,
+        "name": "Immunity",
+        "tried": [
+          "Relic_5016",
+          "Relic_5016"
+        ]
+      },
+      {
+        "id": 5100,
+        "name": "Fighting Form",
+        "tried": [
+          "Relic_5100",
+          "Relic_5100"
+        ]
+      },
+      {
+        "id": 5101,
+        "name": "Battle Stance",
+        "tried": [
+          "Relic_5101",
+          "Relic_5101"
+        ]
+      },
+      {
+        "id": 5102,
+        "name": "Weakness",
+        "tried": [
+          "Relic_5102",
+          "Relic_5102"
+        ]
+      },
+      {
+        "id": 5103,
+        "name": "Burning",
+        "tried": [
+          "Relic_5103",
+          "Relic_5103"
+        ]
+      },
+      {
+        "id": 5104,
+        "name": "Hunted",
+        "tried": [
+          "Relic_5104",
+          "Relic_5104"
+        ]
+      },
+      {
+        "id": 5105,
+        "name": "Stunned",
+        "tried": [
+          "Relic_5105",
+          "Relic_5105"
+        ]
+      },
+      {
+        "id": 5106,
+        "name": "Rested",
+        "tried": [
+          "Relic_5106",
+          "Relic_5106"
+        ]
+      },
+      {
+        "id": 5107,
+        "name": "Damaged",
+        "tried": [
+          "Relic_5107",
+          "Relic_5107"
+        ]
+      },
+      {
+        "id": 5108,
+        "name": "Flaming",
+        "tried": [
+          "Relic_5108",
+          "Relic_5108"
+        ]
+      },
+      {
+        "id": 5109,
+        "name": "Sharpened",
+        "tried": [
+          "Relic_5109",
+          "Relic_5109"
+        ]
+      },
+      {
+        "id": 5110,
+        "name": "Hardened",
+        "tried": [
+          "Relic_5110",
+          "Relic_5110"
+        ]
+      },
+      {
+        "id": 5111,
+        "name": "Focused",
+        "tried": [
+          "Relic_5111",
+          "Relic_5111"
+        ]
+      },
+      {
+        "id": 5112,
+        "name": "Cost of Knowledge",
+        "tried": [
+          "Relic_5112",
+          "Relic_5112"
+        ]
+      },
+      {
+        "id": 5113,
+        "name": "The Rift Puppy's Cry",
+        "tried": [
+          "Relic_5113",
+          "Relic_5113"
+        ]
+      },
+      {
+        "id": 5114,
+        "name": "The Etched Path",
+        "tried": [
+          "Relic_5114",
+          "Relic_5114"
+        ]
+      },
+      {
+        "id": 5115,
+        "name": "The Rift Puppy",
+        "tried": [
+          "Relic_5115",
+          "Relic_5115"
+        ]
+      },
+      {
+        "id": 5116,
+        "name": "The Jagged Chasm",
+        "tried": [
+          "Relic_5116",
+          "Relic_5116"
+        ]
+      },
+      {
+        "id": 5117,
+        "name": "The Jagged Divide",
+        "tried": [
+          "Relic_5117",
+          "Relic_5117"
+        ]
+      },
+      {
+        "id": 5118,
+        "name": "The Fairy Ring",
+        "tried": [
+          "Relic_5118",
+          "Relic_5118"
+        ]
+      },
+      {
+        "id": 5119,
+        "name": "The Fairy Ring",
+        "tried": [
+          "Relic_5119",
+          "Relic_5119"
+        ]
+      },
+      {
+        "id": 5120,
+        "name": "The Well of Temptation",
+        "tried": [
+          "Relic_5120",
+          "Relic_5120"
+        ]
+      },
+      {
+        "id": 5122,
+        "name": "The Debtor",
+        "tried": [
+          "Relic_5122",
+          "Relic_5122"
+        ]
+      },
+      {
+        "id": 5123,
+        "name": "The Cursed Urn",
+        "tried": [
+          "Relic_5123",
+          "Relic_5123"
+        ]
+      },
+      {
+        "id": 5124,
+        "name": "The Nest",
+        "tried": [
+          "Relic_5124",
+          "Relic_5124"
+        ]
+      },
+      {
+        "id": 5125,
+        "name": "The Well of Temptation",
+        "tried": [
+          "Relic_5125",
+          "Relic_5125"
+        ]
+      },
+      {
+        "id": 5126,
+        "name": "The Well of Temptation",
+        "tried": [
+          "Relic_5126",
+          "Relic_5126"
+        ]
+      },
+      {
+        "id": 5127,
+        "name": "The Rift Puppy",
+        "tried": [
+          "Relic_5127",
+          "Relic_5127"
+        ]
+      },
+      {
+        "id": 5128,
+        "name": "Strange Yellow Fruit",
+        "tried": [
+          "Relic_5128",
+          "Relic_5128"
+        ]
+      },
+      {
+        "id": 5500,
+        "name": "Single Combat",
+        "tried": [
+          "Relic_5500",
+          "Relic_5500"
+        ]
+      },
+      {
+        "id": 5501,
+        "name": "Single Combat",
+        "tried": [
+          "Relic_5501",
+          "Relic_5501"
+        ]
+      },
+      {
+        "id": 5502,
+        "name": "Single Combat",
+        "tried": [
+          "Relic_5502",
+          "Relic_5502"
+        ]
+      },
+      {
+        "id": 5503,
+        "name": "Endurance",
+        "tried": [
+          "Relic_5503",
+          "Relic_5503"
+        ]
+      },
+      {
+        "id": 5504,
+        "name": "Endurance",
+        "tried": [
+          "Relic_5504",
+          "Relic_5504"
+        ]
+      },
+      {
+        "id": 5505,
+        "name": "Endurance",
+        "tried": [
+          "Relic_5505",
+          "Relic_5505"
+        ]
+      },
+      {
+        "id": 5506,
+        "name": "Demolition",
+        "tried": [
+          "Relic_5506",
+          "Relic_5506"
+        ]
+      },
+      {
+        "id": 5507,
+        "name": "Demolition",
+        "tried": [
+          "Relic_5507",
+          "Relic_5507"
+        ]
+      },
+      {
+        "id": 5508,
+        "name": "Demolition",
+        "tried": [
+          "Relic_5508",
+          "Relic_5508"
+        ]
+      },
+      {
+        "id": 5509,
+        "name": "Rematch",
+        "tried": [
+          "Relic_5509",
+          "Relic_5509"
+        ]
+      },
+      {
+        "id": 5510,
+        "name": "Rematch",
+        "tried": [
+          "Relic_5510",
+          "Relic_5510"
+        ]
+      },
+      {
+        "id": 5511,
+        "name": "Rematch",
+        "tried": [
+          "Relic_5511",
+          "Relic_5511"
+        ]
+      },
+      {
+        "id": 6011,
+        "name": "DummyRelicDontUse",
+        "tried": [
+          "Relic_6011",
+          "Relic_6011"
+        ]
+      },
+      {
+        "id": 7000,
+        "name": "Demon's Fury",
+        "tried": [
+          "Relic_7000",
+          "Relic_7000"
+        ]
+      },
+      {
+        "id": 7001,
+        "name": "Hydra's Healing",
+        "tried": [
+          "Relic_7001",
+          "Relic_7001"
+        ]
+      },
+      {
+        "id": 7002,
+        "name": "Fire Dragon's Flame",
+        "tried": [
+          "Relic_7002",
+          "Relic_7002"
+        ]
+      },
+      {
+        "id": 7003,
+        "name": "Frost Dragon's Chill",
+        "tried": [
+          "Relic_7003",
+          "Relic_7003"
+        ]
+      },
+      {
+        "id": 7004,
+        "name": "Poison Dragon's Venom",
+        "tried": [
+          "Relic_7004",
+          "Relic_7004"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": 422,
+        "name": "Greedy Gauntlet",
+        "tried": [
+          "Item_422",
+          "Item_422"
+        ]
+      },
+      {
+        "id": 1102,
+        "name": "Vampire Cape 2",
+        "tried": [
+          "Item_1102",
+          "Item_1102"
+        ]
+      },
+      {
+        "id": 1103,
+        "name": "Vampire Cape 3",
+        "tried": [
+          "Item_1103",
+          "Item_1103"
+        ]
+      },
+      {
+        "id": 1201,
+        "name": "Booster 1",
+        "tried": [
+          "Item_1201",
+          "Item_1201"
+        ]
+      },
+      {
+        "id": 1202,
+        "name": "Booster 2",
+        "tried": [
+          "Item_1202",
+          "Item_1202"
+        ]
+      },
+      {
+        "id": 1203,
+        "name": "Booster 3",
+        "tried": [
+          "Item_1203",
+          "Item_1203"
+        ]
+      },
+      {
+        "id": 1301,
+        "name": "Mana Box 1",
+        "tried": [
+          "Item_1301",
+          "Item_1301"
+        ]
+      },
+      {
+        "id": 1302,
+        "name": "Mana Box 2",
+        "tried": [
+          "Item_1302",
+          "Item_1302"
+        ]
+      },
+      {
+        "id": 1303,
+        "name": "Mana Box 3",
+        "tried": [
+          "Item_1303",
+          "Item_1303"
+        ]
+      },
+      {
+        "id": 1304,
+        "name": "Test HP Max",
+        "tried": [
+          "Item_1304",
+          "Item_1304"
+        ]
+      },
+      {
+        "id": 1305,
+        "name": "Test Starting Mana",
+        "tried": [
+          "Item_1305",
+          "Item_1305"
+        ]
+      },
+      {
+        "id": 1306,
+        "name": "Test Ability Spam",
+        "tried": [
+          "Item_1306",
+          "Item_1306"
+        ]
+      }
+    ],
+    "rankModifiers": [
+      {
+        "id": 1,
+        "name": "Burning Attacks",
+        "tried": [
+          "RankModifier_1",
+          "RankModifier_001"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Burning Acceleration",
+        "tried": [
+          "RankModifier_2",
+          "RankModifier_002"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Poisonous Attacks",
+        "tried": [
+          "RankModifier_3",
+          "RankModifier_003"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Poisonous Acceleration",
+        "tried": [
+          "RankModifier_4",
+          "RankModifier_004"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Freezing Attacks",
+        "tried": [
+          "RankModifier_5",
+          "RankModifier_005"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Freezing Acceleration",
+        "tried": [
+          "RankModifier_6",
+          "RankModifier_006"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Debuff Velocity",
+        "tried": [
+          "RankModifier_7",
+          "RankModifier_007"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Rush Dynamo",
+        "tried": [
+          "RankModifier_8",
+          "RankModifier_008"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Critical Timing",
+        "tried": [
+          "RankModifier_9",
+          "RankModifier_009"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Critical Invigoration",
+        "tried": [
+          "RankModifier_10",
+          "RankModifier_010"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Rolling Speed",
+        "tried": [
+          "RankModifier_11",
+          "RankModifier_011"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Golden Eye",
+        "tried": [
+          "RankModifier_12",
+          "RankModifier_012"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Ranger",
+        "tried": [
+          "RankModifier_13",
+          "RankModifier_013"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Scaling Speed",
+        "tried": [
+          "RankModifier_14",
+          "RankModifier_014"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Stall Dynamo",
+        "tried": [
+          "RankModifier_15",
+          "RankModifier_015"
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Critical Invigoration",
+        "tried": [
+          "RankModifier_46",
+          "RankModifier_046"
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Critical Attack Growth",
+        "tried": [
+          "RankModifier_47",
+          "RankModifier_047"
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Critical Aggression",
+        "tried": [
+          "RankModifier_48",
+          "RankModifier_048"
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Rush Overdrive",
+        "tried": [
+          "RankModifier_49",
+          "RankModifier_049"
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Brutal Force",
+        "tried": [
+          "RankModifier_50",
+          "RankModifier_050"
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Victorious Presence",
+        "tried": [
+          "RankModifier_51",
+          "RankModifier_051"
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Fight and Win",
+        "tried": [
+          "RankModifier_52",
+          "RankModifier_052"
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Critical Attacks",
+        "tried": [
+          "RankModifier_53",
+          "RankModifier_053"
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Hit Hard, Hit Fast",
+        "tried": [
+          "RankModifier_54",
+          "RankModifier_054"
+        ]
+      },
+      {
+        "id": 55,
+        "name": "Ranger",
+        "tried": [
+          "RankModifier_55",
+          "RankModifier_055"
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Rush Strength",
+        "tried": [
+          "RankModifier_56",
+          "RankModifier_056"
+        ]
+      },
+      {
+        "id": 57,
+        "name": "Shielding Presence",
+        "tried": [
+          "RankModifier_57",
+          "RankModifier_057"
+        ]
+      },
+      {
+        "id": 58,
+        "name": "Unfiltered Rage",
+        "tried": [
+          "RankModifier_58",
+          "RankModifier_058"
+        ]
+      },
+      {
+        "id": 59,
+        "name": "Shield Power",
+        "tried": [
+          "RankModifier_59",
+          "RankModifier_059"
+        ]
+      },
+      {
+        "id": 60,
+        "name": "Scaling Attack",
+        "tried": [
+          "RankModifier_60",
+          "RankModifier_060"
+        ]
+      },
+      {
+        "id": 91,
+        "name": "Second Wind",
+        "tried": [
+          "RankModifier_91",
+          "RankModifier_091"
+        ]
+      },
+      {
+        "id": 92,
+        "name": "Stall Certainty",
+        "tried": [
+          "RankModifier_92",
+          "RankModifier_092"
+        ]
+      },
+      {
+        "id": 93,
+        "name": "Stalled Defense",
+        "tried": [
+          "RankModifier_93",
+          "RankModifier_093"
+        ]
+      },
+      {
+        "id": 94,
+        "name": "Resolute",
+        "tried": [
+          "RankModifier_94",
+          "RankModifier_094"
+        ]
+      },
+      {
+        "id": 95,
+        "name": "Distraction",
+        "tried": [
+          "RankModifier_95",
+          "RankModifier_095"
+        ]
+      },
+      {
+        "id": 96,
+        "name": "Freezing Presence",
+        "tried": [
+          "RankModifier_96",
+          "RankModifier_096"
+        ]
+      },
+      {
+        "id": 97,
+        "name": "Spiked",
+        "tried": [
+          "RankModifier_97",
+          "RankModifier_097"
+        ]
+      },
+      {
+        "id": 98,
+        "name": "The Best Offense...",
+        "tried": [
+          "RankModifier_98",
+          "RankModifier_098"
+        ]
+      },
+      {
+        "id": 99,
+        "name": "Freezing Aura",
+        "tried": [
+          "RankModifier_99",
+          "RankModifier_099"
+        ]
+      },
+      {
+        "id": 100,
+        "name": "Freezing Restoration",
+        "tried": [
+          "RankModifier_100",
+          "RankModifier_100"
+        ]
+      },
+      {
+        "id": 101,
+        "name": "Poisonous Aura",
+        "tried": [
+          "RankModifier_101",
+          "RankModifier_101"
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Poisonous Restoration",
+        "tried": [
+          "RankModifier_102",
+          "RankModifier_102"
+        ]
+      },
+      {
+        "id": 103,
+        "name": "Poisonous Presence",
+        "tried": [
+          "RankModifier_103",
+          "RankModifier_103"
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Protector",
+        "tried": [
+          "RankModifier_104",
+          "RankModifier_104"
+        ]
+      },
+      {
+        "id": 105,
+        "name": "Rear Support",
+        "tried": [
+          "RankModifier_105",
+          "RankModifier_105"
+        ]
+      },
+      {
+        "id": 136,
+        "name": "Rolling Conduit",
+        "tried": [
+          "RankModifier_136",
+          "RankModifier_136"
+        ]
+      },
+      {
+        "id": 137,
+        "name": "Shard Weaver",
+        "tried": [
+          "RankModifier_137",
+          "RankModifier_137"
+        ]
+      },
+      {
+        "id": 138,
+        "name": "Sideline Support",
+        "tried": [
+          "RankModifier_138",
+          "RankModifier_138"
+        ]
+      },
+      {
+        "id": 139,
+        "name": "Stall Battery",
+        "tried": [
+          "RankModifier_139",
+          "RankModifier_139"
+        ]
+      },
+      {
+        "id": 140,
+        "name": "Stall Enlightenment",
+        "tried": [
+          "RankModifier_140",
+          "RankModifier_140"
+        ]
+      },
+      {
+        "id": 141,
+        "name": "Stall Certainty",
+        "tried": [
+          "RankModifier_141",
+          "RankModifier_141"
+        ]
+      },
+      {
+        "id": 142,
+        "name": "Shield Magnification",
+        "tried": [
+          "RankModifier_142",
+          "RankModifier_142"
+        ]
+      },
+      {
+        "id": 143,
+        "name": "Empowered Magic",
+        "tried": [
+          "RankModifier_143",
+          "RankModifier_143"
+        ]
+      },
+      {
+        "id": 144,
+        "name": "Shield Formation",
+        "tried": [
+          "RankModifier_144",
+          "RankModifier_144"
+        ]
+      },
+      {
+        "id": 145,
+        "name": "Sideline Empowerment",
+        "tried": [
+          "RankModifier_145",
+          "RankModifier_145"
+        ]
+      },
+      {
+        "id": 146,
+        "name": "Protective Magic",
+        "tried": [
+          "RankModifier_146",
+          "RankModifier_146"
+        ]
+      },
+      {
+        "id": 147,
+        "name": "Arcane Growth",
+        "tried": [
+          "RankModifier_147",
+          "RankModifier_147"
+        ]
+      },
+      {
+        "id": 148,
+        "name": "Debuff Amplification",
+        "tried": [
+          "RankModifier_148",
+          "RankModifier_148"
+        ]
+      },
+      {
+        "id": 149,
+        "name": "Debuff Channeling",
+        "tried": [
+          "RankModifier_149",
+          "RankModifier_149"
+        ]
+      },
+      {
+        "id": 150,
+        "name": "Debuff Protection",
+        "tried": [
+          "RankModifier_150",
+          "RankModifier_150"
+        ]
+      },
+      {
+        "id": 181,
+        "name": "Bulk Formation",
+        "tried": [
+          "RankModifier_181",
+          "RankModifier_181"
+        ]
+      },
+      {
+        "id": 182,
+        "name": "Vindictive Shields",
+        "tried": [
+          "RankModifier_182",
+          "RankModifier_182"
+        ]
+      },
+      {
+        "id": 183,
+        "name": "Calming Presence",
+        "tried": [
+          "RankModifier_183",
+          "RankModifier_183"
+        ]
+      },
+      {
+        "id": 184,
+        "name": "Intimidating Strikes",
+        "tried": [
+          "RankModifier_184",
+          "RankModifier_184"
+        ]
+      },
+      {
+        "id": 185,
+        "name": "Intimidating Aura",
+        "tried": [
+          "RankModifier_185",
+          "RankModifier_185"
+        ]
+      },
+      {
+        "id": 186,
+        "name": "Rushed Offense",
+        "tried": [
+          "RankModifier_186",
+          "RankModifier_186"
+        ]
+      },
+      {
+        "id": 187,
+        "name": "Rushed Size",
+        "tried": [
+          "RankModifier_187",
+          "RankModifier_187"
+        ]
+      },
+      {
+        "id": 188,
+        "name": "Rush Overdrive",
+        "tried": [
+          "RankModifier_188",
+          "RankModifier_188"
+        ]
+      },
+      {
+        "id": 189,
+        "name": "Burning Aura",
+        "tried": [
+          "RankModifier_189",
+          "RankModifier_189"
+        ]
+      },
+      {
+        "id": 190,
+        "name": "Aggressive Presence",
+        "tried": [
+          "RankModifier_190",
+          "RankModifier_190"
+        ]
+      },
+      {
+        "id": 191,
+        "name": "Burning Eye",
+        "tried": [
+          "RankModifier_191",
+          "RankModifier_191"
+        ]
+      },
+      {
+        "id": 192,
+        "name": "Burning Restoration",
+        "tried": [
+          "RankModifier_192",
+          "RankModifier_192"
+        ]
+      },
+      {
+        "id": 193,
+        "name": "Violent Presence",
+        "tried": [
+          "RankModifier_193",
+          "RankModifier_193"
+        ]
+      },
+      {
+        "id": 194,
+        "name": "Brutal Vitality",
+        "tried": [
+          "RankModifier_194",
+          "RankModifier_194"
+        ]
+      },
+      {
+        "id": 195,
+        "name": "Shield Line",
+        "tried": [
+          "RankModifier_195",
+          "RankModifier_195"
+        ]
+      },
+      {
+        "id": 226,
+        "name": "Poisonous Burst",
+        "tried": [
+          "RankModifier_226",
+          "RankModifier_226"
+        ]
+      },
+      {
+        "id": 227,
+        "name": "Poisonous Edge",
+        "tried": [
+          "RankModifier_227",
+          "RankModifier_227"
+        ]
+      },
+      {
+        "id": 228,
+        "name": "Rush Overdrive",
+        "tried": [
+          "RankModifier_228",
+          "RankModifier_228"
+        ]
+      },
+      {
+        "id": 229,
+        "name": "Poisonous Eye",
+        "tried": [
+          "RankModifier_229",
+          "RankModifier_229"
+        ]
+      },
+      {
+        "id": 230,
+        "name": "Critical Defenses",
+        "tried": [
+          "RankModifier_230",
+          "RankModifier_230"
+        ]
+      },
+      {
+        "id": 231,
+        "name": "Critical Invigoration",
+        "tried": [
+          "RankModifier_231",
+          "RankModifier_231"
+        ]
+      },
+      {
+        "id": 232,
+        "name": "Enforced Presence",
+        "tried": [
+          "RankModifier_232",
+          "RankModifier_232"
+        ]
+      },
+      {
+        "id": 233,
+        "name": "Critical Offense Growth",
+        "tried": [
+          "RankModifier_233",
+          "RankModifier_233"
+        ]
+      },
+      {
+        "id": 234,
+        "name": "Aim True, Aim Quick",
+        "tried": [
+          "RankModifier_234",
+          "RankModifier_234"
+        ]
+      },
+      {
+        "id": 235,
+        "name": "Shard Collector",
+        "tried": [
+          "RankModifier_235",
+          "RankModifier_235"
+        ]
+      },
+      {
+        "id": 236,
+        "name": "Shard Plunderer",
+        "tried": [
+          "RankModifier_236",
+          "RankModifier_236"
+        ]
+      },
+      {
+        "id": 237,
+        "name": "Banked Presence",
+        "tried": [
+          "RankModifier_237",
+          "RankModifier_237"
+        ]
+      },
+      {
+        "id": 238,
+        "name": "Lurker",
+        "tried": [
+          "RankModifier_238",
+          "RankModifier_238"
+        ]
+      },
+      {
+        "id": 239,
+        "name": "From the Shadows",
+        "tried": [
+          "RankModifier_239",
+          "RankModifier_239"
+        ]
+      },
+      {
+        "id": 240,
+        "name": "Brutal Precision",
+        "tried": [
+          "RankModifier_240",
+          "RankModifier_240"
+        ]
+      },
+      {
+        "id": 271,
+        "name": "Mage Armor",
+        "tried": [
+          "RankModifier_271",
+          "RankModifier_271"
+        ]
+      },
+      {
+        "id": 272,
+        "name": "Hermit",
+        "tried": [
+          "RankModifier_272",
+          "RankModifier_272"
+        ]
+      },
+      {
+        "id": 273,
+        "name": "Stall Certainty",
+        "tried": [
+          "RankModifier_273",
+          "RankModifier_273"
+        ]
+      },
+      {
+        "id": 274,
+        "name": "Enchanted Attacks",
+        "tried": [
+          "RankModifier_274",
+          "RankModifier_274"
+        ]
+      },
+      {
+        "id": 275,
+        "name": "Arcane Destruction",
+        "tried": [
+          "RankModifier_275",
+          "RankModifier_275"
+        ]
+      },
+      {
+        "id": 276,
+        "name": "Burning Casts",
+        "tried": [
+          "RankModifier_276",
+          "RankModifier_276"
+        ]
+      },
+      {
+        "id": 277,
+        "name": "Burning Absorption",
+        "tried": [
+          "RankModifier_277",
+          "RankModifier_277"
+        ]
+      },
+      {
+        "id": 278,
+        "name": "Stalled Heat",
+        "tried": [
+          "RankModifier_278",
+          "RankModifier_278"
+        ]
+      },
+      {
+        "id": 279,
+        "name": "Magical Growth",
+        "tried": [
+          "RankModifier_279",
+          "RankModifier_279"
+        ]
+      },
+      {
+        "id": 280,
+        "name": "Freezing Casts",
+        "tried": [
+          "RankModifier_280",
+          "RankModifier_280"
+        ]
+      },
+      {
+        "id": 281,
+        "name": "Freezing Absorption",
+        "tried": [
+          "RankModifier_281",
+          "RankModifier_281"
+        ]
+      },
+      {
+        "id": 282,
+        "name": "Stalled Cold",
+        "tried": [
+          "RankModifier_282",
+          "RankModifier_282"
+        ]
+      },
+      {
+        "id": 283,
+        "name": "Stalled Growth",
+        "tried": [
+          "RankModifier_283",
+          "RankModifier_283"
+        ]
+      },
+      {
+        "id": 284,
+        "name": "Instacast",
+        "tried": [
+          "RankModifier_284",
+          "RankModifier_284"
+        ]
+      },
+      {
+        "id": 285,
+        "name": "Fast Cast",
+        "tried": [
+          "RankModifier_285",
+          "RankModifier_285"
+        ]
+      }
+    ],
+    "heroSpecializations": [
+      {
+        "id": 101,
+        "name": "The Electric",
+        "tried": [
+          "HeroSpecialization_101",
+          "HeroSpecialization_101"
+        ]
+      },
+      {
+        "id": 102,
+        "name": "The Mighty",
+        "tried": [
+          "HeroSpecialization_102",
+          "HeroSpecialization_102"
+        ]
+      },
+      {
+        "id": 103,
+        "name": "The Olympic",
+        "tried": [
+          "HeroSpecialization_103",
+          "HeroSpecialization_103"
+        ]
+      },
+      {
+        "id": 201,
+        "name": "The Conduit",
+        "tried": [
+          "HeroSpecialization_201",
+          "HeroSpecialization_201"
+        ]
+      },
+      {
+        "id": 202,
+        "name": "The Hunter",
+        "tried": [
+          "HeroSpecialization_202",
+          "HeroSpecialization_202"
+        ]
+      },
+      {
+        "id": 203,
+        "name": "The Sniper",
+        "tried": [
+          "HeroSpecialization_203",
+          "HeroSpecialization_203"
+        ]
+      },
+      {
+        "id": 301,
+        "name": "The Champion",
+        "tried": [
+          "HeroSpecialization_301",
+          "HeroSpecialization_301"
+        ]
+      },
+      {
+        "id": 302,
+        "name": "The Brawler",
+        "tried": [
+          "HeroSpecialization_302",
+          "HeroSpecialization_302"
+        ]
+      },
+      {
+        "id": 303,
+        "name": "The Boxer",
+        "tried": [
+          "HeroSpecialization_303",
+          "HeroSpecialization_303"
+        ]
+      },
+      {
+        "id": 401,
+        "name": "The Shadow",
+        "tried": [
+          "HeroSpecialization_401",
+          "HeroSpecialization_401"
+        ]
+      },
+      {
+        "id": 402,
+        "name": "The Collector",
+        "tried": [
+          "HeroSpecialization_402",
+          "HeroSpecialization_402"
+        ]
+      },
+      {
+        "id": 403,
+        "name": "The Nightshade",
+        "tried": [
+          "HeroSpecialization_403",
+          "HeroSpecialization_403"
+        ]
+      },
+      {
+        "id": 501,
+        "name": "The Cruel",
+        "tried": [
+          "HeroSpecialization_501",
+          "HeroSpecialization_501"
+        ]
+      },
+      {
+        "id": 502,
+        "name": "The Serpent's Kiss",
+        "tried": [
+          "HeroSpecialization_502",
+          "HeroSpecialization_502"
+        ]
+      },
+      {
+        "id": 503,
+        "name": "The Bladedancer",
+        "tried": [
+          "HeroSpecialization_503",
+          "HeroSpecialization_503"
+        ]
+      },
+      {
+        "id": 601,
+        "name": "The Crescendo",
+        "tried": [
+          "HeroSpecialization_601",
+          "HeroSpecialization_601"
+        ]
+      },
+      {
+        "id": 602,
+        "name": "The Resplendent",
+        "tried": [
+          "HeroSpecialization_602",
+          "HeroSpecialization_602"
+        ]
+      },
+      {
+        "id": 603,
+        "name": "The Harmony",
+        "tried": [
+          "HeroSpecialization_603",
+          "HeroSpecialization_603"
+        ]
+      },
+      {
+        "id": 701,
+        "name": "The Keen-Eyed",
+        "tried": [
+          "HeroSpecialization_701",
+          "HeroSpecialization_701"
+        ]
+      },
+      {
+        "id": 702,
+        "name": "The Wild",
+        "tried": [
+          "HeroSpecialization_702",
+          "HeroSpecialization_702"
+        ]
+      },
+      {
+        "id": 703,
+        "name": "The Spark",
+        "tried": [
+          "HeroSpecialization_703",
+          "HeroSpecialization_703"
+        ]
+      },
+      {
+        "id": 801,
+        "name": "The Bloomer",
+        "tried": [
+          "HeroSpecialization_801",
+          "HeroSpecialization_801"
+        ]
+      },
+      {
+        "id": 802,
+        "name": "The Fae's Kiss",
+        "tried": [
+          "HeroSpecialization_802",
+          "HeroSpecialization_802"
+        ]
+      },
+      {
+        "id": 803,
+        "name": "The Earth's Child",
+        "tried": [
+          "HeroSpecialization_803",
+          "HeroSpecialization_803"
+        ]
+      },
+      {
+        "id": 901,
+        "name": "The Dealer",
+        "tried": [
+          "HeroSpecialization_901",
+          "HeroSpecialization_901"
+        ]
+      },
+      {
+        "id": 902,
+        "name": "The Executive",
+        "tried": [
+          "HeroSpecialization_902",
+          "HeroSpecialization_902"
+        ]
+      },
+      {
+        "id": 903,
+        "name": "The Hoarder",
+        "tried": [
+          "HeroSpecialization_903",
+          "HeroSpecialization_903"
+        ]
+      },
+      {
+        "id": 1001,
+        "name": "The Right Hand",
+        "tried": [
+          "HeroSpecialization_1001",
+          "HeroSpecialization_1001"
+        ]
+      },
+      {
+        "id": 1002,
+        "name": "The Lustrous",
+        "tried": [
+          "HeroSpecialization_1002",
+          "HeroSpecialization_1002"
+        ]
+      },
+      {
+        "id": 1003,
+        "name": "The Tycoon",
+        "tried": [
+          "HeroSpecialization_1003",
+          "HeroSpecialization_1003"
+        ]
+      },
+      {
+        "id": 1101,
+        "name": "The Tectonic",
+        "tried": [
+          "HeroSpecialization_1101",
+          "HeroSpecialization_1101"
+        ]
+      },
+      {
+        "id": 1102,
+        "name": "The Protector",
+        "tried": [
+          "HeroSpecialization_1102",
+          "HeroSpecialization_1102"
+        ]
+      },
+      {
+        "id": 1103,
+        "name": "The Friend",
+        "tried": [
+          "HeroSpecialization_1103",
+          "HeroSpecialization_1103"
+        ]
+      },
+      {
+        "id": 1201,
+        "name": "The Haughty",
+        "tried": [
+          "HeroSpecialization_1201",
+          "HeroSpecialization_1201"
+        ]
+      },
+      {
+        "id": 1202,
+        "name": "The Winter's Bite",
+        "tried": [
+          "HeroSpecialization_1202",
+          "HeroSpecialization_1202"
+        ]
+      },
+      {
+        "id": 1203,
+        "name": "The Bristleguard",
+        "tried": [
+          "HeroSpecialization_1203",
+          "HeroSpecialization_1203"
+        ]
+      },
+      {
+        "id": 1301,
+        "name": "The Iron",
+        "tried": [
+          "HeroSpecialization_1301",
+          "HeroSpecialization_1301"
+        ]
+      },
+      {
+        "id": 1302,
+        "name": "The Juggernaut",
+        "tried": [
+          "HeroSpecialization_1302",
+          "HeroSpecialization_1302"
+        ]
+      },
+      {
+        "id": 1303,
+        "name": "The Momentous",
+        "tried": [
+          "HeroSpecialization_1303",
+          "HeroSpecialization_1303"
+        ]
+      },
+      {
+        "id": 1401,
+        "name": "The Stoked",
+        "tried": [
+          "HeroSpecialization_1401",
+          "HeroSpecialization_1401"
+        ]
+      },
+      {
+        "id": 1402,
+        "name": "The Inferno",
+        "tried": [
+          "HeroSpecialization_1402",
+          "HeroSpecialization_1402"
+        ]
+      },
+      {
+        "id": 1403,
+        "name": "The Detonator",
+        "tried": [
+          "HeroSpecialization_1403",
+          "HeroSpecialization_1403"
+        ]
+      },
+      {
+        "id": 1501,
+        "name": "The Stylish",
+        "tried": [
+          "HeroSpecialization_1501",
+          "HeroSpecialization_1501"
+        ]
+      },
+      {
+        "id": 1502,
+        "name": "The Sharp",
+        "tried": [
+          "HeroSpecialization_1502",
+          "HeroSpecialization_1502"
+        ]
+      },
+      {
+        "id": 1503,
+        "name": "The Elegant",
+        "tried": [
+          "HeroSpecialization_1503",
+          "HeroSpecialization_1503"
+        ]
+      },
+      {
+        "id": 1601,
+        "name": "The Investor",
+        "tried": [
+          "HeroSpecialization_1601",
+          "HeroSpecialization_1601"
+        ]
+      },
+      {
+        "id": 1602,
+        "name": "The Glacier",
+        "tried": [
+          "HeroSpecialization_1602",
+          "HeroSpecialization_1602"
+        ]
+      },
+      {
+        "id": 1603,
+        "name": "The Avalanche",
+        "tried": [
+          "HeroSpecialization_1603",
+          "HeroSpecialization_1603"
+        ]
+      },
+      {
+        "id": 1701,
+        "name": "The Fashionable",
+        "tried": [
+          "HeroSpecialization_1701",
+          "HeroSpecialization_1701"
+        ]
+      },
+      {
+        "id": 1702,
+        "name": "The Ostentatious",
+        "tried": [
+          "HeroSpecialization_1702",
+          "HeroSpecialization_1702"
+        ]
+      },
+      {
+        "id": 1703,
+        "name": "The Magnanimous",
+        "tried": [
+          "HeroSpecialization_1703",
+          "HeroSpecialization_1703"
+        ]
+      },
+      {
+        "id": 1801,
+        "name": "The Glutton",
+        "tried": [
+          "HeroSpecialization_1801",
+          "HeroSpecialization_1801"
+        ]
+      },
+      {
+        "id": 1802,
+        "name": "The Enraged",
+        "tried": [
+          "HeroSpecialization_1802",
+          "HeroSpecialization_1802"
+        ]
+      },
+      {
+        "id": 1803,
+        "name": "The Brute",
+        "tried": [
+          "HeroSpecialization_1803",
+          "HeroSpecialization_1803"
+        ]
+      },
+      {
+        "id": 2001,
+        "name": "The Falling Snow",
+        "tried": [
+          "HeroSpecialization_2001",
+          "HeroSpecialization_2001"
+        ]
+      },
+      {
+        "id": 2002,
+        "name": "The Warband",
+        "tried": [
+          "HeroSpecialization_2002",
+          "HeroSpecialization_2002"
+        ]
+      },
+      {
+        "id": 2003,
+        "name": "The Frostbite",
+        "tried": [
+          "HeroSpecialization_2003",
+          "HeroSpecialization_2003"
+        ]
+      },
+      {
+        "id": 2101,
+        "name": "The Searing",
+        "tried": [
+          "HeroSpecialization_2101",
+          "HeroSpecialization_2101"
+        ]
+      },
+      {
+        "id": 2102,
+        "name": "The Tempered",
+        "tried": [
+          "HeroSpecialization_2102",
+          "HeroSpecialization_2102"
+        ]
+      },
+      {
+        "id": 2103,
+        "name": "The Enlightened",
+        "tried": [
+          "HeroSpecialization_2103",
+          "HeroSpecialization_2103"
+        ]
+      },
+      {
+        "id": 2201,
+        "name": "The Spicy",
+        "tried": [
+          "HeroSpecialization_2201",
+          "HeroSpecialization_2201"
+        ]
+      },
+      {
+        "id": 2202,
+        "name": "The Seasoned",
+        "tried": [
+          "HeroSpecialization_2202",
+          "HeroSpecialization_2202"
+        ]
+      },
+      {
+        "id": 2203,
+        "name": "The Lover",
+        "tried": [
+          "HeroSpecialization_2203",
+          "HeroSpecialization_2203"
+        ]
+      },
+      {
+        "id": 2301,
+        "name": "The Breezy",
+        "tried": [
+          "HeroSpecialization_2301",
+          "HeroSpecialization_2301"
+        ]
+      },
+      {
+        "id": 2302,
+        "name": "The Lover",
+        "tried": [
+          "HeroSpecialization_2302",
+          "HeroSpecialization_2302"
+        ]
+      },
+      {
+        "id": 2303,
+        "name": "The Brisk",
+        "tried": [
+          "HeroSpecialization_2303",
+          "HeroSpecialization_2303"
+        ]
+      },
+      {
+        "id": 2401,
+        "name": "The Greedy",
+        "tried": [
+          "HeroSpecialization_2401",
+          "HeroSpecialization_2401"
+        ]
+      },
+      {
+        "id": 2402,
+        "name": "The Sanguine",
+        "tried": [
+          "HeroSpecialization_2402",
+          "HeroSpecialization_2402"
+        ]
+      },
+      {
+        "id": 2403,
+        "name": "The Kingpin",
+        "tried": [
+          "HeroSpecialization_2403",
+          "HeroSpecialization_2403"
+        ]
+      },
+      {
+        "id": 2601,
+        "name": "The Unstoppable",
+        "tried": [
+          "HeroSpecialization_2601",
+          "HeroSpecialization_2601"
+        ]
+      },
+      {
+        "id": 2602,
+        "name": "The Bold",
+        "tried": [
+          "HeroSpecialization_2602",
+          "HeroSpecialization_2602"
+        ]
+      },
+      {
+        "id": 2603,
+        "name": "The Intrepid",
+        "tried": [
+          "HeroSpecialization_2603",
+          "HeroSpecialization_2603"
+        ]
+      },
+      {
+        "id": 2701,
+        "name": "The Selfless",
+        "tried": [
+          "HeroSpecialization_2701",
+          "HeroSpecialization_2701"
+        ]
+      },
+      {
+        "id": 2702,
+        "name": "The Benevolent",
+        "tried": [
+          "HeroSpecialization_2702",
+          "HeroSpecialization_2702"
+        ]
+      },
+      {
+        "id": 2703,
+        "name": "The Radiant",
+        "tried": [
+          "HeroSpecialization_2703",
+          "HeroSpecialization_2703"
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "id": 10,
+        "name": "TestCrab",
+        "tried": [
+          "Enemy_10",
+          "Enemy_010"
+        ]
+      },
+      {
+        "id": 101,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101",
+          "Enemy_101"
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102",
+          "Enemy_102"
+        ]
+      },
+      {
+        "id": 103,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_103",
+          "Enemy_103"
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Mushroom Knight",
+        "tried": [
+          "Enemy_104",
+          "Enemy_104"
+        ]
+      },
+      {
+        "id": 105,
+        "name": "Snake",
+        "tried": [
+          "Enemy_105",
+          "Enemy_105"
+        ]
+      },
+      {
+        "id": 108,
+        "name": "Spider",
+        "tried": [
+          "Enemy_108",
+          "Enemy_108"
+        ]
+      },
+      {
+        "id": 109,
+        "name": "Slime",
+        "tried": [
+          "Enemy_109",
+          "Enemy_109"
+        ]
+      },
+      {
+        "id": 1001,
+        "name": "Turtle",
+        "tried": [
+          "Enemy_1001",
+          "Enemy_1001"
+        ]
+      },
+      {
+        "id": 2001,
+        "name": "Turtle",
+        "tried": [
+          "Enemy_2001",
+          "Enemy_2001"
+        ]
+      },
+      {
+        "id": 3001,
+        "name": "Turtle",
+        "tried": [
+          "Enemy_3001",
+          "Enemy_3001"
+        ]
+      },
+      {
+        "id": 10901,
+        "name": "Demon",
+        "tried": [
+          "Enemy_10901",
+          "Enemy_10901"
+        ]
+      },
+      {
+        "id": 20901,
+        "name": "Demon",
+        "tried": [
+          "Enemy_20901",
+          "Enemy_20901"
+        ]
+      },
+      {
+        "id": 30901,
+        "name": "Demon",
+        "tried": [
+          "Enemy_30901",
+          "Enemy_30901"
+        ]
+      },
+      {
+        "id": 50001,
+        "name": "enemy-50001",
+        "tried": [
+          "Enemy_50001",
+          "Enemy_50001"
+        ]
+      },
+      {
+        "id": 50002,
+        "name": "enemy-50002",
+        "tried": [
+          "Enemy_50002",
+          "Enemy_50002"
+        ]
+      },
+      {
+        "id": 50003,
+        "name": "enemy-50003",
+        "tried": [
+          "Enemy_50003",
+          "Enemy_50003"
+        ]
+      },
+      {
+        "id": 50004,
+        "name": "enemy-50004",
+        "tried": [
+          "Enemy_50004",
+          "Enemy_50004"
+        ]
+      },
+      {
+        "id": 50005,
+        "name": "enemy-50005",
+        "tried": [
+          "Enemy_50005",
+          "Enemy_50005"
+        ]
+      },
+      {
+        "id": 50006,
+        "name": "enemy-50006",
+        "tried": [
+          "Enemy_50006",
+          "Enemy_50006"
+        ]
+      },
+      {
+        "id": 50901,
+        "name": "enemy-50901",
+        "tried": [
+          "Enemy_50901",
+          "Enemy_50901"
+        ]
+      },
+      {
+        "id": 50902,
+        "name": "enemy-50902",
+        "tried": [
+          "Enemy_50902",
+          "Enemy_50902"
+        ]
+      },
+      {
+        "id": 50903,
+        "name": "enemy-50903",
+        "tried": [
+          "Enemy_50903",
+          "Enemy_50903"
+        ]
+      },
+      {
+        "id": 101701,
+        "name": "Fire Dragon",
+        "tried": [
+          "Enemy_101701",
+          "Enemy_101701"
+        ]
+      },
+      {
+        "id": 101702,
+        "name": "Frost Dragon",
+        "tried": [
+          "Enemy_101702",
+          "Enemy_101702"
+        ]
+      },
+      {
+        "id": 101703,
+        "name": "Poison Dragon",
+        "tried": [
+          "Enemy_101703",
+          "Enemy_101703"
+        ]
+      },
+      {
+        "id": 101802,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_101802",
+          "Enemy_101802"
+        ]
+      },
+      {
+        "id": 101803,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_101803",
+          "Enemy_101803"
+        ]
+      },
+      {
+        "id": 101804,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_101804",
+          "Enemy_101804"
+        ]
+      },
+      {
+        "id": 101805,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_101805",
+          "Enemy_101805"
+        ]
+      },
+      {
+        "id": 101806,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_101806",
+          "Enemy_101806"
+        ]
+      },
+      {
+        "id": 101807,
+        "name": "enemy-101807",
+        "tried": [
+          "Enemy_101807",
+          "Enemy_101807"
+        ]
+      },
+      {
+        "id": 101808,
+        "name": "enemy-101808",
+        "tried": [
+          "Enemy_101808",
+          "Enemy_101808"
+        ]
+      },
+      {
+        "id": 101809,
+        "name": "enemy-101809",
+        "tried": [
+          "Enemy_101809",
+          "Enemy_101809"
+        ]
+      },
+      {
+        "id": 101810,
+        "name": "enemy-101810",
+        "tried": [
+          "Enemy_101810",
+          "Enemy_101810"
+        ]
+      },
+      {
+        "id": 101811,
+        "name": "enemy-101811",
+        "tried": [
+          "Enemy_101811",
+          "Enemy_101811"
+        ]
+      },
+      {
+        "id": 101812,
+        "name": "enemy-101812",
+        "tried": [
+          "Enemy_101812",
+          "Enemy_101812"
+        ]
+      },
+      {
+        "id": 101813,
+        "name": "enemy-101813",
+        "tried": [
+          "Enemy_101813",
+          "Enemy_101813"
+        ]
+      },
+      {
+        "id": 101814,
+        "name": "enemy-101814",
+        "tried": [
+          "Enemy_101814",
+          "Enemy_101814"
+        ]
+      },
+      {
+        "id": 101815,
+        "name": "enemy-101815",
+        "tried": [
+          "Enemy_101815",
+          "Enemy_101815"
+        ]
+      },
+      {
+        "id": 101816,
+        "name": "enemy-101816",
+        "tried": [
+          "Enemy_101816",
+          "Enemy_101816"
+        ]
+      },
+      {
+        "id": 101817,
+        "name": "enemy-101817",
+        "tried": [
+          "Enemy_101817",
+          "Enemy_101817"
+        ]
+      },
+      {
+        "id": 101901,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101901",
+          "Enemy_101901"
+        ]
+      },
+      {
+        "id": 101902,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101902",
+          "Enemy_101902"
+        ]
+      },
+      {
+        "id": 101903,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101903",
+          "Enemy_101903"
+        ]
+      },
+      {
+        "id": 101905,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101905",
+          "Enemy_101905"
+        ]
+      },
+      {
+        "id": 101906,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101906",
+          "Enemy_101906"
+        ]
+      },
+      {
+        "id": 101909,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101909",
+          "Enemy_101909"
+        ]
+      },
+      {
+        "id": 101910,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101910",
+          "Enemy_101910"
+        ]
+      },
+      {
+        "id": 101911,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101911",
+          "Enemy_101911"
+        ]
+      },
+      {
+        "id": 101912,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101912",
+          "Enemy_101912"
+        ]
+      },
+      {
+        "id": 101913,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101913",
+          "Enemy_101913"
+        ]
+      },
+      {
+        "id": 101914,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101914",
+          "Enemy_101914"
+        ]
+      },
+      {
+        "id": 101915,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101915",
+          "Enemy_101915"
+        ]
+      },
+      {
+        "id": 101916,
+        "name": "enemy-101916",
+        "tried": [
+          "Enemy_101916",
+          "Enemy_101916"
+        ]
+      },
+      {
+        "id": 101917,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101917",
+          "Enemy_101917"
+        ]
+      },
+      {
+        "id": 101918,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101918",
+          "Enemy_101918"
+        ]
+      },
+      {
+        "id": 101920,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101920",
+          "Enemy_101920"
+        ]
+      },
+      {
+        "id": 101921,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101921",
+          "Enemy_101921"
+        ]
+      },
+      {
+        "id": 101922,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101922",
+          "Enemy_101922"
+        ]
+      },
+      {
+        "id": 101923,
+        "name": "enemy-101923",
+        "tried": [
+          "Enemy_101923",
+          "Enemy_101923"
+        ]
+      },
+      {
+        "id": 101927,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101927",
+          "Enemy_101927"
+        ]
+      },
+      {
+        "id": 101928,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101928",
+          "Enemy_101928"
+        ]
+      },
+      {
+        "id": 101929,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101929",
+          "Enemy_101929"
+        ]
+      },
+      {
+        "id": 101930,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101930",
+          "Enemy_101930"
+        ]
+      },
+      {
+        "id": 101931,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_101931",
+          "Enemy_101931"
+        ]
+      },
+      {
+        "id": 101932,
+        "name": "enemy-101932",
+        "tried": [
+          "Enemy_101932",
+          "Enemy_101932"
+        ]
+      },
+      {
+        "id": 101933,
+        "name": "enemy-101933",
+        "tried": [
+          "Enemy_101933",
+          "Enemy_101933"
+        ]
+      },
+      {
+        "id": 101934,
+        "name": "enemy-101934",
+        "tried": [
+          "Enemy_101934",
+          "Enemy_101934"
+        ]
+      },
+      {
+        "id": 101935,
+        "name": "enemy-101935",
+        "tried": [
+          "Enemy_101935",
+          "Enemy_101935"
+        ]
+      },
+      {
+        "id": 101936,
+        "name": "enemy-101936",
+        "tried": [
+          "Enemy_101936",
+          "Enemy_101936"
+        ]
+      },
+      {
+        "id": 101937,
+        "name": "enemy-101937",
+        "tried": [
+          "Enemy_101937",
+          "Enemy_101937"
+        ]
+      },
+      {
+        "id": 101938,
+        "name": "enemy-101938",
+        "tried": [
+          "Enemy_101938",
+          "Enemy_101938"
+        ]
+      },
+      {
+        "id": 101939,
+        "name": "enemy-101939",
+        "tried": [
+          "Enemy_101939",
+          "Enemy_101939"
+        ]
+      },
+      {
+        "id": 101940,
+        "name": "enemy-101940",
+        "tried": [
+          "Enemy_101940",
+          "Enemy_101940"
+        ]
+      },
+      {
+        "id": 101941,
+        "name": "enemy-101941",
+        "tried": [
+          "Enemy_101941",
+          "Enemy_101941"
+        ]
+      },
+      {
+        "id": 101942,
+        "name": "enemy-101942",
+        "tried": [
+          "Enemy_101942",
+          "Enemy_101942"
+        ]
+      },
+      {
+        "id": 101943,
+        "name": "enemy-101943",
+        "tried": [
+          "Enemy_101943",
+          "Enemy_101943"
+        ]
+      },
+      {
+        "id": 102001,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102001",
+          "Enemy_102001"
+        ]
+      },
+      {
+        "id": 102002,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102002",
+          "Enemy_102002"
+        ]
+      },
+      {
+        "id": 102003,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102003",
+          "Enemy_102003"
+        ]
+      },
+      {
+        "id": 102004,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102004",
+          "Enemy_102004"
+        ]
+      },
+      {
+        "id": 102006,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102006",
+          "Enemy_102006"
+        ]
+      },
+      {
+        "id": 102007,
+        "name": "enemy-102007",
+        "tried": [
+          "Enemy_102007",
+          "Enemy_102007"
+        ]
+      },
+      {
+        "id": 102009,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102009",
+          "Enemy_102009"
+        ]
+      },
+      {
+        "id": 102010,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102010",
+          "Enemy_102010"
+        ]
+      },
+      {
+        "id": 102011,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102011",
+          "Enemy_102011"
+        ]
+      },
+      {
+        "id": 102012,
+        "name": "enemy-102012",
+        "tried": [
+          "Enemy_102012",
+          "Enemy_102012"
+        ]
+      },
+      {
+        "id": 102013,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102013",
+          "Enemy_102013"
+        ]
+      },
+      {
+        "id": 102014,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102014",
+          "Enemy_102014"
+        ]
+      },
+      {
+        "id": 102015,
+        "name": "enemy-102015",
+        "tried": [
+          "Enemy_102015",
+          "Enemy_102015"
+        ]
+      },
+      {
+        "id": 102016,
+        "name": "enemy-102016",
+        "tried": [
+          "Enemy_102016",
+          "Enemy_102016"
+        ]
+      },
+      {
+        "id": 102017,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102017",
+          "Enemy_102017"
+        ]
+      },
+      {
+        "id": 102018,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102018",
+          "Enemy_102018"
+        ]
+      },
+      {
+        "id": 102020,
+        "name": "enemy-102020",
+        "tried": [
+          "Enemy_102020",
+          "Enemy_102020"
+        ]
+      },
+      {
+        "id": 102021,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102021",
+          "Enemy_102021"
+        ]
+      },
+      {
+        "id": 102022,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102022",
+          "Enemy_102022"
+        ]
+      },
+      {
+        "id": 102023,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102023",
+          "Enemy_102023"
+        ]
+      },
+      {
+        "id": 102025,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102025",
+          "Enemy_102025"
+        ]
+      },
+      {
+        "id": 102026,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_102026",
+          "Enemy_102026"
+        ]
+      },
+      {
+        "id": 102027,
+        "name": "enemy-102027",
+        "tried": [
+          "Enemy_102027",
+          "Enemy_102027"
+        ]
+      },
+      {
+        "id": 102028,
+        "name": "enemy-102028",
+        "tried": [
+          "Enemy_102028",
+          "Enemy_102028"
+        ]
+      },
+      {
+        "id": 102029,
+        "name": "enemy-102029",
+        "tried": [
+          "Enemy_102029",
+          "Enemy_102029"
+        ]
+      },
+      {
+        "id": 102030,
+        "name": "enemy-102030",
+        "tried": [
+          "Enemy_102030",
+          "Enemy_102030"
+        ]
+      },
+      {
+        "id": 102031,
+        "name": "enemy-102031",
+        "tried": [
+          "Enemy_102031",
+          "Enemy_102031"
+        ]
+      },
+      {
+        "id": 102032,
+        "name": "enemy-102032",
+        "tried": [
+          "Enemy_102032",
+          "Enemy_102032"
+        ]
+      },
+      {
+        "id": 102033,
+        "name": "enemy-102033",
+        "tried": [
+          "Enemy_102033",
+          "Enemy_102033"
+        ]
+      },
+      {
+        "id": 102034,
+        "name": "enemy-102034",
+        "tried": [
+          "Enemy_102034",
+          "Enemy_102034"
+        ]
+      },
+      {
+        "id": 102101,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102101",
+          "Enemy_102101"
+        ]
+      },
+      {
+        "id": 102102,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102102",
+          "Enemy_102102"
+        ]
+      },
+      {
+        "id": 102103,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102103",
+          "Enemy_102103"
+        ]
+      },
+      {
+        "id": 102104,
+        "name": "enemy-102104",
+        "tried": [
+          "Enemy_102104",
+          "Enemy_102104"
+        ]
+      },
+      {
+        "id": 102105,
+        "name": "enemy-102105",
+        "tried": [
+          "Enemy_102105",
+          "Enemy_102105"
+        ]
+      },
+      {
+        "id": 102106,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102106",
+          "Enemy_102106"
+        ]
+      },
+      {
+        "id": 102108,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102108",
+          "Enemy_102108"
+        ]
+      },
+      {
+        "id": 102110,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102110",
+          "Enemy_102110"
+        ]
+      },
+      {
+        "id": 102112,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102112",
+          "Enemy_102112"
+        ]
+      },
+      {
+        "id": 102114,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102114",
+          "Enemy_102114"
+        ]
+      },
+      {
+        "id": 102116,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_102116",
+          "Enemy_102116"
+        ]
+      },
+      {
+        "id": 102117,
+        "name": "enemy-102117",
+        "tried": [
+          "Enemy_102117",
+          "Enemy_102117"
+        ]
+      },
+      {
+        "id": 102118,
+        "name": "enemy-102118",
+        "tried": [
+          "Enemy_102118",
+          "Enemy_102118"
+        ]
+      },
+      {
+        "id": 102120,
+        "name": "enemy-102120",
+        "tried": [
+          "Enemy_102120",
+          "Enemy_102120"
+        ]
+      },
+      {
+        "id": 102121,
+        "name": "enemy-102121",
+        "tried": [
+          "Enemy_102121",
+          "Enemy_102121"
+        ]
+      },
+      {
+        "id": 102122,
+        "name": "enemy-102122",
+        "tried": [
+          "Enemy_102122",
+          "Enemy_102122"
+        ]
+      },
+      {
+        "id": 102123,
+        "name": "enemy-102123",
+        "tried": [
+          "Enemy_102123",
+          "Enemy_102123"
+        ]
+      },
+      {
+        "id": 102201,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102201",
+          "Enemy_102201"
+        ]
+      },
+      {
+        "id": 102202,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102202",
+          "Enemy_102202"
+        ]
+      },
+      {
+        "id": 102203,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102203",
+          "Enemy_102203"
+        ]
+      },
+      {
+        "id": 102204,
+        "name": "enemy-102204",
+        "tried": [
+          "Enemy_102204",
+          "Enemy_102204"
+        ]
+      },
+      {
+        "id": 102205,
+        "name": "enemy-102205",
+        "tried": [
+          "Enemy_102205",
+          "Enemy_102205"
+        ]
+      },
+      {
+        "id": 102206,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102206",
+          "Enemy_102206"
+        ]
+      },
+      {
+        "id": 102207,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102207",
+          "Enemy_102207"
+        ]
+      },
+      {
+        "id": 102208,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102208",
+          "Enemy_102208"
+        ]
+      },
+      {
+        "id": 102209,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102209",
+          "Enemy_102209"
+        ]
+      },
+      {
+        "id": 102210,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102210",
+          "Enemy_102210"
+        ]
+      },
+      {
+        "id": 102211,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102211",
+          "Enemy_102211"
+        ]
+      },
+      {
+        "id": 102212,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102212",
+          "Enemy_102212"
+        ]
+      },
+      {
+        "id": 102213,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102213",
+          "Enemy_102213"
+        ]
+      },
+      {
+        "id": 102214,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102214",
+          "Enemy_102214"
+        ]
+      },
+      {
+        "id": 102215,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102215",
+          "Enemy_102215"
+        ]
+      },
+      {
+        "id": 102216,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102216",
+          "Enemy_102216"
+        ]
+      },
+      {
+        "id": 102217,
+        "name": "enemy-102217",
+        "tried": [
+          "Enemy_102217",
+          "Enemy_102217"
+        ]
+      },
+      {
+        "id": 102218,
+        "name": "enemy-102218",
+        "tried": [
+          "Enemy_102218",
+          "Enemy_102218"
+        ]
+      },
+      {
+        "id": 102219,
+        "name": "enemy-102219",
+        "tried": [
+          "Enemy_102219",
+          "Enemy_102219"
+        ]
+      },
+      {
+        "id": 102220,
+        "name": "enemy-102220",
+        "tried": [
+          "Enemy_102220",
+          "Enemy_102220"
+        ]
+      },
+      {
+        "id": 102221,
+        "name": "enemy-102221",
+        "tried": [
+          "Enemy_102221",
+          "Enemy_102221"
+        ]
+      },
+      {
+        "id": 102222,
+        "name": "enemy-102222",
+        "tried": [
+          "Enemy_102222",
+          "Enemy_102222"
+        ]
+      },
+      {
+        "id": 102223,
+        "name": "enemy-102223",
+        "tried": [
+          "Enemy_102223",
+          "Enemy_102223"
+        ]
+      },
+      {
+        "id": 102224,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_102224",
+          "Enemy_102224"
+        ]
+      },
+      {
+        "id": 102501,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_102501",
+          "Enemy_102501"
+        ]
+      },
+      {
+        "id": 102502,
+        "name": "enemy-102502",
+        "tried": [
+          "Enemy_102502",
+          "Enemy_102502"
+        ]
+      },
+      {
+        "id": 102503,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_102503",
+          "Enemy_102503"
+        ]
+      },
+      {
+        "id": 102504,
+        "name": "enemy-102504",
+        "tried": [
+          "Enemy_102504",
+          "Enemy_102504"
+        ]
+      },
+      {
+        "id": 102505,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_102505",
+          "Enemy_102505"
+        ]
+      },
+      {
+        "id": 102506,
+        "name": "enemy-102506",
+        "tried": [
+          "Enemy_102506",
+          "Enemy_102506"
+        ]
+      },
+      {
+        "id": 102507,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_102507",
+          "Enemy_102507"
+        ]
+      },
+      {
+        "id": 102509,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_102509",
+          "Enemy_102509"
+        ]
+      },
+      {
+        "id": 102510,
+        "name": "enemy-102510",
+        "tried": [
+          "Enemy_102510",
+          "Enemy_102510"
+        ]
+      },
+      {
+        "id": 102511,
+        "name": "enemy-102511",
+        "tried": [
+          "Enemy_102511",
+          "Enemy_102511"
+        ]
+      },
+      {
+        "id": 102512,
+        "name": "enemy-102512",
+        "tried": [
+          "Enemy_102512",
+          "Enemy_102512"
+        ]
+      },
+      {
+        "id": 102513,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_102513",
+          "Enemy_102513"
+        ]
+      },
+      {
+        "id": 102601,
+        "name": "Spider",
+        "tried": [
+          "Enemy_102601",
+          "Enemy_102601"
+        ]
+      },
+      {
+        "id": 102602,
+        "name": "Spider",
+        "tried": [
+          "Enemy_102602",
+          "Enemy_102602"
+        ]
+      },
+      {
+        "id": 102603,
+        "name": "enemy-102603",
+        "tried": [
+          "Enemy_102603",
+          "Enemy_102603"
+        ]
+      },
+      {
+        "id": 102604,
+        "name": "Spider",
+        "tried": [
+          "Enemy_102604",
+          "Enemy_102604"
+        ]
+      },
+      {
+        "id": 102605,
+        "name": "enemy-102605",
+        "tried": [
+          "Enemy_102605",
+          "Enemy_102605"
+        ]
+      },
+      {
+        "id": 102606,
+        "name": "Spider",
+        "tried": [
+          "Enemy_102606",
+          "Enemy_102606"
+        ]
+      },
+      {
+        "id": 102607,
+        "name": "enemy-102607",
+        "tried": [
+          "Enemy_102607",
+          "Enemy_102607"
+        ]
+      },
+      {
+        "id": 102608,
+        "name": "Spider",
+        "tried": [
+          "Enemy_102608",
+          "Enemy_102608"
+        ]
+      },
+      {
+        "id": 102609,
+        "name": "enemy-102609",
+        "tried": [
+          "Enemy_102609",
+          "Enemy_102609"
+        ]
+      },
+      {
+        "id": 102610,
+        "name": "Spider",
+        "tried": [
+          "Enemy_102610",
+          "Enemy_102610"
+        ]
+      },
+      {
+        "id": 102612,
+        "name": "Spider",
+        "tried": [
+          "Enemy_102612",
+          "Enemy_102612"
+        ]
+      },
+      {
+        "id": 102613,
+        "name": "enemy-102613",
+        "tried": [
+          "Enemy_102613",
+          "Enemy_102613"
+        ]
+      },
+      {
+        "id": 102614,
+        "name": "enemy-102614",
+        "tried": [
+          "Enemy_102614",
+          "Enemy_102614"
+        ]
+      },
+      {
+        "id": 102615,
+        "name": "enemy-102615",
+        "tried": [
+          "Enemy_102615",
+          "Enemy_102615"
+        ]
+      },
+      {
+        "id": 102616,
+        "name": "enemy-102616",
+        "tried": [
+          "Enemy_102616",
+          "Enemy_102616"
+        ]
+      },
+      {
+        "id": 102701,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102701",
+          "Enemy_102701"
+        ]
+      },
+      {
+        "id": 102702,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102702",
+          "Enemy_102702"
+        ]
+      },
+      {
+        "id": 102703,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102703",
+          "Enemy_102703"
+        ]
+      },
+      {
+        "id": 102704,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102704",
+          "Enemy_102704"
+        ]
+      },
+      {
+        "id": 102705,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102705",
+          "Enemy_102705"
+        ]
+      },
+      {
+        "id": 102706,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102706",
+          "Enemy_102706"
+        ]
+      },
+      {
+        "id": 102711,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102711",
+          "Enemy_102711"
+        ]
+      },
+      {
+        "id": 102714,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102714",
+          "Enemy_102714"
+        ]
+      },
+      {
+        "id": 102715,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102715",
+          "Enemy_102715"
+        ]
+      },
+      {
+        "id": 102718,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102718",
+          "Enemy_102718"
+        ]
+      },
+      {
+        "id": 102719,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102719",
+          "Enemy_102719"
+        ]
+      },
+      {
+        "id": 102720,
+        "name": "enemy-102720",
+        "tried": [
+          "Enemy_102720",
+          "Enemy_102720"
+        ]
+      },
+      {
+        "id": 102721,
+        "name": "enemy-102721",
+        "tried": [
+          "Enemy_102721",
+          "Enemy_102721"
+        ]
+      },
+      {
+        "id": 102722,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102722",
+          "Enemy_102722"
+        ]
+      },
+      {
+        "id": 102723,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102723",
+          "Enemy_102723"
+        ]
+      },
+      {
+        "id": 102726,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102726",
+          "Enemy_102726"
+        ]
+      },
+      {
+        "id": 102727,
+        "name": "Slime",
+        "tried": [
+          "Enemy_102727",
+          "Enemy_102727"
+        ]
+      },
+      {
+        "id": 102901,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_102901",
+          "Enemy_102901"
+        ]
+      },
+      {
+        "id": 102902,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_102902",
+          "Enemy_102902"
+        ]
+      },
+      {
+        "id": 102903,
+        "name": "enemy-102903",
+        "tried": [
+          "Enemy_102903",
+          "Enemy_102903"
+        ]
+      },
+      {
+        "id": 102904,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_102904",
+          "Enemy_102904"
+        ]
+      },
+      {
+        "id": 102906,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_102906",
+          "Enemy_102906"
+        ]
+      },
+      {
+        "id": 102908,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_102908",
+          "Enemy_102908"
+        ]
+      },
+      {
+        "id": 102910,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_102910",
+          "Enemy_102910"
+        ]
+      },
+      {
+        "id": 102912,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_102912",
+          "Enemy_102912"
+        ]
+      },
+      {
+        "id": 102913,
+        "name": "enemy-102913",
+        "tried": [
+          "Enemy_102913",
+          "Enemy_102913"
+        ]
+      },
+      {
+        "id": 102914,
+        "name": "enemy-102914",
+        "tried": [
+          "Enemy_102914",
+          "Enemy_102914"
+        ]
+      },
+      {
+        "id": 102915,
+        "name": "enemy-102915",
+        "tried": [
+          "Enemy_102915",
+          "Enemy_102915"
+        ]
+      },
+      {
+        "id": 102916,
+        "name": "enemy-102916",
+        "tried": [
+          "Enemy_102916",
+          "Enemy_102916"
+        ]
+      },
+      {
+        "id": 102917,
+        "name": "enemy-102917",
+        "tried": [
+          "Enemy_102917",
+          "Enemy_102917"
+        ]
+      },
+      {
+        "id": 102918,
+        "name": "enemy-102918",
+        "tried": [
+          "Enemy_102918",
+          "Enemy_102918"
+        ]
+      },
+      {
+        "id": 102919,
+        "name": "enemy-102919",
+        "tried": [
+          "Enemy_102919",
+          "Enemy_102919"
+        ]
+      },
+      {
+        "id": 102920,
+        "name": "enemy-102920",
+        "tried": [
+          "Enemy_102920",
+          "Enemy_102920"
+        ]
+      },
+      {
+        "id": 103201,
+        "name": "Hydra",
+        "tried": [
+          "Enemy_103201",
+          "Enemy_103201"
+        ]
+      },
+      {
+        "id": 103301,
+        "name": "Snake",
+        "tried": [
+          "Enemy_103301",
+          "Enemy_103301"
+        ]
+      },
+      {
+        "id": 103302,
+        "name": "Snake",
+        "tried": [
+          "Enemy_103302",
+          "Enemy_103302"
+        ]
+      },
+      {
+        "id": 103303,
+        "name": "Snake",
+        "tried": [
+          "Enemy_103303",
+          "Enemy_103303"
+        ]
+      },
+      {
+        "id": 103304,
+        "name": "Snake",
+        "tried": [
+          "Enemy_103304",
+          "Enemy_103304"
+        ]
+      },
+      {
+        "id": 103305,
+        "name": "Snake",
+        "tried": [
+          "Enemy_103305",
+          "Enemy_103305"
+        ]
+      },
+      {
+        "id": 103306,
+        "name": "Snake",
+        "tried": [
+          "Enemy_103306",
+          "Enemy_103306"
+        ]
+      },
+      {
+        "id": 103307,
+        "name": "Snake",
+        "tried": [
+          "Enemy_103307",
+          "Enemy_103307"
+        ]
+      },
+      {
+        "id": 103308,
+        "name": "enemy-103308",
+        "tried": [
+          "Enemy_103308",
+          "Enemy_103308"
+        ]
+      },
+      {
+        "id": 103309,
+        "name": "enemy-103309",
+        "tried": [
+          "Enemy_103309",
+          "Enemy_103309"
+        ]
+      },
+      {
+        "id": 103310,
+        "name": "enemy-103310",
+        "tried": [
+          "Enemy_103310",
+          "Enemy_103310"
+        ]
+      },
+      {
+        "id": 103311,
+        "name": "enemy-103311",
+        "tried": [
+          "Enemy_103311",
+          "Enemy_103311"
+        ]
+      },
+      {
+        "id": 103312,
+        "name": "enemy-103312",
+        "tried": [
+          "Enemy_103312",
+          "Enemy_103312"
+        ]
+      },
+      {
+        "id": 201701,
+        "name": "Fire Dragon",
+        "tried": [
+          "Enemy_201701",
+          "Enemy_201701"
+        ]
+      },
+      {
+        "id": 201702,
+        "name": "Frost Dragon",
+        "tried": [
+          "Enemy_201702",
+          "Enemy_201702"
+        ]
+      },
+      {
+        "id": 201703,
+        "name": "Poison Dragon",
+        "tried": [
+          "Enemy_201703",
+          "Enemy_201703"
+        ]
+      },
+      {
+        "id": 201802,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_201802",
+          "Enemy_201802"
+        ]
+      },
+      {
+        "id": 201803,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_201803",
+          "Enemy_201803"
+        ]
+      },
+      {
+        "id": 201804,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_201804",
+          "Enemy_201804"
+        ]
+      },
+      {
+        "id": 201805,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_201805",
+          "Enemy_201805"
+        ]
+      },
+      {
+        "id": 201806,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_201806",
+          "Enemy_201806"
+        ]
+      },
+      {
+        "id": 201807,
+        "name": "enemy-201807",
+        "tried": [
+          "Enemy_201807",
+          "Enemy_201807"
+        ]
+      },
+      {
+        "id": 201808,
+        "name": "enemy-201808",
+        "tried": [
+          "Enemy_201808",
+          "Enemy_201808"
+        ]
+      },
+      {
+        "id": 201809,
+        "name": "enemy-201809",
+        "tried": [
+          "Enemy_201809",
+          "Enemy_201809"
+        ]
+      },
+      {
+        "id": 201810,
+        "name": "enemy-201810",
+        "tried": [
+          "Enemy_201810",
+          "Enemy_201810"
+        ]
+      },
+      {
+        "id": 201811,
+        "name": "enemy-201811",
+        "tried": [
+          "Enemy_201811",
+          "Enemy_201811"
+        ]
+      },
+      {
+        "id": 201812,
+        "name": "enemy-201812",
+        "tried": [
+          "Enemy_201812",
+          "Enemy_201812"
+        ]
+      },
+      {
+        "id": 201813,
+        "name": "enemy-201813",
+        "tried": [
+          "Enemy_201813",
+          "Enemy_201813"
+        ]
+      },
+      {
+        "id": 201814,
+        "name": "enemy-201814",
+        "tried": [
+          "Enemy_201814",
+          "Enemy_201814"
+        ]
+      },
+      {
+        "id": 201815,
+        "name": "enemy-201815",
+        "tried": [
+          "Enemy_201815",
+          "Enemy_201815"
+        ]
+      },
+      {
+        "id": 201816,
+        "name": "enemy-201816",
+        "tried": [
+          "Enemy_201816",
+          "Enemy_201816"
+        ]
+      },
+      {
+        "id": 201817,
+        "name": "enemy-201817",
+        "tried": [
+          "Enemy_201817",
+          "Enemy_201817"
+        ]
+      },
+      {
+        "id": 201901,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201901",
+          "Enemy_201901"
+        ]
+      },
+      {
+        "id": 201902,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201902",
+          "Enemy_201902"
+        ]
+      },
+      {
+        "id": 201903,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201903",
+          "Enemy_201903"
+        ]
+      },
+      {
+        "id": 201905,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201905",
+          "Enemy_201905"
+        ]
+      },
+      {
+        "id": 201906,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201906",
+          "Enemy_201906"
+        ]
+      },
+      {
+        "id": 201909,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201909",
+          "Enemy_201909"
+        ]
+      },
+      {
+        "id": 201910,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201910",
+          "Enemy_201910"
+        ]
+      },
+      {
+        "id": 201911,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201911",
+          "Enemy_201911"
+        ]
+      },
+      {
+        "id": 201912,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201912",
+          "Enemy_201912"
+        ]
+      },
+      {
+        "id": 201913,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201913",
+          "Enemy_201913"
+        ]
+      },
+      {
+        "id": 201914,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201914",
+          "Enemy_201914"
+        ]
+      },
+      {
+        "id": 201915,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201915",
+          "Enemy_201915"
+        ]
+      },
+      {
+        "id": 201916,
+        "name": "enemy-201916",
+        "tried": [
+          "Enemy_201916",
+          "Enemy_201916"
+        ]
+      },
+      {
+        "id": 201917,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201917",
+          "Enemy_201917"
+        ]
+      },
+      {
+        "id": 201918,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201918",
+          "Enemy_201918"
+        ]
+      },
+      {
+        "id": 201920,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201920",
+          "Enemy_201920"
+        ]
+      },
+      {
+        "id": 201921,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201921",
+          "Enemy_201921"
+        ]
+      },
+      {
+        "id": 201922,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201922",
+          "Enemy_201922"
+        ]
+      },
+      {
+        "id": 201923,
+        "name": "enemy-201923",
+        "tried": [
+          "Enemy_201923",
+          "Enemy_201923"
+        ]
+      },
+      {
+        "id": 201927,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201927",
+          "Enemy_201927"
+        ]
+      },
+      {
+        "id": 201928,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201928",
+          "Enemy_201928"
+        ]
+      },
+      {
+        "id": 201929,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201929",
+          "Enemy_201929"
+        ]
+      },
+      {
+        "id": 201930,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201930",
+          "Enemy_201930"
+        ]
+      },
+      {
+        "id": 201931,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_201931",
+          "Enemy_201931"
+        ]
+      },
+      {
+        "id": 201932,
+        "name": "enemy-201932",
+        "tried": [
+          "Enemy_201932",
+          "Enemy_201932"
+        ]
+      },
+      {
+        "id": 201933,
+        "name": "enemy-201933",
+        "tried": [
+          "Enemy_201933",
+          "Enemy_201933"
+        ]
+      },
+      {
+        "id": 201934,
+        "name": "enemy-201934",
+        "tried": [
+          "Enemy_201934",
+          "Enemy_201934"
+        ]
+      },
+      {
+        "id": 201935,
+        "name": "enemy-201935",
+        "tried": [
+          "Enemy_201935",
+          "Enemy_201935"
+        ]
+      },
+      {
+        "id": 201936,
+        "name": "enemy-201936",
+        "tried": [
+          "Enemy_201936",
+          "Enemy_201936"
+        ]
+      },
+      {
+        "id": 201937,
+        "name": "enemy-201937",
+        "tried": [
+          "Enemy_201937",
+          "Enemy_201937"
+        ]
+      },
+      {
+        "id": 201938,
+        "name": "enemy-201938",
+        "tried": [
+          "Enemy_201938",
+          "Enemy_201938"
+        ]
+      },
+      {
+        "id": 201939,
+        "name": "enemy-201939",
+        "tried": [
+          "Enemy_201939",
+          "Enemy_201939"
+        ]
+      },
+      {
+        "id": 201940,
+        "name": "enemy-201940",
+        "tried": [
+          "Enemy_201940",
+          "Enemy_201940"
+        ]
+      },
+      {
+        "id": 201941,
+        "name": "enemy-201941",
+        "tried": [
+          "Enemy_201941",
+          "Enemy_201941"
+        ]
+      },
+      {
+        "id": 201942,
+        "name": "enemy-201942",
+        "tried": [
+          "Enemy_201942",
+          "Enemy_201942"
+        ]
+      },
+      {
+        "id": 201943,
+        "name": "enemy-201943",
+        "tried": [
+          "Enemy_201943",
+          "Enemy_201943"
+        ]
+      },
+      {
+        "id": 202001,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202001",
+          "Enemy_202001"
+        ]
+      },
+      {
+        "id": 202002,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202002",
+          "Enemy_202002"
+        ]
+      },
+      {
+        "id": 202003,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202003",
+          "Enemy_202003"
+        ]
+      },
+      {
+        "id": 202004,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202004",
+          "Enemy_202004"
+        ]
+      },
+      {
+        "id": 202006,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202006",
+          "Enemy_202006"
+        ]
+      },
+      {
+        "id": 202007,
+        "name": "enemy-202007",
+        "tried": [
+          "Enemy_202007",
+          "Enemy_202007"
+        ]
+      },
+      {
+        "id": 202009,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202009",
+          "Enemy_202009"
+        ]
+      },
+      {
+        "id": 202010,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202010",
+          "Enemy_202010"
+        ]
+      },
+      {
+        "id": 202011,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202011",
+          "Enemy_202011"
+        ]
+      },
+      {
+        "id": 202012,
+        "name": "enemy-202012",
+        "tried": [
+          "Enemy_202012",
+          "Enemy_202012"
+        ]
+      },
+      {
+        "id": 202013,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202013",
+          "Enemy_202013"
+        ]
+      },
+      {
+        "id": 202014,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202014",
+          "Enemy_202014"
+        ]
+      },
+      {
+        "id": 202015,
+        "name": "enemy-202015",
+        "tried": [
+          "Enemy_202015",
+          "Enemy_202015"
+        ]
+      },
+      {
+        "id": 202016,
+        "name": "enemy-202016",
+        "tried": [
+          "Enemy_202016",
+          "Enemy_202016"
+        ]
+      },
+      {
+        "id": 202017,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202017",
+          "Enemy_202017"
+        ]
+      },
+      {
+        "id": 202018,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202018",
+          "Enemy_202018"
+        ]
+      },
+      {
+        "id": 202020,
+        "name": "enemy-202020",
+        "tried": [
+          "Enemy_202020",
+          "Enemy_202020"
+        ]
+      },
+      {
+        "id": 202021,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202021",
+          "Enemy_202021"
+        ]
+      },
+      {
+        "id": 202022,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202022",
+          "Enemy_202022"
+        ]
+      },
+      {
+        "id": 202023,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202023",
+          "Enemy_202023"
+        ]
+      },
+      {
+        "id": 202025,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202025",
+          "Enemy_202025"
+        ]
+      },
+      {
+        "id": 202026,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_202026",
+          "Enemy_202026"
+        ]
+      },
+      {
+        "id": 202027,
+        "name": "enemy-202027",
+        "tried": [
+          "Enemy_202027",
+          "Enemy_202027"
+        ]
+      },
+      {
+        "id": 202028,
+        "name": "enemy-202028",
+        "tried": [
+          "Enemy_202028",
+          "Enemy_202028"
+        ]
+      },
+      {
+        "id": 202029,
+        "name": "enemy-202029",
+        "tried": [
+          "Enemy_202029",
+          "Enemy_202029"
+        ]
+      },
+      {
+        "id": 202030,
+        "name": "enemy-202030",
+        "tried": [
+          "Enemy_202030",
+          "Enemy_202030"
+        ]
+      },
+      {
+        "id": 202031,
+        "name": "enemy-202031",
+        "tried": [
+          "Enemy_202031",
+          "Enemy_202031"
+        ]
+      },
+      {
+        "id": 202032,
+        "name": "enemy-202032",
+        "tried": [
+          "Enemy_202032",
+          "Enemy_202032"
+        ]
+      },
+      {
+        "id": 202033,
+        "name": "enemy-202033",
+        "tried": [
+          "Enemy_202033",
+          "Enemy_202033"
+        ]
+      },
+      {
+        "id": 202034,
+        "name": "enemy-202034",
+        "tried": [
+          "Enemy_202034",
+          "Enemy_202034"
+        ]
+      },
+      {
+        "id": 202101,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_202101",
+          "Enemy_202101"
+        ]
+      },
+      {
+        "id": 202102,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_202102",
+          "Enemy_202102"
+        ]
+      },
+      {
+        "id": 202103,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_202103",
+          "Enemy_202103"
+        ]
+      },
+      {
+        "id": 202104,
+        "name": "enemy-202104",
+        "tried": [
+          "Enemy_202104",
+          "Enemy_202104"
+        ]
+      },
+      {
+        "id": 202105,
+        "name": "enemy-202105",
+        "tried": [
+          "Enemy_202105",
+          "Enemy_202105"
+        ]
+      },
+      {
+        "id": 202106,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_202106",
+          "Enemy_202106"
+        ]
+      },
+      {
+        "id": 202108,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_202108",
+          "Enemy_202108"
+        ]
+      },
+      {
+        "id": 202110,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_202110",
+          "Enemy_202110"
+        ]
+      },
+      {
+        "id": 202112,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_202112",
+          "Enemy_202112"
+        ]
+      },
+      {
+        "id": 202114,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_202114",
+          "Enemy_202114"
+        ]
+      },
+      {
+        "id": 202116,
+        "name": "enemy-202116",
+        "tried": [
+          "Enemy_202116",
+          "Enemy_202116"
+        ]
+      },
+      {
+        "id": 202117,
+        "name": "enemy-202117",
+        "tried": [
+          "Enemy_202117",
+          "Enemy_202117"
+        ]
+      },
+      {
+        "id": 202118,
+        "name": "enemy-202118",
+        "tried": [
+          "Enemy_202118",
+          "Enemy_202118"
+        ]
+      },
+      {
+        "id": 202120,
+        "name": "enemy-202120",
+        "tried": [
+          "Enemy_202120",
+          "Enemy_202120"
+        ]
+      },
+      {
+        "id": 202121,
+        "name": "enemy-202121",
+        "tried": [
+          "Enemy_202121",
+          "Enemy_202121"
+        ]
+      },
+      {
+        "id": 202122,
+        "name": "enemy-202122",
+        "tried": [
+          "Enemy_202122",
+          "Enemy_202122"
+        ]
+      },
+      {
+        "id": 202123,
+        "name": "enemy-202123",
+        "tried": [
+          "Enemy_202123",
+          "Enemy_202123"
+        ]
+      },
+      {
+        "id": 202201,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202201",
+          "Enemy_202201"
+        ]
+      },
+      {
+        "id": 202202,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202202",
+          "Enemy_202202"
+        ]
+      },
+      {
+        "id": 202203,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202203",
+          "Enemy_202203"
+        ]
+      },
+      {
+        "id": 202204,
+        "name": "enemy-202204",
+        "tried": [
+          "Enemy_202204",
+          "Enemy_202204"
+        ]
+      },
+      {
+        "id": 202205,
+        "name": "enemy-202205",
+        "tried": [
+          "Enemy_202205",
+          "Enemy_202205"
+        ]
+      },
+      {
+        "id": 202206,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202206",
+          "Enemy_202206"
+        ]
+      },
+      {
+        "id": 202207,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202207",
+          "Enemy_202207"
+        ]
+      },
+      {
+        "id": 202208,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202208",
+          "Enemy_202208"
+        ]
+      },
+      {
+        "id": 202209,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202209",
+          "Enemy_202209"
+        ]
+      },
+      {
+        "id": 202210,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202210",
+          "Enemy_202210"
+        ]
+      },
+      {
+        "id": 202211,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202211",
+          "Enemy_202211"
+        ]
+      },
+      {
+        "id": 202212,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202212",
+          "Enemy_202212"
+        ]
+      },
+      {
+        "id": 202213,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202213",
+          "Enemy_202213"
+        ]
+      },
+      {
+        "id": 202214,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202214",
+          "Enemy_202214"
+        ]
+      },
+      {
+        "id": 202215,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202215",
+          "Enemy_202215"
+        ]
+      },
+      {
+        "id": 202216,
+        "name": "enemy-202216",
+        "tried": [
+          "Enemy_202216",
+          "Enemy_202216"
+        ]
+      },
+      {
+        "id": 202217,
+        "name": "enemy-202217",
+        "tried": [
+          "Enemy_202217",
+          "Enemy_202217"
+        ]
+      },
+      {
+        "id": 202218,
+        "name": "enemy-202218",
+        "tried": [
+          "Enemy_202218",
+          "Enemy_202218"
+        ]
+      },
+      {
+        "id": 202219,
+        "name": "enemy-202219",
+        "tried": [
+          "Enemy_202219",
+          "Enemy_202219"
+        ]
+      },
+      {
+        "id": 202220,
+        "name": "enemy-202220",
+        "tried": [
+          "Enemy_202220",
+          "Enemy_202220"
+        ]
+      },
+      {
+        "id": 202221,
+        "name": "enemy-202221",
+        "tried": [
+          "Enemy_202221",
+          "Enemy_202221"
+        ]
+      },
+      {
+        "id": 202222,
+        "name": "enemy-202222",
+        "tried": [
+          "Enemy_202222",
+          "Enemy_202222"
+        ]
+      },
+      {
+        "id": 202223,
+        "name": "enemy-202223",
+        "tried": [
+          "Enemy_202223",
+          "Enemy_202223"
+        ]
+      },
+      {
+        "id": 202224,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_202224",
+          "Enemy_202224"
+        ]
+      },
+      {
+        "id": 202501,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_202501",
+          "Enemy_202501"
+        ]
+      },
+      {
+        "id": 202502,
+        "name": "enemy-202502",
+        "tried": [
+          "Enemy_202502",
+          "Enemy_202502"
+        ]
+      },
+      {
+        "id": 202503,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_202503",
+          "Enemy_202503"
+        ]
+      },
+      {
+        "id": 202504,
+        "name": "enemy-202504",
+        "tried": [
+          "Enemy_202504",
+          "Enemy_202504"
+        ]
+      },
+      {
+        "id": 202505,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_202505",
+          "Enemy_202505"
+        ]
+      },
+      {
+        "id": 202506,
+        "name": "enemy-202506",
+        "tried": [
+          "Enemy_202506",
+          "Enemy_202506"
+        ]
+      },
+      {
+        "id": 202507,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_202507",
+          "Enemy_202507"
+        ]
+      },
+      {
+        "id": 202509,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_202509",
+          "Enemy_202509"
+        ]
+      },
+      {
+        "id": 202510,
+        "name": "enemy-202510",
+        "tried": [
+          "Enemy_202510",
+          "Enemy_202510"
+        ]
+      },
+      {
+        "id": 202511,
+        "name": "enemy-202511",
+        "tried": [
+          "Enemy_202511",
+          "Enemy_202511"
+        ]
+      },
+      {
+        "id": 202512,
+        "name": "enemy-202512",
+        "tried": [
+          "Enemy_202512",
+          "Enemy_202512"
+        ]
+      },
+      {
+        "id": 202513,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_202513",
+          "Enemy_202513"
+        ]
+      },
+      {
+        "id": 202601,
+        "name": "Spider",
+        "tried": [
+          "Enemy_202601",
+          "Enemy_202601"
+        ]
+      },
+      {
+        "id": 202602,
+        "name": "Spider",
+        "tried": [
+          "Enemy_202602",
+          "Enemy_202602"
+        ]
+      },
+      {
+        "id": 202603,
+        "name": "enemy-202603",
+        "tried": [
+          "Enemy_202603",
+          "Enemy_202603"
+        ]
+      },
+      {
+        "id": 202604,
+        "name": "Spider",
+        "tried": [
+          "Enemy_202604",
+          "Enemy_202604"
+        ]
+      },
+      {
+        "id": 202605,
+        "name": "enemy-202605",
+        "tried": [
+          "Enemy_202605",
+          "Enemy_202605"
+        ]
+      },
+      {
+        "id": 202606,
+        "name": "Spider",
+        "tried": [
+          "Enemy_202606",
+          "Enemy_202606"
+        ]
+      },
+      {
+        "id": 202607,
+        "name": "enemy-202607",
+        "tried": [
+          "Enemy_202607",
+          "Enemy_202607"
+        ]
+      },
+      {
+        "id": 202608,
+        "name": "Spider",
+        "tried": [
+          "Enemy_202608",
+          "Enemy_202608"
+        ]
+      },
+      {
+        "id": 202609,
+        "name": "enemy-202609",
+        "tried": [
+          "Enemy_202609",
+          "Enemy_202609"
+        ]
+      },
+      {
+        "id": 202610,
+        "name": "Spider",
+        "tried": [
+          "Enemy_202610",
+          "Enemy_202610"
+        ]
+      },
+      {
+        "id": 202612,
+        "name": "Spider",
+        "tried": [
+          "Enemy_202612",
+          "Enemy_202612"
+        ]
+      },
+      {
+        "id": 202613,
+        "name": "enemy-202613",
+        "tried": [
+          "Enemy_202613",
+          "Enemy_202613"
+        ]
+      },
+      {
+        "id": 202614,
+        "name": "enemy-202614",
+        "tried": [
+          "Enemy_202614",
+          "Enemy_202614"
+        ]
+      },
+      {
+        "id": 202615,
+        "name": "enemy-202615",
+        "tried": [
+          "Enemy_202615",
+          "Enemy_202615"
+        ]
+      },
+      {
+        "id": 202616,
+        "name": "enemy-202616",
+        "tried": [
+          "Enemy_202616",
+          "Enemy_202616"
+        ]
+      },
+      {
+        "id": 202701,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202701",
+          "Enemy_202701"
+        ]
+      },
+      {
+        "id": 202702,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202702",
+          "Enemy_202702"
+        ]
+      },
+      {
+        "id": 202703,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202703",
+          "Enemy_202703"
+        ]
+      },
+      {
+        "id": 202704,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202704",
+          "Enemy_202704"
+        ]
+      },
+      {
+        "id": 202705,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202705",
+          "Enemy_202705"
+        ]
+      },
+      {
+        "id": 202706,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202706",
+          "Enemy_202706"
+        ]
+      },
+      {
+        "id": 202711,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202711",
+          "Enemy_202711"
+        ]
+      },
+      {
+        "id": 202714,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202714",
+          "Enemy_202714"
+        ]
+      },
+      {
+        "id": 202715,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202715",
+          "Enemy_202715"
+        ]
+      },
+      {
+        "id": 202718,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202718",
+          "Enemy_202718"
+        ]
+      },
+      {
+        "id": 202719,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202719",
+          "Enemy_202719"
+        ]
+      },
+      {
+        "id": 202720,
+        "name": "enemy-202720",
+        "tried": [
+          "Enemy_202720",
+          "Enemy_202720"
+        ]
+      },
+      {
+        "id": 202721,
+        "name": "enemy-202721",
+        "tried": [
+          "Enemy_202721",
+          "Enemy_202721"
+        ]
+      },
+      {
+        "id": 202722,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202722",
+          "Enemy_202722"
+        ]
+      },
+      {
+        "id": 202723,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202723",
+          "Enemy_202723"
+        ]
+      },
+      {
+        "id": 202726,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202726",
+          "Enemy_202726"
+        ]
+      },
+      {
+        "id": 202727,
+        "name": "Slime",
+        "tried": [
+          "Enemy_202727",
+          "Enemy_202727"
+        ]
+      },
+      {
+        "id": 202901,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_202901",
+          "Enemy_202901"
+        ]
+      },
+      {
+        "id": 202902,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_202902",
+          "Enemy_202902"
+        ]
+      },
+      {
+        "id": 202903,
+        "name": "enemy-202903",
+        "tried": [
+          "Enemy_202903",
+          "Enemy_202903"
+        ]
+      },
+      {
+        "id": 202904,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_202904",
+          "Enemy_202904"
+        ]
+      },
+      {
+        "id": 202906,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_202906",
+          "Enemy_202906"
+        ]
+      },
+      {
+        "id": 202908,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_202908",
+          "Enemy_202908"
+        ]
+      },
+      {
+        "id": 202910,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_202910",
+          "Enemy_202910"
+        ]
+      },
+      {
+        "id": 202912,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_202912",
+          "Enemy_202912"
+        ]
+      },
+      {
+        "id": 202913,
+        "name": "enemy-202913",
+        "tried": [
+          "Enemy_202913",
+          "Enemy_202913"
+        ]
+      },
+      {
+        "id": 202914,
+        "name": "enemy-202914",
+        "tried": [
+          "Enemy_202914",
+          "Enemy_202914"
+        ]
+      },
+      {
+        "id": 202915,
+        "name": "enemy-202915",
+        "tried": [
+          "Enemy_202915",
+          "Enemy_202915"
+        ]
+      },
+      {
+        "id": 202916,
+        "name": "enemy-202916",
+        "tried": [
+          "Enemy_202916",
+          "Enemy_202916"
+        ]
+      },
+      {
+        "id": 202917,
+        "name": "enemy-202917",
+        "tried": [
+          "Enemy_202917",
+          "Enemy_202917"
+        ]
+      },
+      {
+        "id": 202918,
+        "name": "enemy-202918",
+        "tried": [
+          "Enemy_202918",
+          "Enemy_202918"
+        ]
+      },
+      {
+        "id": 202919,
+        "name": "enemy-202919",
+        "tried": [
+          "Enemy_202919",
+          "Enemy_202919"
+        ]
+      },
+      {
+        "id": 202920,
+        "name": "enemy-202920",
+        "tried": [
+          "Enemy_202920",
+          "Enemy_202920"
+        ]
+      },
+      {
+        "id": 203201,
+        "name": "Hydra",
+        "tried": [
+          "Enemy_203201",
+          "Enemy_203201"
+        ]
+      },
+      {
+        "id": 203301,
+        "name": "Snake",
+        "tried": [
+          "Enemy_203301",
+          "Enemy_203301"
+        ]
+      },
+      {
+        "id": 203302,
+        "name": "Snake",
+        "tried": [
+          "Enemy_203302",
+          "Enemy_203302"
+        ]
+      },
+      {
+        "id": 203303,
+        "name": "Snake",
+        "tried": [
+          "Enemy_203303",
+          "Enemy_203303"
+        ]
+      },
+      {
+        "id": 203304,
+        "name": "Snake",
+        "tried": [
+          "Enemy_203304",
+          "Enemy_203304"
+        ]
+      },
+      {
+        "id": 203305,
+        "name": "Snake",
+        "tried": [
+          "Enemy_203305",
+          "Enemy_203305"
+        ]
+      },
+      {
+        "id": 203306,
+        "name": "Snake",
+        "tried": [
+          "Enemy_203306",
+          "Enemy_203306"
+        ]
+      },
+      {
+        "id": 203307,
+        "name": "Snake",
+        "tried": [
+          "Enemy_203307",
+          "Enemy_203307"
+        ]
+      },
+      {
+        "id": 203308,
+        "name": "enemy-203308",
+        "tried": [
+          "Enemy_203308",
+          "Enemy_203308"
+        ]
+      },
+      {
+        "id": 203309,
+        "name": "enemy-203309",
+        "tried": [
+          "Enemy_203309",
+          "Enemy_203309"
+        ]
+      },
+      {
+        "id": 203310,
+        "name": "enemy-203310",
+        "tried": [
+          "Enemy_203310",
+          "Enemy_203310"
+        ]
+      },
+      {
+        "id": 203311,
+        "name": "enemy-203311",
+        "tried": [
+          "Enemy_203311",
+          "Enemy_203311"
+        ]
+      },
+      {
+        "id": 203312,
+        "name": "enemy-203312",
+        "tried": [
+          "Enemy_203312",
+          "Enemy_203312"
+        ]
+      },
+      {
+        "id": 301701,
+        "name": "Fire Dragon",
+        "tried": [
+          "Enemy_301701",
+          "Enemy_301701"
+        ]
+      },
+      {
+        "id": 301702,
+        "name": "Frost Dragon",
+        "tried": [
+          "Enemy_301702",
+          "Enemy_301702"
+        ]
+      },
+      {
+        "id": 301703,
+        "name": "Poison Dragon",
+        "tried": [
+          "Enemy_301703",
+          "Enemy_301703"
+        ]
+      },
+      {
+        "id": 301802,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_301802",
+          "Enemy_301802"
+        ]
+      },
+      {
+        "id": 301803,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_301803",
+          "Enemy_301803"
+        ]
+      },
+      {
+        "id": 301804,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_301804",
+          "Enemy_301804"
+        ]
+      },
+      {
+        "id": 301805,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_301805",
+          "Enemy_301805"
+        ]
+      },
+      {
+        "id": 301806,
+        "name": "Forest Golem",
+        "tried": [
+          "Enemy_301806",
+          "Enemy_301806"
+        ]
+      },
+      {
+        "id": 301807,
+        "name": "enemy-301807",
+        "tried": [
+          "Enemy_301807",
+          "Enemy_301807"
+        ]
+      },
+      {
+        "id": 301808,
+        "name": "enemy-301808",
+        "tried": [
+          "Enemy_301808",
+          "Enemy_301808"
+        ]
+      },
+      {
+        "id": 301809,
+        "name": "enemy-301809",
+        "tried": [
+          "Enemy_301809",
+          "Enemy_301809"
+        ]
+      },
+      {
+        "id": 301810,
+        "name": "enemy-301810",
+        "tried": [
+          "Enemy_301810",
+          "Enemy_301810"
+        ]
+      },
+      {
+        "id": 301811,
+        "name": "enemy-301811",
+        "tried": [
+          "Enemy_301811",
+          "Enemy_301811"
+        ]
+      },
+      {
+        "id": 301812,
+        "name": "enemy-301812",
+        "tried": [
+          "Enemy_301812",
+          "Enemy_301812"
+        ]
+      },
+      {
+        "id": 301813,
+        "name": "enemy-301813",
+        "tried": [
+          "Enemy_301813",
+          "Enemy_301813"
+        ]
+      },
+      {
+        "id": 301814,
+        "name": "enemy-301814",
+        "tried": [
+          "Enemy_301814",
+          "Enemy_301814"
+        ]
+      },
+      {
+        "id": 301815,
+        "name": "enemy-301815",
+        "tried": [
+          "Enemy_301815",
+          "Enemy_301815"
+        ]
+      },
+      {
+        "id": 301816,
+        "name": "enemy-301816",
+        "tried": [
+          "Enemy_301816",
+          "Enemy_301816"
+        ]
+      },
+      {
+        "id": 301817,
+        "name": "enemy-301817",
+        "tried": [
+          "Enemy_301817",
+          "Enemy_301817"
+        ]
+      },
+      {
+        "id": 301901,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301901",
+          "Enemy_301901"
+        ]
+      },
+      {
+        "id": 301902,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301902",
+          "Enemy_301902"
+        ]
+      },
+      {
+        "id": 301903,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301903",
+          "Enemy_301903"
+        ]
+      },
+      {
+        "id": 301905,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301905",
+          "Enemy_301905"
+        ]
+      },
+      {
+        "id": 301906,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301906",
+          "Enemy_301906"
+        ]
+      },
+      {
+        "id": 301909,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301909",
+          "Enemy_301909"
+        ]
+      },
+      {
+        "id": 301910,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301910",
+          "Enemy_301910"
+        ]
+      },
+      {
+        "id": 301911,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301911",
+          "Enemy_301911"
+        ]
+      },
+      {
+        "id": 301912,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301912",
+          "Enemy_301912"
+        ]
+      },
+      {
+        "id": 301913,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301913",
+          "Enemy_301913"
+        ]
+      },
+      {
+        "id": 301914,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301914",
+          "Enemy_301914"
+        ]
+      },
+      {
+        "id": 301915,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301915",
+          "Enemy_301915"
+        ]
+      },
+      {
+        "id": 301916,
+        "name": "enemy-301916",
+        "tried": [
+          "Enemy_301916",
+          "Enemy_301916"
+        ]
+      },
+      {
+        "id": 301917,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301917",
+          "Enemy_301917"
+        ]
+      },
+      {
+        "id": 301918,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301918",
+          "Enemy_301918"
+        ]
+      },
+      {
+        "id": 301920,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301920",
+          "Enemy_301920"
+        ]
+      },
+      {
+        "id": 301921,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301921",
+          "Enemy_301921"
+        ]
+      },
+      {
+        "id": 301922,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301922",
+          "Enemy_301922"
+        ]
+      },
+      {
+        "id": 301923,
+        "name": "enemy-301923",
+        "tried": [
+          "Enemy_301923",
+          "Enemy_301923"
+        ]
+      },
+      {
+        "id": 301927,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301927",
+          "Enemy_301927"
+        ]
+      },
+      {
+        "id": 301928,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301928",
+          "Enemy_301928"
+        ]
+      },
+      {
+        "id": 301929,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301929",
+          "Enemy_301929"
+        ]
+      },
+      {
+        "id": 301930,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301930",
+          "Enemy_301930"
+        ]
+      },
+      {
+        "id": 301931,
+        "name": "Mushroom Archer",
+        "tried": [
+          "Enemy_301931",
+          "Enemy_301931"
+        ]
+      },
+      {
+        "id": 301932,
+        "name": "enemy-301932",
+        "tried": [
+          "Enemy_301932",
+          "Enemy_301932"
+        ]
+      },
+      {
+        "id": 301933,
+        "name": "enemy-301933",
+        "tried": [
+          "Enemy_301933",
+          "Enemy_301933"
+        ]
+      },
+      {
+        "id": 301934,
+        "name": "enemy-301934",
+        "tried": [
+          "Enemy_301934",
+          "Enemy_301934"
+        ]
+      },
+      {
+        "id": 301935,
+        "name": "enemy-301935",
+        "tried": [
+          "Enemy_301935",
+          "Enemy_301935"
+        ]
+      },
+      {
+        "id": 301936,
+        "name": "enemy-301936",
+        "tried": [
+          "Enemy_301936",
+          "Enemy_301936"
+        ]
+      },
+      {
+        "id": 301937,
+        "name": "enemy-301937",
+        "tried": [
+          "Enemy_301937",
+          "Enemy_301937"
+        ]
+      },
+      {
+        "id": 301938,
+        "name": "enemy-301938",
+        "tried": [
+          "Enemy_301938",
+          "Enemy_301938"
+        ]
+      },
+      {
+        "id": 301939,
+        "name": "enemy-301939",
+        "tried": [
+          "Enemy_301939",
+          "Enemy_301939"
+        ]
+      },
+      {
+        "id": 301940,
+        "name": "enemy-301940",
+        "tried": [
+          "Enemy_301940",
+          "Enemy_301940"
+        ]
+      },
+      {
+        "id": 301941,
+        "name": "enemy-301941",
+        "tried": [
+          "Enemy_301941",
+          "Enemy_301941"
+        ]
+      },
+      {
+        "id": 301942,
+        "name": "enemy-301942",
+        "tried": [
+          "Enemy_301942",
+          "Enemy_301942"
+        ]
+      },
+      {
+        "id": 301943,
+        "name": "enemy-301943",
+        "tried": [
+          "Enemy_301943",
+          "Enemy_301943"
+        ]
+      },
+      {
+        "id": 302001,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302001",
+          "Enemy_302001"
+        ]
+      },
+      {
+        "id": 302002,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302002",
+          "Enemy_302002"
+        ]
+      },
+      {
+        "id": 302003,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302003",
+          "Enemy_302003"
+        ]
+      },
+      {
+        "id": 302004,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302004",
+          "Enemy_302004"
+        ]
+      },
+      {
+        "id": 302006,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302006",
+          "Enemy_302006"
+        ]
+      },
+      {
+        "id": 302007,
+        "name": "enemy-302007",
+        "tried": [
+          "Enemy_302007",
+          "Enemy_302007"
+        ]
+      },
+      {
+        "id": 302009,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302009",
+          "Enemy_302009"
+        ]
+      },
+      {
+        "id": 302010,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302010",
+          "Enemy_302010"
+        ]
+      },
+      {
+        "id": 302011,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302011",
+          "Enemy_302011"
+        ]
+      },
+      {
+        "id": 302012,
+        "name": "enemy-302012",
+        "tried": [
+          "Enemy_302012",
+          "Enemy_302012"
+        ]
+      },
+      {
+        "id": 302013,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302013",
+          "Enemy_302013"
+        ]
+      },
+      {
+        "id": 302014,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302014",
+          "Enemy_302014"
+        ]
+      },
+      {
+        "id": 302015,
+        "name": "enemy-302015",
+        "tried": [
+          "Enemy_302015",
+          "Enemy_302015"
+        ]
+      },
+      {
+        "id": 302016,
+        "name": "enemy-302016",
+        "tried": [
+          "Enemy_302016",
+          "Enemy_302016"
+        ]
+      },
+      {
+        "id": 302017,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302017",
+          "Enemy_302017"
+        ]
+      },
+      {
+        "id": 302018,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302018",
+          "Enemy_302018"
+        ]
+      },
+      {
+        "id": 302020,
+        "name": "enemy-302020",
+        "tried": [
+          "Enemy_302020",
+          "Enemy_302020"
+        ]
+      },
+      {
+        "id": 302021,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302021",
+          "Enemy_302021"
+        ]
+      },
+      {
+        "id": 302022,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302022",
+          "Enemy_302022"
+        ]
+      },
+      {
+        "id": 302023,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302023",
+          "Enemy_302023"
+        ]
+      },
+      {
+        "id": 302025,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302025",
+          "Enemy_302025"
+        ]
+      },
+      {
+        "id": 302026,
+        "name": "Mushroom Tank",
+        "tried": [
+          "Enemy_302026",
+          "Enemy_302026"
+        ]
+      },
+      {
+        "id": 302027,
+        "name": "enemy-302027",
+        "tried": [
+          "Enemy_302027",
+          "Enemy_302027"
+        ]
+      },
+      {
+        "id": 302028,
+        "name": "enemy-302028",
+        "tried": [
+          "Enemy_302028",
+          "Enemy_302028"
+        ]
+      },
+      {
+        "id": 302029,
+        "name": "enemy-302029",
+        "tried": [
+          "Enemy_302029",
+          "Enemy_302029"
+        ]
+      },
+      {
+        "id": 302030,
+        "name": "enemy-302030",
+        "tried": [
+          "Enemy_302030",
+          "Enemy_302030"
+        ]
+      },
+      {
+        "id": 302031,
+        "name": "enemy-302031",
+        "tried": [
+          "Enemy_302031",
+          "Enemy_302031"
+        ]
+      },
+      {
+        "id": 302032,
+        "name": "enemy-302032",
+        "tried": [
+          "Enemy_302032",
+          "Enemy_302032"
+        ]
+      },
+      {
+        "id": 302033,
+        "name": "enemy-302033",
+        "tried": [
+          "Enemy_302033",
+          "Enemy_302033"
+        ]
+      },
+      {
+        "id": 302034,
+        "name": "enemy-302034",
+        "tried": [
+          "Enemy_302034",
+          "Enemy_302034"
+        ]
+      },
+      {
+        "id": 302101,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_302101",
+          "Enemy_302101"
+        ]
+      },
+      {
+        "id": 302102,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_302102",
+          "Enemy_302102"
+        ]
+      },
+      {
+        "id": 302103,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_302103",
+          "Enemy_302103"
+        ]
+      },
+      {
+        "id": 302104,
+        "name": "enemy-302104",
+        "tried": [
+          "Enemy_302104",
+          "Enemy_302104"
+        ]
+      },
+      {
+        "id": 302105,
+        "name": "enemy-302105",
+        "tried": [
+          "Enemy_302105",
+          "Enemy_302105"
+        ]
+      },
+      {
+        "id": 302106,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_302106",
+          "Enemy_302106"
+        ]
+      },
+      {
+        "id": 302108,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_302108",
+          "Enemy_302108"
+        ]
+      },
+      {
+        "id": 302110,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_302110",
+          "Enemy_302110"
+        ]
+      },
+      {
+        "id": 302112,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_302112",
+          "Enemy_302112"
+        ]
+      },
+      {
+        "id": 302114,
+        "name": "Mushroom Frost Mage",
+        "tried": [
+          "Enemy_302114",
+          "Enemy_302114"
+        ]
+      },
+      {
+        "id": 302116,
+        "name": "enemy-302116",
+        "tried": [
+          "Enemy_302116",
+          "Enemy_302116"
+        ]
+      },
+      {
+        "id": 302117,
+        "name": "enemy-302117",
+        "tried": [
+          "Enemy_302117",
+          "Enemy_302117"
+        ]
+      },
+      {
+        "id": 302118,
+        "name": "enemy-302118",
+        "tried": [
+          "Enemy_302118",
+          "Enemy_302118"
+        ]
+      },
+      {
+        "id": 302120,
+        "name": "enemy-302120",
+        "tried": [
+          "Enemy_302120",
+          "Enemy_302120"
+        ]
+      },
+      {
+        "id": 302121,
+        "name": "enemy-302121",
+        "tried": [
+          "Enemy_302121",
+          "Enemy_302121"
+        ]
+      },
+      {
+        "id": 302122,
+        "name": "enemy-302122",
+        "tried": [
+          "Enemy_302122",
+          "Enemy_302122"
+        ]
+      },
+      {
+        "id": 302123,
+        "name": "enemy-302123",
+        "tried": [
+          "Enemy_302123",
+          "Enemy_302123"
+        ]
+      },
+      {
+        "id": 302201,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302201",
+          "Enemy_302201"
+        ]
+      },
+      {
+        "id": 302202,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302202",
+          "Enemy_302202"
+        ]
+      },
+      {
+        "id": 302203,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302203",
+          "Enemy_302203"
+        ]
+      },
+      {
+        "id": 302204,
+        "name": "enemy-302204",
+        "tried": [
+          "Enemy_302204",
+          "Enemy_302204"
+        ]
+      },
+      {
+        "id": 302205,
+        "name": "enemy-302205",
+        "tried": [
+          "Enemy_302205",
+          "Enemy_302205"
+        ]
+      },
+      {
+        "id": 302206,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302206",
+          "Enemy_302206"
+        ]
+      },
+      {
+        "id": 302207,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302207",
+          "Enemy_302207"
+        ]
+      },
+      {
+        "id": 302208,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302208",
+          "Enemy_302208"
+        ]
+      },
+      {
+        "id": 302209,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302209",
+          "Enemy_302209"
+        ]
+      },
+      {
+        "id": 302210,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302210",
+          "Enemy_302210"
+        ]
+      },
+      {
+        "id": 302211,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302211",
+          "Enemy_302211"
+        ]
+      },
+      {
+        "id": 302212,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302212",
+          "Enemy_302212"
+        ]
+      },
+      {
+        "id": 302213,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302213",
+          "Enemy_302213"
+        ]
+      },
+      {
+        "id": 302214,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302214",
+          "Enemy_302214"
+        ]
+      },
+      {
+        "id": 302215,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302215",
+          "Enemy_302215"
+        ]
+      },
+      {
+        "id": 302216,
+        "name": "enemy-302216",
+        "tried": [
+          "Enemy_302216",
+          "Enemy_302216"
+        ]
+      },
+      {
+        "id": 302217,
+        "name": "enemy-302217",
+        "tried": [
+          "Enemy_302217",
+          "Enemy_302217"
+        ]
+      },
+      {
+        "id": 302218,
+        "name": "enemy-302218",
+        "tried": [
+          "Enemy_302218",
+          "Enemy_302218"
+        ]
+      },
+      {
+        "id": 302219,
+        "name": "enemy-302219",
+        "tried": [
+          "Enemy_302219",
+          "Enemy_302219"
+        ]
+      },
+      {
+        "id": 302220,
+        "name": "enemy-302220",
+        "tried": [
+          "Enemy_302220",
+          "Enemy_302220"
+        ]
+      },
+      {
+        "id": 302221,
+        "name": "enemy-302221",
+        "tried": [
+          "Enemy_302221",
+          "Enemy_302221"
+        ]
+      },
+      {
+        "id": 302222,
+        "name": "enemy-302222",
+        "tried": [
+          "Enemy_302222",
+          "Enemy_302222"
+        ]
+      },
+      {
+        "id": 302223,
+        "name": "enemy-302223",
+        "tried": [
+          "Enemy_302223",
+          "Enemy_302223"
+        ]
+      },
+      {
+        "id": 302224,
+        "name": "Mushroom Fire Mage",
+        "tried": [
+          "Enemy_302224",
+          "Enemy_302224"
+        ]
+      },
+      {
+        "id": 302501,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_302501",
+          "Enemy_302501"
+        ]
+      },
+      {
+        "id": 302502,
+        "name": "enemy-302502",
+        "tried": [
+          "Enemy_302502",
+          "Enemy_302502"
+        ]
+      },
+      {
+        "id": 302503,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_302503",
+          "Enemy_302503"
+        ]
+      },
+      {
+        "id": 302504,
+        "name": "enemy-302504",
+        "tried": [
+          "Enemy_302504",
+          "Enemy_302504"
+        ]
+      },
+      {
+        "id": 302505,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_302505",
+          "Enemy_302505"
+        ]
+      },
+      {
+        "id": 302506,
+        "name": "enemy-302506",
+        "tried": [
+          "Enemy_302506",
+          "Enemy_302506"
+        ]
+      },
+      {
+        "id": 302507,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_302507",
+          "Enemy_302507"
+        ]
+      },
+      {
+        "id": 302509,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_302509",
+          "Enemy_302509"
+        ]
+      },
+      {
+        "id": 302510,
+        "name": "enemy-302510",
+        "tried": [
+          "Enemy_302510",
+          "Enemy_302510"
+        ]
+      },
+      {
+        "id": 302511,
+        "name": "enemy-302511",
+        "tried": [
+          "Enemy_302511",
+          "Enemy_302511"
+        ]
+      },
+      {
+        "id": 302512,
+        "name": "enemy-302512",
+        "tried": [
+          "Enemy_302512",
+          "Enemy_302512"
+        ]
+      },
+      {
+        "id": 302513,
+        "name": "Plant Monster",
+        "tried": [
+          "Enemy_302513",
+          "Enemy_302513"
+        ]
+      },
+      {
+        "id": 302601,
+        "name": "Spider",
+        "tried": [
+          "Enemy_302601",
+          "Enemy_302601"
+        ]
+      },
+      {
+        "id": 302602,
+        "name": "Spider",
+        "tried": [
+          "Enemy_302602",
+          "Enemy_302602"
+        ]
+      },
+      {
+        "id": 302603,
+        "name": "enemy-302603",
+        "tried": [
+          "Enemy_302603",
+          "Enemy_302603"
+        ]
+      },
+      {
+        "id": 302604,
+        "name": "Spider",
+        "tried": [
+          "Enemy_302604",
+          "Enemy_302604"
+        ]
+      },
+      {
+        "id": 302605,
+        "name": "enemy-302605",
+        "tried": [
+          "Enemy_302605",
+          "Enemy_302605"
+        ]
+      },
+      {
+        "id": 302606,
+        "name": "Spider",
+        "tried": [
+          "Enemy_302606",
+          "Enemy_302606"
+        ]
+      },
+      {
+        "id": 302607,
+        "name": "enemy-302607",
+        "tried": [
+          "Enemy_302607",
+          "Enemy_302607"
+        ]
+      },
+      {
+        "id": 302608,
+        "name": "Spider",
+        "tried": [
+          "Enemy_302608",
+          "Enemy_302608"
+        ]
+      },
+      {
+        "id": 302609,
+        "name": "enemy-302609",
+        "tried": [
+          "Enemy_302609",
+          "Enemy_302609"
+        ]
+      },
+      {
+        "id": 302610,
+        "name": "Spider",
+        "tried": [
+          "Enemy_302610",
+          "Enemy_302610"
+        ]
+      },
+      {
+        "id": 302612,
+        "name": "Spider",
+        "tried": [
+          "Enemy_302612",
+          "Enemy_302612"
+        ]
+      },
+      {
+        "id": 302613,
+        "name": "enemy-302613",
+        "tried": [
+          "Enemy_302613",
+          "Enemy_302613"
+        ]
+      },
+      {
+        "id": 302614,
+        "name": "enemy-302614",
+        "tried": [
+          "Enemy_302614",
+          "Enemy_302614"
+        ]
+      },
+      {
+        "id": 302615,
+        "name": "enemy-302615",
+        "tried": [
+          "Enemy_302615",
+          "Enemy_302615"
+        ]
+      },
+      {
+        "id": 302616,
+        "name": "enemy-302616",
+        "tried": [
+          "Enemy_302616",
+          "Enemy_302616"
+        ]
+      },
+      {
+        "id": 302701,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302701",
+          "Enemy_302701"
+        ]
+      },
+      {
+        "id": 302702,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302702",
+          "Enemy_302702"
+        ]
+      },
+      {
+        "id": 302703,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302703",
+          "Enemy_302703"
+        ]
+      },
+      {
+        "id": 302704,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302704",
+          "Enemy_302704"
+        ]
+      },
+      {
+        "id": 302705,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302705",
+          "Enemy_302705"
+        ]
+      },
+      {
+        "id": 302706,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302706",
+          "Enemy_302706"
+        ]
+      },
+      {
+        "id": 302711,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302711",
+          "Enemy_302711"
+        ]
+      },
+      {
+        "id": 302714,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302714",
+          "Enemy_302714"
+        ]
+      },
+      {
+        "id": 302715,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302715",
+          "Enemy_302715"
+        ]
+      },
+      {
+        "id": 302718,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302718",
+          "Enemy_302718"
+        ]
+      },
+      {
+        "id": 302719,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302719",
+          "Enemy_302719"
+        ]
+      },
+      {
+        "id": 302720,
+        "name": "enemy-302720",
+        "tried": [
+          "Enemy_302720",
+          "Enemy_302720"
+        ]
+      },
+      {
+        "id": 302721,
+        "name": "enemy-302721",
+        "tried": [
+          "Enemy_302721",
+          "Enemy_302721"
+        ]
+      },
+      {
+        "id": 302722,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302722",
+          "Enemy_302722"
+        ]
+      },
+      {
+        "id": 302723,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302723",
+          "Enemy_302723"
+        ]
+      },
+      {
+        "id": 302726,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302726",
+          "Enemy_302726"
+        ]
+      },
+      {
+        "id": 302727,
+        "name": "Slime",
+        "tried": [
+          "Enemy_302727",
+          "Enemy_302727"
+        ]
+      },
+      {
+        "id": 302901,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_302901",
+          "Enemy_302901"
+        ]
+      },
+      {
+        "id": 302902,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_302902",
+          "Enemy_302902"
+        ]
+      },
+      {
+        "id": 302903,
+        "name": "enemy-302903",
+        "tried": [
+          "Enemy_302903",
+          "Enemy_302903"
+        ]
+      },
+      {
+        "id": 302904,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_302904",
+          "Enemy_302904"
+        ]
+      },
+      {
+        "id": 302906,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_302906",
+          "Enemy_302906"
+        ]
+      },
+      {
+        "id": 302908,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_302908",
+          "Enemy_302908"
+        ]
+      },
+      {
+        "id": 302910,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_302910",
+          "Enemy_302910"
+        ]
+      },
+      {
+        "id": 302912,
+        "name": "Lizard",
+        "tried": [
+          "Enemy_302912",
+          "Enemy_302912"
+        ]
+      },
+      {
+        "id": 302913,
+        "name": "enemy-302913",
+        "tried": [
+          "Enemy_302913",
+          "Enemy_302913"
+        ]
+      },
+      {
+        "id": 302914,
+        "name": "enemy-302914",
+        "tried": [
+          "Enemy_302914",
+          "Enemy_302914"
+        ]
+      },
+      {
+        "id": 302915,
+        "name": "enemy-302915",
+        "tried": [
+          "Enemy_302915",
+          "Enemy_302915"
+        ]
+      },
+      {
+        "id": 302916,
+        "name": "enemy-302916",
+        "tried": [
+          "Enemy_302916",
+          "Enemy_302916"
+        ]
+      },
+      {
+        "id": 302917,
+        "name": "enemy-302917",
+        "tried": [
+          "Enemy_302917",
+          "Enemy_302917"
+        ]
+      },
+      {
+        "id": 302918,
+        "name": "enemy-302918",
+        "tried": [
+          "Enemy_302918",
+          "Enemy_302918"
+        ]
+      },
+      {
+        "id": 302919,
+        "name": "enemy-302919",
+        "tried": [
+          "Enemy_302919",
+          "Enemy_302919"
+        ]
+      },
+      {
+        "id": 302920,
+        "name": "enemy-302920",
+        "tried": [
+          "Enemy_302920",
+          "Enemy_302920"
+        ]
+      },
+      {
+        "id": 303201,
+        "name": "Hydra",
+        "tried": [
+          "Enemy_303201",
+          "Enemy_303201"
+        ]
+      },
+      {
+        "id": 303301,
+        "name": "Snake",
+        "tried": [
+          "Enemy_303301",
+          "Enemy_303301"
+        ]
+      },
+      {
+        "id": 303302,
+        "name": "Snake",
+        "tried": [
+          "Enemy_303302",
+          "Enemy_303302"
+        ]
+      },
+      {
+        "id": 303303,
+        "name": "Snake",
+        "tried": [
+          "Enemy_303303",
+          "Enemy_303303"
+        ]
+      },
+      {
+        "id": 303304,
+        "name": "Snake",
+        "tried": [
+          "Enemy_303304",
+          "Enemy_303304"
+        ]
+      },
+      {
+        "id": 303305,
+        "name": "Snake",
+        "tried": [
+          "Enemy_303305",
+          "Enemy_303305"
+        ]
+      },
+      {
+        "id": 303306,
+        "name": "Snake",
+        "tried": [
+          "Enemy_303306",
+          "Enemy_303306"
+        ]
+      },
+      {
+        "id": 303307,
+        "name": "Snake",
+        "tried": [
+          "Enemy_303307",
+          "Enemy_303307"
+        ]
+      },
+      {
+        "id": 303308,
+        "name": "enemy-303308",
+        "tried": [
+          "Enemy_303308",
+          "Enemy_303308"
+        ]
+      },
+      {
+        "id": 303309,
+        "name": "enemy-303309",
+        "tried": [
+          "Enemy_303309",
+          "Enemy_303309"
+        ]
+      },
+      {
+        "id": 303310,
+        "name": "enemy-303310",
+        "tried": [
+          "Enemy_303310",
+          "Enemy_303310"
+        ]
+      },
+      {
+        "id": 303311,
+        "name": "enemy-303311",
+        "tried": [
+          "Enemy_303311",
+          "Enemy_303311"
+        ]
+      },
+      {
+        "id": 303312,
+        "name": "enemy-303312",
+        "tried": [
+          "Enemy_303312",
+          "Enemy_303312"
+        ]
+      },
+      {
+        "id": 501801,
+        "name": "enemy-501801",
+        "tried": [
+          "Enemy_501801",
+          "Enemy_501801"
+        ]
+      },
+      {
+        "id": 501802,
+        "name": "enemy-501802",
+        "tried": [
+          "Enemy_501802",
+          "Enemy_501802"
+        ]
+      },
+      {
+        "id": 501803,
+        "name": "enemy-501803",
+        "tried": [
+          "Enemy_501803",
+          "Enemy_501803"
+        ]
+      },
+      {
+        "id": 501804,
+        "name": "enemy-501804",
+        "tried": [
+          "Enemy_501804",
+          "Enemy_501804"
+        ]
+      },
+      {
+        "id": 501805,
+        "name": "enemy-501805",
+        "tried": [
+          "Enemy_501805",
+          "Enemy_501805"
+        ]
+      },
+      {
+        "id": 501806,
+        "name": "enemy-501806",
+        "tried": [
+          "Enemy_501806",
+          "Enemy_501806"
+        ]
+      },
+      {
+        "id": 501807,
+        "name": "enemy-501807",
+        "tried": [
+          "Enemy_501807",
+          "Enemy_501807"
+        ]
+      },
+      {
+        "id": 501808,
+        "name": "enemy-501808",
+        "tried": [
+          "Enemy_501808",
+          "Enemy_501808"
+        ]
+      },
+      {
+        "id": 501809,
+        "name": "enemy-501809",
+        "tried": [
+          "Enemy_501809",
+          "Enemy_501809"
+        ]
+      },
+      {
+        "id": 501901,
+        "name": "enemy-501901",
+        "tried": [
+          "Enemy_501901",
+          "Enemy_501901"
+        ]
+      },
+      {
+        "id": 501902,
+        "name": "enemy-501902",
+        "tried": [
+          "Enemy_501902",
+          "Enemy_501902"
+        ]
+      },
+      {
+        "id": 501903,
+        "name": "enemy-501903",
+        "tried": [
+          "Enemy_501903",
+          "Enemy_501903"
+        ]
+      },
+      {
+        "id": 501904,
+        "name": "enemy-501904",
+        "tried": [
+          "Enemy_501904",
+          "Enemy_501904"
+        ]
+      },
+      {
+        "id": 501905,
+        "name": "enemy-501905",
+        "tried": [
+          "Enemy_501905",
+          "Enemy_501905"
+        ]
+      },
+      {
+        "id": 501906,
+        "name": "enemy-501906",
+        "tried": [
+          "Enemy_501906",
+          "Enemy_501906"
+        ]
+      },
+      {
+        "id": 502001,
+        "name": "enemy-502001",
+        "tried": [
+          "Enemy_502001",
+          "Enemy_502001"
+        ]
+      },
+      {
+        "id": 502002,
+        "name": "enemy-502002",
+        "tried": [
+          "Enemy_502002",
+          "Enemy_502002"
+        ]
+      },
+      {
+        "id": 502003,
+        "name": "enemy-502003",
+        "tried": [
+          "Enemy_502003",
+          "Enemy_502003"
+        ]
+      },
+      {
+        "id": 502004,
+        "name": "enemy-502004",
+        "tried": [
+          "Enemy_502004",
+          "Enemy_502004"
+        ]
+      },
+      {
+        "id": 502005,
+        "name": "enemy-502005",
+        "tried": [
+          "Enemy_502005",
+          "Enemy_502005"
+        ]
+      },
+      {
+        "id": 502006,
+        "name": "enemy-502006",
+        "tried": [
+          "Enemy_502006",
+          "Enemy_502006"
+        ]
+      },
+      {
+        "id": 503201,
+        "name": "enemy-503201",
+        "tried": [
+          "Enemy_503201",
+          "Enemy_503201"
+        ]
+      },
+      {
+        "id": 503202,
+        "name": "enemy-503202",
+        "tried": [
+          "Enemy_503202",
+          "Enemy_503202"
+        ]
+      },
+      {
+        "id": 503203,
+        "name": "enemy-503203",
+        "tried": [
+          "Enemy_503203",
+          "Enemy_503203"
+        ]
+      }
+    ]
+  }
+}

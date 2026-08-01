@@ -1,0 +1,221 @@
+[
+  {
+    "slug": "irini-starter",
+    "title": "Irini Starter Comp",
+    "overview": "A forgiving first-clear board: Irini stacks attack speed, Nyx refreshes Rush, Reyna holds the front while you learn shop timing.",
+    "goal": "Pick this when you want a simple tempo board for early Demo clears — one scaling carry, one Rush partner, one durable Warrior.",
+    "heroes": ["irini", "nyx", "reyna"],
+    "flexHeroes": ["karsu", "logan", "tilly"],
+    "relics": [
+      "duelist-s-precision-banner-564",
+      "warrior-s-endurance-banner-504",
+      "vanguard-s-endurance-banner-534"
+    ],
+    "items": ["duelist-s-foil-605", "nimble-boots-627", "eye-of-haste-628"],
+    "keywords": ["rush", "duelist", "attackspeed"],
+    "playstyle": "Irini is the clock. Protect her long enough for attack-speed stacking to matter; use Nyx to keep Rush windows alive and Reyna to stop the board collapsing on contact.",
+    "positioning": "Reyna front-center. Irini mid/back where she can auto safely. Nyx beside or slightly ahead of Irini so Rush partners share windows without eating the opening dive alone.",
+    "gameplan": [
+      "Open: lock Irini + any real frontliner (Reyna preferred). Do not greed a third Duelist before the front holds.",
+      "First spike: Rank B Irini on the path that leans into attack speed / Stall payoffs, then Rank B Nyx if Rush uptime is the bottleneck.",
+      "Shops: take Duelist or Rush relics that fire every fight. Skip off-theme Epics you cannot trigger.",
+      "Finish: dump leftover Shards into Irini items (attack speed / Rush duration) before the challenge fight."
+    ],
+    "tips": [
+      "If Irini dies first, the build is a positioning problem — not a missing legendary.",
+      "Karsu flexes in when you need Frost application; Logan flexes when you need a harder Warrior wall.",
+      "Economy relics still beat combat banners until your Rush chain actually happens every fight."
+    ],
+    "strength": [
+      "Easy to understand: one carry, one enabler, one tank",
+      "Scales from common Rush / attack-speed pieces",
+      "Flex slots stay useful even if the perfect third hero never shows"
+    ],
+    "weakness": [
+      "Irini needs fights to stack — early burst can end her before payoff",
+      "Falls behind if you never find Rush partners or Duelist tags",
+      "Low team heal; long attrition fights need item answers"
+    ],
+    "patch": "Demo 0.5.1",
+    "featured": true,
+    "updatedAt": "2026-07-29"
+  },
+  {
+    "slug": "rush-duelists",
+    "title": "Rush Duelists",
+    "overview": "Rip converts Rush into Max HP pressure while Nyx and Irini turn every Rush window into attack-speed snowball.",
+    "goal": "Commit when you already have Rip (or another Rush-friendly Vanguard) plus at least one Duelist, and the shop keeps offering Rush duration / Endurance banners.",
+    "heroes": ["rip", "nyx", "irini"],
+    "flexHeroes": ["karsu", "ming", "tilly"],
+    "relics": [
+      "vanguard-s-endurance-banner-534",
+      "duelist-s-precision-banner-564",
+      "warrior-s-endurance-banner-504"
+    ],
+    "items": [
+      "vanguard-s-bracelet-603",
+      "nimble-boots-627",
+      "eye-of-haste-628",
+      "duelist-s-foil-605"
+    ],
+    "keywords": ["rush", "duelist", "vanguard", "attackspeed"],
+    "playstyle": "You win by chaining Rush triggers, not by one giant nuke. Rip soaks and scales; Irini / Nyx print speed during those windows. If Rush rarely fires, pivot off this engine.",
+    "positioning": "Rip front. Nyx secondary front or pocket so she can refresh without dying first. Irini backline. Leave a gap if enemies splash the clump.",
+    "gameplan": [
+      "Stabilize Rip early — a dead Vanguard means no Rush HP engine.",
+      "Add Nyx or Irini second; the third slot can wait for Karsu (Frost) or Ming (Burn aura) if the seed leans that way.",
+      "Prioritize Rush duration and Vanguard/Duelist banners over random damage relics.",
+      "Before bosses: make sure at least two heroes benefit from the same Rush window."
+    ],
+    "tips": [
+      "Count Rush triggers in a fight. If you see zero or one, fix relics / specs before buying more damage.",
+      "Ming is the flex when you want Burn + Rush Vanguard pressure instead of a third Duelist.",
+      "Do not fill the board with four Duelists and no wall — Rush comps still need someone to stand up."
+    ],
+    "strength": [
+      "Multiple scaling axes (HP on Rip, speed on Duelists)",
+      "Strong mid-run once Rush is online every combat",
+      "Clear keyword identity — easy to evaluate shop offers"
+    ],
+    "weakness": [
+      "Collapses if Rush is interrupted or never offered",
+      "Setup-heavy: needs the right banners before it feels strong",
+      "Vulnerable to early dive on Irini / Nyx"
+    ],
+    "patch": "Demo 0.5.1",
+    "featured": true,
+    "updatedAt": "2026-07-29"
+  },
+  {
+    "slug": "warrior-shield-core",
+    "title": "Warrior Shield Core",
+    "overview": "Reyna and Logan build a Warrior front that lives through contact; Kai turns shields and survival into finishing damage.",
+    "goal": "Take this when Warrior banners / shield items keep appearing, or when fights last long enough for permanent growth and shield conversion to matter.",
+    "heroes": ["reyna", "logan", "kai"],
+    "flexHeroes": ["rowan", "skorn", "tilly"],
+    "relics": [
+      "warrior-s-endurance-banner-504",
+      "warrior-s-mending-banner-509"
+    ],
+    "items": [
+      "runic-buckler-620",
+      "guardian-s-lantern-632",
+      "amulet-of-shields-721",
+      "shattering-charm-733"
+    ],
+    "keywords": ["warrior", "shield", "crit"],
+    "playstyle": "Play for survival first. Win the opening exchange with shields and Defense, then let Logan / Kai convert leftover durability into damage. Do not greed glass cannons into the front three slots.",
+    "positioning": "Logan or Reyna on the dive hex. Kai can sit secondary front or pocket if he needs to live into mid-fight. Keep any flex Mage/Mystic off the first hit.",
+    "gameplan": [
+      "Early: two Warriors before fancy carries. Rowan’s Tank/Vanguard flex is fine if Reyna is missing.",
+      "Rank B the Warrior who is already winning trades — usually Logan for growth or Reyna for tempo shields.",
+      "Shop filter: Warrior + Shield text first. Crit pieces are secondary once the wall holds.",
+      "Late: one big item on the finisher (Kai / Logan), not three mediocre spreads."
+    ],
+    "tips": [
+      "If you never apply shields, Shattering Charm and Amulet of Shields are dead weight — fix applicators first.",
+      "Skorn flexes when you need retaliation Tank instead of a third Warrior.",
+      "This board is slow: buy economy help so you can afford Rank spikes before challenge nodes."
+    ],
+    "strength": [
+      "Very sturdy against early burst",
+      "Shield / Warrior shops are easy to evaluate",
+      "Scales well into long fights and challenge modes"
+    ],
+    "weakness": [
+      "Slow clear speed without a dedicated damage spike",
+      "Feels weak if shield relics never show",
+      "Can brick if you draft three walls and no finisher"
+    ],
+    "patch": "Demo 0.5.1",
+    "featured": false,
+    "updatedAt": "2026-07-29"
+  },
+  {
+    "slug": "mystic-sustain",
+    "title": "Mystic Sustain Field",
+    "overview": "Fiona and Pollen layer shields / sustain; Grace is the panic button that recovers lost fights after Stall or wipe threats.",
+    "goal": "Choose when you keep seeing Mana Regen, Shield, or Mystic banners — or when enemy packs punish short fights and you need attrition tools.",
+    "heroes": ["fiona", "pollen", "grace"],
+    "flexHeroes": ["gustav", "sal", "niklas"],
+    "relics": ["mystic-s-barrier-banner-585"],
+    "items": [
+      "mystic-s-orb-607",
+      "emerald-charm-640",
+      "amulet-of-shields-721",
+      "battlemage-robes-636"
+    ],
+    "keywords": ["mystic", "shield", "stall", "manaregen"],
+    "playstyle": "You are not racing for first blood. Cast often, shield the lowest HP hero, and win after the enemy spike fails. Mana Regen is both uptime and coverage — starve it and the whole plan dies.",
+    "positioning": "All three prefer back or second row. Put the tankiest flex (or a borrowed frontliner) ahead of them. Never leave Grace alone on a dive tile.",
+    "gameplan": [
+      "Secure Fiona or Pollen early for cast loops; Grace can be the third if you are dying to burst / wipes.",
+      "Rank B toward economy (Fiona paths) or team shields — pick the path that fixes your current losses.",
+      "Items: Mana Regen and cast payoffs before raw Magic stacks.",
+      "Add one real frontliner via flex (Niklas / Gustav pocket tanks) once the support engine works."
+    ],
+    "tips": [
+      "This is a support core, not a full clear squad — borrow damage from items, events, or a fourth recruit.",
+      "If casts are rare, fix Mana Regen / Max Mana before buying more shield amulets.",
+      "Sal flexes when Frost control helps; Gustav when you want a shield-zone Mystic instead of Grace."
+    ],
+    "strength": [
+      "Excellent at stabilizing messy mid-run boards",
+      "Turns long fights into wins",
+      "Grace covers resurrection / recovery mistakes"
+    ],
+    "weakness": [
+      "Low native burst — bosses can race you",
+      "Needs frontline help from flex picks or items",
+      "Punished hard if Mystics get opened on"
+    ],
+    "patch": "Demo 0.5.1",
+    "featured": false,
+    "updatedAt": "2026-07-29"
+  },
+  {
+    "slug": "assassin-picks",
+    "title": "Assassin Backline",
+    "overview": "Hoyoung and Yuuna delete priority targets; Zuri bridges frontline durability with Crit-scaling hybrid pressure.",
+    "goal": "Force this when Crit / Assassin relics appear early and you can keep at least one diver or front piece alive long enough for backline casts and autos to land.",
+    "heroes": ["hoyoung", "yuuna", "zuri"],
+    "flexHeroes": ["dragomir", "reyna", "skorn"],
+    "relics": [
+      "assassin-s-patience-banner-551",
+      "assassin-s-endurance-banner-549"
+    ],
+    "items": [
+      "assassin-s-hood-604",
+      "executioner-s-axe-638",
+      "toxic-dart-618",
+      "rogue-s-cowl-710"
+    ],
+    "keywords": ["assassin", "crit", "stealth", "poison"],
+    "playstyle": "Win the opening pick-off. Focus fire the threat that would kill your backline, then clean up. If Zuri (or a flex tank) falls instantly, the Assassins never get their window — fix the wall before buying more Crit.",
+    "positioning": "Zuri or flex tank on first contact. Hoyoung max range back. Yuuna slightly offset so splash does not delete both carries. Use Stealth / Rush items to create a second engage angle.",
+    "gameplan": [
+      "Draft one Assassin carry + one body. Do not start three squishies.",
+      "Rank B the Assassin who is already getting kills; Yuuna likes low-HP finishers, Hoyoung likes safe range.",
+      "Shop: Crit and Assassin tags first. Poison is optional payoff, not the identity.",
+      "Boss prep: one defensive item on Zuri / flex tank, damage stacked on a single carry."
+    ],
+    "tips": [
+      "Dragomir flexes for execute / economy Assassin lines; Reyna / Skorn flex when you need a real wall.",
+      "Missing HP Crit items only work if someone is actually chunked — do not expect them to carry even fights alone.",
+      "If you lose because carries die first, this is not a DPS problem."
+    ],
+    "strength": [
+      "High burst and priority-target removal",
+      "Strong when Crit shops are generous",
+      "Zuri gives a hybrid front so you are not pure glass"
+    ],
+    "weakness": [
+      "Fragile to AoE and dive",
+      "Needs a living frontline every fight",
+      "Inconsistent if Crit never comes online"
+    ],
+    "patch": "Demo 0.5.1",
+    "featured": false,
+    "updatedAt": "2026-07-29"
+  }
+]

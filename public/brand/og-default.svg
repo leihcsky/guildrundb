@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#134E4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <rect x="80" y="220" width="96" height="96" rx="20" fill="#2DD4BF"/>
+  <path d="M128 252h-24v48h24c13.2 0 24-10.8 24-24s-10.8-24-24-24Z" fill="#042F2E"/>
+  <text x="200" y="290" fill="#5EEAD4" font-family="Segoe UI, system-ui, sans-serif" font-size="72" font-weight="700">Guildrun Hub</text>
+  <text x="200" y="360" fill="#CBD5E1" font-family="Segoe UI, system-ui, sans-serif" font-size="32">Heroes · Relics · Items · Builds · Guides</text>
+</svg>

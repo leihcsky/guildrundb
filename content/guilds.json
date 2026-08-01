@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "kind": "guild",
+    "keys": {
+      "Name": "Guilds.Guild_1.Name"
+    },
+    "nameKey": "Guilds.Guild_1.Name",
+    "images": {
+      "banner": "/media/guilds/1.png",
+      "icon": "/media/guilds/1.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Sporty",
+      "runtimeTitle": "Sporty",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2,
+    "kind": "guild",
+    "keys": {
+      "Name": "Guilds.Guild_2.Name"
+    },
+    "nameKey": "Guilds.Guild_2.Name",
+    "images": {
+      "banner": "/media/guilds/2.png",
+      "icon": "/media/guilds/2.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Street",
+      "runtimeTitle": "Street",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 3,
+    "kind": "guild",
+    "keys": {
+      "Name": "Guilds.Guild_3.Name"
+    },
+    "nameKey": "Guilds.Guild_3.Name",
+    "images": {
+      "banner": "/media/guilds/3.png",
+      "icon": "/media/guilds/3.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Luxury",
+      "runtimeTitle": "Luxury",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 4,
+    "kind": "guild",
+    "keys": {
+      "Name": "Guilds.Guild_4.Name"
+    },
+    "nameKey": "Guilds.Guild_4.Name",
+    "images": {
+      "banner": "/media/guilds/4.png",
+      "icon": "/media/guilds/4.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Punk",
+      "runtimeTitle": "Punk",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 5,
+    "kind": "guild",
+    "keys": {
+      "Name": "Guilds.Guild_5.Name"
+    },
+    "nameKey": "Guilds.Guild_5.Name",
+    "images": {
+      "banner": "/media/guilds/5.png",
+      "icon": "/media/guilds/5.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Bohemian",
+      "runtimeTitle": "Bohemian",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 6,
+    "kind": "guild",
+    "keys": {
+      "Name": "Guilds.Guild_6.Name"
+    },
+    "nameKey": "Guilds.Guild_6.Name",
+    "images": {
+      "banner": "/media/guilds/6.png",
+      "icon": "/media/guilds/6.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Corporate",
+      "runtimeTitle": "Corporate",
+      "exportedSource": "GuildrunExport"
+    }
+  }
+]

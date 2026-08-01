@@ -1,0 +1,572 @@
+[
+  {
+    "id": 1,
+    "kind": "statMod",
+    "name": "Small Health",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Health"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 2,
+    "kind": "statMod",
+    "name": "Mid Health",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Health"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 3,
+    "kind": "statMod",
+    "name": "Large Health",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Health"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 4,
+    "kind": "statMod",
+    "name": "Small MR",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small MR"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 5,
+    "kind": "statMod",
+    "name": "Mid MR",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid MR"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 6,
+    "kind": "statMod",
+    "name": "Large MR",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large MR"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 7,
+    "kind": "statMod",
+    "name": "Small Attack",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Attack"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 8,
+    "kind": "statMod",
+    "name": "Mid Attack",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Attack"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 9,
+    "kind": "statMod",
+    "name": "Large Attack",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Attack"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 10,
+    "kind": "statMod",
+    "name": "Small Magic",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Magic"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 11,
+    "kind": "statMod",
+    "name": "Mid Magic",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Magic"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 12,
+    "kind": "statMod",
+    "name": "Large Magic",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Magic"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 13,
+    "kind": "statMod",
+    "name": "Small Defense",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Defense"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 14,
+    "kind": "statMod",
+    "name": "Mid Defense",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Defense"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 15,
+    "kind": "statMod",
+    "name": "Large Defense",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Defense"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 16,
+    "kind": "statMod",
+    "name": "Small AS",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small AS"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 17,
+    "kind": "statMod",
+    "name": "Mid AS",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid AS"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 18,
+    "kind": "statMod",
+    "name": "Large AS",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large AS"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 19,
+    "kind": "statMod",
+    "name": "Small Crit",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Crit"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 20,
+    "kind": "statMod",
+    "name": "Mid Crit",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Crit"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 21,
+    "kind": "statMod",
+    "name": "Large Crit",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Crit"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 50,
+    "kind": "statMod",
+    "name": "Small Health Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Health Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 51,
+    "kind": "statMod",
+    "name": "Mid Health Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Health Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 52,
+    "kind": "statMod",
+    "name": "Large Health Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Health Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 53,
+    "kind": "statMod",
+    "name": "Small MR Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small MR Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 54,
+    "kind": "statMod",
+    "name": "Mid MR Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid MR Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 55,
+    "kind": "statMod",
+    "name": "Large MR Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large MR Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 56,
+    "kind": "statMod",
+    "name": "Small Attack Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Attack Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 57,
+    "kind": "statMod",
+    "name": "Mid Attack Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Attack Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 58,
+    "kind": "statMod",
+    "name": "Large Attack Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Attack Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 59,
+    "kind": "statMod",
+    "name": "Small Magic Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Magic Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 60,
+    "kind": "statMod",
+    "name": "Mid Magic Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Magic Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 61,
+    "kind": "statMod",
+    "name": "Large Magic  Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Magic  Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 62,
+    "kind": "statMod",
+    "name": "Small Defense Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Defense Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 63,
+    "kind": "statMod",
+    "name": "Mid Defense Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Defense Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 64,
+    "kind": "statMod",
+    "name": "Large Defense Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Defense Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 65,
+    "kind": "statMod",
+    "name": "Small AS Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small AS Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 66,
+    "kind": "statMod",
+    "name": "Mid AS Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid AS Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 67,
+    "kind": "statMod",
+    "name": "Large AS Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large AS Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 68,
+    "kind": "statMod",
+    "name": "Small Crit Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Small Crit Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 69,
+    "kind": "statMod",
+    "name": "Mid Crit Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mid Crit Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 70,
+    "kind": "statMod",
+    "name": "Large Crit Loss",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Large Crit Loss"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 100,
+    "kind": "statMod",
+    "name": "Some Health",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Some Health"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 101,
+    "kind": "statMod",
+    "name": "Some Attack",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Some Attack"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 102,
+    "kind": "statMod",
+    "name": "Some Magic",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Some Magic"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 103,
+    "kind": "statMod",
+    "name": "Some Attack Speed",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Some Attack Speed"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 104,
+    "kind": "statMod",
+    "name": "Some Crit",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Some Crit"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 105,
+    "kind": "statMod",
+    "name": "Some Defense",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Some Defense"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 106,
+    "kind": "statMod",
+    "name": "Endless HP",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Endless HP"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 107,
+    "kind": "statMod",
+    "name": "Endless MR",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Endless MR"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 108,
+    "kind": "statMod",
+    "name": "Endless Attack",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Endless Attack"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 109,
+    "kind": "statMod",
+    "name": "Endless Magic",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Endless Magic"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 110,
+    "kind": "statMod",
+    "name": "Endless Defense",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Endless Defense"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 111,
+    "kind": "statMod",
+    "name": "Endless AS",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Endless AS"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 112,
+    "kind": "statMod",
+    "name": "Endless Crit",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Endless Crit"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 113,
+    "kind": "statMod",
+    "name": "Endless Vamp",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Endless Vamp"
+    },
+    "fromRuntimeOnly": true
+  },
+  {
+    "id": 114,
+    "kind": "statMod",
+    "name": "Endless HP/S",
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Endless HP/S"
+    },
+    "fromRuntimeOnly": true
+  }
+]

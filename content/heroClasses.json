@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "kind": "heroClass",
+    "keys": {
+      "Name": "HeroClasses.HeroClass_1.Name",
+      "Description": "HeroClasses.HeroClass_1.Description"
+    },
+    "nameKey": "HeroClasses.HeroClass_1.Name",
+    "name": "Warrior",
+    "nameZh": "战士",
+    "descriptionKey": "HeroClasses.HeroClass_1.Description",
+    "description": "[Warriors]<warrior> use [Attack]<attack> to deal damage with auto attacks and active abilities.\n\n[Warrior Mechanics]<warrior>: [Crit]<crit>, [Rush]<rush>, [Shields]<shield>.",
+    "descriptionZh": "[战士]<warrior>依靠[攻击力]<attack>，通过普通攻击与主动技能造成伤害。\n\n[战士机制：]<warrior>[暴击]<crit>、[突击]<rush>、[护盾]<shield>。",
+    "images": {
+      "icon": "/media/heroClasses/1.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Warrior",
+      "runtimeTitle": "Warrior",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 2,
+    "kind": "heroClass",
+    "keys": {
+      "Name": "HeroClasses.HeroClass_2.Name",
+      "Description": "HeroClasses.HeroClass_2.Description"
+    },
+    "nameKey": "HeroClasses.HeroClass_2.Name",
+    "name": "Tank",
+    "nameZh": "坦克",
+    "descriptionKey": "HeroClasses.HeroClass_2.Description",
+    "description": "[Tanks]<tank> use [Defense]<defense> to protect their allies and disrupt enemies.\n\n[Tank Mechanics:]<tank> [Stall]<stall>, [Poison]<poison>, [Frost]<frost>.",
+    "descriptionZh": "[坦克]<tank>依靠[防御力]<defense>来保护盟友并干扰敌人。\n\n[坦克机制：]<tank>[坚守]<stall>、[中毒]<poison>、[冰冻]<frost>。",
+    "images": {
+      "icon": "/media/heroClasses/2.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Tank",
+      "runtimeTitle": "Tank",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 3,
+    "kind": "heroClass",
+    "keys": {
+      "Name": "HeroClasses.HeroClass_3.Name",
+      "Description": "HeroClasses.HeroClass_3.Description"
+    },
+    "nameKey": "HeroClasses.HeroClass_3.Name",
+    "name": "Vanguard",
+    "nameZh": "先锋",
+    "descriptionKey": "HeroClasses.HeroClass_3.Description",
+    "description": "[Vanguards]<vanguard> use [Max HP]<maxhp> to absorb and dish out damage.\n\n[Vanguard Mechanics:]<vanguard> [Rush]<rush>, [Shields]<shield>, [Burn]<burn>.",
+    "descriptionZh": "[先锋]<vanguard>依靠[最大生命值]<maxhp>来吸收并输出伤害。\n\n[先锋机制：]<vanguard>[突击]<rush>、[护盾]<shield>、[燃烧]<burn>。",
+    "images": {
+      "icon": "/media/heroClasses/3.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Vanguard",
+      "runtimeTitle": "Vanguard",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 4,
+    "kind": "heroClass",
+    "keys": {
+      "Name": "HeroClasses.HeroClass_4.Name",
+      "Description": "HeroClasses.HeroClass_4.Description"
+    },
+    "nameKey": "HeroClasses.HeroClass_4.Name",
+    "name": "Assassin",
+    "nameZh": "刺客",
+    "descriptionKey": "HeroClasses.HeroClass_4.Description",
+    "description": "[Assassins]<assassin> use [Crit]<crit> to deal bursts of damage with their auto attacks and active abilities.\n\n[Assassin Mechanics:]<assassin> [Crit]<crit>, [Shards]<shard>, [Poison]<poison>, [Rush]<rush>, [Stealth]<stealth>.",
+    "descriptionZh": "[刺客]<assassin>依靠[暴击]<crit>，通过普通攻击与主动技能造成爆发伤害。\n\n[刺客机制：]<assassin>[暴击]<crit>、[碎晶]<shard>、[中毒]<poison>、[突击]<rush>、[潜行]<stealth>。",
+    "images": {
+      "icon": "/media/heroClasses/4.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Assassin",
+      "runtimeTitle": "Assassin",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 5,
+    "kind": "heroClass",
+    "keys": {
+      "Name": "HeroClasses.HeroClass_5.Name",
+      "Description": "HeroClasses.HeroClass_5.Description"
+    },
+    "nameKey": "HeroClasses.HeroClass_5.Name",
+    "name": "Duelist",
+    "nameZh": "决斗者",
+    "descriptionKey": "HeroClasses.HeroClass_5.Description",
+    "description": "[Duelists]<duelist> use [Attack Speed]<attackspeed> to rapidly auto attack.\n\n[Duelist Mechanics:]<duelist> [Stall]<stall>, [Rush]<rush>, [Debuffs]<debuff>, [Crit]<crit>, [Shards]<shard>.",
+    "descriptionZh": "[决斗者]<duelist>依靠[攻击速度]<attackspeed>进行快速的普通攻击。\n\n[决斗者机制：]<duelist>[坚守]<stall>、[突击]<rush>、[减益效果]<debuff>、[暴击]<crit>、[碎晶]<shard>。",
+    "images": {
+      "icon": "/media/heroClasses/5.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Duelist",
+      "runtimeTitle": "Duelist",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 6,
+    "kind": "heroClass",
+    "keys": {
+      "Name": "HeroClasses.HeroClass_6.Name",
+      "Description": "HeroClasses.HeroClass_6.Description"
+    },
+    "nameKey": "HeroClasses.HeroClass_6.Name",
+    "name": "Mystic",
+    "nameZh": "秘术师",
+    "descriptionKey": "HeroClasses.HeroClass_6.Description",
+    "description": "[Mystics]<mystic> use [Mana Regen]<manaregen> to repeatedly cast their active ability, aiding allies and disrupting enemies.\n\n[Mystic Mechanics:]<mystic> [Shields]<shield>, [Shards]<shard>, [Debuffs]<debuff>, [Stall]<stall>.",
+    "descriptionZh": "[秘术师]<mystic>依靠[魔力回复]<manaregen>来反复施放主动技能，援助盟友并干扰敌人。\n\n[秘术师机制：]<mystic>[护盾]<shield>、[碎晶]<shard>、[减益效果]<debuff>、[坚守]<stall>。",
+    "images": {
+      "icon": "/media/heroClasses/6.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mystic",
+      "runtimeTitle": "Mystic",
+      "exportedSource": "GuildrunExport"
+    }
+  },
+  {
+    "id": 7,
+    "kind": "heroClass",
+    "keys": {
+      "Name": "HeroClasses.HeroClass_7.Name",
+      "Description": "HeroClasses.HeroClass_7.Description"
+    },
+    "nameKey": "HeroClasses.HeroClass_7.Name",
+    "name": "Mage",
+    "nameZh": "法师",
+    "descriptionKey": "HeroClasses.HeroClass_7.Description",
+    "description": "[Mages]<mage> use [Magic]<magic> to deal damage and disrupt enemies with their active abilities.\n\n[Mage Mechanics:]<mage> [Stall]<stall>, [Burn]<burn>, [Frost]<frost>.",
+    "descriptionZh": "[法师]<mage>依靠[法术强度]<magic>，通过主动技能造成伤害并干扰敌人。\n\n[法师机制：]<mage>[坚守]<stall>、[燃烧]<burn>、[冰冻]<frost>。",
+    "images": {
+      "icon": "/media/heroClasses/7.png"
+    },
+    "balancing": {
+      "disabledInGame": false,
+      "title": "Mage",
+      "runtimeTitle": "Mage",
+      "exportedSource": "GuildrunExport"
+    }
+  }
+]

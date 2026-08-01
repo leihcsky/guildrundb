@@ -1,0 +1,206 @@
+{
+  "collections": {
+    "relics": {
+      "count": 408,
+      "file": "relics.json"
+    },
+    "items": {
+      "count": 174,
+      "file": "items.json"
+    },
+    "passiveAbilities": {
+      "count": 88,
+      "file": "passiveAbilities.json"
+    },
+    "activeAbilities": {
+      "count": 50,
+      "file": "activeAbilities.json"
+    },
+    "enemies": {
+      "count": 644,
+      "file": "enemies.json"
+    },
+    "heroClasses": {
+      "count": 7,
+      "file": "heroClasses.json"
+    },
+    "rankModifiers": {
+      "count": 105,
+      "file": "rankModifiers.json"
+    },
+    "guilds": {
+      "count": 6,
+      "file": "guilds.json"
+    },
+    "heroSpecializations": {
+      "count": 75,
+      "file": "heroSpecializations.json"
+    },
+    "heroes": {
+      "count": 25,
+      "file": "heroes.json"
+    },
+    "statMods": {
+      "count": 57,
+      "file": "statMods.json"
+    }
+  },
+  "notes": [
+    "relics: 334 from dat:RelicSheetHolder.dat",
+    "items: 153 from dat:ItemSheetHolder.dat",
+    "passiveAbilities: 87 from dat:PassiveAbilitySheetHolder.dat",
+    "activeAbilities: 50 from dat:ActiveAbilitySheetHolder.dat",
+    "enemies: 349 from dat:EnemySheetHolder.dat",
+    "heroClasses: 7 from dat:HeroClassSheetHolder.dat",
+    "rankModifiers: 105 from dat:RankModifierSheetHolder.dat",
+    "guilds: 6 from dat:GuildSheetHolder.dat",
+    "heroSpecializations: 75 from dat:HeroSpecializationSheetHolder.dat",
+    "Text merged from Unity Localization (en + zh-Hans).",
+    "Effects/AbilityActions may be incomplete until SerializeReference dump is improved.",
+    "Effects/AbilityActions may be incomplete until SerializeReference dump is improved.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "Runtime balancing merged from GuildrunExport (2026-08-01T08:55Z).",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates."
+  ],
+  "media": {
+    "root": "/media",
+    "publicDir": "public/media",
+    "alignedBy": "align_sprites.py",
+    "aliases": "image_aliases.json",
+    "report": "_image_report.json"
+  },
+  "imageCoverage": {
+    "relics": {
+      "total": 408,
+      "withImages": 346
+    },
+    "items": {
+      "total": 174,
+      "withImages": 162
+    },
+    "passiveAbilities": {
+      "total": 88,
+      "withImages": 87
+    },
+    "activeAbilities": {
+      "total": 50,
+      "withImages": 25
+    },
+    "enemies": {
+      "total": 644,
+      "withImages": 0
+    },
+    "heroClasses": {
+      "total": 7,
+      "withImages": 7
+    },
+    "rankModifiers": {
+      "total": 105,
+      "withImages": 0
+    },
+    "guilds": {
+      "total": 6,
+      "withImages": 6
+    },
+    "heroSpecializations": {
+      "total": 75,
+      "withImages": 0
+    },
+    "heroes": {
+      "total": 25,
+      "withImages": 25
+    },
+    "statMods": {
+      "total": 57,
+      "withImages": 0
+    }
+  },
+  "runtimeMerge": {
+    "at": "2026-08-01T08:55Z",
+    "report": {
+      "heroes.json": {
+        "runtime": 25,
+        "matched": 25,
+        "updated": 25,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "enemies.json": {
+        "runtime": 644,
+        "matched": 644,
+        "updated": 644,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "activeAbilities.json": {
+        "runtime": 50,
+        "matched": 50,
+        "updated": 50,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "passiveAbilities.json": {
+        "runtime": 88,
+        "matched": 88,
+        "updated": 88,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "items.json": {
+        "runtime": 174,
+        "matched": 174,
+        "updated": 174,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "relics.json": {
+        "runtime": 408,
+        "matched": 408,
+        "updated": 408,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "rankModifiers.json": {
+        "runtime": 105,
+        "matched": 105,
+        "updated": 105,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "heroClasses.json": {
+        "runtime": 7,
+        "matched": 7,
+        "updated": 7,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "heroSpecializations.json": {
+        "runtime": 75,
+        "matched": 75,
+        "updated": 75,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "guilds.json": {
+        "runtime": 6,
+        "matched": 6,
+        "updated": 6,
+        "added": 0,
+        "skipped_no_id": 0
+      },
+      "statMods.json": {
+        "added": 57,
+        "runtime": 57
+      }
+    }
+  }
+}

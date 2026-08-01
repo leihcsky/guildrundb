@@ -1,0 +1,2059 @@
+[
+  {
+    "id": 1,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_1.Name"
+    },
+    "name": "Irini",
+    "nameZh": "伊瑞妮",
+    "slug": "irini",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Irini",
+      "Quote": "Lore.Hero.Quote.Irini",
+      "CurrentWork": "Lore.Hero.CurrentWork.Irini",
+      "Motivation": "Lore.Hero.Motivation.Irini"
+    },
+    "images": {
+      "portrait": "/media/heroes/1/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/1/cropped_A.png",
+        "A_Med": "/media/heroes/1/cropped_A_med.png",
+        "B": "/media/heroes/1/cropped_B.png",
+        "B_Med": "/media/heroes/1/cropped_B_med.png",
+        "C": "/media/heroes/1/cropped_C.png",
+        "C_Med": "/media/heroes/1/cropped_C_med.png",
+        "S": "/media/heroes/1/cropped_S.png",
+        "S_Med": "/media/heroes/1/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/1/halfbody_A.png",
+        "B": "/media/heroes/1/halfbody_B.png",
+        "C": "/media/heroes/1/halfbody_C.png",
+        "S": "/media/heroes/1/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/1/framebreak_A.png",
+        "B": "/media/heroes/1/framebreak_B.png",
+        "C": "/media/heroes/1/framebreak_C.png",
+        "S": "/media/heroes/1/framebreak_S.png"
+      },
+      "icon": "/media/heroes/1/icon.png"
+    },
+    "spriteStem": "Irini",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 650,
+      "maxMana": 75,
+      "startingMana": 10,
+      "manaRegen": 4,
+      "manaLockTime": 0.75,
+      "moveSpeed": 1.5,
+      "defense": 29,
+      "baseAttackDamage": 31,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 3,
+      "baseAttackSpeed": 0.5399932861328125,
+      "attackSpeed": 20,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Irini",
+      "exportedSource": "GuildrunExport"
+    },
+    "passiveAbilityId": 10101,
+    "class1Id": 5,
+    "guildId": 1,
+    "stats": {
+      "maxHealth": 650,
+      "maxMana": 75,
+      "startingMana": 10,
+      "manaRegen": 4,
+      "defense": 29,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 20,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 3,
+      "manaLockTime": 0.75,
+      "baseAttackSpeed": 0.5399932861328125,
+      "baseAttackDamage": 31
+    }
+  },
+  {
+    "id": 2,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_2.Name"
+    },
+    "name": "Hoyoung",
+    "nameZh": "浩英",
+    "slug": "hoyoung",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Hoyoung",
+      "Quote": "Lore.Hero.Quote.Hoyoung",
+      "CurrentWork": "Lore.Hero.CurrentWork.Hoyoung",
+      "Motivation": "Lore.Hero.Motivation.Hoyoung"
+    },
+    "images": {
+      "portrait": "/media/heroes/2/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/2/cropped_A.png",
+        "A_Med": "/media/heroes/2/cropped_A_med.png",
+        "B": "/media/heroes/2/cropped_B.png",
+        "B_Med": "/media/heroes/2/cropped_B_med.png",
+        "C": "/media/heroes/2/cropped_C.png",
+        "C_Med": "/media/heroes/2/cropped_C_med.png",
+        "S": "/media/heroes/2/cropped_S.png",
+        "S_Med": "/media/heroes/2/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/2/halfbody_A.png",
+        "B": "/media/heroes/2/halfbody_B.png",
+        "C": "/media/heroes/2/halfbody_C.png",
+        "S": "/media/heroes/2/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/2/framebreak_A.png",
+        "B": "/media/heroes/2/framebreak_B.png",
+        "C": "/media/heroes/2/framebreak_C.png",
+        "S": "/media/heroes/2/framebreak_S.png"
+      },
+      "icon": "/media/heroes/2/icon.png"
+    },
+    "spriteStem": "Hoyoung",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 675,
+      "maxMana": 80,
+      "startingMana": 45,
+      "manaRegen": 4,
+      "manaLockTime": 0.5,
+      "moveSpeed": 1.5,
+      "defense": 30,
+      "baseAttackDamage": 37,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 5,
+      "baseAttackSpeed": 0.470001220703125,
+      "attackSpeed": 0,
+      "crit": 50,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Hoyoung",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 2,
+    "class1Id": 4,
+    "guildId": 2,
+    "stats": {
+      "maxHealth": 675,
+      "maxMana": 80,
+      "startingMana": 45,
+      "manaRegen": 4,
+      "defense": 30,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 50,
+      "moveSpeed": 1.5,
+      "attackRange": 5,
+      "manaLockTime": 0.5,
+      "baseAttackSpeed": 0.470001220703125,
+      "baseAttackDamage": 37
+    }
+  },
+  {
+    "id": 3,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_3.Name"
+    },
+    "name": "Reyna",
+    "nameZh": "蕾娜",
+    "slug": "reyna",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Reyna",
+      "Quote": "Lore.Hero.Quote.Reyna",
+      "CurrentWork": "Lore.Hero.CurrentWork.Reyna",
+      "Motivation": "Lore.Hero.Motivation.Reyna"
+    },
+    "images": {
+      "portrait": "/media/heroes/3/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/3/cropped_A.png",
+        "A_Med": "/media/heroes/3/cropped_A_med.png",
+        "B": "/media/heroes/3/cropped_B.png",
+        "B_Med": "/media/heroes/3/cropped_B_med.png",
+        "C": "/media/heroes/3/cropped_C.png",
+        "C_Med": "/media/heroes/3/cropped_C_med.png",
+        "S": "/media/heroes/3/cropped_S.png",
+        "S_Med": "/media/heroes/3/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/3/halfbody_A.png",
+        "B": "/media/heroes/3/halfbody_B.png",
+        "C": "/media/heroes/3/halfbody_C.png",
+        "S": "/media/heroes/3/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/3/framebreak_A.png",
+        "B": "/media/heroes/3/framebreak_B.png",
+        "C": "/media/heroes/3/framebreak_C.png",
+        "S": "/media/heroes/3/framebreak_S.png"
+      },
+      "icon": "/media/heroes/3/icon.png"
+    },
+    "spriteStem": "Reyna",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 850,
+      "maxMana": 70,
+      "startingMana": 35,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 39,
+      "baseAttackDamage": 43,
+      "attack": 25,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.44000244140625,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Reyna",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 3,
+    "class1Id": 1,
+    "guildId": 1,
+    "stats": {
+      "maxHealth": 850,
+      "maxMana": 70,
+      "startingMana": 35,
+      "manaRegen": 4,
+      "defense": 39,
+      "attack": 25,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.44000244140625,
+      "baseAttackDamage": 43
+    }
+  },
+  {
+    "id": 4,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_4.Name"
+    },
+    "name": "Yuuna",
+    "nameZh": "悠娜",
+    "slug": "yuuna",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Yuuna",
+      "Quote": "Lore.Hero.Quote.Yuuna",
+      "CurrentWork": "Lore.Hero.CurrentWork.Yuuna",
+      "Motivation": "Lore.Hero.Motivation.Yuuna"
+    },
+    "images": {
+      "portrait": "/media/heroes/4/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/4/cropped_A.png",
+        "A_Med": "/media/heroes/4/cropped_A_med.png",
+        "B": "/media/heroes/4/cropped_B.png",
+        "B_Med": "/media/heroes/4/cropped_B_med.png",
+        "C": "/media/heroes/4/cropped_C.png",
+        "C_Med": "/media/heroes/4/cropped_C_med.png",
+        "S": "/media/heroes/4/cropped_S.png",
+        "S_Med": "/media/heroes/4/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/4/halfbody_A.png",
+        "B": "/media/heroes/4/halfbody_B.png",
+        "C": "/media/heroes/4/halfbody_C.png",
+        "S": "/media/heroes/4/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/4/framebreak_A.png",
+        "B": "/media/heroes/4/framebreak_B.png",
+        "C": "/media/heroes/4/framebreak_C.png",
+        "S": "/media/heroes/4/framebreak_S.png"
+      },
+      "icon": "/media/heroes/4/icon.png"
+    },
+    "spriteStem": "Ayaka",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 800,
+      "maxMana": 75,
+      "startingMana": 35,
+      "manaRegen": 4,
+      "manaLockTime": 0.5,
+      "moveSpeed": 1.5,
+      "defense": 39,
+      "baseAttackDamage": 40,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.4499969482421875,
+      "attackSpeed": 0,
+      "crit": 50,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Yuuna",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 4,
+    "class1Id": 4,
+    "guildId": 2,
+    "stats": {
+      "maxHealth": 800,
+      "maxMana": 75,
+      "startingMana": 35,
+      "manaRegen": 4,
+      "defense": 39,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 50,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 0.5,
+      "baseAttackSpeed": 0.4499969482421875,
+      "baseAttackDamage": 40
+    }
+  },
+  {
+    "id": 5,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_5.Name"
+    },
+    "name": "Zuri",
+    "nameZh": "祖里",
+    "slug": "zuri",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Zuri",
+      "Quote": "Lore.Hero.Quote.Zuri",
+      "CurrentWork": "Lore.Hero.CurrentWork.Zuri",
+      "Motivation": "Lore.Hero.Motivation.Zuri"
+    },
+    "images": {
+      "portrait": "/media/heroes/5/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/5/cropped_A.png",
+        "A_Med": "/media/heroes/5/cropped_A_med.png",
+        "B": "/media/heroes/5/cropped_B.png",
+        "B_Med": "/media/heroes/5/cropped_B_med.png",
+        "C": "/media/heroes/5/cropped_C.png",
+        "C_Med": "/media/heroes/5/cropped_C_med.png",
+        "S": "/media/heroes/5/cropped_S.png",
+        "S_Med": "/media/heroes/5/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/5/halfbody_A.png",
+        "B": "/media/heroes/5/halfbody_B.png",
+        "C": "/media/heroes/5/halfbody_C.png",
+        "S": "/media/heroes/5/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/5/framebreak_A.png",
+        "B": "/media/heroes/5/framebreak_B.png",
+        "C": "/media/heroes/5/framebreak_C.png",
+        "S": "/media/heroes/5/framebreak_S.png"
+      },
+      "icon": "/media/heroes/5/icon.png"
+    },
+    "spriteStem": "Selkhera",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 900,
+      "maxMana": 100,
+      "startingMana": 65,
+      "manaRegen": 4,
+      "manaLockTime": 0.5,
+      "moveSpeed": 1.5,
+      "defense": 52,
+      "baseAttackDamage": 33,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.3800048828125,
+      "attackSpeed": 0,
+      "crit": 50,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Zuri",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 5,
+    "passiveAbilityId": 10501,
+    "class1Id": 2,
+    "class2Id": 4,
+    "guildId": 3,
+    "stats": {
+      "maxHealth": 900,
+      "maxMana": 100,
+      "startingMana": 65,
+      "manaRegen": 4,
+      "defense": 52,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 50,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 0.5,
+      "baseAttackSpeed": 0.3800048828125,
+      "baseAttackDamage": 33
+    }
+  },
+  {
+    "id": 6,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_6.Name"
+    },
+    "name": "Aria",
+    "nameZh": "阿莉娅",
+    "slug": "aria",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Aria",
+      "Quote": "Lore.Hero.Quote.Aria",
+      "CurrentWork": "Lore.Hero.CurrentWork.Aria",
+      "Motivation": "Lore.Hero.Motivation.Aria"
+    },
+    "images": {
+      "portrait": "/media/heroes/6/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/6/cropped_A.png",
+        "A_Med": "/media/heroes/6/cropped_A_med.png",
+        "B": "/media/heroes/6/cropped_B.png",
+        "B_Med": "/media/heroes/6/cropped_B_med.png",
+        "C": "/media/heroes/6/cropped_C.png",
+        "C_Med": "/media/heroes/6/cropped_C_med.png",
+        "S": "/media/heroes/6/cropped_S.png",
+        "S_Med": "/media/heroes/6/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/6/halfbody_A.png",
+        "B": "/media/heroes/6/halfbody_B.png",
+        "C": "/media/heroes/6/halfbody_C.png",
+        "S": "/media/heroes/6/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/6/framebreak_A.png",
+        "B": "/media/heroes/6/framebreak_B.png",
+        "C": "/media/heroes/6/framebreak_C.png",
+        "S": "/media/heroes/6/framebreak_S.png"
+      },
+      "icon": "/media/heroes/6/icon.png"
+    },
+    "spriteStem": "Seraphael",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 600,
+      "maxMana": 110,
+      "startingMana": 40,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 26,
+      "baseAttackDamage": 23,
+      "attack": 0,
+      "magic": 25,
+      "attackRange": 4,
+      "baseAttackSpeed": 0.399993896484375,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Aria",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 6,
+    "class1Id": 7,
+    "guildId": 3,
+    "stats": {
+      "maxHealth": 600,
+      "maxMana": 110,
+      "startingMana": 40,
+      "manaRegen": 4,
+      "defense": 26,
+      "attack": 0,
+      "magic": 25,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 4,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.399993896484375,
+      "baseAttackDamage": 23
+    }
+  },
+  {
+    "id": 7,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_7.Name"
+    },
+    "name": "Nyx",
+    "nameZh": "尼克斯",
+    "slug": "nyx",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Nyx",
+      "Quote": "Lore.Hero.Quote.Nyx",
+      "CurrentWork": "Lore.Hero.CurrentWork.Nyx",
+      "Motivation": "Lore.Hero.Motivation.Nyx"
+    },
+    "images": {
+      "portrait": "/media/heroes/7/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/7/cropped_A.png",
+        "A_Med": "/media/heroes/7/cropped_A_med.png",
+        "B": "/media/heroes/7/cropped_B.png",
+        "B_Med": "/media/heroes/7/cropped_B_med.png",
+        "C": "/media/heroes/7/cropped_C.png",
+        "C_Med": "/media/heroes/7/cropped_C_med.png",
+        "S": "/media/heroes/7/cropped_S.png",
+        "S_Med": "/media/heroes/7/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/7/halfbody_A.png",
+        "B": "/media/heroes/7/halfbody_B.png",
+        "C": "/media/heroes/7/halfbody_C.png",
+        "S": "/media/heroes/7/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/7/framebreak_A.png",
+        "B": "/media/heroes/7/framebreak_B.png",
+        "C": "/media/heroes/7/framebreak_C.png",
+        "S": "/media/heroes/7/framebreak_S.png"
+      },
+      "icon": "/media/heroes/7/icon.png"
+    },
+    "spriteStem": "Nyxa",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 800,
+      "maxMana": 55,
+      "startingMana": 15,
+      "manaRegen": 4,
+      "manaLockTime": 0.5,
+      "moveSpeed": 1.5,
+      "defense": 38,
+      "baseAttackDamage": 38,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.529998779296875,
+      "attackSpeed": 20,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Nyx",
+      "exportedSource": "GuildrunExport"
+    },
+    "passiveAbilityId": 10702,
+    "class1Id": 5,
+    "guildId": 2,
+    "stats": {
+      "maxHealth": 800,
+      "maxMana": 55,
+      "startingMana": 15,
+      "manaRegen": 4,
+      "defense": 38,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 20,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 0.5,
+      "baseAttackSpeed": 0.529998779296875,
+      "baseAttackDamage": 38
+    }
+  },
+  {
+    "id": 8,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_8.Name"
+    },
+    "name": "Pollen",
+    "nameZh": "波伦",
+    "slug": "pollen",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Pollen",
+      "Quote": "Lore.Hero.Quote.Pollen",
+      "CurrentWork": "Lore.Hero.CurrentWork.Pollen",
+      "Motivation": "Lore.Hero.Motivation.Pollen"
+    },
+    "images": {
+      "portrait": "/media/heroes/8/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/8/cropped_A.png",
+        "A_Med": "/media/heroes/8/cropped_A_med.png",
+        "B": "/media/heroes/8/cropped_B.png",
+        "B_Med": "/media/heroes/8/cropped_B_med.png",
+        "C": "/media/heroes/8/cropped_C.png",
+        "C_Med": "/media/heroes/8/cropped_C_med.png",
+        "S": "/media/heroes/8/cropped_S.png",
+        "S_Med": "/media/heroes/8/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/8/halfbody_A.png",
+        "B": "/media/heroes/8/halfbody_B.png",
+        "C": "/media/heroes/8/halfbody_C.png",
+        "S": "/media/heroes/8/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/8/framebreak_A.png",
+        "B": "/media/heroes/8/framebreak_B.png",
+        "C": "/media/heroes/8/framebreak_C.png",
+        "S": "/media/heroes/8/framebreak_S.png"
+      },
+      "icon": "/media/heroes/8/icon.png"
+    },
+    "spriteStem": "Floeria",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 575,
+      "maxMana": 135,
+      "startingMana": 35,
+      "manaRegen": 8,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 30,
+      "baseAttackDamage": 20,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 4,
+      "baseAttackSpeed": 0.4199981689453125,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Pollen",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 8,
+    "class1Id": 6,
+    "guildId": 5,
+    "stats": {
+      "maxHealth": 575,
+      "maxMana": 135,
+      "startingMana": 35,
+      "manaRegen": 8,
+      "defense": 30,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 4,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.4199981689453125,
+      "baseAttackDamage": 20
+    }
+  },
+  {
+    "id": 9,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_9.Name"
+    },
+    "name": "Niklas",
+    "nameZh": "尼克拉斯",
+    "slug": "niklas",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Niklas",
+      "Quote": "Lore.Hero.Quote.Niklas",
+      "CurrentWork": "Lore.Hero.CurrentWork.Niklas",
+      "Motivation": "Lore.Hero.Motivation.Niklas"
+    },
+    "images": {
+      "portrait": "/media/heroes/9/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/9/cropped_A.png",
+        "A_Med": "/media/heroes/9/cropped_A_med.png",
+        "B": "/media/heroes/9/cropped_B.png",
+        "B_Med": "/media/heroes/9/cropped_B_med.png",
+        "C": "/media/heroes/9/cropped_C.png",
+        "C_Med": "/media/heroes/9/cropped_C_med.png",
+        "S": "/media/heroes/9/cropped_S.png",
+        "S_Med": "/media/heroes/9/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/9/halfbody_A.png",
+        "B": "/media/heroes/9/halfbody_B.png",
+        "C": "/media/heroes/9/halfbody_C.png",
+        "S": "/media/heroes/9/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/9/framebreak_A.png",
+        "B": "/media/heroes/9/framebreak_B.png",
+        "C": "/media/heroes/9/framebreak_C.png",
+        "S": "/media/heroes/9/framebreak_S.png"
+      },
+      "icon": "/media/heroes/9/icon.png"
+    },
+    "spriteStem": "Niklas",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 1150,
+      "maxMana": 90,
+      "startingMana": 45,
+      "manaRegen": 4,
+      "manaLockTime": 0.5,
+      "moveSpeed": 1.5,
+      "defense": 44,
+      "baseAttackDamage": 40,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.399993896484375,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Niklas",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 9,
+    "passiveAbilityId": 10901,
+    "class1Id": 3,
+    "guildId": 6,
+    "stats": {
+      "maxHealth": 1150,
+      "maxMana": 90,
+      "startingMana": 45,
+      "manaRegen": 4,
+      "defense": 44,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 0.5,
+      "baseAttackSpeed": 0.399993896484375,
+      "baseAttackDamage": 40
+    }
+  },
+  {
+    "id": 10,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_10.Name"
+    },
+    "name": "Fiona",
+    "nameZh": "菲欧娜",
+    "slug": "fiona",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Fiona",
+      "Quote": "Lore.Hero.Quote.Fiona",
+      "CurrentWork": "Lore.Hero.CurrentWork.Fiona",
+      "Motivation": "Lore.Hero.Motivation.Fiona"
+    },
+    "images": {
+      "portrait": "/media/heroes/10/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/10/cropped_A.png",
+        "A_Med": "/media/heroes/10/cropped_A_med.png",
+        "B": "/media/heroes/10/cropped_B.png",
+        "B_Med": "/media/heroes/10/cropped_B_med.png",
+        "C": "/media/heroes/10/cropped_C.png",
+        "C_Med": "/media/heroes/10/cropped_C_med.png",
+        "S": "/media/heroes/10/cropped_S.png",
+        "S_Med": "/media/heroes/10/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/10/halfbody_A.png",
+        "B": "/media/heroes/10/halfbody_B.png",
+        "C": "/media/heroes/10/halfbody_C.png",
+        "S": "/media/heroes/10/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/10/framebreak_A.png",
+        "B": "/media/heroes/10/framebreak_B.png",
+        "C": "/media/heroes/10/framebreak_C.png",
+        "S": "/media/heroes/10/framebreak_S.png"
+      },
+      "icon": "/media/heroes/10/icon.png"
+    },
+    "spriteStem": "Fiona",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 750,
+      "maxMana": 115,
+      "startingMana": 45,
+      "manaRegen": 8,
+      "manaLockTime": 0.75,
+      "moveSpeed": 1.5,
+      "defense": 31,
+      "baseAttackDamage": 25,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 3,
+      "baseAttackSpeed": 0.3899993896484375,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Fiona",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 10,
+    "class1Id": 6,
+    "guildId": 6,
+    "stats": {
+      "maxHealth": 750,
+      "maxMana": 115,
+      "startingMana": 45,
+      "manaRegen": 8,
+      "defense": 31,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 3,
+      "manaLockTime": 0.75,
+      "baseAttackSpeed": 0.3899993896484375,
+      "baseAttackDamage": 25
+    }
+  },
+  {
+    "id": 11,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_11.Name"
+    },
+    "name": "Rowan",
+    "nameZh": "罗恩",
+    "slug": "rowan",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Rowan",
+      "Quote": "Lore.Hero.Quote.Rowan",
+      "CurrentWork": "Lore.Hero.CurrentWork.Rowan",
+      "Motivation": "Lore.Hero.Motivation.Rowan"
+    },
+    "images": {
+      "portrait": "/media/heroes/11/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/11/cropped_A.png",
+        "A_Med": "/media/heroes/11/cropped_A_med.png",
+        "B": "/media/heroes/11/cropped_B.png",
+        "B_Med": "/media/heroes/11/cropped_B_med.png",
+        "C": "/media/heroes/11/cropped_C.png",
+        "C_Med": "/media/heroes/11/cropped_C_med.png",
+        "S": "/media/heroes/11/cropped_S.png",
+        "S_Med": "/media/heroes/11/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/11/halfbody_A.png",
+        "B": "/media/heroes/11/halfbody_B.png",
+        "C": "/media/heroes/11/halfbody_C.png",
+        "S": "/media/heroes/11/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/11/framebreak_A.png",
+        "B": "/media/heroes/11/framebreak_B.png",
+        "C": "/media/heroes/11/framebreak_C.png",
+        "S": "/media/heroes/11/framebreak_S.png"
+      },
+      "icon": "/media/heroes/11/icon.png"
+    },
+    "spriteStem": "Rook",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 1000,
+      "maxMana": 110,
+      "startingMana": 60,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 54,
+      "baseAttackDamage": 31,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.350006103515625,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Rowan",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 11,
+    "passiveAbilityId": 101101,
+    "class1Id": 3,
+    "class2Id": 2,
+    "guildId": 5,
+    "stats": {
+      "maxHealth": 1000,
+      "maxMana": 110,
+      "startingMana": 60,
+      "manaRegen": 4,
+      "defense": 54,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.350006103515625,
+      "baseAttackDamage": 31
+    }
+  },
+  {
+    "id": 12,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_12.Name"
+    },
+    "name": "Skorn",
+    "nameZh": "斯考恩",
+    "slug": "skorn",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Skorn",
+      "Quote": "Lore.Hero.Quote.Skorn",
+      "CurrentWork": "Lore.Hero.CurrentWork.Skorn",
+      "Motivation": "Lore.Hero.Motivation.Skorn"
+    },
+    "images": {
+      "portrait": "/media/heroes/12/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/12/cropped_A.png",
+        "A_Med": "/media/heroes/12/cropped_A_med.png",
+        "B": "/media/heroes/12/cropped_B.png",
+        "B_Med": "/media/heroes/12/cropped_B_med.png",
+        "C": "/media/heroes/12/cropped_C.png",
+        "C_Med": "/media/heroes/12/cropped_C_med.png",
+        "S": "/media/heroes/12/cropped_S.png",
+        "S_Med": "/media/heroes/12/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/12/halfbody_A.png",
+        "B": "/media/heroes/12/halfbody_B.png",
+        "C": "/media/heroes/12/halfbody_C.png",
+        "S": "/media/heroes/12/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/12/framebreak_A.png",
+        "B": "/media/heroes/12/framebreak_B.png",
+        "C": "/media/heroes/12/framebreak_C.png",
+        "S": "/media/heroes/12/framebreak_S.png"
+      },
+      "icon": "/media/heroes/12/icon.png"
+    },
+    "spriteStem": "Skorn",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 925,
+      "maxMana": 105,
+      "startingMana": 30,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 60,
+      "baseAttackDamage": 30,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.3800048828125,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Skorn",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 12,
+    "passiveAbilityId": 101201,
+    "class1Id": 2,
+    "guildId": 4,
+    "stats": {
+      "maxHealth": 925,
+      "maxMana": 105,
+      "startingMana": 30,
+      "manaRegen": 4,
+      "defense": 60,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.3800048828125,
+      "baseAttackDamage": 30
+    }
+  },
+  {
+    "id": 13,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_13.Name"
+    },
+    "name": "Logan",
+    "nameZh": "罗根",
+    "slug": "logan",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Logan",
+      "Quote": "Lore.Hero.Quote.Logan",
+      "CurrentWork": "Lore.Hero.CurrentWork.Logan",
+      "Motivation": "Lore.Hero.Motivation.Logan"
+    },
+    "images": {
+      "portrait": "/media/heroes/13/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/13/cropped_A.png",
+        "A_Med": "/media/heroes/13/cropped_A_med.png",
+        "B": "/media/heroes/13/cropped_B.png",
+        "B_Med": "/media/heroes/13/cropped_B_med.png",
+        "C": "/media/heroes/13/cropped_C.png",
+        "C_Med": "/media/heroes/13/cropped_C_med.png",
+        "S": "/media/heroes/13/cropped_S.png",
+        "S_Med": "/media/heroes/13/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/13/halfbody_A.png",
+        "B": "/media/heroes/13/halfbody_B.png",
+        "C": "/media/heroes/13/halfbody_C.png",
+        "S": "/media/heroes/13/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/13/framebreak_A.png",
+        "B": "/media/heroes/13/framebreak_B.png",
+        "C": "/media/heroes/13/framebreak_C.png",
+        "S": "/media/heroes/13/framebreak_S.png"
+      },
+      "icon": "/media/heroes/13/icon.png"
+    },
+    "spriteStem": "Logan",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 825,
+      "maxMana": 80,
+      "startingMana": 30,
+      "manaRegen": 4,
+      "manaLockTime": 0.5,
+      "moveSpeed": 1.5,
+      "defense": 40,
+      "baseAttackDamage": 50,
+      "attack": 25,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.399993896484375,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Logan",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 13,
+    "class1Id": 1,
+    "guildId": 1,
+    "stats": {
+      "maxHealth": 825,
+      "maxMana": 80,
+      "startingMana": 30,
+      "manaRegen": 4,
+      "defense": 40,
+      "attack": 25,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 0.5,
+      "baseAttackSpeed": 0.399993896484375,
+      "baseAttackDamage": 50
+    }
+  },
+  {
+    "id": 14,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_14.Name"
+    },
+    "name": "Funke",
+    "nameZh": "芬克",
+    "slug": "funke",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Funke",
+      "Quote": "Lore.Hero.Quote.Funke",
+      "CurrentWork": "Lore.Hero.CurrentWork.Funke",
+      "Motivation": "Lore.Hero.Motivation.Funke"
+    },
+    "images": {
+      "portrait": "/media/heroes/14/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/14/cropped_A.png",
+        "A_Med": "/media/heroes/14/cropped_A_med.png",
+        "B": "/media/heroes/14/cropped_B.png",
+        "B_Med": "/media/heroes/14/cropped_B_med.png",
+        "C": "/media/heroes/14/cropped_C.png",
+        "C_Med": "/media/heroes/14/cropped_C_med.png",
+        "S": "/media/heroes/14/cropped_S.png",
+        "S_Med": "/media/heroes/14/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/14/halfbody_A.png",
+        "B": "/media/heroes/14/halfbody_B.png",
+        "C": "/media/heroes/14/halfbody_C.png",
+        "S": "/media/heroes/14/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/14/framebreak_A.png",
+        "B": "/media/heroes/14/framebreak_B.png",
+        "C": "/media/heroes/14/framebreak_C.png",
+        "S": "/media/heroes/14/framebreak_S.png"
+      },
+      "icon": "/media/heroes/14/icon.png"
+    },
+    "spriteStem": "Funke",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 650,
+      "maxMana": 85,
+      "startingMana": 45,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 27,
+      "baseAttackDamage": 21,
+      "attack": 0,
+      "magic": 25,
+      "attackRange": 4,
+      "baseAttackSpeed": 0.470001220703125,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Funke",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 14,
+    "class1Id": 7,
+    "guildId": 4,
+    "stats": {
+      "maxHealth": 650,
+      "maxMana": 85,
+      "startingMana": 45,
+      "manaRegen": 4,
+      "defense": 27,
+      "attack": 0,
+      "magic": 25,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 4,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.470001220703125,
+      "baseAttackDamage": 21
+    }
+  },
+  {
+    "id": 15,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_15.Name"
+    },
+    "name": "Tilly",
+    "nameZh": "蒂莉",
+    "slug": "tilly",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Tilly",
+      "Quote": "Lore.Hero.Quote.Tilly",
+      "CurrentWork": "Lore.Hero.CurrentWork.Tilly",
+      "Motivation": "Lore.Hero.Motivation.Tilly"
+    },
+    "images": {
+      "portrait": "/media/heroes/15/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/15/cropped_A.png",
+        "A_Med": "/media/heroes/15/cropped_A_med.png",
+        "B": "/media/heroes/15/cropped_B.png",
+        "B_Med": "/media/heroes/15/cropped_B_med.png",
+        "C": "/media/heroes/15/cropped_C.png",
+        "C_Med": "/media/heroes/15/cropped_C_med.png",
+        "S": "/media/heroes/15/cropped_S.png",
+        "S_Med": "/media/heroes/15/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/15/halfbody_A.png",
+        "B": "/media/heroes/15/halfbody_B.png",
+        "C": "/media/heroes/15/halfbody_C.png",
+        "S": "/media/heroes/15/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/15/framebreak_A.png",
+        "B": "/media/heroes/15/framebreak_B.png",
+        "C": "/media/heroes/15/framebreak_C.png",
+        "S": "/media/heroes/15/framebreak_S.png"
+      },
+      "icon": "/media/heroes/15/icon.png"
+    },
+    "spriteStem": "Tilly",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 750,
+      "maxMana": 75,
+      "startingMana": 25,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 34,
+      "baseAttackDamage": 38,
+      "attack": 25,
+      "magic": 0,
+      "attackRange": 2,
+      "baseAttackSpeed": 0.5,
+      "attackSpeed": 20,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Tilly",
+      "exportedSource": "GuildrunExport"
+    },
+    "passiveAbilityId": 101501,
+    "class1Id": 1,
+    "class2Id": 5,
+    "guildId": 3,
+    "stats": {
+      "maxHealth": 750,
+      "maxMana": 75,
+      "startingMana": 25,
+      "manaRegen": 4,
+      "defense": 34,
+      "attack": 25,
+      "magic": 0,
+      "attackSpeed": 20,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 2,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.5,
+      "baseAttackDamage": 38
+    }
+  },
+  {
+    "id": 16,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_16.Name"
+    },
+    "name": "Gustav",
+    "nameZh": "古斯塔夫",
+    "slug": "gustav",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Gustav",
+      "Quote": "Lore.Hero.Quote.Gustav",
+      "CurrentWork": "Lore.Hero.CurrentWork.Gustav",
+      "Motivation": "Lore.Hero.Motivation.Gustav"
+    },
+    "images": {
+      "portrait": "/media/heroes/16/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/16/cropped_A.png",
+        "A_Med": "/media/heroes/16/cropped_A_med.png",
+        "B": "/media/heroes/16/cropped_B.png",
+        "B_Med": "/media/heroes/16/cropped_B_med.png",
+        "C": "/media/heroes/16/cropped_C.png",
+        "C_Med": "/media/heroes/16/cropped_C_med.png",
+        "S": "/media/heroes/16/cropped_S.png",
+        "S_Med": "/media/heroes/16/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/16/halfbody_A.png",
+        "B": "/media/heroes/16/halfbody_B.png",
+        "C": "/media/heroes/16/halfbody_C.png",
+        "S": "/media/heroes/16/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/16/framebreak_A.png",
+        "B": "/media/heroes/16/framebreak_B.png",
+        "C": "/media/heroes/16/framebreak_C.png",
+        "S": "/media/heroes/16/framebreak_S.png"
+      },
+      "icon": "/media/heroes/16/icon.png"
+    },
+    "spriteStem": "Gustav",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 700,
+      "maxMana": 150,
+      "startingMana": 45,
+      "manaRegen": 8,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 30,
+      "baseAttackDamage": 22,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 3,
+      "baseAttackSpeed": 0.3600006103515625,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Gustav",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 16,
+    "class1Id": 6,
+    "guildId": 6,
+    "stats": {
+      "maxHealth": 700,
+      "maxMana": 150,
+      "startingMana": 45,
+      "manaRegen": 8,
+      "defense": 30,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 3,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.3600006103515625,
+      "baseAttackDamage": 22
+    }
+  },
+  {
+    "id": 17,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_17.Name"
+    },
+    "name": "Ratna",
+    "nameZh": "拉特纳",
+    "slug": "ratna",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Ratna",
+      "Quote": "Lore.Hero.Quote.Ratna",
+      "CurrentWork": "Lore.Hero.CurrentWork.Ratna",
+      "Motivation": "Lore.Hero.Motivation.Ratna"
+    },
+    "images": {
+      "portrait": "/media/heroes/17/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/17/cropped_A.png",
+        "A_Med": "/media/heroes/17/cropped_A_med.png",
+        "B": "/media/heroes/17/cropped_B.png",
+        "B_Med": "/media/heroes/17/cropped_B_med.png",
+        "C": "/media/heroes/17/cropped_C.png",
+        "C_Med": "/media/heroes/17/cropped_C_med.png",
+        "S": "/media/heroes/17/cropped_S.png",
+        "S_Med": "/media/heroes/17/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/17/halfbody_A.png",
+        "B": "/media/heroes/17/halfbody_B.png",
+        "C": "/media/heroes/17/halfbody_C.png",
+        "S": "/media/heroes/17/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/17/framebreak_A.png",
+        "B": "/media/heroes/17/framebreak_B.png",
+        "C": "/media/heroes/17/framebreak_C.png",
+        "S": "/media/heroes/17/framebreak_S.png"
+      },
+      "icon": "/media/heroes/17/icon.png"
+    },
+    "spriteStem": "Ratna",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 575,
+      "maxMana": 80,
+      "startingMana": 30,
+      "manaRegen": 4,
+      "manaLockTime": 0.75,
+      "moveSpeed": 1.5,
+      "defense": 27,
+      "baseAttackDamage": 20,
+      "attack": 0,
+      "magic": 25,
+      "attackRange": 4,
+      "baseAttackSpeed": 0.42999267578125,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Ratna",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 17,
+    "class1Id": 7,
+    "guildId": 3,
+    "stats": {
+      "maxHealth": 575,
+      "maxMana": 80,
+      "startingMana": 30,
+      "manaRegen": 4,
+      "defense": 27,
+      "attack": 0,
+      "magic": 25,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 4,
+      "manaLockTime": 0.75,
+      "baseAttackSpeed": 0.42999267578125,
+      "baseAttackDamage": 20
+    }
+  },
+  {
+    "id": 18,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_18.Name"
+    },
+    "name": "Rip",
+    "nameZh": "瑞普",
+    "slug": "rip",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Rip",
+      "Quote": "Lore.Hero.Quote.Rip",
+      "CurrentWork": "Lore.Hero.CurrentWork.Rip",
+      "Motivation": "Lore.Hero.Motivation.Rip"
+    },
+    "images": {
+      "portrait": "/media/heroes/18/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/18/cropped_A.png",
+        "A_Med": "/media/heroes/18/cropped_A_med.png",
+        "B": "/media/heroes/18/cropped_B.png",
+        "B_Med": "/media/heroes/18/cropped_B_med.png",
+        "C": "/media/heroes/18/cropped_C.png",
+        "C_Med": "/media/heroes/18/cropped_C_med.png",
+        "S": "/media/heroes/18/cropped_S.png",
+        "S_Med": "/media/heroes/18/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/18/halfbody_A.png",
+        "B": "/media/heroes/18/halfbody_B.png",
+        "C": "/media/heroes/18/halfbody_C.png",
+        "S": "/media/heroes/18/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/18/framebreak_A.png",
+        "B": "/media/heroes/18/framebreak_B.png",
+        "C": "/media/heroes/18/framebreak_C.png",
+        "S": "/media/heroes/18/framebreak_S.png"
+      },
+      "icon": "/media/heroes/18/icon.png"
+    },
+    "spriteStem": "Cenk",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 1250,
+      "maxMana": 75,
+      "startingMana": 25,
+      "manaRegen": 4,
+      "manaLockTime": 0.5,
+      "moveSpeed": 1.5,
+      "defense": 42,
+      "baseAttackDamage": 41,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.4199981689453125,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Rip",
+      "exportedSource": "GuildrunExport"
+    },
+    "passiveAbilityId": 101801,
+    "class1Id": 3,
+    "guildId": 4,
+    "stats": {
+      "maxHealth": 1250,
+      "maxMana": 75,
+      "startingMana": 25,
+      "manaRegen": 4,
+      "defense": 42,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 0.5,
+      "baseAttackSpeed": 0.4199981689453125,
+      "baseAttackDamage": 41
+    }
+  },
+  {
+    "id": 20,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_20.Name"
+    },
+    "name": "Karsu",
+    "nameZh": "卡尔苏",
+    "slug": "karsu",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Karsu",
+      "Quote": "Lore.Hero.Quote.Karsu",
+      "CurrentWork": "Lore.Hero.CurrentWork.Karsu",
+      "Motivation": "Lore.Hero.Motivation.Karsu"
+    },
+    "images": {
+      "portrait": "/media/heroes/20/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/20/cropped_A.png",
+        "A_Med": "/media/heroes/20/cropped_A_med.png",
+        "B": "/media/heroes/20/cropped_B.png",
+        "B_Med": "/media/heroes/20/cropped_B_med.png",
+        "C": "/media/heroes/20/cropped_C.png",
+        "C_Med": "/media/heroes/20/cropped_C_med.png",
+        "S": "/media/heroes/20/cropped_S.png",
+        "S_Med": "/media/heroes/20/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/20/halfbody_A.png",
+        "B": "/media/heroes/20/halfbody_B.png",
+        "C": "/media/heroes/20/halfbody_C.png",
+        "S": "/media/heroes/20/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/20/framebreak_A.png",
+        "B": "/media/heroes/20/framebreak_B.png",
+        "C": "/media/heroes/20/framebreak_C.png",
+        "S": "/media/heroes/20/framebreak_S.png"
+      },
+      "icon": "/media/heroes/20/icon.png"
+    },
+    "spriteStem": "Javryn",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 650,
+      "maxMana": 80,
+      "startingMana": 40,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 29,
+      "baseAttackDamage": 30,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 5,
+      "baseAttackSpeed": 0.529998779296875,
+      "attackSpeed": 20,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Karsu",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 20,
+    "class1Id": 5,
+    "guildId": 4,
+    "stats": {
+      "maxHealth": 650,
+      "maxMana": 80,
+      "startingMana": 40,
+      "manaRegen": 4,
+      "defense": 29,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 20,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 5,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.529998779296875,
+      "baseAttackDamage": 30
+    }
+  },
+  {
+    "id": 21,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_21.Name"
+    },
+    "name": "Ming",
+    "nameZh": "明",
+    "slug": "ming",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Ming",
+      "Quote": "Lore.Hero.Quote.Ming",
+      "CurrentWork": "Lore.Hero.CurrentWork.Ming",
+      "Motivation": "Lore.Hero.Motivation.Ming"
+    },
+    "images": {
+      "portrait": "/media/heroes/21/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/21/cropped_A.png",
+        "A_Med": "/media/heroes/21/cropped_A_med.png",
+        "B": "/media/heroes/21/cropped_B.png",
+        "B_Med": "/media/heroes/21/cropped_B_med.png",
+        "C": "/media/heroes/21/cropped_C.png",
+        "C_Med": "/media/heroes/21/cropped_C_med.png",
+        "S": "/media/heroes/21/cropped_S.png",
+        "S_Med": "/media/heroes/21/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/21/halfbody_A.png",
+        "B": "/media/heroes/21/halfbody_B.png",
+        "C": "/media/heroes/21/halfbody_C.png",
+        "S": "/media/heroes/21/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/21/framebreak_A.png",
+        "B": "/media/heroes/21/framebreak_B.png",
+        "C": "/media/heroes/21/framebreak_C.png",
+        "S": "/media/heroes/21/framebreak_S.png"
+      },
+      "icon": "/media/heroes/21/icon.png"
+    },
+    "spriteStem": "Ming",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 1100,
+      "maxMana": 70,
+      "startingMana": 30,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 41,
+      "baseAttackDamage": 37,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.350006103515625,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Ming",
+      "exportedSource": "GuildrunExport"
+    },
+    "passiveAbilityId": 102101,
+    "class1Id": 3,
+    "guildId": 2,
+    "stats": {
+      "maxHealth": 1100,
+      "maxMana": 70,
+      "startingMana": 30,
+      "manaRegen": 4,
+      "defense": 41,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.350006103515625,
+      "baseAttackDamage": 37
+    }
+  },
+  {
+    "id": 22,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_22.Name"
+    },
+    "name": "Pimenta",
+    "nameZh": "皮门塔",
+    "slug": "pimenta",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Pimenta",
+      "Quote": "Lore.Hero.Quote.Pimenta",
+      "CurrentWork": "Lore.Hero.CurrentWork.Pimenta",
+      "Motivation": "Lore.Hero.Motivation.Pimenta"
+    },
+    "images": {
+      "portrait": "/media/heroes/22/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/22/cropped_A.png",
+        "A_Med": "/media/heroes/22/cropped_A_med.png",
+        "B": "/media/heroes/22/cropped_B.png",
+        "B_Med": "/media/heroes/22/cropped_B_med.png",
+        "C": "/media/heroes/22/cropped_C.png",
+        "C_Med": "/media/heroes/22/cropped_C_med.png",
+        "S": "/media/heroes/22/cropped_S.png",
+        "S_Med": "/media/heroes/22/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/22/halfbody_A.png",
+        "B": "/media/heroes/22/halfbody_B.png",
+        "C": "/media/heroes/22/halfbody_C.png",
+        "S": "/media/heroes/22/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/22/framebreak_A.png",
+        "B": "/media/heroes/22/framebreak_B.png",
+        "C": "/media/heroes/22/framebreak_C.png",
+        "S": "/media/heroes/22/framebreak_S.png"
+      },
+      "icon": "/media/heroes/22/icon.png"
+    },
+    "spriteStem": "Pimenta",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 950,
+      "maxMana": 90,
+      "startingMana": 35,
+      "manaRegen": 4,
+      "manaLockTime": 0.5,
+      "moveSpeed": 1.5,
+      "defense": 58,
+      "baseAttackDamage": 33,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.4199981689453125,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Pimenta",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 22,
+    "class1Id": 2,
+    "guildId": 5,
+    "stats": {
+      "maxHealth": 950,
+      "maxMana": 90,
+      "startingMana": 35,
+      "manaRegen": 4,
+      "defense": 58,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 0.5,
+      "baseAttackSpeed": 0.4199981689453125,
+      "baseAttackDamage": 33
+    }
+  },
+  {
+    "id": 23,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_23.Name"
+    },
+    "name": "Sal",
+    "nameZh": "萨尔",
+    "slug": "sal",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Sal",
+      "Quote": "Lore.Hero.Quote.Sal",
+      "CurrentWork": "Lore.Hero.CurrentWork.Sal",
+      "Motivation": "Lore.Hero.Motivation.Sal"
+    },
+    "images": {
+      "portrait": "/media/heroes/23/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/23/cropped_A.png",
+        "A_Med": "/media/heroes/23/cropped_A_med.png",
+        "B": "/media/heroes/23/cropped_B.png",
+        "B_Med": "/media/heroes/23/cropped_B_med.png",
+        "C": "/media/heroes/23/cropped_C.png",
+        "C_Med": "/media/heroes/23/cropped_C_med.png",
+        "S": "/media/heroes/23/cropped_S.png",
+        "S_Med": "/media/heroes/23/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/23/halfbody_A.png",
+        "B": "/media/heroes/23/halfbody_B.png",
+        "C": "/media/heroes/23/halfbody_C.png",
+        "S": "/media/heroes/23/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/23/framebreak_A.png",
+        "B": "/media/heroes/23/framebreak_B.png",
+        "C": "/media/heroes/23/framebreak_C.png",
+        "S": "/media/heroes/23/framebreak_S.png"
+      },
+      "icon": "/media/heroes/23/icon.png"
+    },
+    "spriteStem": "Sal",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 725,
+      "maxMana": 100,
+      "startingMana": 50,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 34,
+      "baseAttackDamage": 30,
+      "attack": 0,
+      "magic": 25,
+      "attackRange": 2,
+      "baseAttackSpeed": 0.4499969482421875,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Sal",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 23,
+    "class1Id": 7,
+    "guildId": 5,
+    "stats": {
+      "maxHealth": 725,
+      "maxMana": 100,
+      "startingMana": 50,
+      "manaRegen": 4,
+      "defense": 34,
+      "attack": 0,
+      "magic": 25,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 2,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.4499969482421875,
+      "baseAttackDamage": 30
+    }
+  },
+  {
+    "id": 24,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_24.Name"
+    },
+    "name": "Dragomir",
+    "nameZh": "德拉戈米尔",
+    "slug": "dragomir",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Dragomir",
+      "Quote": "Lore.Hero.Quote.Dragomir",
+      "CurrentWork": "Lore.Hero.CurrentWork.Dragomir",
+      "Motivation": "Lore.Hero.Motivation.Dragomir"
+    },
+    "images": {
+      "portrait": "/media/heroes/24/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/24/cropped_A.png",
+        "A_Med": "/media/heroes/24/cropped_A_med.png",
+        "B": "/media/heroes/24/cropped_B.png",
+        "B_Med": "/media/heroes/24/cropped_B_med.png",
+        "C": "/media/heroes/24/cropped_C.png",
+        "C_Med": "/media/heroes/24/cropped_C_med.png",
+        "S": "/media/heroes/24/cropped_S.png",
+        "S_Med": "/media/heroes/24/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/24/halfbody_A.png",
+        "B": "/media/heroes/24/halfbody_B.png",
+        "C": "/media/heroes/24/halfbody_C.png",
+        "S": "/media/heroes/24/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/24/framebreak_A.png",
+        "B": "/media/heroes/24/framebreak_B.png",
+        "C": "/media/heroes/24/framebreak_C.png",
+        "S": "/media/heroes/24/framebreak_S.png"
+      },
+      "icon": "/media/heroes/24/icon.png"
+    },
+    "spriteStem": "Dragomir",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 800,
+      "maxMana": 75,
+      "startingMana": 35,
+      "manaRegen": 4,
+      "manaLockTime": 0.5,
+      "moveSpeed": 1.5,
+      "defense": 40,
+      "baseAttackDamage": 35,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.4499969482421875,
+      "attackSpeed": 0,
+      "crit": 50,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Dragomir",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 24,
+    "class1Id": 4,
+    "guildId": 6,
+    "stats": {
+      "maxHealth": 800,
+      "maxMana": 75,
+      "startingMana": 35,
+      "manaRegen": 4,
+      "defense": 40,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 50,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 0.5,
+      "baseAttackSpeed": 0.4499969482421875,
+      "baseAttackDamage": 35
+    }
+  },
+  {
+    "id": 26,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_26.Name"
+    },
+    "name": "Kai",
+    "nameZh": "凯",
+    "slug": "kai",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Kai",
+      "Quote": "Lore.Hero.Quote.Kai",
+      "CurrentWork": "Lore.Hero.CurrentWork.Kai",
+      "Motivation": "Lore.Hero.Motivation.Kai"
+    },
+    "images": {
+      "portrait": "/media/heroes/26/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/26/cropped_A.png",
+        "A_Med": "/media/heroes/26/cropped_A_med.png",
+        "B": "/media/heroes/26/cropped_B.png",
+        "B_Med": "/media/heroes/26/cropped_B_med.png",
+        "C": "/media/heroes/26/cropped_C.png",
+        "C_Med": "/media/heroes/26/cropped_C_med.png",
+        "S": "/media/heroes/26/cropped_S.png",
+        "S_Med": "/media/heroes/26/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/26/halfbody_A.png",
+        "B": "/media/heroes/26/halfbody_B.png",
+        "C": "/media/heroes/26/halfbody_C.png",
+        "S": "/media/heroes/26/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/26/framebreak_A.png",
+        "B": "/media/heroes/26/framebreak_B.png",
+        "C": "/media/heroes/26/framebreak_C.png",
+        "S": "/media/heroes/26/framebreak_S.png"
+      },
+      "icon": "/media/heroes/26/icon.png"
+    },
+    "spriteStem": "Joey",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 875,
+      "maxMana": 105,
+      "startingMana": 50,
+      "manaRegen": 4,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 40,
+      "baseAttackDamage": 46,
+      "attack": 25,
+      "magic": 0,
+      "attackRange": 1,
+      "baseAttackSpeed": 0.3800048828125,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Kai",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 28,
+    "class1Id": 1,
+    "guildId": 2,
+    "stats": {
+      "maxHealth": 875,
+      "maxMana": 105,
+      "startingMana": 50,
+      "manaRegen": 4,
+      "defense": 40,
+      "attack": 25,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 1,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.3800048828125,
+      "baseAttackDamage": 46
+    }
+  },
+  {
+    "id": 27,
+    "kind": "hero",
+    "keys": {
+      "Name": "Heroes.Hero_27.Name"
+    },
+    "name": "Grace",
+    "nameZh": "格蕾丝",
+    "slug": "grace",
+    "loreKeys": {
+      "Title": "Lore.Hero.Title.Grace",
+      "Quote": "Lore.Hero.Quote.Grace",
+      "CurrentWork": "Lore.Hero.CurrentWork.Grace",
+      "Motivation": "Lore.Hero.Motivation.Grace"
+    },
+    "images": {
+      "portrait": "/media/heroes/27/portrait.png",
+      "cropped": {
+        "A": "/media/heroes/27/cropped_A.png",
+        "A_Med": "/media/heroes/27/cropped_A_med.png",
+        "B": "/media/heroes/27/cropped_B.png",
+        "B_Med": "/media/heroes/27/cropped_B_med.png",
+        "C": "/media/heroes/27/cropped_C.png",
+        "C_Med": "/media/heroes/27/cropped_C_med.png",
+        "S": "/media/heroes/27/cropped_S.png",
+        "S_Med": "/media/heroes/27/cropped_S_med.png"
+      },
+      "halfBody": {
+        "A": "/media/heroes/27/halfbody_A.png",
+        "B": "/media/heroes/27/halfbody_B.png",
+        "C": "/media/heroes/27/halfbody_C.png",
+        "S": "/media/heroes/27/halfbody_S.png"
+      },
+      "frameBreak": {
+        "A": "/media/heroes/27/framebreak_A.png",
+        "B": "/media/heroes/27/framebreak_B.png",
+        "C": "/media/heroes/27/framebreak_C.png",
+        "S": "/media/heroes/27/framebreak_S.png"
+      },
+      "icon": "/media/heroes/27/icon.png"
+    },
+    "spriteStem": "Josephina",
+    "balancing": {
+      "disabledInGame": false,
+      "maxHealth": 575,
+      "maxMana": 110,
+      "startingMana": 50,
+      "manaRegen": 8,
+      "manaLockTime": 1,
+      "moveSpeed": 1.5,
+      "defense": 25,
+      "baseAttackDamage": 20,
+      "attack": 0,
+      "magic": 0,
+      "attackRange": 4,
+      "baseAttackSpeed": 0.3800048828125,
+      "attackSpeed": 0,
+      "crit": 15,
+      "startWithActiveAbility": false,
+      "runtimeTitle": "Grace",
+      "exportedSource": "GuildrunExport"
+    },
+    "activeAbilityId": 29,
+    "class1Id": 6,
+    "guildId": 1,
+    "stats": {
+      "maxHealth": 575,
+      "maxMana": 110,
+      "startingMana": 50,
+      "manaRegen": 8,
+      "defense": 25,
+      "attack": 0,
+      "magic": 0,
+      "attackSpeed": 0,
+      "crit": 15,
+      "moveSpeed": 1.5,
+      "attackRange": 4,
+      "manaLockTime": 1,
+      "baseAttackSpeed": 0.3800048828125,
+      "baseAttackDamage": 20
+    }
+  }
+]

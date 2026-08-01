@@ -1,0 +1,173 @@
+{
+  "tags": [
+    {
+      "id": "rush",
+      "label": "Rush",
+      "category": "combat",
+      "summary": "Tempo windows that amp allies for a short burst of aggression."
+    },
+    {
+      "id": "crit",
+      "label": "Crit",
+      "category": "combat",
+      "summary": "Critical strikes and effects that trigger when attacks crit."
+    },
+    {
+      "id": "stall",
+      "label": "Stall",
+      "category": "combat",
+      "summary": "Control and delay tools that interrupt enemy pace."
+    },
+    {
+      "id": "shield",
+      "label": "Shield",
+      "category": "combat",
+      "summary": "Absorb damage with temporary shields before HP is touched."
+    },
+    {
+      "id": "burn",
+      "label": "Burn",
+      "category": "combat",
+      "summary": "Damage-over-time fire stacks that punish packed enemies."
+    },
+    {
+      "id": "poison",
+      "label": "Poison",
+      "category": "combat",
+      "summary": "Stacking toxin that drains enemies over time."
+    },
+    {
+      "id": "frost",
+      "label": "Frost",
+      "category": "combat",
+      "summary": "Cold effects that slow, lock down, or set up bursts."
+    },
+    {
+      "id": "shard",
+      "label": "Shard",
+      "category": "combat",
+      "summary": "Crystal charges spent or consumed for bonus effects."
+    },
+    {
+      "id": "stealth",
+      "label": "Stealth",
+      "category": "combat",
+      "summary": "Leave threat range briefly to reposition or guarantee a hit."
+    },
+    {
+      "id": "stun",
+      "label": "Stun",
+      "category": "combat",
+      "summary": "Hard disable that stops enemy actions for a moment."
+    },
+    {
+      "id": "heal",
+      "label": "Heal",
+      "category": "combat",
+      "summary": "Restore HP directly to keep the team in the fight."
+    },
+    {
+      "id": "omnivamp",
+      "label": "Omnivamp",
+      "category": "combat",
+      "summary": "Convert a portion of damage dealt into healing."
+    },
+    {
+      "id": "debuff",
+      "label": "Debuff",
+      "category": "combat",
+      "summary": "Negative status effects that weaken or disrupt enemies."
+    },
+    {
+      "id": "taunt",
+      "label": "Taunt",
+      "category": "combat",
+      "summary": "Force enemies to focus a target, usually the frontline."
+    },
+    {
+      "id": "warrior",
+      "label": "Warrior",
+      "category": "class",
+      "summary": "Attack-focused fighters built around Crit, Rush, and Shields.",
+      "classSlug": "warrior"
+    },
+    {
+      "id": "tank",
+      "label": "Tank",
+      "category": "class",
+      "summary": "Defense anchors that Stall, Poison, and Frost the battlefield.",
+      "classSlug": "tank"
+    },
+    {
+      "id": "vanguard",
+      "label": "Vanguard",
+      "category": "class",
+      "summary": "Max-HP bruisers leaning on Rush, Shields, and Burn.",
+      "classSlug": "vanguard"
+    },
+    {
+      "id": "assassin",
+      "label": "Assassin",
+      "category": "class",
+      "summary": "Crit burst killers with Shards, Poison, Rush, and Stealth.",
+      "classSlug": "assassin"
+    },
+    {
+      "id": "duelist",
+      "label": "Duelist",
+      "category": "class",
+      "summary": "Attack-speed duelists mixing Stall, Rush, Debuffs, and Crit.",
+      "classSlug": "duelist"
+    },
+    {
+      "id": "mystic",
+      "label": "Mystic",
+      "category": "class",
+      "summary": "Mana-regen casters supporting with Shields, Shards, and Debuffs.",
+      "classSlug": "mystic"
+    },
+    {
+      "id": "mage",
+      "label": "Mage",
+      "category": "class",
+      "summary": "Magic casters that Stall, Burn, and Frost through abilities.",
+      "classSlug": "mage"
+    },
+    {
+      "id": "attack",
+      "label": "Attack",
+      "category": "stat",
+      "summary": "Physical attack power used by auto attacks and many actives."
+    },
+    {
+      "id": "defense",
+      "label": "Defense",
+      "category": "stat",
+      "summary": "Damage reduction and tankiness for the frontline."
+    },
+    {
+      "id": "magic",
+      "label": "Magic",
+      "category": "stat",
+      "summary": "Spell power that scales ability damage and disruptions."
+    },
+    {
+      "id": "maxhp",
+      "label": "Max HP",
+      "category": "stat",
+      "summary": "Maximum health — key scaling for Vanguards and sustain comps."
+    },
+    {
+      "id": "attackspeed",
+      "label": "Attack Speed",
+      "category": "stat",
+      "summary": "How quickly auto attacks fire; central to Duelists."
+    },
+    {
+      "id": "manaregen",
+      "label": "Mana Regen",
+      "category": "stat",
+      "summary": "Mana recovery that lets Mystics spam their active."
+    }
+  ]
+}
