@@ -29,7 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     ...buildGameEntityMetadata({
       name: keyword.label,
-      suffix: "keyword",
+      kind: "keyword",
+      signal: [keyword.category],
       description: keyword.summary,
       path: `/keywords/${keyword.id}`,
     }),

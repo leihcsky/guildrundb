@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "GuildrunHub",
   game: "Guildrun",
   description:
-    "Searchable Guildrun wiki for heroes, relics, items, classes, builds, and guides.",
+    "Unofficial fan wiki for Guildrun — heroes, relics, items, classes, builds, and guides.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://guildrunhub.online",
   locale: "en_US",
   creator: "Guildrun Hub",
@@ -41,55 +41,54 @@ export const siteConfig = {
         "No. Guildrun Hub is an unofficial fan database and is not affiliated with, endorsed by, or connected to Leyline or the Guildrun development team.",
     },
   ],
+  /**
+   * Persistent chrome disclosure (header strip). Keep short; full legal copy lives on /about and /copyright.
+   */
+  unofficialBanner: {
+    text: "Unofficial fan wiki · Demo 0.5.1 · Not affiliated with Leyline",
+    linkLabel: "About this site",
+    href: "/about",
+  },
   seo: {
-    homeTitle: "Guildrun Wiki — Heroes, Relics, Items & Builds",
+    homeTitle: "Guildrun Hub — Unofficial Fan Wiki for Heroes, Relics & Builds",
     homeDescription:
-      "Searchable Guildrun wiki for the Demo 0.5.1 roster — 25 heroes, 300+ relics, items, classes, builds, and guides. Look up stats, effects, and synergies.",
+      "Unofficial fan wiki for Guildrun Demo 0.5.1 — searchable heroes, 300+ relics, items, classes, builds, and guides. Independent of Leyline.",
     lists: {
       heroes: {
-        title: "Guildrun Heroes — Stats, Classes & Builds",
+        title: "Guildrun Heroes — Roster, Classes & Abilities",
         description:
-          "Browse all 25 Guildrun heroes with classes, abilities, specializations, and synergy relics.",
+          "Unofficial roster of all 25 Guildrun heroes with classes, abilities, specializations, and synergy relics.",
       },
       relics: {
-        title: "Guildrun Relics — Effects, Rarity & Synergies",
+        title: "Relic Index — Effects, Rarity & Keywords",
         description:
           "Search 300+ Guildrun relics by name, rarity, and combat keywords like Rush, Crit, and Shield.",
       },
       items: {
-        title: "Guildrun Items — Stats, Effects & Pairings",
+        title: "Item Index — Stats, Triggers & Pairings",
         description:
           "Browse Guildrun items with stats, triggered effects, and recommended hero pairings.",
       },
       classes: {
-        title: "Guildrun Classes — Warrior, Mage, Assassin & More",
+        title: "Class Index — Roles, Keywords & Synergies",
         description:
           "Explore all 7 Guildrun hero classes, signature keywords, and class-specific relic synergies.",
       },
       builds: {
-        title: "Guildrun Builds & Team Comps",
+        title: "Team Builds & Comp Notes",
         description:
           "Curated Guildrun team builds with core heroes, relics, playstyles, and starter comps.",
       },
       guides: {
-        title: "Guildrun Guides & Strategy Tips",
+        title: "Strategy Guides & Demo Tips",
         description:
           "Read Guildrun guides covering drafting, builds, relic picks, and demo progression.",
       },
       keywords: {
-        title: "Guildrun Keywords — Rush, Crit, Shield & More",
+        title: "Keyword Hub — Rush, Crit, Shield & More",
         description:
           "Combat and class keywords from in-game text — find related relics, abilities, and classes.",
       },
-    },
-    entitySuffix: {
-      hero: "Hero Guide",
-      relic: "Relic Guide",
-      item: "Item Guide",
-      class: "Class Guide",
-      build: "Build Guide",
-      keyword: "Keyword Guide",
-      guide: "Guide",
     },
   },
   /**

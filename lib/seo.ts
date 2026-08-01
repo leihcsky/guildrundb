@@ -9,9 +9,26 @@ type BuildMetadataInput = {
   noIndex?: boolean;
 };
 
+/**
+ * Absolute URL aligned with `trailingSlash: true`.
+ * Page paths always end with `/`; file assets (images, icons) do not.
+ */
 export function absoluteUrl(path = "/") {
-  const normalized = path.startsWith("/") ? path : `/${path}`;
-  return `${siteConfig.url}${normalized === "/" ? "" : normalized}`;
+  const base = siteConfig.url.replace(/\/+$/, "");
+  let normalized = path.startsWith("/") ? path : `/${path}`;
+
+  if (normalized === "/") {
+    return `${base}/`;
+  }
+
+  const pathOnly = normalized.split(/[?#]/)[0] ?? normalized;
+  const isAsset = /\.[a-zA-Z0-9]+$/.test(pathOnly);
+  if (isAsset) {
+    return `${base}${normalized}`;
+  }
+
+  normalized = `${normalized.replace(/\/+$/, "")}/`;
+  return `${base}${normalized}`;
 }
 
 export function getSiteIcons(): Metadata["icons"] {
@@ -35,7 +52,9 @@ export function buildMetadata({
   noIndex = false,
 }: BuildMetadataInput): Metadata {
   const url = absoluteUrl(path);
-  const ogImage = image ? absoluteUrl(image) : absoluteUrl(siteConfig.branding.ogImage);
+  const ogImage = image
+    ? absoluteUrl(image)
+    : absoluteUrl(siteConfig.branding.ogImage);
   const fullTitle =
     title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
 
@@ -61,7 +80,9 @@ export function buildMetadata({
       description,
       images: [ogImage],
     },
-    robots: noIndex ? { index: false, follow: false } : { index: true, follow: true },
+    robots: noIndex
+      ? { index: false, follow: false }
+      : { index: true, follow: true },
   };
 }
 
@@ -75,7 +96,10 @@ export function buildHomeMetadata(): Metadata {
 
 type ListPageKey = keyof typeof siteConfig.seo.lists;
 
-export function buildListMetadata(listKey: ListPageKey, path: `/${string}`): Metadata {
+export function buildListMetadata(
+  listKey: ListPageKey,
+  path: `/${string}`,
+): Metadata {
   const page = siteConfig.seo.lists[listKey];
   return buildMetadata({
     title: page.title,
@@ -84,19 +108,63 @@ export function buildListMetadata(listKey: ListPageKey, path: `/${string}`): Met
   });
 }
 
-type EntitySuffixKey = keyof typeof siteConfig.seo.entitySuffix;
+export type EntitySeoKind =
+  | "hero"
+  | "relic"
+  | "item"
+  | "class"
+  | "build"
+  | "keyword"
+  | "guide";
 
-/** e.g. "Guildrun Irini - Hero Guide" → "| Guildrun Hub" appended by buildMetadata */
+function joinTitleSignal(parts: Array<string | undefined | null>): string {
+  return parts
+    .map((part) => (typeof part === "string" ? part.trim() : ""))
+    .filter(Boolean)
+    .join(" · ");
+}
+
+/**
+ * Entity titles favor searchable name + a short differentiating signal.
+ * Heroes keep `Guildrun {name}` for query match; other kinds lead with the entity name.
+ */
 export function buildGameEntityMetadata(input: {
   name: string;
-  suffix: EntitySuffixKey;
+  kind: EntitySeoKind;
   description: string;
   path: string;
   image?: string;
+  /** Differentiator after an em dash, e.g. "Mystic · Requiem Barrage" */
+  signal?: string | Array<string | undefined | null>;
 }): Metadata {
-  const suffix = siteConfig.seo.entitySuffix[input.suffix];
+  const signal =
+    typeof input.signal === "string"
+      ? input.signal.trim()
+      : joinTitleSignal(input.signal ?? []);
+
+  let title: string;
+  switch (input.kind) {
+    case "hero":
+      title = signal
+        ? `${siteConfig.game} ${input.name} — ${signal}`
+        : `${siteConfig.game} ${input.name}`;
+      break;
+    case "guide":
+      title = input.name;
+      break;
+    case "build":
+      title = signal ? `${input.name} — ${signal}` : input.name;
+      break;
+    case "keyword":
+      title = signal ? `${input.name} — ${signal}` : `${input.name} keyword`;
+      break;
+    default:
+      title = signal ? `${input.name} — ${signal}` : input.name;
+      break;
+  }
+
   return buildMetadata({
-    title: `${siteConfig.game} ${input.name} - ${suffix}`,
+    title,
     description: input.description,
     path: input.path,
     image: input.image,
@@ -150,7 +218,7 @@ export function entityJsonLd(input: {
     isPartOf: {
       "@type": "WebSite",
       name: siteConfig.name,
-      url: siteConfig.url,
+      url: absoluteUrl("/"),
     },
   };
 }

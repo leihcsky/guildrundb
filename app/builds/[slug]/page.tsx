@@ -29,7 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return buildGameEntityMetadata({
     name: build.title,
-    suffix: "build",
+    kind: "build",
+    signal: [build.playstyle, build.keywords?.[0]],
     description: build.overview,
     path: `/builds/${build.slug}`,
   });

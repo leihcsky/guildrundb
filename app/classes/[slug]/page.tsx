@@ -13,6 +13,7 @@ import {
   getRelicsByTag,
 } from "@/lib/data";
 import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/seo";
+import { getTagDefinition } from "@/lib/tags";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -25,9 +26,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const heroClass = getHeroClassBySlug(slug);
   if (!heroClass) return {};
 
+  const mechanicLabels = heroClass.mechanics
+    .map((id) => getTagDefinition(id)?.label)
+    .filter((label): label is string => Boolean(label))
+    .slice(0, 2);
+
   return buildGameEntityMetadata({
     name: heroClass.name,
-    suffix: "class",
+    kind: "class",
+    signal: mechanicLabels,
     description: heroClass.description,
     path: `/classes/${heroClass.slug}`,
     image: heroClass.image,

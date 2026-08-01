@@ -15,6 +15,7 @@ import {
   resolveRelicsBySlugs,
 } from "@/lib/data";
 import { TagList } from "@/components/mechanics/tag-list";
+import { getTagDefinition } from "@/lib/tags";
 import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -28,9 +29,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const relic = getRelicBySlug(slug);
   if (!relic) return {};
 
+  const tagLabel = relic.tags
+    .map((id) => getTagDefinition(id)?.label)
+    .find(Boolean);
+
   return buildGameEntityMetadata({
     name: relic.name,
-    suffix: "relic",
+    kind: "relic",
+    signal: [relic.rarity, tagLabel],
     description: relic.effect,
     path: `/relics/${relic.slug}`,
     image: relic.image,

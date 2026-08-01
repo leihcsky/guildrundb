@@ -71,7 +71,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return buildGameEntityMetadata({
     name: hero.name,
-    suffix: "hero",
+    kind: "hero",
+    signal: [hero.class, hero.activeAbility?.name || hero.abilities[0]?.name],
     description: hero.overview,
     path: `/heroes/${hero.slug}`,
     image: hero.portraitImage || hero.image,

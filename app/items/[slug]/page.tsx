@@ -17,6 +17,7 @@ import {
   resolveHeroesBySlugs,
 } from "@/lib/data";
 import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/seo";
+import { getTagDefinition } from "@/lib/tags";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -35,9 +36,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const item = getItemBySlug(slug);
   if (!item) return {};
 
+  const typeLabel = hasMeaningfulType(item.type) ? item.type : undefined;
+  const tagLabel = item.tags
+    .map((id) => getTagDefinition(id)?.label)
+    .find(Boolean);
+
   return buildGameEntityMetadata({
     name: item.name,
-    suffix: "item",
+    kind: "item",
+    signal: [typeLabel, tagLabel],
     description: item.stats || `Guildrun item: ${item.name}`,
     path: `/items/${item.slug}`,
     image: item.image,
