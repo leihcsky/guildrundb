@@ -10,6 +10,9 @@ import {
   getRelics,
 } from "@/lib/data";
 
+// Required for `output: "export"` (Cloudflare Pages static hosting).
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
   const now = new Date();
