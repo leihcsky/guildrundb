@@ -5,7 +5,10 @@ import { PageHeader } from "@/components/shared/page-header";
 import { getMechanicsIndex } from "@/lib/data";
 import { breadcrumbJsonLd, buildListMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = buildListMetadata("keywords", "/keywords");
+export const metadata: Metadata = {
+  ...buildListMetadata("keywords", "/keywords"),
+  robots: { index: false, follow: true },
+};
 
 export default function KeywordsPage() {
   const keywords = getMechanicsIndex();

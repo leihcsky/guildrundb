@@ -6,7 +6,6 @@ import {
   getHeroClasses,
   getHeroes,
   getItems,
-  getMechanicsIndex,
   getRelics,
 } from "@/lib/data";
 
@@ -17,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
   const now = new Date();
 
+  // Keywords (/keywords, /keywords/[tag]) are omitted: useful in-app hubs,
+  // but low standalone search intent vs heroes/relics/items/guides.
   const staticRoutes: MetadataRoute.Sitemap = [
     "",
     "/heroes",
@@ -25,7 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/classes",
     "/builds",
     "/guides",
-    "/keywords",
     "/search",
     "/about",
     "/privacy",
@@ -81,13 +81,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const keywords = getMechanicsIndex().map((keyword) => ({
-    url: `${base}/keywords/${keyword.id}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.5,
-  }));
-
   return [
     ...staticRoutes,
     ...heroes,
@@ -96,6 +89,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...classes,
     ...builds,
     ...guides,
-    ...keywords,
   ];
 }

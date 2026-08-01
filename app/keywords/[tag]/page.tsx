@@ -26,12 +26,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const keyword = getMechanicById(tag);
   if (!keyword) return {};
 
-  return buildGameEntityMetadata({
-    name: keyword.label,
-    suffix: "keyword",
-    description: keyword.summary,
-    path: `/keywords/${keyword.id}`,
-  });
+  return {
+    ...buildGameEntityMetadata({
+      name: keyword.label,
+      suffix: "keyword",
+      description: keyword.summary,
+      path: `/keywords/${keyword.id}`,
+    }),
+    robots: { index: false, follow: true },
+  };
 }
 
 export default async function KeywordDetailPage({ params }: Props) {

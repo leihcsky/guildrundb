@@ -13,6 +13,9 @@ export type BalancingLike = {
   abilityEffects?: unknown[];
   effects?: unknown[];
   specialEffects?: unknown[];
+  hasQuestEffect?: boolean;
+  questRequiredProgress?: number | string;
+  questEffect?: unknown;
   [key: string]: unknown;
 } | null
   | undefined;
@@ -335,26 +338,113 @@ function preferSpecialStackArgs(
   return null;
 }
 
-/** Extract ordered format args for a description from balancing data. */
-export function extractDescriptionArgs(
+function parseExplicitArgs(balancing: BalancingLike): Arg[] {
+  if (!balancing) return [];
+  const explicit = balancing.descriptionArgs;
+  if (!Array.isArray(explicit) || explicit.length === 0) return [];
+  return explicit
+    .map((v) => asNumber(v))
+    .filter((v): v is number => v !== null);
+}
+
+function maxPlaceholderIndex(description: string): number {
+  let max = -1;
+  for (const m of description.matchAll(/\{(\d+)\}/g)) {
+    const idx = Number(m[1]);
+    if (idx > max) max = idx;
+  }
+  return max;
+}
+
+function findAbilityTiming(balancing: BalancingLike): {
+  duration: number | null;
+  delay: number | null;
+} {
+  if (!balancing) return { duration: null, delay: null };
+  const lists = [balancing.abilityActions, balancing.abilityEffects];
+  for (const list of lists) {
+    if (!Array.isArray(list)) continue;
+    for (const entry of list) {
+      const data = parseEntryFull(entry);
+      if (!data) continue;
+      const duration = asNumber(data._duration);
+      const delay = asNumber(data._delay);
+      if (duration !== null || delay !== null) {
+        return { duration, delay };
+      }
+    }
+  }
+  return { duration: null, delay: null };
+}
+
+/**
+ * P1: exporter `descriptionArgs` is best-effort and often wrong
+ * (e.g. Aria channel: delay dumped as `{0}` instead of `_duration`).
+ */
+function pickDescriptionArgs(
+  description: string,
+  balancing: BalancingLike,
+): Arg[] {
+  if (!balancing) return [];
+
+  const extracted = extractArgsFromEffects(description, balancing);
+  const explicit = parseExplicitArgs(balancing);
+  const maxIdx = maxPlaceholderIndex(description);
+
+  if (!explicit.length) return extracted;
+
+  // Incomplete exporter args → prefer a fuller effects walk when available.
+  if (maxIdx >= 0 && explicit.length <= maxIdx) {
+    return extracted.length > explicit.length ? extracted : explicit;
+  }
+
+  const { duration, delay } = findAbilityTiming(balancing);
+  const firstLooksLikeDelay =
+    duration !== null &&
+    delay !== null &&
+    explicit[0] !== undefined &&
+    Math.abs(explicit[0] - delay) <= 0.05 &&
+    Math.abs(explicit[0] - duration) > 0.05;
+
+  // Aria / custom Channel: effects walk rebuilds the full arg list correctly.
+  if (
+    /Channel\b/i.test(description) &&
+    firstLooksLikeDelay &&
+    extracted[0] !== undefined &&
+    Math.abs(extracted[0] - duration!) <= 0.05 &&
+    extracted.length > 3
+  ) {
+    return extracted;
+  }
+
+  // Storm / cloud style: only `{0}` is duration; keep remaining exporter args.
+  if (
+    firstLooksLikeDelay &&
+    /for\s*\{0\}\s*seconds/i.test(description)
+  ) {
+    return [duration!, ...explicit.slice(1)];
+  }
+
+  return explicit;
+}
+
+/** Walk balancing effect trees (ignores descriptionArgs). */
+export function extractArgsFromEffects(
   description: string,
   balancing?: BalancingLike,
 ): Arg[] {
   if (!balancing) return [];
-
-  const explicit = balancing.descriptionArgs;
-  if (Array.isArray(explicit) && explicit.length > 0) {
-    return explicit
-      .map((v) => asNumber(v))
-      .filter((v): v is number => v !== null);
-  }
 
   const stackArgs = preferSpecialStackArgs(balancing, description);
   if (stackArgs) return stackArgs;
 
   const out: Arg[] = [];
 
-  collectFromEffectList(balancing.abilityActions as unknown[] | undefined, out, description);
+  collectFromEffectList(
+    balancing.abilityActions as unknown[] | undefined,
+    out,
+    description,
+  );
 
   const abilityEffects = balancing.abilityEffects as unknown[] | undefined;
   const effects = balancing.effects as unknown[] | undefined;
@@ -371,6 +461,316 @@ export function extractDescriptionArgs(
   );
 
   return out;
+}
+
+function isQuestBalancing(balancing: BalancingLike): boolean {
+  if (!balancing) return false;
+  if (balancing.hasQuestEffect === true) return true;
+  if (balancing.questEffect != null) return true;
+  return asNumber(balancing.questRequiredProgress) !== null;
+}
+
+function parseQuestRoot(
+  balancing: BalancingLike,
+): Record<string, unknown> | null {
+  if (!balancing?.questEffect) return null;
+  return parseEntryFull(balancing.questEffect);
+}
+
+function extractQuestObjectiveArgs(
+  balancing: BalancingLike,
+  _objectiveText: string,
+): Arg[] {
+  const root = parseQuestRoot(balancing);
+  const cond =
+    root && typeof root._condition === "object" && root._condition
+      ? (root._condition as Record<string, unknown>)
+      : null;
+
+  if (cond) {
+    const poison = asNumber(cond._poisonThreshold);
+    const frost = asNumber(cond._frostThreshold);
+    const burn = asNumber(cond._burnThreshold);
+    if (poison !== null && frost !== null && burn !== null) {
+      return [poison, frost, burn];
+    }
+
+    const combined = asNumber(cond._requiredCombinedClassCount);
+    if (combined !== null) return [combined];
+
+    const shards = asNumber(cond._requiredAmount);
+    if (shards !== null) return [shards];
+  }
+
+  const progress =
+    asNumber(balancing?.questRequiredProgress) ??
+    asNumber(root?._requiredProgress);
+  return progress !== null ? [progress] : [];
+}
+
+function emitQuestRewardAction(
+  action: Record<string, unknown>,
+  ctx: {
+    out: Arg[];
+    percentByStat: Map<number, number>;
+    perIncrement: Array<{ value: number; increment: number; statType: number }>;
+    teamSizeAmount: number | null;
+    critBuff: number | null;
+    stunDuration: number | null;
+  },
+) {
+  const type = actionTypeName(action);
+
+  if (type.includes("CriticalAscendancy")) {
+    const crit = asNumber(action._critBuff);
+    const stun = asNumber(action._stunDuration);
+    if (crit !== null) ctx.critBuff = crit;
+    if (stun !== null) ctx.stunDuration = stun;
+    return;
+  }
+
+  if (type.includes("IncrementTeamSize")) {
+    const amount = asNumber(action.Amount);
+    if (amount !== null) ctx.teamSizeAmount = amount;
+    return;
+  }
+
+  if (type.includes("ModifyStatByTriggerValuePerIncrement")) {
+    const statType = asNumber(action.StatType) ?? 0;
+    const increment = asNumber(action.Increment);
+    const value = asNumber(action.Value) ?? asNumber(action.Amount) ?? 1;
+    if (increment !== null) {
+      ctx.perIncrement.push({ value, increment, statType });
+    }
+    return;
+  }
+
+  if (type.includes("ModifyStatPercent")) {
+    const statType = asNumber(action.StatType);
+    const pct = asNumber(action.Percent);
+    if (statType !== null && pct !== null) {
+      ctx.percentByStat.set(statType, Math.abs(pct));
+    }
+    return;
+  }
+
+  if (type.includes("ApplyStatusWithDuration")) {
+    // Stun-for-duration: prefer Duration over Amount (stack count).
+    const duration = asNumber(action.Duration);
+    if (duration !== null) {
+      ctx.out.push(duration);
+      return;
+    }
+  }
+
+  if (
+    type.includes("ApplyStatus") ||
+    type.includes("ApplyShield") ||
+    type.includes("IncreasePlayerRushDuration") ||
+    type.includes("ReducePlayerStallDuration") ||
+    type.includes("ModifyStatAction") ||
+    type.includes("GainShards")
+  ) {
+    for (const key of ["Value", "Amount", "Duration", "Percent"] as const) {
+      // Shield Amount before Duration; skip Duration when Amount already emitted for shields.
+      if (key === "Duration" && type.includes("ApplyShield") && "Amount" in action) {
+        continue;
+      }
+      const n = asNumber(action[key]);
+      if (n !== null) {
+        ctx.out.push(key === "Percent" ? Math.abs(n) : n);
+        if (key === "Value" || key === "Amount") return;
+      }
+    }
+    return;
+  }
+
+  emitFromAction(action, ctx.out);
+}
+
+function extractQuestRewardArgs(
+  balancing: BalancingLike,
+  rewardText: string,
+): Arg[] {
+  const root = parseQuestRoot(balancing);
+  if (!root) return [];
+
+  const rewards = root["<Rewards>k__BackingField"];
+  if (!Array.isArray(rewards)) return [];
+
+  // "Get {0} random Crest items" — count ItemFromPoolReward entries
+  const poolRewards = rewards.filter((reward) => {
+    if (!reward || typeof reward !== "object") return false;
+    const type = actionTypeName(reward);
+    return type.includes("ItemFromPoolReward");
+  });
+  if (poolRewards.length > 0 && /Crest|random/i.test(rewardText)) {
+    return [poolRewards.length];
+  }
+
+  const ctx = {
+    out: [] as Arg[],
+    percentByStat: new Map<number, number>(),
+    perIncrement: [] as Array<{
+      value: number;
+      increment: number;
+      statType: number;
+    }>,
+    teamSizeAmount: null as number | null,
+    critBuff: null as number | null,
+    stunDuration: null as number | null,
+  };
+  const thresholds: number[] = [];
+
+  for (const reward of rewards) {
+    if (!reward || typeof reward !== "object") continue;
+    const effects = (reward as Record<string, unknown>)[
+      "<RewardEffects>k__BackingField"
+    ];
+    if (!Array.isArray(effects)) continue;
+
+    for (const effect of effects) {
+      if (!effect || typeof effect !== "object") continue;
+      const data = effect as Record<string, unknown>;
+      const cond =
+        data._condition && typeof data._condition === "object"
+          ? (data._condition as Record<string, unknown>)
+          : null;
+      const threshold = asNumber(cond?._threshold);
+      if (threshold !== null) thresholds.push(threshold);
+
+      const actions = data._actions;
+      if (!Array.isArray(actions)) continue;
+      for (const action of actions) {
+        if (action && typeof action === "object") {
+          emitQuestRewardAction(action as Record<string, unknown>, ctx);
+        }
+      }
+    }
+  }
+
+  if (ctx.critBuff !== null) {
+    const args: Arg[] = [ctx.critBuff];
+    if (ctx.stunDuration !== null) args.push(ctx.stunDuration);
+    return args;
+  }
+
+  if (ctx.perIncrement.length > 0) {
+    // Conduit copy: "{0} Magic and {1} Attack per {2} Status"
+    const ordered = [...ctx.perIncrement].sort((a, b) => {
+      const rank = (s: number) => (s === 7 ? 0 : s === 6 ? 1 : 10 + s);
+      return rank(a.statType) - rank(b.statType);
+    });
+    const values = ordered.map((p) => p.value);
+    const increment = ordered[0].increment;
+    return [...values, increment];
+  }
+
+  if (ctx.teamSizeAmount !== null) {
+    const max =
+      // Dump often omits Max; Mandates are +1 capped at 1.
+      ctx.teamSizeAmount;
+    return [ctx.teamSizeAmount, max];
+  }
+
+  // "reaches {0} Poison, lose {1}% Max HP / {2}% Attack / {3}% AS"
+  if (
+    thresholds.length > 0 &&
+    /reaches/i.test(rewardText) &&
+    ctx.percentByStat.size >= 2
+  ) {
+    const th = thresholds[0];
+    const maxHp = ctx.percentByStat.get(1);
+    const attack = ctx.percentByStat.get(6);
+    const attackSpeed = ctx.percentByStat.get(9);
+    if (maxHp !== undefined && attack !== undefined && attackSpeed !== undefined) {
+      return [th, maxHp, attack, attackSpeed];
+    }
+  }
+
+  // "reaches {0} Frost, Stun for {1} seconds" / "reaches {0} Burn, inflict {1}"
+  if (thresholds.length > 0 && /reaches/i.test(rewardText)) {
+    return [thresholds[0], ...ctx.out];
+  }
+
+  if (ctx.percentByStat.size > 0 && ctx.out.length === 0) {
+    return [...ctx.percentByStat.values()];
+  }
+
+  return ctx.out;
+}
+
+function applyArgsToText(text: string, args: Arg[]): string {
+  let out = text;
+
+  out = out.replace(
+    /\[([^\]]+)\]<(statcalc_[a-z0-9_]+)>/gi,
+    (full, formula: string, tag: string) => {
+      if (!formula.includes("{") || !/\{(\d+)\}/.test(formula)) return full;
+      const resolved = formatStatCalcFormula(formula, args, tag);
+      if (resolved.startsWith("[") && resolved.endsWith("]")) {
+        return formula.replace(/\{(\d+)\}/g, (_: string, idx: string) => {
+          const v = args[Number(idx)];
+          return v === undefined ? `{${idx}}` : formatNumber(v);
+        });
+      }
+      return resolved;
+    },
+  );
+
+  out = out.replace(/\{(\d+)\}(%?)/g, (_: string, idx: string, pct: string) => {
+    const value = args[Number(idx)];
+    if (value === undefined) return `{${idx}}${pct}`;
+    return `${formatPlainArg(value, pct === "%")}${pct}`;
+  });
+
+  return out;
+}
+
+/**
+ * Quest templates reuse `{0}` for objective vs reward with different values.
+ * Resolve paragraphs separately: first = objective, rest = reward.
+ */
+function resolveQuestDescription(
+  input: string,
+  balancing: BalancingLike,
+): string | null {
+  if (!balancing || !isQuestBalancing(balancing)) return null;
+  if (!/\{(\d+)\}/.test(input)) return null;
+
+  const parts = input.split(/\n\n+/);
+  if (parts.length >= 2) {
+    const objective = applyArgsToText(
+      parts[0],
+      extractQuestObjectiveArgs(balancing, parts[0]),
+    );
+    const rewardBody = parts.slice(1).join("\n\n");
+    const reward = applyArgsToText(
+      rewardBody,
+      extractQuestRewardArgs(balancing, rewardBody),
+    );
+    return `${objective}\n\n${reward}`;
+  }
+
+  // Single block: objective-style progress / condition thresholds only.
+  const args = extractQuestObjectiveArgs(balancing, input);
+  if (!args.length) return null;
+  return applyArgsToText(input, args);
+}
+
+/** Extract ordered format args for a description from balancing data. */
+export function extractDescriptionArgs(
+  description: string,
+  balancing?: BalancingLike,
+): Arg[] {
+  if (!balancing) return [];
+
+  // Quest relics: callers should use resolveQuestDescription; expose objective args.
+  if (isQuestBalancing(balancing)) {
+    return extractQuestObjectiveArgs(balancing, description);
+  }
+
+  return pickDescriptionArgs(description, balancing);
 }
 
 function statLabel(raw: string): string {
@@ -478,37 +878,10 @@ export function resolveDescription(
 ): string {
   if (!input) return "";
 
+  // P0: quest relics reuse `{0}` across objective/reward with different values.
+  const questResolved = resolveQuestDescription(input, balancing);
+  if (questResolved !== null) return questResolved;
+
   const args = extractDescriptionArgs(input, balancing);
-
-  let text = input;
-
-  // 1) Resolve [formula]<statcalc_*> blocks first (consume multiple args)
-  text = text.replace(
-    /\[([^\]]+)\]<(statcalc_[a-z0-9_]+)>/gi,
-    (full, formula: string, tag: string) => {
-      if (!formula.includes("{")) {
-        return full; // leave for markup strip later
-      }
-      // Only treat as calc if it looks like a formula with placeholders
-      if (!/\{(\d+)\}/.test(formula)) return full;
-      const resolved = formatStatCalcFormula(formula, args, tag);
-      // If unresolved, keep original formula text without the tag
-      if (resolved.startsWith("[") && resolved.endsWith("]")) {
-        return formula.replace(/\{(\d+)\}/g, (_, idx) => {
-          const v = args[Number(idx)];
-          return v === undefined ? `{${idx}}` : formatNumber(v);
-        });
-      }
-      return resolved;
-    },
-  );
-
-  // 2) Replace remaining plain {n} (and {n}% fraction handling)
-  text = text.replace(/\{(\d+)\}(%?)/g, (_, idx: string, pct: string) => {
-    const value = args[Number(idx)];
-    if (value === undefined) return `{${idx}}${pct}`;
-    return `${formatPlainArg(value, pct === "%")}${pct}`;
-  });
-
-  return text;
+  return applyArgsToText(input, args);
 }

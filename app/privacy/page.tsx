@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Privacy Policy",
-  description: `Privacy policy for ${siteConfig.name} — what we collect, cookies, analytics, and how to contact us.`,
+  description: `Privacy policy for ${siteConfig.name} — cookies, Google Analytics, Google advertising technologies, and how to contact us.`,
   path: "/privacy",
 });
 
@@ -37,7 +37,9 @@ export default function PrivacyPage() {
             {siteConfig.name} ({siteConfig.url}) is a public reference site for{" "}
             {siteConfig.game}. You can browse heroes, relics, items, builds, and guides
             without creating an account. We aim to collect as little personal data as
-            practical.
+            practical, and this policy explains what is processed when you visit —
+            including cookies, analytics, and advertising technologies from Google and
+            other third parties.
           </p>
         </section>
 
@@ -45,10 +47,10 @@ export default function PrivacyPage() {
           <h2>Information we may process</h2>
           <h3>Technical and hosting logs</h3>
           <p>
-            Like most websites, our hosting or CDN provider may automatically receive
-            standard request data such as IP address, browser type, device information,
-            referring URL, and timestamps. This information is used for security,
-            reliability, and abuse prevention.
+            Like most websites, our hosting or CDN provider (currently Cloudflare) may
+            automatically receive standard request data such as IP address, browser type,
+            device information, referring URL, and timestamps. This information is used
+            for security, reliability, performance, and abuse prevention.
           </p>
           <h3>Contact messages</h3>
           <p>
@@ -58,40 +60,107 @@ export default function PrivacyPage() {
             address and the content of your report). We use it only to respond and to
             improve the site.
           </p>
-          <h3>Analytics</h3>
+          <h3>Google Analytics</h3>
           <p>
             We use <strong>Google Analytics 4</strong> (measurement ID{" "}
-            {siteConfig.googleAnalyticsId}) to understand aggregate traffic such as
-            pages viewed, approximate geography, device type, and referral sources.
-            Google may process IP address and cookie or similar identifiers under its
-            own privacy policy. You can learn more at{" "}
+            {siteConfig.googleAnalyticsId}) to understand aggregate traffic such as pages
+            viewed, approximate geography, device type, and referral sources. Google may
+            process IP addresses and cookies or similar identifiers under{" "}
             <a
               href="https://policies.google.com/privacy"
               rel="noopener noreferrer"
               target="_blank"
             >
               Google&apos;s Privacy Policy
-            </a>{" "}
-            and opt out of Google Analytics via browser add-ons or your browser
-            settings where available.
-          </p>
-          <p>
-            We may also use hosting or CDN dashboards (for example Cloudflare) that
-            summarize request logs for security and reliability.
+            </a>
+            . You can learn how Google uses data from sites that use its services at{" "}
+            <a
+              href="https://policies.google.com/technologies/partner-sites"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              How Google uses information from sites or apps that use our services
+            </a>
+            .
           </p>
         </section>
 
         <section className="space-y-3">
-          <h2>Cookies and local storage</h2>
+          <h2>Cookies, web beacons, and similar technologies</h2>
+          <p>
+            We and third parties may store or access information on your device using
+            cookies, local storage, pixels/web beacons, or similar technologies. These
+            may involve device identifiers and IP addresses.
+          </p>
+          <h3>Essential / preference storage</h3>
           <p>
             The site may store preferences locally in your browser — for example theme
-            preference (light / dark / system). Essential cookies or local storage used
-            for basic functionality are not used to track you across other websites.
+            preference (light / dark / system). This storage is used for basic site
+            functionality and is not used by us to track you across other websites.
           </p>
+          <h3>Analytics cookies</h3>
           <p>
             Google Analytics may set or read cookies (or similar storage) to distinguish
-            visits. If advertising or additional marketing cookies are added later, we
-            will update this page before those features go live.
+            visits and measure how the site is used.
+          </p>
+          <h3>Advertising cookies (Google and partners)</h3>
+          <p>
+            When Google advertising products such as <strong>Google AdSense</strong> (or
+            related Google ad services) are enabled on this site, third-party vendors —
+            including Google — may place and read cookies on your browser, or use web
+            beacons and IP addresses, to collect information as a result of ads being
+            served.
+          </p>
+          <ul>
+            <li>
+              Third-party vendors, including Google, use cookies to serve ads based on a
+              user&apos;s prior visits to this website or other websites.
+            </li>
+            <li>
+              Google&apos;s use of advertising cookies enables it and its partners to
+              serve ads to users based on their visit to this site and/or other sites on
+              the Internet.
+            </li>
+            <li>
+              Users may opt out of personalized advertising by visiting{" "}
+              <a
+                href="https://adssettings.google.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Google Ads Settings
+              </a>
+              . Alternatively, you can opt out of some third-party vendors&apos; use of
+              cookies for personalized advertising by visiting{" "}
+              <a
+                href="https://www.aboutads.info/choices/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                www.aboutads.info
+              </a>
+              .
+            </li>
+          </ul>
+          <p>
+            Additional third-party ad networks may also serve ads on this site. Where
+            that happens, those vendors may use their own cookies or beacons under their
+            own policies. We will keep this section updated as vendors change. For
+            Google&apos;s partner-site practices, see{" "}
+            <a
+              href="https://policies.google.com/technologies/partner-sites"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              How Google uses information from sites or apps that use our services
+            </a>
+            .
+          </p>
+          <p>
+            <strong>Current status:</strong> Google Analytics is active on this site
+            today. Display advertising (for example AdSense units) may be added after
+            Google reviews the site. The advertising disclosures above apply whenever
+            those ad products are serving on our pages.
           </p>
         </section>
 
@@ -107,31 +176,61 @@ export default function PrivacyPage() {
         <section className="space-y-3">
           <h2>Third-party services</h2>
           <p>
-            The site may load fonts, images, or infrastructure services from third-party
-            providers. Those providers process requests under their own privacy
-            policies. Embedded content (for example future video embeds) would also be
-            subject to the third party&apos;s terms.
+            Besides Google, the site may load fonts, images, or infrastructure services
+            from third-party providers (including Cloudflare). Those providers process
+            requests under their own privacy policies. Embedded content (for example
+            future video embeds) would also be subject to the third party&apos;s terms.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2>Children</h2>
           <p>
-            The site is a general game reference. We do not knowingly collect personal
-            information from children. If you believe a child has sent us personal data,
-            contact us and we will delete it where reasonably possible.
+            The site is a general game reference for a broad audience. We do not
+            knowingly collect personal information from children. If you believe a child
+            has sent us personal data, contact us and we will delete it where reasonably
+            possible. This site is not directed at children under 13 (or the equivalent
+            age in your jurisdiction).
           </p>
         </section>
 
         <section className="space-y-3">
           <h2>Your choices</h2>
           <ul>
-            <li>Use browser settings to clear cookies and local storage.</li>
+            <li>Use browser settings to block or clear cookies and local storage.</li>
+            <li>
+              Manage Google Analytics via browser controls or Google&apos;s available
+              opt-out tools.
+            </li>
+            <li>
+              Manage personalized ads via{" "}
+              <a
+                href="https://adssettings.google.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Google Ads Settings
+              </a>{" "}
+              or{" "}
+              <a
+                href="https://www.aboutads.info/choices/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                aboutads.info
+              </a>
+              .
+            </li>
             <li>
               Contact us to request deletion of information you sent by email, subject
               to ordinary backup and legal retention limits.
             </li>
           </ul>
+          <p>
+            Visitors in the European Economic Area, United Kingdom, or Switzerland may
+            see a consent banner (CMP) before non-essential cookies or ad personalization
+            run, where required by law and by Google&apos;s EU user consent policy.
+          </p>
         </section>
 
         <section className="space-y-3">
