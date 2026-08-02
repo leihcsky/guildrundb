@@ -29,7 +29,7 @@ export default function BuildsPage() {
       />
       <PageHeader
         title="Builds"
-        description="Practical comps for Demo 0.5.1 — when to pick them, how to place them, and what to buy."
+        description="Practical comps for Demo 0.5.2 — when to pick them, how to place them, and what to buy."
       />
       <div className="grid gap-4 md:grid-cols-2">
         {builds.map((build) => (

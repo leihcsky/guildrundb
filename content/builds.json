@@ -36,7 +36,7 @@
       "Falls behind if you never find Rush partners or Duelist tags",
       "Low team heal; long attrition fights need item answers"
     ],
-    "patch": "Demo 0.5.1",
+    "patch": "Demo 0.5.2",
     "featured": true,
     "updatedAt": "2026-07-29"
   },
@@ -82,7 +82,7 @@
       "Setup-heavy: needs the right banners before it feels strong",
       "Vulnerable to early dive on Irini / Nyx"
     ],
-    "patch": "Demo 0.5.1",
+    "patch": "Demo 0.5.2",
     "featured": true,
     "updatedAt": "2026-07-29"
   },
@@ -127,7 +127,7 @@
       "Feels weak if shield relics never show",
       "Can brick if you draft three walls and no finisher"
     ],
-    "patch": "Demo 0.5.1",
+    "patch": "Demo 0.5.2",
     "featured": false,
     "updatedAt": "2026-07-29"
   },
@@ -169,7 +169,7 @@
       "Needs frontline help from flex picks or items",
       "Punished hard if Mystics get opened on"
     ],
-    "patch": "Demo 0.5.1",
+    "patch": "Demo 0.5.2",
     "featured": false,
     "updatedAt": "2026-07-29"
   },
@@ -214,7 +214,7 @@
       "Needs a living frontline every fight",
       "Inconsistent if Crit never comes online"
     ],
-    "patch": "Demo 0.5.1",
+    "patch": "Demo 0.5.2",
     "featured": false,
     "updatedAt": "2026-07-29"
   }

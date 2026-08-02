@@ -7,12 +7,12 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://guildrunhub.online",
   locale: "en_US",
   creator: "Guildrun Hub",
-  gameVersion: "Demo 0.5.1",
+  gameVersion: "Demo 0.5.2",
   contactEmail: "contact@guildrunhub.online",
   /** Google Analytics 4 measurement ID (gtag.js). */
   googleAnalyticsId: "G-MN3QZETG27",
   dataNotes:
-    "Database extracted from Guildrun Demo 0.5.1 game sheets. Balance-sensitive values may change with future patches.",
+    "Database extracted from Guildrun Demo 0.5.2 game sheets. Balance-sensitive values may change with future patches.",
   legalUpdatedAt: "2026-08-01",
   faq: [
     {
@@ -23,7 +23,7 @@ export const siteConfig = {
     {
       question: "Which game version does Guildrun Hub cover?",
       answer:
-        "Heroes, relics, items, classes, and abilities on this site are maintained against Guildrun Demo 0.5.1. Recheck values after major balance patches.",
+        "Heroes, relics, items, classes, and abilities on this site are maintained against Guildrun Demo 0.5.2. Recheck values after major balance patches.",
     },
     {
       question: "How should a new player start?",
@@ -45,7 +45,7 @@ export const siteConfig = {
    * Persistent chrome disclosure (header strip). Keep short; full legal copy lives on /about and /copyright.
    */
   unofficialBanner: {
-    text: "Unofficial fan wiki · Demo 0.5.1 · Not affiliated with Leyline",
+    text: "Unofficial fan wiki · Demo 0.5.2 · Not affiliated with Leyline",
     linkLabel: "About this site",
     href: "/about",
   },
@@ -53,7 +53,7 @@ export const siteConfig = {
     // Query-facing: lead with "Guildrun wiki". Unofficial disclosure lives in chrome / About, not meta.
     homeTitle: "Guildrun Wiki — Heroes, Relics, Items & Builds",
     homeDescription:
-      "Guildrun wiki for Demo 0.5.1 — searchable heroes, 300+ relics, items, classes, builds, and guides. Look up stats, effects, and synergies.",
+      "Guildrun wiki for Demo 0.5.2 — searchable heroes, 300+ relics, items, classes, builds, and guides. Look up stats, effects, and synergies.",
     lists: {
       heroes: {
         title: "Guildrun Heroes — Roster, Classes & Abilities",
