@@ -37,6 +37,7 @@ import {
   buildRelicDisplayText,
   runtimeTitle,
 } from "@/lib/balancing-text";
+import { ADJACENT_GUIDE } from "@/lib/adjacent-meta";
 
 /**
  * Data access layer.
@@ -832,11 +833,13 @@ export function getBuildBySlug(slug: string): Build | undefined {
 }
 
 export function getGuides(): Guide[] {
-  if (!fs.existsSync(guidesDir)) return [];
+  if (!fs.existsSync(guidesDir)) {
+    return [ADJACENT_GUIDE];
+  }
 
   const files = fs.readdirSync(guidesDir).filter((file) => file.endsWith(".md"));
 
-  return files
+  const fromMarkdown = files
     .map((file) => {
       const slug = file.replace(/\.md$/, "");
       const raw = fs.readFileSync(path.join(guidesDir, file), "utf-8");
@@ -851,7 +854,11 @@ export function getGuides(): Guide[] {
         tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
       } satisfies Guide;
     })
-    .sort((a, b) => +new Date(b.updatedAt) - +new Date(a.updatedAt));
+    .filter((guide) => guide.slug !== ADJACENT_GUIDE.slug);
+
+  return [...fromMarkdown, ADJACENT_GUIDE].sort(
+    (a, b) => +new Date(b.updatedAt) - +new Date(a.updatedAt),
+  );
 }
 
 export function getGuideBySlug(slug: string): Guide | undefined {

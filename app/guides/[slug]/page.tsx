@@ -8,7 +8,9 @@ import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/s
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
-  return getGuides().map((guide) => ({ slug: guide.slug }));
+  return getGuides()
+    .filter((guide) => guide.slug !== "adjacent-positioning")
+    .map((guide) => ({ slug: guide.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
