@@ -27,7 +27,10 @@ export default function GuidesPage() {
           { label: "Guides" },
         ]}
       />
-      <PageHeader title="Guides" description="Markdown-powered strategy articles." />
+      <PageHeader
+        title="Guides"
+        description="Practical Demo tips for drafting, shops, positioning, and clearing hard content."
+      />
       <div className="grid gap-4 md:grid-cols-2">
         {guides.map((guide) => (
           <GuideCard key={guide.slug} guide={guide} />

@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { GuideOutline } from "@/components/guides/guide-outline";
+import { RelatedGuides } from "@/components/guides/related-guides";
 import { Breadcrumb } from "@/components/shared/breadcrumb";
-import { formatDate } from "@/lib/utils";
 import { getGuideBySlug, getGuides, renderMarkdown } from "@/lib/data";
+import {
+  extractGuideOutline,
+  getRelatedGuides,
+  injectHeadingIds,
+} from "@/lib/guide-nav";
 import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/seo";
+import { formatDate } from "@/lib/utils";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -34,7 +41,9 @@ export default async function GuideDetailPage({ params }: Props) {
   const guide = getGuideBySlug(slug);
   if (!guide) notFound();
 
-  const html = await renderMarkdown(guide.content);
+  const outline = extractGuideOutline(guide.content);
+  const html = injectHeadingIds(await renderMarkdown(guide.content), outline);
+  const related = getRelatedGuides(getGuides(), guide.slug, 2);
 
   return (
     <>
@@ -74,19 +83,38 @@ export default async function GuideDetailPage({ params }: Props) {
         ]}
       />
 
-      <article className="mx-auto max-w-3xl">
-        <header className="mb-8 space-y-3">
-          <h1 className="font-display text-4xl font-bold">{guide.title}</h1>
-          <p className="text-muted-foreground">{guide.description}</p>
-          <p className="text-sm text-muted-foreground">
-            Updated {formatDate(guide.updatedAt)}
-          </p>
-        </header>
-        <div
-          className="prose prose-neutral dark:prose-invert max-w-none"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </article>
+      <div className="mx-auto grid max-w-5xl gap-10 lg:grid-cols-[minmax(0,1fr)_240px]">
+        <article className="min-w-0">
+          <header className="mb-8 space-y-3">
+            <h1 className="font-display text-4xl font-bold">{guide.title}</h1>
+            <p className="text-muted-foreground">{guide.description}</p>
+            <p className="text-sm text-muted-foreground">
+              Updated {formatDate(guide.updatedAt)}
+            </p>
+          </header>
+
+          {outline.length > 0 ? (
+            <div className="mb-8 lg:hidden">
+              <GuideOutline items={outline} />
+            </div>
+          ) : null}
+
+          <div
+            className="prose prose-neutral dark:prose-invert max-w-none prose-headings:scroll-mt-24"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+
+          <RelatedGuides guides={related} />
+        </article>
+
+        {outline.length > 0 ? (
+          <aside className="hidden lg:block">
+            <div className="sticky top-24">
+              <GuideOutline items={outline} />
+            </div>
+          </aside>
+        ) : null}
+      </div>
     </>
   );
 }

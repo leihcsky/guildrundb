@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { GuideOutline } from "@/components/guides/guide-outline";
+import { RelatedGuides } from "@/components/guides/related-guides";
 import { Breadcrumb } from "@/components/shared/breadcrumb";
 import { siteConfig } from "@/config/site.config";
+import { getGuides } from "@/lib/data";
+import { getRelatedGuides } from "@/lib/guide-nav";
 import { RED_RIFT_FAQ, RED_RIFT_GUIDE } from "@/lib/red-rift-meta";
 import {
   breadcrumbJsonLd,
@@ -10,6 +14,15 @@ import {
   faqJsonLd,
 } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
+
+const RED_RIFT_OUTLINE = [
+  { id: "what-is-red-rift", title: "What is Red Rift?", level: 2 as const },
+  { id: "strategy", title: "Strategy", level: 2 as const },
+  { id: "best-heroes", title: "Best heroes", level: 2 as const },
+  { id: "builds", title: "Builds", level: 2 as const },
+  { id: "tier-list", title: "Tier list", level: 2 as const },
+  { id: "faq", title: "FAQ", level: 2 as const },
+];
 
 export const metadata: Metadata = buildGameEntityMetadata({
   name: RED_RIFT_GUIDE.title,
@@ -45,6 +58,8 @@ function HeroLink({ slug, label }: { slug: keyof typeof HERO_LINKS; label: strin
 }
 
 export default function RedRiftGuidePage() {
+  const related = getRelatedGuides(getGuides(), RED_RIFT_GUIDE.slug, 2);
+
   return (
     <>
       <script
@@ -92,38 +107,24 @@ export default function RedRiftGuidePage() {
         ]}
       />
 
-      <article className="mx-auto max-w-3xl space-y-10">
-        <header className="space-y-3">
-          <h1 className="font-display text-4xl font-bold">
-            {RED_RIFT_GUIDE.title}
-          </h1>
-          <p className="text-lg text-muted-foreground">
-            {RED_RIFT_GUIDE.description}
-          </p>
-          <p className="text-sm text-muted-foreground">
-            Updated {formatDate(RED_RIFT_GUIDE.updatedAt)} ·{" "}
-            {siteConfig.gameVersion} · unofficial clear guide
-          </p>
-        </header>
+      <div className="mx-auto grid max-w-5xl gap-10 lg:grid-cols-[minmax(0,1fr)_240px]">
+        <article className="min-w-0 space-y-10">
+          <header className="space-y-3">
+            <h1 className="font-display text-4xl font-bold">
+              {RED_RIFT_GUIDE.title}
+            </h1>
+            <p className="text-lg text-muted-foreground">
+              {RED_RIFT_GUIDE.description}
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Updated {formatDate(RED_RIFT_GUIDE.updatedAt)} ·{" "}
+              {siteConfig.gameVersion} · unofficial clear guide
+            </p>
+          </header>
 
-        <nav className="flex flex-wrap gap-2 text-sm">
-          {[
-            { id: "what-is-red-rift", label: "What is it?" },
-            { id: "strategy", label: "Strategy" },
-            { id: "best-heroes", label: "Heroes" },
-            { id: "builds", label: "Builds" },
-            { id: "tier-list", label: "Tier list" },
-            { id: "faq", label: "FAQ" },
-          ].map((item) => (
-            <a
-              key={item.id}
-              href={`#${item.id}`}
-              className="rounded-md border border-border px-3 py-1.5 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
-            >
-              {item.label}
-            </a>
-          ))}
-        </nav>
+          <div className="lg:hidden">
+            <GuideOutline items={RED_RIFT_OUTLINE} />
+          </div>
 
         <section id="what-is-red-rift" className="scroll-mt-24 space-y-3">
           <h2 className="font-display text-2xl font-semibold">
@@ -454,31 +455,15 @@ export default function RedRiftGuidePage() {
           </div>
         </section>
 
-        <section className="space-y-3 border-t border-border pt-8">
-          <h2 className="font-display text-2xl font-semibold">Next steps</h2>
-          <p className="text-muted-foreground">
-            New to the Demo loop? Start with{" "}
-            <Link
-              href="/guides/getting-started"
-              className="underline-offset-2 hover:underline"
-            >
-              Getting Started
-            </Link>
-            . For placement keywords that matter on high difficulty, read{" "}
-            <Link
-              href="/guides/adjacent-positioning"
-              className="underline-offset-2 hover:underline"
-            >
-              Adjacent positioning
-            </Link>
-            . Browse the full{" "}
-            <Link href="/heroes" className="underline-offset-2 hover:underline">
-              hero roster
-            </Link>{" "}
-            when the shop offers a name you do not recognize.
-          </p>
-        </section>
+        <RelatedGuides guides={related} />
       </article>
+
+        <aside className="hidden lg:block">
+          <div className="sticky top-24">
+            <GuideOutline items={RED_RIFT_OUTLINE} />
+          </div>
+        </aside>
+      </div>
     </>
   );
 }
