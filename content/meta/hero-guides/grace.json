@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Late-fight Mystic support — Shields, heals, and Stall-powered resurrection",
+  "bestFor": "Difficult fights and Red-Rift style pressure where someone must clutch the lowest HP hero or revive after Stall",
+  "strength": "Salvation targets the most desperate ally and can resurrect after Stall — unique panic button other Mystics lack",
+  "weakness": "Slow to pay off if fights end before Stall thresholds; weak as an early solo damage hero",
+  "howToPlay": {
+    "early": "Draft Grace when you already have damage and keep whiting out. Mana Regen first so Salvation actually casts.",
+    "mid": "Selfless = team-wide Salvation after Stall (plus Backup shields). Benevolent = permanent primary stats on cast after Stall. Radiant = Mystics’ Shields grant Attack/Magic. Pick based on whether you need clutch peels, permanent stacks, or team damage amp.",
+    "late": "Lean into Stall relics and Mystic Shield banners. Her power spike is mid-to-late fight — do not judge her on the first five seconds.",
+    "positioning": "Mid-back with vision on both frontliners. She must be alive when Stall windows open or the resurrect clause never matters."
+  },
+  "abilityNotes": {
+    "Salvation": "Lowest % HP targeting is automatic triage. After Stall (5) it can resurrect — surviving into Stall is part of the build, not optional flavor."
+  },
+  "specNotes": {
+    "The Selfless": "Team peel path — Salvation hits everyone after Stall, with strong Backup-only team Shields. Take for sticky, Stall-heavy clears.",
+    "The Benevolent": "Permanent stat gifts on Stall casts. Take when you want Grace to scale a chosen carry across the run.",
+    "The Radiant": "Whenever Mystics Shield, grant Attack and Magic. Take on multi-Mystic Shield boards."
+  },
+  "relicReasons": {
+    "mystics-barrier-banner-585": "More Shield uptime for the job she already does.",
+    "mystics-prosperity-filigree-3012": "Helps cast frequency so Salvation is ready when someone dips.",
+    "arcane-backup-prism-3051": "Backup-friendly arcane tool — pairs with Selfless/Radiant Backup text."
+  },
+  "faq": [
+    {
+      "question": "Is Grace good in Guildrun?",
+      "answer": "One of the best clutch supports in hard content. Mediocre if you need early clear and never reach Stall. Buy her to stop dying, not to speed-clear Act 1."
+    },
+    {
+      "question": "What class is Grace?",
+      "answer": "Mystic. Role focus: late-fight Shields, healing, and Stall-enabled resurrection."
+    },
+    {
+      "question": "What relics work with Grace?",
+      "answer": "Mystic Barrier/Prosperity pieces, Stall enablers, and Backup/arcane tools if you took Selfless or Radiant."
+    },
+    {
+      "question": "How do you play Grace?",
+      "answer": "Keep her alive into Stall, cast Salvation on collapsing allies, and specialize toward team peel (Selfless), permanent buffs (Benevolent), or Mystic damage amp (Radiant)."
+    }
+  ],
+  "tips": [
+    "If fights end before Stall 5, Grace’s resurrect never shows — add Stall or slow the clear intentionally on bosses.",
+    "She does not replace a tank; she saves the tank."
+  ]
+}

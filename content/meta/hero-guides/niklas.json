@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Item-eating Vanguard — frontline that converts gear into permanent stats and Shards",
+  "bestFor": "Players who like managing item slots and want a Vanguard who funds the run while holding the line",
+  "strength": "Wheel and Deal stuns and can spit items; Rank paths turn items / Shards into permanent power",
+  "weakness": "High micro of item order — wrong consumes waste value; also needs Max HP to stay relevant as a frontliner",
+  "howToPlay": {
+    "early": "He can be your first tank if you feed Max HP. Put disposable or low-value items left-most if you are on the consume path so Red Hot Deals eats trash, not your best piece.",
+    "mid": "Executive wants more item slots and Rush Shields per item. Hoarder wants Shard generation and Vanguard/Tank retaliation. Dealer/consume path wants a steady item pipeline.",
+    "late": "Treat Niklas as economy + frontline hybrid. Keep Max HP and Rush tools coming; do not turn him into a backline caster.",
+    "positioning": "True front row on the engage path. He stuns what he hits — make sure the mace connects with the scary pack, not a stray trash mob."
+  },
+  "abilityNotes": {
+    "Wheel and Deal": "Stun + Max HP scaling smash. The item-create chance is gravy — build him to survive and connect, not to fish procs."
+  },
+  "specNotes": {
+    "The Dealer": "Item-consume / permanent stats path (pairs with Red Hot Deals). Take when you can keep feeding him leftover shop items.",
+    "The Executive": "More item slots and Rush Shields per equipped item — take when you actually fill those slots every fight.",
+    "The Hoarder": "Team retaliate scales with Shards generated this game. Take on Shard-heavy Vanguard/Tank boards, not solo Niklas greed."
+  },
+  "relicReasons": {
+    "vanguard-equipment-6020": "Speaks directly to his item-slot identity.",
+    "vanguards-aegis-banner-537": "Helps him live as the engage tank while the economy engine spins.",
+    "defensive-amplifier-2016": "Max HP / defensive amp keeps the front line honest."
+  },
+  "faq": [
+    {
+      "question": "Is Niklas good in Guildrun?",
+      "answer": "Yes if you enjoy item management and Vanguard frontline. No if you want a simple “buy and forget” carry — mis-ordered items punish you."
+    },
+    {
+      "question": "What class is Niklas?",
+      "answer": "Vanguard. Role focus: item-consuming economy engine who still stuns and tanks."
+    },
+    {
+      "question": "What relics work with Niklas?",
+      "answer": "Vanguard equipment/aegis pieces, defensive amplifiers, and Rush tools if you took Executive."
+    },
+    {
+      "question": "How do you play Niklas?",
+      "answer": "Park him front, grow Max HP, control which item sits left-most for consumes, and pick Executive when slots are full or Hoarder when Shard generation is high."
+    }
+  ],
+  "tips": [
+    "Before each combat, glance at item order — left-most is the consume candidate on the deals path.",
+    "Hoarder without Shard income is a trap; take it only when the run already prints Shards."
+  ]
+}

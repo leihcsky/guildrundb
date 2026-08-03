@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Zone-control Mystic — Blizzard for Frost damage plus team Shields",
+  "bestFor": "Control boards that want a long fight, Frost stacks, and a Mystic who also peels with Shields",
+  "strength": "Blizzard taxes everyone standing in the zone every second while shielding allies inside — rare dual offense/defense cast",
+  "weakness": "Needs Mana Regen / cast uptime and a board that keeps enemies in the storm; short burst fights undersell him",
+  "howToPlay": {
+    "early": "Pick Gustav when you can protect a back-mid caster. He is not your first-contact tank. Buy Mana Regen before greed Magic.",
+    "mid": "Choose the economy: Investor (Shard/Mana Regen investment), Glacier (self-centered Blizzard + Defense scaling), or Avalanche (cast → Shard → Mana Regen/Magic). Match relics to that branch.",
+    "late": "Keep Blizzard uptime high. Stall paths love Glacier; Shard engines love Avalanche/Investor. Do not starve him of casts.",
+    "positioning": "Back-mid so the Blizzard covers the main fight lane. Allies who stand in the storm get Shields — clump intentionally, not randomly."
+  },
+  "abilityNotes": {
+    "Blizzard": "Win condition is zone uptime. If enemies leave the storm, you paid for a weak DoT. Place the fight so packs walk through it."
+  },
+  "specNotes": {
+    "The Investor": "Economy/support path — spend Shards to invest Mana Regen into the team. Take when you are greedy for long-run scaling, not immediate clear.",
+    "The Glacier": "Selfish tank-Mystic hybrid: Blizzard sticks to Gustav and Stall grows Defense. Take when he is your peel anchor.",
+    "The Avalanche": "Cast engine: more Shards and Mana Regen/Magic on generation. Take when you can spam Blizzard every fight."
+  },
+  "relicReasons": {
+    "mystics-barrier-banner-585": "Keeps the Mystic Shield fantasy online while Blizzard peels allies in the zone.",
+    "mystics-prosperity-filigree-3012": "Mana/economy style Mystic piece — helps cast frequency.",
+    "arcane-amplifier-2014": "Fallback Magic amp when class-specific relics are missing."
+  },
+  "faq": [
+    {
+      "question": "Is Gustav good in Guildrun?",
+      "answer": "Excellent on control / Stall / Shield boards. Bad if you need an early pure damage carry and cannot keep enemies in Blizzard."
+    },
+    {
+      "question": "What class is Gustav?",
+      "answer": "Mystic. Role focus: zone-control Frost caster who also shields heroes inside Blizzard."
+    },
+    {
+      "question": "What relics work with Gustav?",
+      "answer": "Mystic Barrier / Prosperity pieces, Arcane amplifiers, and Stall tools if you took Glacier."
+    },
+    {
+      "question": "How do you play Gustav?",
+      "answer": "Stack Mana Regen, drop Blizzard on the main lane, stand allies in the storm for Shields, and specialize toward either peel (Glacier) or cast economy (Avalanche/Investor)."
+    }
+  ],
+  "tips": [
+    "If packs kite out of Blizzard, reposition Gustav or your tank — do not only buy Magic.",
+    "Investor is a run plan, not a panic button; take it when Shard spending is already comfortable."
+  ]
+}

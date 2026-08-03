@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Ranged Frost Duelist — volley DPS that scales with Attack Speed and Stall",
+  "bestFor": "Runs that want safe back-mid damage plus Frost application without committing a pure Mage",
+  "strength": "Snowpiercer multi-hits from range, so Attack Speed and Stall upgrades multiply both damage and Frost stacks",
+  "weakness": "Needs a front line; if packs dive her before volleys land she contributes almost nothing",
+  "howToPlay": {
+    "early": "Buy her when you already have someone eating first contact. Rank her only after one tanky piece is stable — she is a carry, not an opener.",
+    "mid": "Push Attack Speed and Stall. The Falling Snow wants Stall windows so extra arrows Crit; Frostbite wants auto-attack volume. Pick one fantasy and feed it.",
+    "late": "Commit either to Stall Crit volleys or permanent Warband stacking for the Duelist row. Do not split Shards across all three specs.",
+    "positioning": "Back or far side lane with clear sightlines. Keep her off the dive tile; she wants to shoot, not tank the opener."
+  },
+  "abilityNotes": {
+    "Snowpiercer": "Think of it as a short AS-scaling shotgun: more Attack Speed means more Frost and more total damage per cast. Pair AS relics before raw Attack greed."
+  },
+  "specNotes": {
+    "The Falling Snow": "Take when you can hit Stall reliably — extra arrows plus Stall Crit is the cleanest “Karsu as main carry” path.",
+    "The Warband": "Take when you are committing multiple Duelists. Cast stacking that buffs the whole Duelist row is a board-wide investment, not a solo carry patch.",
+    "The Frostbite": "Take when fights last and she autos a lot. Extra Frost arrows punish long packs; weaker if she dies mid-cast cycle."
+  },
+  "relicReasons": {
+    "duelists-outbreak-banner-571": "Class banner that amplifies the Duelist tag you already drafted her for.",
+    "martial-amplifier-2015": "Generic martial amp — good glue when the shop refuses pure Duelist pieces.",
+    "duelists-fury-filigree-3010": "Feeds the Attack Speed / aggression loop Snowpiercer wants."
+  },
+  "faq": [
+    {
+      "question": "Is Karsu good in Guildrun?",
+      "answer": "Yes as a ranged Duelist carry when you can protect her. She is mediocre as your only early board piece. Shop check: do you already have a frontliner? If not, wait."
+    },
+    {
+      "question": "What class is Karsu?",
+      "answer": "Duelist. Role focus: ranged Frost applicator who scales with Attack Speed and Stall."
+    },
+    {
+      "question": "What relics work with Karsu?",
+      "answer": "Duelist banners/filigrees, Attack Speed / martial amplifiers, and anything that helps Stall windows if you took Falling Snow."
+    },
+    {
+      "question": "How do you play Karsu?",
+      "answer": "Park her safely, stack Attack Speed, pick one Rank B path (Stall Crit, Warband team, or Frostbite autos), and only then dump Shards into ranks."
+    }
+  ],
+  "tips": [
+    "If the shop offers Karsu with no tank in sight, skip — her power is behind a wall.",
+    "Warband is a team draft signal: if you will not run other Duelists, prefer Falling Snow or Frostbite."
+  ]
+}

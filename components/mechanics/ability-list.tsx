@@ -3,7 +3,13 @@ import type { GameAbility } from "@/types";
 import { EntityImage } from "@/components/shared/entity-image";
 import { Badge } from "@/components/ui/badge";
 
-export function AbilityRow({ ability }: { ability: GameAbility }) {
+export function AbilityRow({
+  ability,
+  note,
+}: {
+  ability: GameAbility;
+  note?: string;
+}) {
   return (
     <div className="flex gap-3 rounded-lg border border-border bg-card p-4">
       <EntityImage src={ability.image} alt={ability.name} size={48} />
@@ -17,18 +23,30 @@ export function AbilityRow({ ability }: { ability: GameAbility }) {
         <p className="whitespace-pre-line text-sm text-muted-foreground">
           {ability.description || "Description pending."}
         </p>
+        {note ? (
+          <p className="border-t border-border/70 pt-2 text-sm text-foreground/90">
+            <span className="font-medium">In practice: </span>
+            {note}
+          </p>
+        ) : null}
       </div>
     </div>
   );
 }
 
-export function AbilityList({ abilities }: { abilities: GameAbility[] }) {
+export function AbilityList({
+  abilities,
+  notes,
+}: {
+  abilities: GameAbility[];
+  notes?: Record<string, string>;
+}) {
   if (abilities.length === 0) return null;
   return (
     <ul className="grid gap-3">
       {abilities.map((ability) => (
         <li key={`${ability.kind}-${ability.id}`}>
-          <AbilityRow ability={ability} />
+          <AbilityRow ability={ability} note={notes?.[ability.name]} />
         </li>
       ))}
     </ul>

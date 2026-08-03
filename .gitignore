@@ -44,3 +44,4 @@ yarn-error.log*
 # TypeScript
 next-env.d.ts
 *.tsbuildinfo
+hero_update.md

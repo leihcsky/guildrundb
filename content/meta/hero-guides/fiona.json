@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Shield support Mystic — tops up the lowest HP allies and branches into economy or Burn peel",
+  "bestFor": "Runs that already have a damage carry and need a dedicated peeler / Shield battery",
+  "strength": "Vault Spark always helps the most desperate heroes, so she stabilizes uneven boards better than selfish casters",
+  "weakness": "Low personal clear — drafting Fiona as your only “carry” stalls the run",
+  "howToPlay": {
+    "early": "Great second or third pickup after a real damage threat exists. Buy Mana Regen so Vault Spark fires every fight.",
+    "mid": "Right Hand = item/Shard factory. Lustrous = self-Shield + Burn revenge when Shields break. Tycoon = team Max HP stacks from casts. Pick the branch that matches your missing job.",
+    "late": "Keep casting. Shield banners and Mystic abundance pieces matter more than random Magic unless Lustrous Burn is your damage plan.",
+    "positioning": "Mid-back behind the tank, close enough that her Shields land on the collapsing front line — not marooned on the far wing."
+  },
+  "abilityNotes": {
+    "Vault Spark": "It prioritizes lowest % HP heroes. Place your real carry where she can still see them when they dip — do not hide the carry out of practical range."
+  },
+  "specNotes": {
+    "The Right Hand": "Economy path — casts create items and Shards. Take when the shop is dry and you need resources more than raw Shields.",
+    "The Lustrous": "Combat path — Shields on cast and Burn when enemies chew Shields. Take when you want Fiona to contribute damage, not only peel.",
+    "The Tycoon": "Team Max HP stacking from casts (Backup-friendly). Take when the whole board needs a health floor."
+  },
+  "relicReasons": {
+    "mystics-barrier-banner-585": "Amplifies the Shield job you drafted her to do.",
+    "mystics-protection-banner-589": "More protection tools for the same support niche.",
+    "mystics-abundance-engine-4005": "Helps cast/economy loops on Right Hand or Tycoon turns."
+  },
+  "faq": [
+    {
+      "question": "Is Fiona good in Guildrun?",
+      "answer": "Very good as support next to a carry. Weak as a solo early hero. Shop rule: if you have damage but keep whiting out, Fiona is the fix."
+    },
+    {
+      "question": "What class is Fiona?",
+      "answer": "Mystic. Role focus: Shield support with economy (Right Hand), Burn peel (Lustrous), or team Max HP (Tycoon) branches."
+    },
+    {
+      "question": "What relics work with Fiona?",
+      "answer": "Mystic Barrier/Protection banners, Abundance engines, and Arcane amplifiers for cast power."
+    },
+    {
+      "question": "How do you play Fiona?",
+      "answer": "Stack Mana Regen, cast Vault Spark every fight, and specialize toward economy, Burn revenge, or team HP depending on what the board lacks."
+    }
+  ],
+  "tips": [
+    "If your carry still dies first, move Fiona closer or add a real tank — more Magic on Fiona will not fix pathing.",
+    "Right Hand floods the inventory; have a plan for item slots (Niklas synergy is real)."
+  ]
+}

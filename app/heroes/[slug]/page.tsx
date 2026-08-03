@@ -6,6 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { Breadcrumb } from "@/components/shared/breadcrumb";
 import { EntityImage } from "@/components/shared/entity-image";
 import { HeroCard } from "@/components/heroes/hero-card";
+import {
+  HeroDecisionSummary,
+  HeroGuideFaq,
+  HeroHowToPlay,
+} from "@/components/heroes/hero-guide-sections";
 import { HeroRankGallery } from "@/components/heroes/hero-rank-gallery";
 import { RelicCard } from "@/components/relics/relic-card";
 import { ItemCard } from "@/components/items/item-card";
@@ -24,7 +29,13 @@ import {
   resolveItemsBySlugs,
   resolveRelicsBySlugs,
 } from "@/lib/data";
-import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/seo";
+import { buildHeroGuide } from "@/lib/hero-guide";
+import {
+  breadcrumbJsonLd,
+  buildGameEntityMetadata,
+  entityJsonLd,
+  faqJsonLd,
+} from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -69,6 +80,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const hero = getHeroBySlug(slug);
   if (!hero) return {};
 
+  // Keep SEO metadata stable — already indexed in GSC.
   return buildGameEntityMetadata({
     name: hero.name,
     kind: "hero",
@@ -90,15 +102,22 @@ export default async function HeroDetailPage({ params }: Props) {
   const related = resolveHeroesBySlugs(hero.relatedHeroes ?? []);
   const synergyRelics =
     relics.length > 0 ? relics : getHeroSynergyRelics(hero, 6);
+  const guide = buildHeroGuide(hero, synergyRelics);
   const featuredMechanics = getFeaturedMechanics(4);
   const primaryClass = hero.classSlug
     ? getHeroClassBySlug(hero.classSlug)
     : undefined;
   const hasRankArt = hero.ranks.some((rank) => rank.hasImage);
   const hasStats = Object.keys(hero.stats).length > 0;
+  const guideTips =
+    guide.tips.length > 0 ? guide.tips : hero.tips && hero.tips.length > 0
+      ? hero.tips
+      : [];
 
   const pageNav = [
     { id: "overview", label: "Overview" },
+    { id: "guide", label: "At a glance" },
+    { id: "how-to-play", label: "How to play" },
     { id: "stats", label: "Stats" },
     ...(hasRankArt ? [{ id: "ranks", label: "Ranks" }] : []),
     ...(hero.activeAbility || hero.passiveAbilities.length > 0
@@ -107,7 +126,8 @@ export default async function HeroDetailPage({ params }: Props) {
     ...(hero.specializations.length > 0
       ? [{ id: "specializations", label: "Specializations" }]
       : []),
-    { id: "synergies", label: "Synergies" },
+    { id: "synergies", label: "Relics" },
+    { id: "faq", label: "FAQ" },
   ];
 
   const crumbs = breadcrumbJsonLd([
@@ -123,6 +143,7 @@ export default async function HeroDetailPage({ params }: Props) {
     image: hero.portraitImage || hero.image,
     dateModified: hero.updatedAt,
   });
+  const faqLd = faqJsonLd(guide.faq);
 
   return (
     <>
@@ -133,6 +154,10 @@ export default async function HeroDetailPage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(entity) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
 
       <Breadcrumb
@@ -146,7 +171,7 @@ export default async function HeroDetailPage({ params }: Props) {
 
       <div className="mb-6 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
         <Badge variant="secondary">{siteConfig.gameVersion}</Badge>
-        <span>Hero record</span>
+        <span>Hero guide + database</span>
       </div>
 
       <nav className="mb-8 flex flex-wrap gap-2 text-sm">
@@ -202,6 +227,9 @@ export default async function HeroDetailPage({ params }: Props) {
       </section>
 
       <div className="grid gap-10">
+        <HeroDecisionSummary guide={guide} />
+        <HeroHowToPlay guide={guide} />
+
         <section id="stats" className="scroll-mt-24 space-y-3">
           <h2 className="font-display text-2xl font-semibold">Base Stats</h2>
           {hasStats ? (
@@ -240,19 +268,26 @@ export default async function HeroDetailPage({ params }: Props) {
             <div>
               <h2 className="font-display text-2xl font-semibold">Abilities</h2>
               <p className="mt-1 text-sm text-muted-foreground">
-                Active kit at Rank C, plus passives tied to this hero.
+                Kit text from the Demo dump, plus short notes on how to play around
+                each ability.
               </p>
             </div>
             {hero.activeAbility ? (
               <div className="space-y-3">
                 <h3 className="text-lg font-semibold">Active</h3>
-                <AbilityList abilities={[hero.activeAbility]} />
+                <AbilityList
+                  abilities={[hero.activeAbility]}
+                  notes={guide.abilityNotes}
+                />
               </div>
             ) : null}
             {hero.passiveAbilities.length > 0 ? (
               <div className="space-y-3">
                 <h3 className="text-lg font-semibold">Passives</h3>
-                <AbilityList abilities={hero.passiveAbilities} />
+                <AbilityList
+                  abilities={hero.passiveAbilities}
+                  notes={guide.abilityNotes}
+                />
               </div>
             ) : hero.passive ? (
               <p className="rounded-lg border border-border bg-card p-4 text-muted-foreground">
@@ -291,6 +326,12 @@ export default async function HeroDetailPage({ params }: Props) {
                           Passive description pending.
                         </p>
                       )}
+                      {guide.specNotes[spec.name] ? (
+                        <p className="border-t border-border/70 pt-2 text-sm text-foreground/90">
+                          <span className="font-medium">When to pick: </span>
+                          {guide.specNotes[spec.name]}
+                        </p>
+                      ) : null}
                     </div>
                   </div>
                 </li>
@@ -300,15 +341,21 @@ export default async function HeroDetailPage({ params }: Props) {
         ) : null}
 
         <section id="synergies" className="scroll-mt-24 space-y-4">
-          <h2 className="font-display text-2xl font-semibold">Synergies</h2>
+          <h2 className="font-display text-2xl font-semibold">
+            Best relics & synergies
+          </h2>
           <p className="text-sm text-muted-foreground">
             {primaryClass
-              ? `Relics aligned with ${primaryClass.name} keywords and this hero's ability tags.`
-              : "Relics aligned with this hero's combat tags."}
+              ? `Relics that overlap ${primaryClass.name} keywords and ${hero.name}'s ability tags. Top matches include a short “why”.`
+              : `Relics aligned with ${hero.name}'s combat tags. Top matches include a short “why”.`}
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {synergyRelics.map((relic) => (
-              <RelicCard key={relic.slug} relic={relic} />
+              <RelicCard
+                key={relic.slug}
+                relic={relic}
+                note={guide.relicReasons[relic.slug]}
+              />
             ))}
           </div>
           {featuredMechanics.length > 0 ? (
@@ -342,11 +389,13 @@ export default async function HeroDetailPage({ params }: Props) {
           </section>
         ) : null}
 
-        {hero.tips && hero.tips.length > 0 ? (
+        <HeroGuideFaq guide={guide} />
+
+        {guideTips.length > 0 ? (
           <section className="space-y-3">
             <h2 className="font-display text-2xl font-semibold">Tips</h2>
             <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
-              {hero.tips.map((tip) => (
+              {guideTips.map((tip) => (
                 <li key={tip}>{tip}</li>
               ))}
             </ul>

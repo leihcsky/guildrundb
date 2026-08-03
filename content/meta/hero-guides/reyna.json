@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Combo Warrior — auto-attack punches that self-Shield from damage dealt",
+  "bestFor": "Rush / Attack Speed Warrior boards that want a self-sufficient melee carry",
+  "strength": "Triple Threat counts as autos, builds lasting Shields from damage, and itemizes cleanly into Attack and Rush",
+  "weakness": "Needs hits to land; if she is kited or stunned through the combo she gets neither damage nor Shields",
+  "howToPlay": {
+    "early": "She can front-mid early if packs are melee-heavy. Buy Attack and a bit of survivability; do not expect Mage-level clear from one cast alone.",
+    "mid": "Champion = Rush stacking for Warriors. Brawler = bigger Shields and Attack from Shields. Boxer = AS Burn on autos. Align relics to that choice.",
+    "late": "Rush engines and Bloodshield/Aegis pieces keep the loop alive. Keep her attacking — idle Reyna is a dead card.",
+    "positioning": "Front-mid on the pack she can actually punch. Do not hide her in the back; the combo wants contact."
+  },
+  "abilityNotes": {
+    "Triple Threat": "Each punch is an auto — Attack Speed and on-hit effects matter. Shields equal damage dealt, so damage relics also buy survivability."
+  },
+  "specNotes": {
+    "The Champion": "Team Rush Warrior buff path. Take when you run multiple Warriors and can trigger Rush often.",
+    "The Brawler": "Selfish Shield carry — more Shields from Triple Threat and Attack from Shields. Best solo Reyna path.",
+    "The Boxer": "Burn on-hit path. Take with Attack Speed and long fights; weaker in short burst matchups."
+  },
+  "relicReasons": {
+    "warriors-bloodshield-engine-4000": "Shield damage loop mirrors how Triple Threat already self-Shields.",
+    "warriors-bravery-banner-510": "Warrior aggression banner for the carry fantasy.",
+    "martial-amplifier-2015": "Clean Attack/martial glue when class relics are scarce."
+  },
+  "faq": [
+    {
+      "question": "Is Reyna good in Guildrun?",
+      "answer": "Strong melee carry when she can stay in contact. Weak if your board is all ranged and she never throws the combo."
+    },
+    {
+      "question": "What class is Reyna?",
+      "answer": "Warrior. Role focus: combo melee who converts punch damage into lasting Shields."
+    },
+    {
+      "question": "What relics work with Reyna?",
+      "answer": "Warrior Bloodshield / Bravery banners, martial amplifiers, and Rush pieces if you took Champion."
+    },
+    {
+      "question": "How do you play Reyna?",
+      "answer": "Put her on the fight, stack Attack (and AS for Boxer), cast Triple Threat, and pick Brawler for solo carry or Champion for Warrior tribal."
+    }
+  ],
+  "tips": [
+    "If she dies mid-combo, buy survivability or fix placement before more Attack.",
+    "Champion without other Warriors wastes the Backup team buff — prefer Brawler then."
+  ]
+}

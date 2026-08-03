@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Shield-powered Warrior carry — convert Shields into AoE finish damage",
+  "bestFor": "Boards that can feed Kai Shields (Warrior / Shield relics) and want a mid-front bruiser who also clears packs",
+  "strength": "Resolute Strike turns leftover Shields into bonus damage, so defense and offense come from the same resource",
+  "weakness": "Without Shield sources he is just a slow melee; dies to focus if you place him as a pure tank without sustain",
+  "howToPlay": {
+    "early": "He can open as your front-mid if you immediately buy Shield or Defense pieces. Do not leave him naked on the engage tile for three fights.",
+    "mid": "Decide the Rank B path: Unstoppable (more Shields → more Attack), Bold (faster / wider strike + Defense Shields), or Intrepid (Rush Crit / Warrior shred). Itemize to that path.",
+    "late": "Stack Shield generation and keep casting Resolute Strike every fight. Bloodshield / Aegis-style Warrior relics are higher priority than random Attack.",
+    "positioning": "Front-mid, not isolated wing. He wants enemies around him when the delayed strike lands."
+  },
+  "abilityNotes": {
+    "Resolute Strike": "The delay is the skill: you win if he still has Shields when the hit lands. Protect him for those ~2.5 seconds or the bonus damage evaporates."
+  },
+  "specNotes": {
+    "The Unstoppable": "Default carry path when Shield relics are flowing — every Shield gain also pumps Attack.",
+    "The Bold": "Take when you want faster casts and a bigger smash, and you can stack Defense for lasting Shields on cast.",
+    "The Intrepid": "Take with Rush / Crit Warrior boards. Backup-friendly shred path — better in multi-Warrior comps than solo Kai."
+  },
+  "relicReasons": {
+    "warriors-bloodshield-engine-4000": "Directly feeds the Shield → damage identity Resolute Strike is built around.",
+    "warriors-aegis-banner-513": "Warrior Shield banner — keeps Kai alive through the charge window.",
+    "warriors-sundering-filigree-3001": "Helps Warrior packs crack tanks so his AoE finish actually cleans up."
+  },
+  "faq": [
+    {
+      "question": "Is Kai good in Guildrun?",
+      "answer": "Strong when Shield economy is real. Weak as a naked early pickup with no Defense/Shield plan. If the shop gives Aegis/Bloodshield pieces, he spikes hard."
+    },
+    {
+      "question": "What class is Kai?",
+      "answer": "Warrior. Role focus: shield-powered melee who converts remaining Shields into AoE damage."
+    },
+    {
+      "question": "What relics work with Kai?",
+      "answer": "Warrior Shield / Bloodshield engines, Aegis banners, and martial amplifiers. Prioritize Shield generation over pure Crit unless you took Intrepid."
+    },
+    {
+      "question": "How do you play Kai?",
+      "answer": "Stack Shields, stand him where packs clump, cast Resolute Strike, and pick Unstoppable if you want the simplest scaling loop."
+    }
+  ],
+  "tips": [
+    "Watch the cast: if he burns Shields before the strike, fix positioning or buy more Shield gen — do not just buy Attack.",
+    "Intrepid wants friends. Solo Kai usually prefers Unstoppable or Bold."
+  ]
+}

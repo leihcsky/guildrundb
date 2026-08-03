@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Rush-refresh melee Duelist — resets on kills and snowballs Attack Speed",
+  "bestFor": "Aggressive boards that can give Nyx a tanked opener, then let her chain Wild Flurry resets",
+  "strength": "Kill resets re-cast her combo; Ferality stacks Attack Speed/Attack per Rush trigger across the fight",
+  "weakness": "Needs the first 10–20 seconds covered — if she eats the opener she never starts the reset train",
+  "howToPlay": {
+    "early": "Do not start her alone on the dive tile. Buy a tank or let someone else eat the first hit (community clears even mention Rank B Nyx needing early tanking). Rank her once she can live to the first kill.",
+    "mid": "Keen-Eyed = execute threshold for Assassins/Duelists (Backup). Wild/Ferality = Rush AS stacking carry. Spark = Stall DoTs on autos. Most “Nyx carry” runs want Ferality + Rush relics.",
+    "late": "Stack Rush and Attack Speed. Keep feeding kills so Wild Flurry jumps. Crit/execute tools pair with Keen-Eyed boards.",
+    "positioning": "Mid lane slightly off the first-contact tile — close enough to leap between kills, far enough not to eat the opening volley."
+  },
+  "abilityNotes": {
+    "Wild Flurry": "The reset on kill is the hero. Target order matters: set up a killable first target so she chains into the rest."
+  },
+  "specNotes": {
+    "The Keen-Eyed": "Team execute for Assassins/Duelists. Take when you run that tribal and want Cleanup, not only Nyx damage.",
+    "The Wild": "Ferality / Rush stacking carry path — default when Nyx is your main DPS.",
+    "The Spark": "Stall DoT autos (Burn → Frost → more). Take on Stall boards; weaker if fights are pure Rush races."
+  },
+  "relicReasons": {
+    "duelists-rhythm-prism-3008": "Attack Speed / rhythm tools feed both Ferality and Wild Flurry hit count.",
+    "duelists-outbreak-banner-571": "Duelist banner for the class you drafted.",
+    "duelists-fury-filigree-3010": "Aggression filigree that supports her reset-carry tempo."
+  },
+  "faq": [
+    {
+      "question": "Is Nyx good in Guildrun?",
+      "answer": "One of the highest ceilings in the Demo when protected early. One of the worst feels if she tanks the opener. Buy her with a plan for who eats the first hit."
+    },
+    {
+      "question": "What class is Nyx?",
+      "answer": "Duelist. Role focus: Rush-refresh melee carry who re-casts on kills and stacks Ferality."
+    },
+    {
+      "question": "What relics work with Nyx?",
+      "answer": "Duelist Rhythm/Outbreak/Fury pieces, Rush amplifiers, and Attack Speed. Add Stall tools only if you took Spark."
+    },
+    {
+      "question": "How do you play Nyx?",
+      "answer": "Tank the opener for her, stack Rush/AS, let Wild Flurry reset on kills, and take Wild/Ferality for solo carry or Keen-Eyed for Assassin/Duelist tribal."
+    }
+  ],
+  "tips": [
+    "If she dies first every fight, you do not need more Attack — you need a tank and better placement.",
+    "Reset chaining fails when the first target is too tanky; soften or aim her at the squishy."
+  ]
+}

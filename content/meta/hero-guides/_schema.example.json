@@ -1,0 +1,18 @@
+{
+  "_comment": "Phase B hand-written hero guides. Add {slug}.json (e.g. kai.json) to override auto templates on /heroes/{slug}. Omit fields to keep Phase A defaults.",
+  "roleLabel": "Example only — delete this file or rename; real overrides are per-hero slug files.",
+  "bestFor": "",
+  "strength": "",
+  "weakness": "",
+  "howToPlay": {
+    "early": "",
+    "mid": "",
+    "late": "",
+    "positioning": ""
+  },
+  "abilityNotes": {},
+  "specNotes": {},
+  "relicReasons": {},
+  "faq": [],
+  "tips": []
+}
