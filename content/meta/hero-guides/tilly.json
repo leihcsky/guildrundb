@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Dual Warrior/Duelist tempo carry — Pirouette AoE with Crit/Omnivamp and Shard generation on autos",
+  "bestFor": "Tempo boards that want Attack Speed, Shards, and a flexible martial carry",
+  "strength": "Luxurious prints Shards while stacking AS/Attack; Pirouette hits everyone in range with temporary Crit/Omnivamp",
+  "weakness": "Dual-class dilutes rank pools; forcing both fantasies at once can soft-lock specific upgrades",
+  "howToPlay": {
+    "early": "She can be your tempo carry if packs are in range. Buy Attack Speed. Do not over-invest dual-class modifiers until you know the run direction.",
+    "mid": "Stylish = item slot + bonus damage per Shard generated. Sharp = Rush Warrior % and Stall Duelist % team buffs. Elegant/Luxurious path = AS/Shard auto engine. Pick inventory snowball, tribal martial, or personal tempo.",
+    "late": "Feed Shards into the Stylish loop or lean Sharp when you have Warrior/Duelist friends. Fury/Outbreak Duelist pieces still help her autos.",
+    "positioning": "Mid where Pirouette range covers the pack. She wants bodies in range, not a lonely sniper corner."
+  },
+  "abilityNotes": {
+    "Pirouette": "Short Crit/Omnivamp buff then AoE in range. Attack Speed and packing enemies multiply the cast."
+  },
+  "specNotes": {
+    "The Stylish": "Shard damage + item slot. Take when Shard generation is already flowing.",
+    "The Sharp": "Warrior Rush + Duelist Stall tribal amp. Take with martial friends on both tags.",
+    "The Elegant": "Luxurious tempo/Shard auto identity — default solo Tilly carry path."
+  },
+  "relicReasons": {
+    "duelists-fury-filigree-3010": "AS aggression for Luxurious autos and Pirouette.",
+    "duelists-outbreak-banner-571": "Duelist half of her dual identity.",
+    "martial-amplifier-2015": "Glue when Warrior/Duelist specialty relics miss."
+  },
+  "faq": [
+    {
+      "question": "Is Tilly good in Guildrun?",
+      "answer": "Strong flexible tempo carry. Confusing if you chase every dual-class upgrade. Buy her for AS/Shard loops, then commit one Rank B fantasy."
+    },
+    {
+      "question": "What class is Tilly?",
+      "answer": "Warrior / Duelist dual-class. Role focus: tempo AoE carry and Shard engine."
+    },
+    {
+      "question": "What relics work with Tilly?",
+      "answer": "Duelist Fury/Outbreak pieces, martial amplifiers, and Rush/Stall tools for Sharp."
+    },
+    {
+      "question": "How do you play Tilly?",
+      "answer": "Keep enemies in range, stack Attack Speed, cast Pirouette, and specialize toward Elegant tempo, Stylish Shards, or Sharp tribal."
+    }
+  ],
+  "tips": [
+    "Dual-class is a tool, not a requirement — stop multiclassing if you are hunting one modifier.",
+    "Stylish without Shard income is a trap; print Shards first."
+  ]
+}

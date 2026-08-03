@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Long-range Assassin sniper — Killshot the farthest enemy with Crit-stacked arrows",
+  "bestFor": "Backline boards that want safe execute pressure and Mana Regen / distance scaling",
+  "strength": "Always threatens the back of the enemy formation; Crit on Killshot and distance bonuses reward correct placement",
+  "weakness": "Dies instantly to dive if unprotected; low value if the farthest target is the wrong kill",
+  "howToPlay": {
+    "early": "Draft with a real front line. Hoyoung is a carry, not an opener. Crit and Attack matter more than standing him naked.",
+    "mid": "Conduit = kill → permanent Mana Regen shared to Assassins/Mystics. Hunter = early-cast Crit stacks + Shards per hex distance on kill. Sniper = always farthest target and autos scale with hex distance. Pick team cast economy, distance economy, or pure sniper identity.",
+    "late": "Keep him alive and far. Assassin Patience/Ambush pieces and Crit relics unlock Killshot spikes.",
+    "positioning": "True back corner opposite dive. Maximize hex distance to the priority target when on Hunter/Sniper."
+  },
+  "abilityNotes": {
+    "Killshot": "Farthest-enemy nuke with huge Crit scaling. Placement chooses the target — wrong corner = wrong kill."
+  },
+  "specNotes": {
+    "The Conduit": "Team Mana Regen on kills for Assassin/Mystic boards. Take when you run cast-heavy friends.",
+    "The Hunter": "Take when you can secure distance kills for Shard payouts and early Crit on Killshot.",
+    "The Sniper": "Hard commit to farthest-target autos. Take when geometry consistently puts the carry target far away."
+  },
+  "relicReasons": {
+    "assassins-patience-banner-551": "Patience/sniper fantasy for long-range Assassin play.",
+    "assassins-ambush-engine-4003": "Execute engine that pays when Killshot connects.",
+    "assassins-elevation-prism-3006": "Assassin power prism for Crit/carry spikes."
+  },
+  "faq": [
+    {
+      "question": "Is Hoyoung good in Guildrun?",
+      "answer": "Excellent protected sniper. Useless if dive deletes him first. Buy with a tank plan, not as your first board piece."
+    },
+    {
+      "question": "What class is Hoyoung?",
+      "answer": "Assassin. Role focus: long-range farthest-target executioner."
+    },
+    {
+      "question": "What relics work with Hoyoung?",
+      "answer": "Assassin Patience/Ambush/Elevation pieces and Crit tools."
+    },
+    {
+      "question": "How do you play Hoyoung?",
+      "answer": "Park him far back, stack Crit, cast Killshot on the farthest priority target, and pick Conduit, Hunter, or Sniper based on team vs distance fantasy."
+    }
+  ],
+  "tips": [
+    "After losses, ask which enemy was farthest — if it was a tank, rotate his corner.",
+    "Conduit wants Assassin/Mystic friends; solo Hoyoung usually prefers Hunter/Sniper."
+  ]
+}

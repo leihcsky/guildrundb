@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Melee Assassin finisher — Devour converts Omnivamp into execute damage and Shards on kill",
+  "bestFor": "Runs that can feed him kills and Crit/Omnivamp so Devour snowballs economy and damage together",
+  "strength": "Kill = Shards; Omnivamp multiplies Devour damage — successful executes fund the next spike",
+  "weakness": "Needs a soft first target; if he never gets the kill, both damage and Shard lines stall",
+  "howToPlay": {
+    "early": "Do not start him as your only frontliner. Soften or peel so Devour can finish. Buy Crit/Omnivamp tools before raw Magic greed.",
+    "mid": "Greedy = more kill Shards and cast-consume for permanent Omnivamp/Crit. Sanguine = teleport to lowest HP + Stealth on kill. Kingpin = Rush team Omnivamp/Crit per Shard for Assassin/Vanguard. Pick solo economy, dive execute, or tribal Rush.",
+    "late": "Keep the kill train alive. Assassin Ambush/Supremacy pieces beat random Attack if Crit is low.",
+    "positioning": "Mid-flank so he can reach the soft target after the tank engages — not the dive tile that eats the opener."
+  },
+  "abilityNotes": {
+    "Devour": "Omnivamp is the multiplier and kill is the paycheck. Play for executes; whiffed casts on full-HP tanks feel terrible."
+  },
+  "specNotes": {
+    "The Greedy": "Economy/scaling path — take when you can farm kills and want permanent Omnivamp/Crit from Shard spends.",
+    "The Sanguine": "Dive finisher — teleport to lowest HP. Take when you need him to find the kill without walking the whole board.",
+    "The Kingpin": "Assassin/Vanguard Rush tribal. Take with friends sharing Backup; weak as solo Dragomir."
+  },
+  "relicReasons": {
+    "assassins-ambush-engine-4003": "Assassin engage/execute engine for Devour kills.",
+    "assassins-supremacy-filigree-3007": "Crit/supremacy tools for the Omnivamp damage loop.",
+    "assassins-greed-banner-550": "Economy fantasy that matches kill → Shard identity."
+  },
+  "faq": [
+    {
+      "question": "Is Dragomir good in Guildrun?",
+      "answer": "Strong when he gets kills. Weak as a pure opener tank. Shop rule: buy him when you already have someone holding the line."
+    },
+    {
+      "question": "What class is Dragomir?",
+      "answer": "Assassin. Role focus: melee execute with Omnivamp scaling and Shard payouts on kill."
+    },
+    {
+      "question": "What relics work with Dragomir?",
+      "answer": "Assassin Ambush/Supremacy/Greed pieces, Crit, and Omnivamp enablers."
+    },
+    {
+      "question": "How do you play Dragomir?",
+      "answer": "Protect the opener, point him at soft targets, cast Devour for kills, and specialize toward Greedy economy, Sanguine dive, or Kingpin tribal."
+    }
+  ],
+  "tips": [
+    "If he never gets kills, add focus fire or Sanguine — more Magic alone will not start the loop.",
+    "Kingpin without Assassin/Vanguard friends wastes Backup value."
+  ]
+}

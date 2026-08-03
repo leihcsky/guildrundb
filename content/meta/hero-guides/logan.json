@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Warrior finisher — Execution axe that grows power from damage dealt and kill stacks",
+  "bestFor": "Boards that can keep him casting Execution into real targets so permanent growth and Shields stack",
+  "strength": "Execution scales the more it deals damage; Juggernaut turns that damage into lasting Shields",
+  "weakness": "Slow without cast uptime; feels empty if he never connects or never gets kills on Momentous",
+  "howToPlay": {
+    "early": "He can front-mid if packs are melee. Buy Attack and enough survivability to finish the cast. Rush helps Iron.",
+    "mid": "Iron = Rush team Attack/Defense for Warriors. Juggernaut = Shields from Execution damage. Momentous = kill → Mana + permanent Attack/Crit. Pick tribal Rush, self-Shield carry, or kill snowball.",
+    "late": "Keep Execution firing every fight. Bloodshield/Aegis and Sundering help him live and crack tanks.",
+    "positioning": "Front-mid on the pack he can actually hit. Execution is a swing, not a backline sniper spell."
+  },
+  "abilityNotes": {
+    "Execution": "The cast is both the nuke and the growth engine. Missed targets mean missed permanent power — aim him at something he can finish damaging."
+  },
+  "specNotes": {
+    "The Iron": "Warrior Rush tribal. Take with multiple Warriors triggering Rush.",
+    "The Juggernaut": "Selfish Shield carry from Execution damage — best solo Logan path.",
+    "The Momentous": "Kill snowball for Attack/Crit and Mana. Take when he can secure executes."
+  },
+  "relicReasons": {
+    "warriors-sundering-filigree-3001": "Helps Execution crack armored targets.",
+    "warriors-bloodshield-engine-4000": "Shield loop pairs with Juggernaut’s lasting Shields.",
+    "warriors-bravery-banner-510": "Warrior aggression banner for the finisher fantasy."
+  },
+  "faq": [
+    {
+      "question": "Is Logan good in Guildrun?",
+      "answer": "Solid physical finisher when he casts into real fights. Weak if starved of targets or ranks. Buy him as mid-front damage, not a pure backline Mage."
+    },
+    {
+      "question": "What class is Logan?",
+      "answer": "Warrior. Role focus: Execution axe with permanent growth from damage and kills."
+    },
+    {
+      "question": "What relics work with Logan?",
+      "answer": "Warrior Sundering/Bloodshield/Bravery pieces and martial amplifiers."
+    },
+    {
+      "question": "How do you play Logan?",
+      "answer": "Put him on contact, cast Execution often, and specialize toward Juggernaut Shields, Momentous kills, or Iron Rush tribal."
+    }
+  ],
+  "tips": [
+    "If he never casts, buy tempo (AS/Mana/Rush) before more Attack.",
+    "Iron without other Warriors is usually worse than Juggernaut."
+  ]
+}

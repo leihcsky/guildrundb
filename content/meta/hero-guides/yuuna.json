@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Crit Assassin finisher — leaps shurikens onto the lowest-HP enemy and scales with Stealth/Poison",
+  "bestFor": "Boards that can create low-HP targets and Crit so Shadow Strike cleans up",
+  "strength": "Always aims the weakest enemy; Crit count on shurikens and Nightshade vs Poison spike hard",
+  "weakness": "Whiffs when nothing is low yet; dies if she leaps into focus without Stealth windows",
+  "howToPlay": {
+    "early": "Pair with a damage partner who softens packs. Crit tools matter immediately. She is a finisher, not wave one tank.",
+    "mid": "Shadow = HP threshold Stealth once per combat + permanent scaling on Stealth. Collector = extra shuriken and kill Shard growth. Nightshade = +Crit vs Poisoned and Assassin Crit spreads Poison. Pick personal Stealth, Shard snowball, or Poison tribal.",
+    "late": "Assassin Ambush/Smokescreen and Crit relics. Keep feeding low-HP targets so the leap always has a job.",
+    "positioning": "Mid-back so the leap reaches the collapsing target without eating the first volley."
+  },
+  "abilityNotes": {
+    "Shuriken Shadow Strike": "Lowest-HP targeting is automatic triage. Soften first — full-HP casts feel weak even with good Crit."
+  },
+  "specNotes": {
+    "The Shadow": "Stealth clutch + permanent gains when Stealth procs. Take for personal survivability/scaling.",
+    "The Collector": "Extra shuriken and Shard growth on kills. Take when she can secure executes often.",
+    "The Nightshade": "Poison Assassin tribal — Crit vs Poisoned. Take with Poison applicators (Pimenta, etc.)."
+  },
+  "relicReasons": {
+    "assassins-smokescreen-banner-548": "Stealth/smoke fantasy matching Shadow.",
+    "assassins-ambush-engine-4003": "Execute engine for lowest-HP leaps.",
+    "assassins-supremacy-filigree-3007": "Crit supremacy for shuriken counts."
+  },
+  "faq": [
+    {
+      "question": "Is Yuuna good in Guildrun?",
+      "answer": "High ceiling finisher with Crit/Poison support. Poor as a solo early board. Buy her to clean up, not to open."
+    },
+    {
+      "question": "What class is Yuuna?",
+      "answer": "Assassin. Role focus: Crit shuriken leap onto the lowest-health enemy."
+    },
+    {
+      "question": "What relics work with Yuuna?",
+      "answer": "Assassin Smokescreen/Ambush/Supremacy pieces and Crit/Poison enablers."
+    },
+    {
+      "question": "How do you play Yuuna?",
+      "answer": "Soften packs, stack Crit, cast Shadow Strike on collapsing targets, and pick Shadow, Collector, or Nightshade based on Stealth, Shards, or Poison."
+    }
+  ],
+  "tips": [
+    "If she leaps and dies, you needed Stealth timing or a tank — not only more Attack.",
+    "Nightshade without Poison on the board is a weak Crit branch; apply Poison first."
+  ]
+}

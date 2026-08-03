@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Hybrid Tank/Assassin — Crit-scaling Stone Skin wall that Petrifies attackers and spreads Poison",
+  "bestFor": "Players who want one hero to both hold first contact and scale Crit into Defense/Magic",
+  "strength": "Stone Skin turns Crits into permanent Defense/Magic; Petrification punishes anyone targeting her",
+  "weakness": "Hybrid pools are greedy — without Crit she is a slow tank; without Defense she is a fragile Assassin",
+  "howToPlay": {
+    "early": "She can open as a weird tank if you buy Crit and Defense together. Do not itemize pure Assassin greed while she is your only frontline.",
+    "mid": "Cruel/Stone Skin path = Crit permanent Defense/Magic. Serpent's Kiss = retaliate Poison + HP/S when hit. Bladedancer = Rush/Stall enhanced autos with heal. Pick scaling wall, retaliate Poison, or tempo hybrid.",
+    "late": "Crit relics feed Stone Skin. Assassin Ambush pieces still help, but keep enough tank stats to survive the taunt-like focus Petrification invites.",
+    "positioning": "Front-mid where enemies will target her so Petrification and Serpent's Kiss have attackers. She wants to be hit on purpose."
+  },
+  "abilityNotes": {
+    "Petrification": "Hits everyone targeting her — bait focus, then cash Poison/Stun. If nobody swings at her, the cast does little."
+  },
+  "specNotes": {
+    "The Cruel": "Stone Skin Crit scaling identity — default when Zuri is your hybrid wall.",
+    "The Serpent's Kiss": "Retaliate Poison path. Take when she will be auto-attacked constantly.",
+    "The Bladedancer": "Rush/Stall auto damage + heal. Take when tempo tags are already online."
+  },
+  "relicReasons": {
+    "assassins-supremacy-filigree-3007": "Crit supremacy feeds Stone Skin stacks.",
+    "assassins-ambush-engine-4003": "Assassin half of the hybrid when you lean execute/Crit.",
+    "assassins-patience-banner-551": "Patience tools for longer Crit stacking fights."
+  },
+  "faq": [
+    {
+      "question": "Is Zuri good in Guildrun?",
+      "answer": "Strong hybrid when Crit and tank stats both arrive. Confusing if you force full Assassin itemization on your only tank. Buy her to hold and scale, not as a pure backline."
+    },
+    {
+      "question": "What class is Zuri?",
+      "answer": "Tank / Assassin dual-class. Role focus: Crit-scaling frontliner with Petrification peel."
+    },
+    {
+      "question": "What relics work with Zuri?",
+      "answer": "Assassin Crit/Supremacy pieces plus defensive stats; Patience/Ambush depending on fight length."
+    },
+    {
+      "question": "How do you play Zuri?",
+      "answer": "Stand her where packs hit her, stack Crit and Defense, cast Petrification on focus, and specialize toward Cruel scaling, Serpent retaliate, or Bladedancer tempo."
+    }
+  ],
+  "tips": [
+    "Stone Skin needs Crit procs — zero Crit means zero permanent Defense growth.",
+    "If she never gets targeted, Petrification is wasted; adjust threat and placement."
+  ]
+}

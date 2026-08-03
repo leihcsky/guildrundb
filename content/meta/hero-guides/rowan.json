@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Dual Vanguard/Tank anchor — Fault Line Shields, Max HP smash, and frontal Stun",
+  "bestFor": "Red Rift / hard content that needs a true first-contact wall with Stall scaling",
+  "strength": "Dual-class pool plus Fault Line that converts Max HP/Defense into Shield, damage, and Stun",
+  "weakness": "Low flashy clear alone — needs a carry behind the wall",
+  "howToPlay": {
+    "early": "Premier opener tank. Buy Max HP and Defense. Cast Fault Line into the engage lane every fight.",
+    "mid": "Tectonic/Fault Line path = personal smash identity. Protector = auto-attack Shields and Shield-based bonus damage. Friend = Stall permanent Max HP/Defense shared to Tanks/Vanguards on Backup. Pick selfish wall, Shield attacker, or tribal Stall tank.",
+    "late": "Defensive amplifiers and Tank/Vanguard banners. Keep Stall triggers flowing for Hearty/Friend.",
+    "positioning": "True front-center facing the pack. Fault Line hits enemies in front — aim the facing, not a side wing."
+  },
+  "abilityNotes": {
+    "Fault Line": "Shield first, then Max HP/Defense-scaled smash + Stun in front. He is a door, not a backline caster."
+  },
+  "specNotes": {
+    "The Tectonic": "Fault Line / Hearty frontline identity — default when Rowan is your main wall.",
+    "The Protector": "Shield-on-auto path that turns Shields into bonus damage. Take when he can keep attacking safely.",
+    "The Friend": "Stall tribal Max HP/Defense for Tanks/Vanguards. Take with multiple frontliners."
+  },
+  "relicReasons": {
+    "defensive-amplifier-2016": "Max HP/Defense amp for Fault Line scaling.",
+    "tanks-absolution-engine-4001": "Tank engine for hard-content walls.",
+    "vanguards-rally-banner-538": "Vanguard half of his dual identity when Rush/Rally appears."
+  },
+  "faq": [
+    {
+      "question": "Is Rowan good in Guildrun?",
+      "answer": "One of the best pure anchors for high difficulty. Not a solo win condition. Buy him to stop dying, then add damage."
+    },
+    {
+      "question": "What class is Rowan?",
+      "answer": "Vanguard / Tank dual-class. Role focus: defensive anchor with frontal Stun."
+    },
+    {
+      "question": "What relics work with Rowan?",
+      "answer": "Defensive amplifiers, Tank Absolution/Intercession pieces, and Vanguard Rally when on that half of the kit."
+    },
+    {
+      "question": "How do you play Rowan?",
+      "answer": "Face the engage, stack Max HP/Defense, cast Fault Line, and specialize toward Tectonic wall, Protector Shields, or Friend tribal Stall."
+    }
+  ],
+  "tips": [
+    "If Stun never hits, he is facing the wrong way — rotate before rerolling relics.",
+    "Friend without other tanks/vanguards is usually worse than Tectonic/Protector."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Field Mystic — Sanctuary zone that Poisons enemies while Shielding (and later healing) allies inside",
+  "bestFor": "Stall boards that can keep fights inside the flower field for several seconds",
+  "strength": "One cast both pressures with Poison and peels with Shields; Stall upgrades double sustain or add Frost/Burn",
+  "weakness": "Needs zone uptime — if packs leave the field or Stall never hits, she is a weak personal DPS",
+  "howToPlay": {
+    "early": "Draft after you have a tank who can hold bodies in place. Buy Mana Regen so Sanctuary lands every fight.",
+    "mid": "Bloomer = double Shields/heals after Stall and longer field. Fae's Kiss = more Poison + late Debuff amp. Earth's Child = add Frost/Burn ticks after Stall. Pick peel, Poison engine, or full status field.",
+    "late": "Stack Stall and Mystic Barrier pieces. Keep allies standing in the bloom on purpose.",
+    "positioning": "Mid-back so the field covers the main melee pit. Reposition after losses if enemies never enter the circle."
+  },
+  "abilityNotes": {
+    "Sanctuary of Bloom": "Win condition is seconds inside the field. Geometry first, Magic second."
+  },
+  "specNotes": {
+    "The Bloomer": "Default sustain path — Stall doubles healing/Shielding. Take for clutch peels.",
+    "The Fae's Kiss": "Poison/Debuff path. Take on status boards that already stack Debuffs.",
+    "The Earth's Child": "Multi-element field (Frost+Burn). Take when you want Pollen as a damage DoT hub, not only Shields."
+  },
+  "relicReasons": {
+    "mystics-barrier-banner-585": "Shield fantasy matching Sanctuary peels.",
+    "mystics-protection-banner-589": "More protection tools for the same job.",
+    "mystics-abundance-engine-4005": "Cast/economy support so the field is up every fight."
+  },
+  "faq": [
+    {
+      "question": "Is Pollen good in Guildrun?",
+      "answer": "Excellent Stall sustain/status Mystic. Poor if fights end before Stall or enemies never stand in the field. Buy her to stabilize, not to solo clear Act 1."
+    },
+    {
+      "question": "What class is Pollen?",
+      "answer": "Mystic. Role focus: sustain field that Poisons enemies and Shields allies in the zone."
+    },
+    {
+      "question": "What relics work with Pollen?",
+      "answer": "Mystic Barrier/Protection/Abundance pieces and Stall enablers."
+    },
+    {
+      "question": "How do you play Pollen?",
+      "answer": "Hold enemies in Sanctuary, stack Mana Regen and Stall, and pick Bloomer for peels or Earth's Child for multi-DoT."
+    }
+  ],
+  "tips": [
+    "Empty field = failed fight plan — move the tank, not only buy Magic.",
+    "Bloomer without Stall is half-powered; add Stall or switch branch."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Taunt Tank — Come At Me! pulls focus, Stall-scaled Shields, then retaliates with Poison/Frost",
+  "bestFor": "Stall / Debuff boards that want enemies glued to the tank instead of diving carries",
+  "strength": "Forced targeting plus Shield dump damage; Retribution Poisons attackers after Stall",
+  "weakness": "Needs Stall count and Defense; without them the taunt is a suicide button",
+  "howToPlay": {
+    "early": "Strong when you can buy Defense and live the taunt. Do not taunt naked into elites with zero Shields plan.",
+    "mid": "Haughty/Come At Me path = taunt carry identity. Winter's Bite = Poison also applies Frost and Frost grants Shields. Bristleguard = team Tank start Poison + Defense. Pick selfish taunt, dual status, or Tank tribal.",
+    "late": "Patience/Defense Tank relics and Stall engines. Keep Stall triggers high so Come At Me Shields scale.",
+    "positioning": "Front-center where you want the pack to stand. Taunt fails its job if your carry is still the closest dive target geometrically — fix lanes."
+  },
+  "abilityNotes": {
+    "Come At Me!": "Taunt → Stall-scaled Shields → damage from remaining Shields to anyone hitting him. Survive the half-second, then cash the Shield."
+  },
+  "specNotes": {
+    "The Haughty": "Taunt / Retribution identity — default when Skorn is your main peel tank.",
+    "The Winter's Bite": "Poison↔Frost loop with Shield gain. Take on dual-status boards.",
+    "The Bristleguard": "Multi-Tank start Poison and team Defense. Take with other Tanks."
+  },
+  "relicReasons": {
+    "tanks-patience-banner-521": "Stall/patience tools feed Come At Me Shield scaling.",
+    "tanks-intercession-prism-3002": "Tank peel fantasy matching forced targeting.",
+    "defensive-amplifier-2016": "Defense amp for Retribution Poison and survivability."
+  },
+  "faq": [
+    {
+      "question": "Is Skorn good in Guildrun?",
+      "answer": "Excellent peel tank when Stall/Defense are real. Bad if he taunts and dies instantly. Buy him to redirect damage, not to race DPS."
+    },
+    {
+      "question": "What class is Skorn?",
+      "answer": "Tank. Role focus: taunt frontliner with Stall Shields and Poison retaliation."
+    },
+    {
+      "question": "What relics work with Skorn?",
+      "answer": "Tank Patience/Intercession pieces, defensive amplifiers, and Stall enablers."
+    },
+    {
+      "question": "How do you play Skorn?",
+      "answer": "Stack Defense and Stall, cast Come At Me when you can live it, and specialize toward Haughty, Winter's Bite, or Bristleguard tribal."
+    }
+  ],
+  "tips": [
+    "If carries still die first, check dive pathing — taunt is not magic immunity for the backline.",
+    "Bristleguard wants multiple Tanks; solo Skorn usually prefers Haughty/Winter's Bite."
+  ]
+}
