@@ -38,6 +38,7 @@ import {
   runtimeTitle,
 } from "@/lib/balancing-text";
 import { ADJACENT_GUIDE } from "@/lib/adjacent-meta";
+import { RED_RIFT_GUIDE } from "@/lib/red-rift-meta";
 
 /**
  * Data access layer.
@@ -832,9 +833,12 @@ export function getBuildBySlug(slug: string): Build | undefined {
   return getBuilds().find((build) => build.slug === slug);
 }
 
+const SYNTHETIC_GUIDES = [ADJACENT_GUIDE, RED_RIFT_GUIDE];
+const SYNTHETIC_SLUGS = new Set(SYNTHETIC_GUIDES.map((guide) => guide.slug));
+
 export function getGuides(): Guide[] {
   if (!fs.existsSync(guidesDir)) {
-    return [ADJACENT_GUIDE];
+    return [...SYNTHETIC_GUIDES];
   }
 
   const files = fs.readdirSync(guidesDir).filter((file) => file.endsWith(".md"));
@@ -854,9 +858,9 @@ export function getGuides(): Guide[] {
         tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
       } satisfies Guide;
     })
-    .filter((guide) => guide.slug !== ADJACENT_GUIDE.slug);
+    .filter((guide) => !SYNTHETIC_SLUGS.has(guide.slug));
 
-  return [...fromMarkdown, ADJACENT_GUIDE].sort(
+  return [...fromMarkdown, ...SYNTHETIC_GUIDES].sort(
     (a, b) => +new Date(b.updatedAt) - +new Date(a.updatedAt),
   );
 }

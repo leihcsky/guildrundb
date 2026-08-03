@@ -9,7 +9,10 @@ type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
   return getGuides()
-    .filter((guide) => guide.slug !== "adjacent-positioning")
+    .filter(
+      (guide) =>
+        guide.slug !== "adjacent-positioning" && guide.slug !== "red-rift",
+    )
     .map((guide) => ({ slug: guide.slug }));
 }
 
