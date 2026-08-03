@@ -15,7 +15,9 @@ import {
   resolveRelicsBySlugs,
 } from "@/lib/data";
 import { TagList } from "@/components/mechanics/tag-list";
+import { ShopDecisionPanel } from "@/components/shared/shop-decision-panel";
 import { getTagDefinition } from "@/lib/tags";
+import { buildRelicShopNotes } from "@/lib/shop-notes";
 import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -52,6 +54,7 @@ export default async function RelicDetailPage({ params }: Props) {
   const bestBuilds = resolveBuildsBySlugs(relic.bestBuilds ?? []);
   const related = resolveRelicsBySlugs(relic.relatedRelics ?? []);
   const synergies = related.length > 0 ? related : getSynergyRelics(relic, 6);
+  const shopNotes = buildRelicShopNotes(relic);
 
   return (
     <>
@@ -111,6 +114,10 @@ export default async function RelicDetailPage({ params }: Props) {
           ) : null}
         </div>
       </section>
+
+      <div className="mb-10">
+        <ShopDecisionPanel notes={shopNotes} entityLabel="relic" />
+      </div>
 
       <div className="grid gap-10">
         {bestHeroes.length > 0 ? (

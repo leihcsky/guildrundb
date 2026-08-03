@@ -16,7 +16,9 @@ import {
   getSynergyItems,
   resolveHeroesBySlugs,
 } from "@/lib/data";
+import { ShopDecisionPanel } from "@/components/shared/shop-decision-panel";
 import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/seo";
+import { buildItemShopNotes } from "@/lib/shop-notes";
 import { getTagDefinition } from "@/lib/tags";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -61,6 +63,7 @@ export default async function ItemDetailPage({ params }: Props) {
     curatedHeroes.length > 0 ? curatedHeroes : getItemRelatedHeroes(item, 6);
   const relatedItems = getSynergyItems(item, 6);
   const relatedRelics = getItemRelatedRelics(item, 6);
+  const shopNotes = buildItemShopNotes(item);
 
   return (
     <>
@@ -124,6 +127,10 @@ export default async function ItemDetailPage({ params }: Props) {
           ) : null}
         </div>
       </section>
+
+      <div className="mb-10">
+        <ShopDecisionPanel notes={shopNotes} entityLabel="item" />
+      </div>
 
       <div className="grid gap-10">
         {relatedHeroes.length > 0 ? (
