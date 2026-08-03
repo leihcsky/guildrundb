@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Area Burn Mage — range-wide Wildfire that turns Burn ticks into Magic and Mana",
+  "bestFor": "Burn/Mage boards that want every enemy in range cooking at once",
+  "strength": "Wildfire hits all enemies in range with damage + Burn; Stoked converts their Burn damage into team Magic and his Mana",
+  "weakness": "Needs enemies to stay in range and Burn to actually tick — short fights or empty range feel awful",
+  "howToPlay": {
+    "early": "Draft when you can protect a backline Mage. Magic matters, but range and survivability decide if Wildfire ever hits the full pack.",
+    "mid": "Stoked = Mage Burn engine (team Magic + his Mana). Inferno = more range and Stall/start Burn application. Detonator = cast forces Burn ticks immediately. Pick sustain Burn economy, wider zone, or burst detonate.",
+    "late": "Stack Magic and Burn relics. Keep him alive through cast cycles; dead Funke stops the whole Burn loop.",
+    "positioning": "Back-mid with the widest view of the pack. Inferno especially wants max enemies in range — do not tuck him in a blind corner."
+  },
+  "abilityNotes": {
+    "Wildfire": "Full-range nuke + Burn. Value scales with how many targets share his range — formation and Attack Range matter as much as Magic."
+  },
+  "specNotes": {
+    "The Stoked": "Default Mage Burn engine — every Burn tick in range feeds Magic/Mana. Best with other Mages sharing the Backup.",
+    "The Inferno": "Take when packs are wide or you need Stall/start Burn coverage beyond one cast.",
+    "The Detonator": "Take for burst: casts slam stored Burn ticks. Better when fights are short or bosses need a pop."
+  },
+  "relicReasons": {
+    "mages-elemental-banner-595": "Elemental/Burn identity for the Mage tag.",
+    "mages-cataclysm-engine-4006": "AoE Mage engine that matches Wildfire’s full-range fantasy.",
+    "arcane-amplifier-2014": "Raw Magic amp when class pieces are missing."
+  },
+  "faq": [
+    {
+      "question": "Is Funke good in Guildrun?",
+      "answer": "Yes on Burn boards with protected casting. No if he never sees more than one enemy or dies before Wildfire. Shop check: do you have a front line?"
+    },
+    {
+      "question": "What class is Funke?",
+      "answer": "Mage. Role focus: area Burn caster who scales when enemies in range take Burn damage."
+    },
+    {
+      "question": "What relics work with Funke?",
+      "answer": "Mage Elemental/Cataclysm pieces, Arcane amplifiers, and Burn enablers."
+    },
+    {
+      "question": "How do you play Funke?",
+      "answer": "Protect him, maximize enemies in range, cast Wildfire, and specialize toward Stoked economy, Inferno coverage, or Detonator burst."
+    }
+  ],
+  "tips": [
+    "If only one mob is in range, move the tank or Funke — more Magic will not fix geometry.",
+    "Stoked wants Burn to tick; pair DoT duration or Detonator when ticks are too slow."
+  ]
+}

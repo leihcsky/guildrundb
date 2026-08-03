@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Rush Vanguard — Max HP bruiser with Burn aura and Searing Mantra stuns",
+  "bestFor": "Rush boards that want a high-HP frontliner who also spreads Burn while stunning the clump",
+  "strength": "Inner Flame taxes adjacent enemies every second; Rush doubles it and Searing Mantra scales Burn with Rush count",
+  "weakness": "Needs Rush uptime and adjacency — lonely wing placement wastes the aura",
+  "howToPlay": {
+    "early": "Strong opener tank/bruiser. Buy Max HP first so he lives on the point. Rush pieces matter as soon as you see them.",
+    "mid": "Searing/Inner Flame path = personal Burn aura carry. Tempered = team Vanguard Max HP on Rush. Enlightened = longer Rush and temporary immunity windows. Choose tribal HP, Rush duration, or selfish Burn.",
+    "late": "Stack Rush triggers and keep him adjacent to packs. Vanguard Aegis/Rally and Max HP engines beat random Magic.",
+    "positioning": "Front row where enemies will stand next to him. Inner Flame is adjacent-only — empty neighbors mean empty damage."
+  },
+  "abilityNotes": {
+    "Searing Mantra": "AoE smash that scales Burn with how many times Rush has triggered this game. More Rush relics make the cast scarier every fight."
+  },
+  "specNotes": {
+    "The Searing": "Lean into Inner Flame / Burn aura identity — default when Ming is your Burn frontliner.",
+    "The Tempered": "Team Vanguard Max HP on Rush. Take with multiple Vanguards, not solo Ming greed.",
+    "The Enlightened": "Rush duration + immunity window. Take when Rush is already the run theme and you need him unkillable during the spike."
+  },
+  "relicReasons": {
+    "vanguards-rally-banner-538": "Rush/rally tools feed both aura doubling and Mantra Burn stacks.",
+    "vanguards-aegis-banner-537": "Keeps the Max HP frontliner alive on the engage tile.",
+    "vanguards-amplification-filigree-3005": "Amplifies the Vanguard tag you drafted him for."
+  },
+  "faq": [
+    {
+      "question": "Is Ming good in Guildrun?",
+      "answer": "Excellent Rush frontliner. Mediocre if you never hit Rush thresholds or park him away from enemies. Buy him to hold and burn the line, not to snipe backline alone."
+    },
+    {
+      "question": "What class is Ming?",
+      "answer": "Vanguard. Role focus: high-health Rush bruiser with adjacent Burn aura."
+    },
+    {
+      "question": "What relics work with Ming?",
+      "answer": "Vanguard Rally/Aegis pieces, Rush amplifiers, and Max HP / defensive tools."
+    },
+    {
+      "question": "How do you play Ming?",
+      "answer": "Front him into the pack, stack Max HP and Rush, cast Searing Mantra as Rush count climbs, and pick Tempered for tribal HP or Enlightened for Rush duration."
+    }
+  ],
+  "tips": [
+    "Count adjacent tiles before combat — aura DPS is placement, not just stats.",
+    "Tempered without other Vanguards is usually worse than Searing/Enlightened."
+  ]
+}

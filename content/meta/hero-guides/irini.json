@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Late-payoff Duelist — Attack Speed snowball that detonates with Stall/Rush-scaled Gathering Storm",
+  "bestFor": "Long fights and Duelist boards that can stack Attack Speed into a mid/late nuke",
+  "strength": "Limitless gains AS every auto and amp damage after Stall; Gathering Storm scales with Stall and Rush counts this game",
+  "weakness": "Slow start — early fights feel weak until AS and trigger counts build",
+  "howToPlay": {
+    "early": "Do not expect Act-open nukes. Buy Attack Speed and keep her alive. A tank buys the time Limitless needs.",
+    "mid": "Electric/Limitless path = personal AS snowball. Mighty = Backup Duelist AS/Attack on every auto. Olympic = unique Zeus’s Thunder quest item. Pick solo carry, tribal Duelist, or quest item line.",
+    "late": "Stack Stall and Rush triggers so Gathering Storm’s per-trigger damage is huge. Fury/Outbreak Duelist relics help the autos that feed Limitless.",
+    "positioning": "Mid or safe side where she can auto freely. She needs uptime more than first-contact heroics."
+  },
+  "abilityNotes": {
+    "Gathering Storm": "Damage per Stall and Rush triggered this game — the cast is a report card of your tempo. Trigger more, then cast."
+  },
+  "specNotes": {
+    "The Electric": "Limitless AS carry identity — default when Irini is your late Duelist DPS.",
+    "The Mighty": "Team Duelist amp on autos. Take with multiple Duelists; weaker solo.",
+    "The Olympic": "Quest item path (Zeus’s Thunder). Take when you want that unique item line — otherwise prefer Electric/Mighty."
+  },
+  "relicReasons": {
+    "duelists-fury-filigree-3010": "Feeds the Attack Speed aggression Limitless wants.",
+    "duelists-outbreak-banner-571": "Duelist banner for class commitment.",
+    "duelists-precise-reflection-629": "Precision/Crit-leaning Duelist tool for late autos."
+  },
+  "faq": [
+    {
+      "question": "Is Irini good in Guildrun?",
+      "answer": "Strong late Duelist when fights last and AS stacks. Weak as a panic early carry. Buy her for snowball plans, not instant clear."
+    },
+    {
+      "question": "What class is Irini?",
+      "answer": "Duelist. Role focus: Attack Speed scaler with Stall/Rush-powered Gathering Storm."
+    },
+    {
+      "question": "What relics work with Irini?",
+      "answer": "Duelist Fury/Outbreak/Precise pieces, Attack Speed, and Stall/Rush enablers."
+    },
+    {
+      "question": "How do you play Irini?",
+      "answer": "Protect her early, stack Attack Speed, trigger Stall/Rush through the run, then detonate Gathering Storm once counts are high."
+    }
+  ],
+  "tips": [
+    "Judging Irini on fight one is wrong — check fight five after Limitless has stacked.",
+    "Mighty without other Duelists wastes Backup value; go Electric for solo."
+  ]
+}

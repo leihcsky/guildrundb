@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Short-range Frost Mage — cleaves the nearest secondary target and buffs Mage/Duelist debuff loops",
+  "bestFor": "Formation boards with Pimenta (Lover pair) or Mage/Duelist Debuff tribal",
+  "strength": "Permafrost stacks and splash-Frost the nearest enemy to her target; Breezy turns every Debuff into AS/Magic for Mage/Duelist",
+  "weakness": "Short effective range — if she cannot stick near the fight, Permafrost does little",
+  "howToPlay": {
+    "early": "Draft with a plan for who stands in front of her. With Pimenta, Lover on either side is a real archetype. Alone, she needs a tank she can stand behind.",
+    "mid": "Breezy = Backup Mage/Duelist Debuff engine. Lover = permanent Defense for the hero directly in front (Pimenta bonus). Brisk = Permafrost bonus damage can Crit and she gains Crit on cast. Pick tribal, formation pair, or Crit Frost carry.",
+    "late": "Keep Debuffs flowing so Breezy pays. Stack Magic/Crit for Brisk. Do not relocate her away from the frontline pair mid-run without rewriting the plan.",
+    "positioning": "Just behind the tank (ideally Pimenta). Lover only works if someone occupies the tile directly in front every combat."
+  },
+  "abilityNotes": {
+    "Permafrost": "Empowered autos cleave Frost onto the nearest enemy to the target. Stand her where two bodies are always close — empty side lanes waste the cleave."
+  },
+  "specNotes": {
+    "The Breezy": "Take on Mage/Duelist Debuff boards — every Debuff proc speeds and Magics the tribe.",
+    "The Lover": "Hard-commit formation with Pimenta (or another frontliner). Skip if you will not keep someone in the front tile.",
+    "The Brisk": "Crit Frost path for Sal as personal carry. Take when you can stack Crit and keep her attacking."
+  },
+  "relicReasons": {
+    "mages-precise-reflection-633": "Crit/precision tools for Brisk Permafrost.",
+    "mages-elemental-banner-595": "Elemental Mage banner for Frost identity.",
+    "arcane-amplifier-2014": "Magic amp glue when specialty relics miss."
+  },
+  "faq": [
+    {
+      "question": "Is Sal good in Guildrun?",
+      "answer": "Excellent with Pimenta/Lover or Debuff tribal. Awkward as a lonely long-range Mage — she wants to stand on the fight."
+    },
+    {
+      "question": "What class is Sal?",
+      "answer": "Mage. Role focus: short-range Frost applicator and formation support (especially with Pimenta)."
+    },
+    {
+      "question": "What relics work with Sal?",
+      "answer": "Mage Precise/Elemental pieces, Arcane amplifiers, and Crit tools for Brisk."
+    },
+    {
+      "question": "How do you play Sal?",
+      "answer": "Park her behind a tank, stack Permafrost, and either run Lover+Pimenta, Breezy tribal, or Brisk Crit carry."
+    }
+  ],
+  "tips": [
+    "Check the front tile every fight if you took Lover — empty means zero permanent Defense.",
+    "Pimenta + Sal Lover is a package; drafting only one without the formation plan is half a build."
+  ]
+}

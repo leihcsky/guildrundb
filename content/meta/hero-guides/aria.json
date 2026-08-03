@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Back-line dual-DoT Mage — channels Burn + Frost beam that rewards Stall and uptime",
+  "bestFor": "Stall / Mage boards that can keep her channeling while enemies stay in the beam",
+  "strength": "Requiem Barrage applies Frost and Burn every tick; Stall paths permanently grow Magic and beam duration",
+  "weakness": "Channel can be wasted if she dies, gets interrupted, or packs leave the beam — positioning is everything",
+  "howToPlay": {
+    "early": "Protect the backline first. She is a carry, not an opener. Mana/Magic come after a tank exists.",
+    "mid": "Crescendo = Stall permanent Magic and longer beams. Resplendent = team Mage Debuff amp. Harmony = beam also Shields allies. Pick Stall snowball, tribal Debuffs, or peel support.",
+    "late": "Stack Stall and Magic. Keep her alive for full channels — a cancelled beam is a lost fight plan.",
+    "positioning": "Back row aimed down the main lane so the beam covers where packs actually stand. Re-aim after losses; do not assume the default angle is correct."
+  },
+  "abilityNotes": {
+    "Requiem Barrage": "Full channel value requires enemies inside the beam for the whole duration. Fix geometry before buying another Magic relic."
+  },
+  "specNotes": {
+    "The Crescendo": "Default Stall carry — permanent Magic and longer Barrage after Stall thresholds.",
+    "The Resplendent": "Team Mage Debuff path. Take with multiple Mages applying status.",
+    "The Harmony": "Supportive beam that Shields allies. Take when the board needs peel as much as DoT."
+  },
+  "relicReasons": {
+    "mages-elemental-banner-595": "Burn/Frost elemental identity for the dual-DoT beam.",
+    "mages-cataclysm-engine-4006": "AoE Mage engine that matches Barrage’s zone damage.",
+    "mages-administration-filigree-3014": "Caster admin tools for repeated channels."
+  },
+  "faq": [
+    {
+      "question": "Is Aria good in Guildrun?",
+      "answer": "Top-tier Mage carry when protected and aimed well. Feels terrible if she channels into empty space or dies mid-beam. Buy with a tank plan."
+    },
+    {
+      "question": "What class is Aria?",
+      "answer": "Mage. Role focus: back-line dual Burn/Frost channel carry."
+    },
+    {
+      "question": "What relics work with Aria?",
+      "answer": "Mage Elemental/Cataclysm pieces, Stall enablers for Crescendo, and Arcane amplifiers."
+    },
+    {
+      "question": "How do you play Aria?",
+      "answer": "Tank for her, aim Requiem Barrage down the pack path, stack Stall/Magic, and pick Crescendo for snowball or Harmony if you need Shields from the beam."
+    }
+  ],
+  "tips": [
+    "After every loss, ask: did the beam hit? If not, move her or the tank before rerolling relics.",
+    "Crescendo without Stall is half-powered — add Stall or switch branch."
+  ]
+}

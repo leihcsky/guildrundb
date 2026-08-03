@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Poison Tank — front-line cloud that stacks Poison while the board forms behind her",
+  "bestFor": "Debuff / Stall boards and any run that needs a true engage anchor before the carry comes online",
+  "strength": "Pepper Spray turns Defense into cloud damage and Poison; she holds space instead of racing DPS",
+  "weakness": "Clear is slow if nobody else damages; she is not a solo win condition",
+  "howToPlay": {
+    "early": "Excellent first or second pickup when packs punish fragile openers. Buy Defense so the cloud hurts; do not expect her to delete elites alone.",
+    "mid": "Spicy = auto-attack multiplies existing Debuffs. Seasoned = bigger/longer cloud plus Tank/Mage Defense after Stall. Lover = permanent AS for heroes directly behind her (huge with Sal). Pick based on whether you want personal shred, team peel, or a fixed formation pair.",
+    "late": "Keep Stall/Defense coming. Pair Debuff relics so Spicy has stacks to amplify. With Lover, lock Sal (or another carry) in the tile behind her.",
+    "positioning": "True front-center on the engage path. Lover only pays if someone valuable stands in the tile directly behind — check formation every fight."
+  },
+  "abilityNotes": {
+    "Pepper Spray": "The cloud is her job. More Defense means more Poison and tick damage — itemize tank stats before Magic greed."
+  },
+  "specNotes": {
+    "The Spicy": "Take when enemies already wear Debuffs (Poison/Frost/Burn boards). She shreds stacked targets on autos.",
+    "The Seasoned": "Take for a bigger cloud and Stall Defense for Tanks/Mages — best pure tank-support path.",
+    "The Lover": "Formation path with Sal synergy. Take only if you will keep a carry directly behind her every combat."
+  },
+  "relicReasons": {
+    "tanks-patience-banner-521": "Stall/patience tools help her cloud and Seasoned windows matter.",
+    "tanks-invigoration-filigree-3003": "Tank identity piece that keeps the front line online.",
+    "defensive-amplifier-2016": "Defense amp feeds Pepper Spray’s Defense scaling."
+  },
+  "faq": [
+    {
+      "question": "Is Pimenta good in Guildrun?",
+      "answer": "Yes as a front-line anchor. No as your only damage. Shop rule: buy her to stop dying early, then add a carry."
+    },
+    {
+      "question": "What class is Pimenta?",
+      "answer": "Tank. Role focus: Poison cloud frontliner and formation anchor (especially with Lover + Sal)."
+    },
+    {
+      "question": "What relics work with Pimenta?",
+      "answer": "Tank Patience/Invigoration pieces, defensive amplifiers, and Debuff enablers if you took Spicy."
+    },
+    {
+      "question": "How do you play Pimenta?",
+      "answer": "Park her on first contact, stack Defense, let Pepper Spray cook, and either widen the cloud (Seasoned) or lock a carry behind her (Lover)."
+    }
+  ],
+  "tips": [
+    "Lover without a hero behind her is a wasted Rank B — move someone or respec fantasy.",
+    "If the cloud is empty, you misplaced the fight — fix pathing before buying more damage relics."
+  ]
+}

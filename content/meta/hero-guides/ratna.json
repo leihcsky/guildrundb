@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Crit-control Mage — Starfall snipes that permanent-scale Magic on kills",
+  "bestFor": "Runs that can feed her kills and Crit so Starfall also stuns the board",
+  "strength": "On-kill permanent Magic and on-Crit AoE Stun turn every successful cast into tempo and long-run scaling",
+  "weakness": "Feels weak without kills or Crit; she is not a pure forever-DoT Mage like Funke/Aria",
+  "howToPlay": {
+    "early": "Pick her when you can secure kills (execute help, focus fire). Buy Magic and Crit tools; protect the backline cast.",
+    "mid": "Fashionable = item-slot scaling from rarities. Ostentatious = team Magic/Mana Regen on cast (Mage/Mystic Backup). Magnanimous = extra lowest-HP hits plus Stealth/on-kill scaling. Choose inventory greed, team amp, or execute carry.",
+    "late": "Keep getting kills so Magic snowballs. Crit relics unlock the stun clause — do not ignore Crit entirely.",
+    "positioning": "Classic backline. Magnanimous wants her alive for repeated casts; do not let dive cancel Starfall."
+  },
+  "abilityNotes": {
+    "Starfall": "Kill = permanent Magic. Crit = board Stun. Play for clean-up and Crit chance, not only raw Magic."
+  },
+  "specNotes": {
+    "The Fashionable": "Take when you will fill her item slot with real rarities — empty slot is a dead branch.",
+    "The Ostentatious": "Team Mage/Mystic amp path. Take with multiple casters; weaker as solo Ratna.",
+    "The Magnanimous": "Execute/carry path — multi-hit lowest HP and kill stealth. Best when she is the finisher."
+  },
+  "relicReasons": {
+    "mages-enlightenment-banner-601": "Caster tempo banner for repeated Starfalls.",
+    "mages-cataclysm-engine-4006": "Mage power engine for the nuke identity.",
+    "mages-flowing-reflection-634": "Supports cast/flow play patterns around Starfall."
+  },
+  "faq": [
+    {
+      "question": "Is Ratna good in Guildrun?",
+      "answer": "High ceiling when she farms kills and Crit. Low impact if she never finishes units. Buy her as a scaling sniper, not an early spray Mage."
+    },
+    {
+      "question": "What class is Ratna?",
+      "answer": "Mage. Role focus: Crit-control caster with permanent Magic on kill."
+    },
+    {
+      "question": "What relics work with Ratna?",
+      "answer": "Mage Enlightenment/Cataclysm pieces, Crit tools, and Arcane amplifiers."
+    },
+    {
+      "question": "How do you play Ratna?",
+      "answer": "Protect casts, aim for kills, add Crit for stuns, and pick Magnanimous for carry or Ostentatious for team Mage boards."
+    }
+  ],
+  "tips": [
+    "If she never gets kills, add execute/focus — more Magic alone will not start the snowball.",
+    "Fashionable without items is a no; loot first, then take the spec."
+  ]
+}

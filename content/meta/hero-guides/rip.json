@@ -1,0 +1,47 @@
+{
+  "roleLabel": "Rush bruiser Vanguard — stacks Max HP from Rampage and refreshes Rush when adjacent fights go lethal",
+  "bestFor": "Max HP / Rush boards that want a sticky frontliner who snowballs through the run",
+  "strength": "Rampage stacks Max HP/AS/Omnivamp; Bloodthirsty refreshes Rush when he or an adjacent enemy dips low — long fights favor him",
+  "weakness": "Needs adjacency and Rush uptime; isolated or Rush-starved Rip is just a slow HP bag",
+  "howToPlay": {
+    "early": "Solid front pickup. Buy Max HP immediately. Get at least one Rush piece so Bloodthirsty and Rampage have a loop.",
+    "mid": "Glutton = permanent Max HP on Rush (Backup shares to Vanguards). Enraged/Rampage path = stacking rage carry. Brute = Crit lifesteal. Pick tribal HP, selfish stacks, or Crit sustain.",
+    "late": "Titanic/Frenzy Vanguard relics and Rush banners. Keep enemies adjacent so the refresh clause can fire.",
+    "positioning": "Front row with enemies next to him. Bloodthirsty cares about adjacent lethal thresholds — empty wings waste refreshes."
+  },
+  "abilityNotes": {
+    "Rampage": "Stacking rage — each cast thickens Max HP and fight stats. Cast early and often; the stacks are the point."
+  },
+  "specNotes": {
+    "The Glutton": "Take with Vanguard tribal so Backup Max HP spreads. Solo Rip may still like it for personal HP, but tribal multiplies value.",
+    "The Enraged": "Rampage/Bloodthirsty carry identity — default when Rip is your main front DPS.",
+    "The Brute": "Crit lifesteal path. Take when Crit relics are already flowing."
+  },
+  "relicReasons": {
+    "vanguards-titanic-engine-4002": "Max HP engine that matches Rampage stacking.",
+    "vanguards-frenzy-prism-3004": "Frenzy/Rush tempo for refreshes and rage uptime.",
+    "vanguards-rally-banner-538": "Rush rally tools keep Bloodthirsty relevant."
+  },
+  "faq": [
+    {
+      "question": "Is Rip good in Guildrun?",
+      "answer": "Strong sticky Rush frontliner. Weak if he never adjacent-fights or never hits Rush. Buy him to snowball HP in the pit, not to snipe."
+    },
+    {
+      "question": "What class is Rip?",
+      "answer": "Vanguard. Role focus: high-health Rush bruiser with adjacent Rush refreshes."
+    },
+    {
+      "question": "What relics work with Rip?",
+      "answer": "Vanguard Titanic/Frenzy/Rally pieces, Max HP amplifiers, and Crit tools for Brute."
+    },
+    {
+      "question": "How do you play Rip?",
+      "answer": "Front him into clumps, stack Max HP and Rush, cast Rampage early, and specialize toward Glutton tribal HP or Enraged carry."
+    }
+  ],
+  "tips": [
+    "If refreshes never happen, check adjacency — Bloodthirsty is a placement keyword.",
+    "Glutton Backup wants friends; three Vanguards beats solo greed."
+  ]
+}
