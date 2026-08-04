@@ -87,6 +87,11 @@ export const siteConfig = {
         description:
           "Read Guildrun guides covering drafting, builds, relic picks, and demo progression.",
       },
+      tierList: {
+        title: "Guildrun Tier List — Best Heroes Ranked",
+        description:
+          "Guildrun hero tier list for Demo 0.5.2 — S to D rankings, Red Rift notes, and recommended builds.",
+      },
       keywords: {
         title: "Keyword Hub — Rush, Crit, Shield & More",
         description:
@@ -126,6 +131,7 @@ export const siteConfig = {
     { label: "Classes", href: "/classes" },
     { label: "Builds", href: "/builds" },
     { label: "Guides", href: "/guides" },
+    { label: "Tier List", href: "/tier-list" },
     { label: "Keywords", href: "/keywords" },
   ],
   footer: {
@@ -135,6 +141,7 @@ export const siteConfig = {
       { label: "Items", href: "/items" },
       { label: "Builds", href: "/builds" },
       { label: "Guides", href: "/guides" },
+      { label: "Tier List", href: "/tier-list" },
     ],
     legal: [
       { label: "About", href: "/about" },

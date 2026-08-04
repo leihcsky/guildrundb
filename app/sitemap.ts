@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/classes",
     "/builds",
     "/guides",
+    "/tier-list",
     "/search",
     "/about",
     "/privacy",
@@ -35,8 +36,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: absoluteUrl(path),
     lastModified: now,
     changeFrequency:
-      path === "/" || path === "/heroes" ? "weekly" : "monthly",
-    priority: path === "/" ? 1 : path === "/search" ? 0.4 : 0.8,
+      path === "/" || path === "/heroes" || path === "/tier-list"
+        ? "weekly"
+        : "monthly",
+    priority:
+      path === "/"
+        ? 1
+        : path === "/tier-list"
+          ? 0.95
+          : path === "/search"
+            ? 0.4
+            : 0.8,
   }));
 
   const heroes = getHeroes().map((hero) => ({

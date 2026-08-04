@@ -1,0 +1,490 @@
+{
+  "version": "Demo 0.5.2",
+  "updatedAt": "2026-08-04",
+  "intro": "Our Guildrun Tier List ranks heroes for Demo 0.5.2 by build flexibility, synergy potential, opener reliability, and performance from first clears through Red Rift — so you can pick a shop hero with a plan, not just a letter grade.",
+  "methodology": [
+    "Current Demo 0.5.2 balance and kit read (abilities, specializations, class tags).",
+    "How often the hero creates a clear shop and formation plan without perfect RNG.",
+    "Synergy with common relic engines (Rush, Stall, Shield, Crit, Poison).",
+    "Survivability and who eats first contact — carries that need a wall are marked down if they cannot be protected.",
+    "Red Rift and hard-content pressure: death caps, long fights, and economy tightness.",
+    "Beginner accessibility: heroes that teach the run loop without punishing every mistake."
+  ],
+  "faq": [
+    {
+      "question": "What is the best hero in Guildrun?",
+      "answer": "There is no single best hero for every shop. On Demo 0.5.2, S-tier picks like Nyx, Irini, and Pimenta show up often in strong clears — but only when you cover their jobs (tank for Nyx, Rush partners for Irini, a carry behind Pimenta). Use this Guildrun tier list as a shortlist, then check the hero page for how to play."
+    },
+    {
+      "question": "Who is the strongest Guildrun hero?",
+      "answer": "Nyx has one of the highest damage ceilings when protected early and fed Rush resets. Irini is often stronger as a first-clear or flexible carry. For pure frontline, Pimenta and Rowan stabilize boards that otherwise wipe. Strength depends on mode and what the shop offers."
+    },
+    {
+      "question": "Is Nyx good in Guildrun?",
+      "answer": "Yes — Nyx is S tier on this Guildrun hero tier list for Rush-refresh melee carry play. She is weak if she tanks the opener. Buy her with a wall plan, stack Rush and Attack Speed, and read her hero guide for specialization paths."
+    },
+    {
+      "question": "What is S Tier in Guildrun?",
+      "answer": "S Tier means the hero consistently wins runs when drafted with a sensible supporting cast: clear role, strong relic hooks, and good Red Rift or climb performance. It is not a guarantee without items, ranks, or positioning."
+    },
+    {
+      "question": "How often is the Guildrun tier list updated?",
+      "answer": "We update when Demo balance or our testing notes change. The version label and last-updated date at the top of this page always show which patch the rankings reflect."
+    },
+    {
+      "question": "Are beginner heroes the same as S Tier?",
+      "answer": "Not always. Some S-tier carries need precise protection. Beginner-friendly picks (often A/B with simple jobs) appear in Best Modes as Beginner when they teach the loop without high mechanical greed."
+    }
+  ],
+  "entries": [
+    {
+      "heroSlug": "nyx",
+      "tier": "S",
+      "rank": 1,
+      "role": "Rush DPS Carry",
+      "summary": "Kill-reset Wild Flurry snowball with Ferality Attack Speed — highest ceiling when someone else eats the opener.",
+      "strengths": [
+        "Reset chaining on kills",
+        "Excellent Rush relic payoff",
+        "Scales hard into late Demo fights"
+      ],
+      "weaknesses": [
+        "Dies if she tanks first contact",
+        "Needs a soft first kill to start the train"
+      ],
+      "bestModes": ["Red Rift", "Climb", "Endless"],
+      "recommendedBuildSlug": "rush-duelists"
+    },
+    {
+      "heroSlug": "irini",
+      "tier": "S",
+      "rank": 2,
+      "role": "Flexible AS Carry",
+      "summary": "Attack-speed Duelist that teaches shop timing and still spikes hard with Rush or Stall partners.",
+      "strengths": [
+        "Strong early and late",
+        "Clear Rank paths",
+        "Works in starter comps"
+      ],
+      "weaknesses": [
+        "Needs fights to stack",
+        "Collapses if she dies first every fight"
+      ],
+      "bestModes": ["Beginner", "Climb", "Red Rift"],
+      "recommendedBuildSlug": "irini-starter"
+    },
+    {
+      "heroSlug": "pimenta",
+      "tier": "S",
+      "rank": 3,
+      "role": "Frontline Anchor",
+      "summary": "Poison tank that holds first contact so fragile carries can actually cast — Red Rift stabilizer.",
+      "strengths": [
+        "Reliable opener wall",
+        "Poison pressure while tanking",
+        "Enables S-tier carries"
+      ],
+      "weaknesses": [
+        "Low solo clear without a carry behind her",
+        "Wants Defense and formation care"
+      ],
+      "bestModes": ["Red Rift", "Beginner", "Climb"],
+      "recommendedBuildSlug": null
+    },
+    {
+      "heroSlug": "aria",
+      "tier": "S",
+      "rank": 4,
+      "role": "Magic Carry",
+      "summary": "Back-line dual-debuff Mage that melts packs when Mana Regen and Stall/Burn lines are online.",
+      "strengths": [
+        "High Magic ceiling",
+        "Debuff engine for the team",
+        "Safe range when placed well"
+      ],
+      "weaknesses": [
+        "Dies to dive without a wall",
+        "Cast uptime dependent"
+      ],
+      "bestModes": ["Climb", "Red Rift"],
+      "recommendedBuildSlug": null
+    },
+    {
+      "heroSlug": "grace",
+      "tier": "S",
+      "rank": 5,
+      "role": "Late Sustain Support",
+      "summary": "Shields, healing, and clutch resurrection — turns long Red Rift fights in your favor.",
+      "strengths": [
+        "Clutch peels and revives",
+        "Scales in attrition",
+        "Pairs with any real carry"
+      ],
+      "weaknesses": [
+        "Quiet early if fights end instantly",
+        "Needs Mana Tempo"
+      ],
+      "bestModes": ["Red Rift", "Endless"],
+      "recommendedBuildSlug": "mystic-sustain"
+    },
+    {
+      "heroSlug": "rip",
+      "tier": "A",
+      "rank": 6,
+      "role": "Rush Bruiser",
+      "summary": "High-HP Vanguard that converts Rush into Max HP pressure and enables Duelist partners.",
+      "strengths": [
+        "Rush tribal core",
+        "Frontline that still threatens",
+        "Synergizes with Nyx/Irini"
+      ],
+      "weaknesses": [
+        "Weaker if Rush never fires",
+        "Adjacent packing matters"
+      ],
+      "bestModes": ["Climb", "Red Rift"],
+      "recommendedBuildSlug": "rush-duelists"
+    },
+    {
+      "heroSlug": "reyna",
+      "tier": "A",
+      "rank": 7,
+      "role": "Combo Front Warrior",
+      "summary": "Self-shielding Warrior who holds the line while learning shop timing — staple of starter comps.",
+      "strengths": [
+        "Durable contact fighter",
+        "Beginner-friendly job",
+        "Shield Warrior engines"
+      ],
+      "weaknesses": [
+        "Needs to stay in melee",
+        "Falls behind pure late carries"
+      ],
+      "bestModes": ["Beginner", "Climb"],
+      "recommendedBuildSlug": "irini-starter"
+    },
+    {
+      "heroSlug": "fiona",
+      "tier": "A",
+      "rank": 8,
+      "role": "Shield Support",
+      "summary": "Economy and Shield Mystic who stabilizes boards without needing perfect damage relics.",
+      "strengths": [
+        "Peel and economy branches",
+        "Flexible with many carries",
+        "Good mid-run pickup"
+      ],
+      "weaknesses": [
+        "Not a solo win condition",
+        "Cast windows matter"
+      ],
+      "bestModes": ["Beginner", "Climb", "Red Rift"],
+      "recommendedBuildSlug": "mystic-sustain"
+    },
+    {
+      "heroSlug": "rowan",
+      "tier": "A",
+      "rank": 9,
+      "role": "Dual-Class Wall",
+      "summary": "Vanguard/Tank Fault Line anchor — Max HP smash and frontal Stun for hard content.",
+      "strengths": [
+        "True first-contact wall",
+        "Dual-class pool options",
+        "Red Rift friendly"
+      ],
+      "weaknesses": [
+        "Needs a carry behind the wall",
+        "Facing matters for Stun"
+      ],
+      "bestModes": ["Red Rift", "Climb"],
+      "recommendedBuildSlug": null
+    },
+    {
+      "heroSlug": "gustav",
+      "tier": "A",
+      "rank": 10,
+      "role": "Zone Mystic",
+      "summary": "Shield and zone control that wins when packs stay inside the plan.",
+      "strengths": [
+        "Strong Stall boards",
+        "Shield engine potential",
+        "Team peel"
+      ],
+      "weaknesses": [
+        "Weak if fights are pure Rush races",
+        "Geometry dependent"
+      ],
+      "bestModes": ["Climb", "Red Rift"],
+      "recommendedBuildSlug": "mystic-sustain"
+    },
+    {
+      "heroSlug": "funke",
+      "tier": "A",
+      "rank": 11,
+      "role": "Area Burn Mage",
+      "summary": "Packed-enemy Burn carry — spikes when Stall or Burn relics keep stacks cooking.",
+      "strengths": [
+        "AoE clear",
+        "Burn keyword density",
+        "Safe backline when walled"
+      ],
+      "weaknesses": [
+        "Needs packs to clump",
+        "Fragile to dive"
+      ],
+      "bestModes": ["Climb", "Red Rift"],
+      "recommendedBuildSlug": null
+    },
+    {
+      "heroSlug": "ming",
+      "tier": "A",
+      "rank": 12,
+      "role": "Rush Burn Vanguard",
+      "summary": "Adjacent Burn aura that doubles on Rush — frontliner who also pays damage.",
+      "strengths": [
+        "Holds and burns the line",
+        "Rush threshold payoffs",
+        "Good with Rush boards"
+      ],
+      "weaknesses": [
+        "Empty neighbors waste Inner Flame",
+        "Needs Rush uptime"
+      ],
+      "bestModes": ["Climb", "Red Rift"],
+      "recommendedBuildSlug": "rush-duelists"
+    },
+    {
+      "heroSlug": "kai",
+      "tier": "B",
+      "rank": 13,
+      "role": "Shield Warrior",
+      "summary": "Shield-powered melee Warrior — solid when Bloodshield/Aegis lines are online.",
+      "strengths": [
+        "Clear Warrior identity",
+        "Shield scaling fantasy",
+        "Fits Warrior comps"
+      ],
+      "weaknesses": [
+        "Needs Shield generation",
+        "Less flexible than Reyna early"
+      ],
+      "bestModes": ["Climb"],
+      "recommendedBuildSlug": "warrior-shield-core"
+    },
+    {
+      "heroSlug": "logan",
+      "tier": "B",
+      "rank": 14,
+      "role": "Physical Finisher",
+      "summary": "Execution axe that grows from damage dealt — mid-front finisher, not a sniper.",
+      "strengths": [
+        "Permanent growth on connects",
+        "Juggernaut Shield path",
+        "Warrior tribal option"
+      ],
+      "weaknesses": [
+        "Missed casts stall growth",
+        "Slow without cast tempo"
+      ],
+      "bestModes": ["Climb"],
+      "recommendedBuildSlug": "warrior-shield-core"
+    },
+    {
+      "heroSlug": "hoyoung",
+      "tier": "B",
+      "rank": 15,
+      "role": "Backline Sniper",
+      "summary": "Killshot farthest-target Assassin — excellent when Crit and a real front line exist.",
+      "strengths": [
+        "Safe execute range",
+        "Distance / Crit scaling",
+        "Assassin engine pieces"
+      ],
+      "weaknesses": [
+        "Deleted by dive if naked",
+        "Wrong corner = wrong kill"
+      ],
+      "bestModes": ["Climb", "Red Rift"],
+      "recommendedBuildSlug": "assassin-picks"
+    },
+    {
+      "heroSlug": "karsu",
+      "tier": "B",
+      "rank": 16,
+      "role": "Frost Duelist",
+      "summary": "Ranged Duelist Frost applicator — flex carry when you need status without full melee greed.",
+      "strengths": [
+        "Safer than melee Duelists",
+        "Frost setup for the team",
+        "Flex in Rush boards"
+      ],
+      "weaknesses": [
+        "Lower ceiling than Nyx/Irini",
+        "Needs Stall/Frost payoff"
+      ],
+      "bestModes": ["Climb", "Beginner"],
+      "recommendedBuildSlug": "irini-starter"
+    },
+    {
+      "heroSlug": "pollen",
+      "tier": "B",
+      "rank": 17,
+      "role": "Sustain Field Mystic",
+      "summary": "Sanctuary zone that Poisons and Shields — wins on Stall boards that hold bodies in the field.",
+      "strengths": [
+        "Peel + Poison in one cast",
+        "Strong Stall identity",
+        "Team sustain hub"
+      ],
+      "weaknesses": [
+        "Empty field = failed plan",
+        "Weak personal DPS"
+      ],
+      "bestModes": ["Climb", "Red Rift"],
+      "recommendedBuildSlug": "mystic-sustain"
+    },
+    {
+      "heroSlug": "skorn",
+      "tier": "B",
+      "rank": 18,
+      "role": "Taunt Tank",
+      "summary": "Come At Me! redirects focus — excellent peel when Stall/Defense are real.",
+      "strengths": [
+        "Forced targeting",
+        "Poison/Frost retaliation paths",
+        "Saves carries from dive"
+      ],
+      "weaknesses": [
+        "Naked taunt is suicide",
+        "Needs Stall count"
+      ],
+      "bestModes": ["Climb", "Red Rift"],
+      "recommendedBuildSlug": null
+    },
+    {
+      "heroSlug": "niklas",
+      "tier": "B",
+      "rank": 19,
+      "role": "Economy Vanguard",
+      "summary": "Item-consuming Vanguard engine — spikes runs that can feed him economy loops.",
+      "strengths": [
+        "Shard / item fantasy",
+        "Unique scaling path",
+        "Vanguard tools"
+      ],
+      "weaknesses": [
+        "Greedy setup",
+        "Weaker as a pure wall"
+      ],
+      "bestModes": ["Climb"],
+      "recommendedBuildSlug": null
+    },
+    {
+      "heroSlug": "dragomir",
+      "tier": "C",
+      "rank": 20,
+      "role": "Melee Execute Assassin",
+      "summary": "Devour Omnivamp finisher — strong when kills land, empty when he never starts the loop.",
+      "strengths": [
+        "Kill → Shard economy",
+        "Crit/Omnivamp scaling",
+        "Sanguine dive path"
+      ],
+      "weaknesses": [
+        "Needs soft targets",
+        "Bad as sole opener"
+      ],
+      "bestModes": ["Climb"],
+      "recommendedBuildSlug": "assassin-picks"
+    },
+    {
+      "heroSlug": "yuuna",
+      "tier": "C",
+      "rank": 21,
+      "role": "Crit Finisher",
+      "summary": "Lowest-HP shuriken leap — high ceiling with Crit/Poison, poor as wave-one damage.",
+      "strengths": [
+        "Automatic triage targeting",
+        "Nightshade Poison tribal",
+        "Stealth clutch path"
+      ],
+      "weaknesses": [
+        "Whiffs on full-HP packs",
+        "Dies on bad leaps"
+      ],
+      "bestModes": ["Climb"],
+      "recommendedBuildSlug": "assassin-picks"
+    },
+    {
+      "heroSlug": "tilly",
+      "tier": "C",
+      "rank": 22,
+      "role": "Dual-Class Tempo",
+      "summary": "Warrior/Duelist Pirouette carry — strong when you commit one fantasy, confusing when you chase both.",
+      "strengths": [
+        "AS / Shard engine",
+        "Flexible martial tags",
+        "AoE in range"
+      ],
+      "weaknesses": [
+        "Dual-class soft-locks upgrades",
+        "Easy to overcomplicate shops"
+      ],
+      "bestModes": ["Climb"],
+      "recommendedBuildSlug": null
+    },
+    {
+      "heroSlug": "ratna",
+      "tier": "C",
+      "rank": 23,
+      "role": "Crit Control Mage",
+      "summary": "Crit-control Mage with kill scaling — niche boards that already stack Crit.",
+      "strengths": [
+        "Crit Mage identity",
+        "Control tools",
+        "Kill scaling"
+      ],
+      "weaknesses": [
+        "Needs Crit infrastructure",
+        "Lower default floor"
+      ],
+      "bestModes": ["Climb"],
+      "recommendedBuildSlug": null
+    },
+    {
+      "heroSlug": "sal",
+      "tier": "D",
+      "rank": 24,
+      "role": "Frost Support Mage",
+      "summary": "Short-range Frost Mage — situational formation support, rarely the run-defining pickup.",
+      "strengths": [
+        "Frost application",
+        "Formation utility"
+      ],
+      "weaknesses": [
+        "Short range risk",
+        "Harder to build around early"
+      ],
+      "bestModes": ["Climb"],
+      "recommendedBuildSlug": null
+    },
+    {
+      "heroSlug": "zuri",
+      "tier": "D",
+      "rank": 25,
+      "role": "Hybrid Tank/Assassin",
+      "summary": "Crit-scaling Stone Skin hybrid — greedy pools; strong only when Crit and tank stats both arrive.",
+      "strengths": [
+        "Unique hybrid fantasy",
+        "Petrification peel",
+        "Assassin Crit tools"
+      ],
+      "weaknesses": [
+        "Itemization is confusing",
+        "Weak if Crit never procs"
+      ],
+      "bestModes": ["Climb"],
+      "recommendedBuildSlug": "assassin-picks"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ import {
   HeroHowToPlay,
 } from "@/components/heroes/hero-guide-sections";
 import { HeroRankGallery } from "@/components/heroes/hero-rank-gallery";
+import { HeroTierRanking } from "@/components/tier-list/hero-tier-ranking";
 import { RelicCard } from "@/components/relics/relic-card";
 import { ItemCard } from "@/components/items/item-card";
 import { BuildCard } from "@/components/builds/build-card";
@@ -30,6 +31,7 @@ import {
   resolveRelicsBySlugs,
 } from "@/lib/data";
 import { buildHeroGuide } from "@/lib/hero-guide";
+import { getHeroTierEntry } from "@/lib/tier-list";
 import {
   breadcrumbJsonLd,
   buildGameEntityMetadata,
@@ -103,6 +105,7 @@ export default async function HeroDetailPage({ params }: Props) {
   const synergyRelics =
     relics.length > 0 ? relics : getHeroSynergyRelics(hero, 6);
   const guide = buildHeroGuide(hero, synergyRelics);
+  const tierEntry = getHeroTierEntry(hero.slug);
   const featuredMechanics = getFeaturedMechanics(4);
   const primaryClass = hero.classSlug
     ? getHeroClassBySlug(hero.classSlug)
@@ -117,6 +120,7 @@ export default async function HeroDetailPage({ params }: Props) {
   const pageNav = [
     { id: "overview", label: "Overview" },
     { id: "guide", label: "At a glance" },
+    ...(tierEntry ? [{ id: "tier-ranking", label: "Tier" }] : []),
     { id: "how-to-play", label: "How to play" },
     { id: "stats", label: "Stats" },
     ...(hasRankArt ? [{ id: "ranks", label: "Ranks" }] : []),
@@ -228,6 +232,7 @@ export default async function HeroDetailPage({ params }: Props) {
 
       <div className="grid gap-10">
         <HeroDecisionSummary guide={guide} />
+        {tierEntry ? <HeroTierRanking entry={tierEntry} /> : null}
         <HeroHowToPlay guide={guide} />
 
         <section id="stats" className="scroll-mt-24 space-y-3">

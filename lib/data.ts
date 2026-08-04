@@ -934,6 +934,16 @@ export function getSearchIndex(): SearchResult[] {
     });
   }
 
+  results.push({
+    type: "guide",
+    slug: "tier-list",
+    name: "Guildrun Tier List — Best Heroes Ranked",
+    description:
+      "S to D hero rankings for Demo 0.5.2 with roles, strengths, Red Rift notes, and builds.",
+    href: "/tier-list",
+    meta: "Tier List",
+  });
+
   for (const keyword of getMechanicsIndex()) {
     results.push({
       type: "keyword",

@@ -162,6 +162,35 @@ export interface Guide {
   tags?: string[];
 }
 
+export type HeroTierGrade = "S" | "A" | "B" | "C" | "D";
+
+export interface TierListEntry {
+  heroSlug: string;
+  tier: HeroTierGrade;
+  rank: number;
+  role: string;
+  summary: string;
+  strengths: string[];
+  weaknesses: string[];
+  bestModes: string[];
+  recommendedBuildSlug?: string | null;
+}
+
+export interface TierListMeta {
+  version: string;
+  updatedAt: string;
+  intro: string;
+  methodology: string[];
+  faq: Array<{ question: string; answer: string }>;
+  entries: TierListEntry[];
+}
+
+/** Resolved tier row with live Hero + optional Build. */
+export interface ResolvedTierListEntry extends TierListEntry {
+  hero: Hero;
+  recommendedBuild?: Build;
+}
+
 export type SearchEntityType =
   | "hero"
   | "relic"
