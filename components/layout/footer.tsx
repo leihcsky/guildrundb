@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookieSettingsButton } from "@/components/consent/cookie-settings-button";
 import { siteConfig } from "@/config/site.config";
 import { SiteLogo } from "@/components/brand/site-logo";
 
@@ -45,6 +46,7 @@ export function Footer() {
                 {item.label}
               </Link>
             ))}
+            <CookieSettingsButton className="text-left transition-colors hover:text-foreground" />
           </nav>
         </div>
       </div>

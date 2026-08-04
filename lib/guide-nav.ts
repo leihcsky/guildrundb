@@ -8,12 +8,13 @@ export type GuideOutlineItem = {
 
 /** Preferred “read next” pairs for the decision-series guides. */
 const CURATED_RELATED: Record<string, string[]> = {
-  "fight-loss-checklist": ["shop-order-shards", "reading-relic-offers"],
-  "shop-order-shards": ["reading-relic-offers", "fight-loss-checklist"],
-  "reading-relic-offers": ["shop-order-shards", "fight-loss-checklist"],
-  "getting-started": ["fight-loss-checklist", "shop-order-shards"],
-  "red-rift": ["fight-loss-checklist", "adjacent-positioning"],
-  "adjacent-positioning": ["fight-loss-checklist", "getting-started"],
+  "fight-loss-checklist": ["shop-order-shards", "rush-vs-stall"],
+  "shop-order-shards": ["reading-relic-offers", "rush-vs-stall"],
+  "reading-relic-offers": ["rush-vs-stall", "shop-order-shards"],
+  "rush-vs-stall": ["shop-order-shards", "fight-loss-checklist"],
+  "getting-started": ["rush-vs-stall", "fight-loss-checklist"],
+  "red-rift": ["fight-loss-checklist", "rush-vs-stall"],
+  "adjacent-positioning": ["rush-vs-stall", "fight-loss-checklist"],
 };
 
 export function slugifyHeading(text: string) {

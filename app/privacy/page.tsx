@@ -157,10 +157,11 @@ export default function PrivacyPage() {
             .
           </p>
           <p>
-            <strong>Current status:</strong> Google Analytics is active on this site
-            today. Display advertising (for example AdSense units) may be added after
-            Google reviews the site. The advertising disclosures above apply whenever
-            those ad products are serving on our pages.
+            <strong>Current status:</strong> Google Analytics may run only after you
+            allow Analytics in the cookie banner (or under Cookie settings in the
+            footer). Display advertising (for example AdSense) may be added after Google
+            reviews the site; Advertising consent in the same banner controls related
+            Google ad signals when those products are live.
           </p>
         </section>
 
@@ -227,9 +228,12 @@ export default function PrivacyPage() {
             </li>
           </ul>
           <p>
-            Visitors in the European Economic Area, United Kingdom, or Switzerland may
-            see a consent banner (CMP) before non-essential cookies or ad personalization
-            run, where required by law and by Google&apos;s EU user consent policy.
+            A cookie consent banner appears on your first visit (and anytime you open{" "}
+            <strong>Cookie settings</strong> in the footer). Non-essential Analytics and
+            Advertising storage stays off until you accept or customize. We use Google
+            Consent Mode so Google tags respect those choices. This supports privacy laws
+            and Google&apos;s EU user consent policy for visitors in the EEA, UK, and
+            Switzerland — and we show the same controls to all visitors for simplicity.
           </p>
         </section>
 

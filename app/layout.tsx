@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Orbitron } from "next/font/google";
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
+import { ConsentProvider } from "@/components/consent/consent-provider";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 import { Header } from "@/components/layout/header";
 import { UnofficialBanner } from "@/components/layout/unofficial-banner";
@@ -33,12 +34,16 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${orbitron.variable} font-sans`}>
         <GoogleAnalytics />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <div className="flex min-h-screen flex-col">
-            <Header />
-            <UnofficialBanner />
-            <main className="mx-auto w-full max-w-6xl flex-1 px-4 pb-8 pt-4">{children}</main>
-            <Footer />
-          </div>
+          <ConsentProvider>
+            <div className="flex min-h-screen flex-col">
+              <Header />
+              <UnofficialBanner />
+              <main className="mx-auto w-full max-w-6xl flex-1 px-4 pb-8 pt-4">
+                {children}
+              </main>
+              <Footer />
+            </div>
+          </ConsentProvider>
         </ThemeProvider>
       </body>
     </html>

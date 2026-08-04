@@ -13,7 +13,7 @@ export const siteConfig = {
   googleAnalyticsId: "G-MN3QZETG27",
   dataNotes:
     "Database extracted from Guildrun Demo 0.5.2 game sheets. Balance-sensitive values may change with future patches.",
-  legalUpdatedAt: "2026-08-01",
+  legalUpdatedAt: "2026-08-04",
   faq: [
     {
       question: "What is Guildrun?",
