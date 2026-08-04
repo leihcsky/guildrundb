@@ -159,9 +159,9 @@ export default function PrivacyPage() {
           <p>
             <strong>Current status:</strong> Google Analytics may run only after you
             allow Analytics in the cookie banner (or under Cookie settings in the
-            footer). Display advertising (for example AdSense) may be added after Google
-            reviews the site; Advertising consent in the same banner controls related
-            Google ad signals when those products are live.
+            footer). Google AdSense code is present on this site; ads display after
+            Google approves the site. Advertising consent in the same banner controls
+            related Google ad signals (Consent Mode).
           </p>
         </section>
 

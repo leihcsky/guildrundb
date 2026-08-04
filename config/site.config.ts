@@ -11,6 +11,8 @@ export const siteConfig = {
   contactEmail: "contact@guildrunhub.online",
   /** Google Analytics 4 measurement ID (gtag.js). */
   googleAnalyticsId: "G-MN3QZETG27",
+  /** Google AdSense publisher client ID (ca-pub-…). */
+  googleAdsenseClientId: "ca-pub-3293976111230987",
   dataNotes:
     "Database extracted from Guildrun Demo 0.5.2 game sheets. Balance-sensitive values may change with future patches.",
   legalUpdatedAt: "2026-08-04",
