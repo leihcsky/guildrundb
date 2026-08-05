@@ -1,4 +1,4 @@
----
+﻿---
 title: Why Did I Wipe? A Fight-Loss Checklist for Guildrun
 description: Diagnose Guildrun Demo losses in one pass — opener tanking, casts, keyword triggers, shop spend, and formation — so the next fight has a real fix.
 updatedAt: 2026-08-04
@@ -9,7 +9,7 @@ tags:
   - troubleshooting
 ---
 
-A wipe in Guildrun rarely means “your DPS number was too low.” Combat is automatic. The useful work happens **after** the fight: name the failure mode, then buy or place the answer. This checklist is for Demo **0.5.2** players who keep losing fights that *felt* winnable.
+A wipe in Guildrun rarely means “your DPS number was too low.” Combat is automatic. The useful work happens **after** the fight: name the failure mode, then buy or place the answer. This checklist is for Demo **0.5.3** players who keep losing fights that *felt* winnable.
 
 Use it with the databases when you need a name: [Heroes](/heroes), [Relics](/relics), [Items](/items), [Keywords](/keywords). For the broader run loop, see [Getting Started](/guides/getting-started). For how to spend after you know the problem, see [Shop order: Rank vs Relic vs Item](/guides/shop-order-shards).
 

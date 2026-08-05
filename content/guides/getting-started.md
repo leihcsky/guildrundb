@@ -1,6 +1,6 @@
----
+﻿---
 title: Getting Started with Guildrun
-description: A practical Demo 0.5.2 beginner guide covering the run loop, drafting, positioning, ranks, relics, economy, and how to learn from every loss.
+description: A practical Demo 0.5.3 beginner guide covering the run loop, drafting, positioning, ranks, relics, economy, and how to learn from every loss.
 updatedAt: 2026-07-29
 tags:
   - beginner
@@ -9,7 +9,7 @@ tags:
   - strategy
 ---
 
-Guildrun is a single-player PvE roguelike autobattler from Leyline. You draft a small guild, place heroes on a hex board, then watch combat resolve automatically. The real game happens **between** fights: shops, events, ranks, items, and relics. This guide is written for the current **Demo 0.5.2** mindset — not as a rigid tier list, but as a checklist of decisions that keep early runs alive long enough for you to learn.
+Guildrun is a single-player PvE roguelike autobattler from Leyline. You draft a small guild, place heroes on a hex board, then watch combat resolve automatically. The real game happens **between** fights: shops, events, ranks, items, and relics. This guide is written for the current **Demo 0.5.3** mindset — not as a rigid tier list, but as a checklist of decisions that keep early runs alive long enough for you to learn.
 
 Use this page together with Guildrun Hub’s databases: [Heroes](/heroes), [Relics](/relics), [Items](/items), [Classes](/classes), [Keywords](/keywords), and [Builds](/builds). Look up a name when a shop offer confuses you; come back here when you need the big picture.
 
@@ -177,4 +177,4 @@ After each failure, change one variable: placement, who got the next rank, or wh
 
 Guildrun rewards players who treat every fight as feedback. Stabilize a boring, correct board. Specialize the unit that is already working. Let relics choose the late identity only after the early board can survive. Climb difficulty when your losses become *explainable*, not when you simply want a harder badge.
 
-Clear one calm run on Demo 0.5.2 with that loop, and the rest of the systems — Endless, harsher rifts, deeper multiclass pivots — will suddenly read as options instead of noise.
+Clear one calm run on Demo 0.5.3 with that loop, and the rest of the systems — Endless, harsher rifts, deeper multiclass pivots — will suddenly read as options instead of noise.

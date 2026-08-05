@@ -1,4 +1,4 @@
----
+﻿---
 title: Shop Order — Rank vs Relic vs Item (When to Spend Shards)
 description: A practical Guildrun Demo shop priority for Shards — when to buy Rank B, when a relic is the real spike, and when an item beats both.
 updatedAt: 2026-08-04
@@ -11,7 +11,7 @@ tags:
   - items
 ---
 
-Guildrun shops are where runs are won. Combat is the report card; **Shards** are the test. This guide answers one question for Demo **0.5.2**:
+Guildrun shops are where runs are won. Combat is the report card; **Shards** are the test. This guide answers one question for Demo **0.5.3**:
 
 > On this screen, should I buy a **Rank**, a **Relic**, or an **Item**?
 

@@ -16,7 +16,9 @@ let cachedMeta: TierListMeta | null = null;
 function loadTierListMeta(): TierListMeta {
   if (cachedMeta) return cachedMeta;
   const filePath = path.join(process.cwd(), "content/meta/tier-list.json");
-  const raw = JSON.parse(fs.readFileSync(filePath, "utf-8")) as TierListMeta;
+  let text = fs.readFileSync(filePath, "utf-8");
+  if (text.charCodeAt(0) === 0xfeff) text = text.slice(1);
+  const raw = JSON.parse(text) as TierListMeta;
   cachedMeta = raw;
   return raw;
 }

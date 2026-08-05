@@ -1,4 +1,4 @@
-import fs from "fs";
+﻿import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
@@ -123,7 +123,9 @@ type RawItem = {
 
 function readJson<T>(filename: string): T {
   const filePath = path.join(contentDir, filename);
-  const raw = fs.readFileSync(filePath, "utf-8");
+  let raw = fs.readFileSync(filePath, "utf-8");
+  // Editors on Windows may save UTF-8 with BOM; Node JSON.parse rejects it.
+  if (raw.charCodeAt(0) === 0xfeff) raw = raw.slice(1);
   return JSON.parse(raw) as T;
 }
 
@@ -939,7 +941,7 @@ export function getSearchIndex(): SearchResult[] {
     slug: "tier-list",
     name: "Guildrun Tier List — Best Heroes Ranked",
     description:
-      "S to D hero rankings for Demo 0.5.2 with roles, strengths, Red Rift notes, and builds.",
+      "S to D hero rankings for Demo 0.5.3 with roles, strengths, Red Rift notes, and builds.",
     href: "/tier-list",
     meta: "Tier List",
   });

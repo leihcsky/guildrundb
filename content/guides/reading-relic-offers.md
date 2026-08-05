@@ -1,4 +1,4 @@
----
+﻿---
 title: Banner vs Engine vs Unique — How to Read a Relic Offer
 description: Learn to read Guildrun relic shops by name role and conditions — when banners, engines, filigrees, and Uniques are real spikes versus Shard traps.
 updatedAt: 2026-08-04
@@ -9,7 +9,7 @@ tags:
   - keywords
 ---
 
-The relic shop in Guildrun is noisy on purpose. Rarity looks like power; **conditions** are power. This guide teaches you to read an offer in Demo **0.5.2** the way a strong run does: name role → keyword → trigger frequency → then rarity.
+The relic shop in Guildrun is noisy on purpose. Rarity looks like power; **conditions** are power. This guide teaches you to read an offer in Demo **0.5.3** the way a strong run does: name role → keyword → trigger frequency → then rarity.
 
 Pair it with:
 

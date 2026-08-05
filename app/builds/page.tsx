@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { BuildCard } from "@/components/builds/build-card";
 import { Breadcrumb } from "@/components/shared/breadcrumb";
 import { PageHeader } from "@/components/shared/page-header";
@@ -29,7 +29,7 @@ export default function BuildsPage() {
       />
       <PageHeader
         title="Builds"
-        description="Practical comps for Demo 0.5.2 — when to pick them, how to place them, and what to buy."
+        description="Practical comps for Demo 0.5.3 — when to pick them, how to place them, and what to buy."
       />
       <div className="grid gap-4 md:grid-cols-2">
         {builds.map((build) => (

@@ -1,4 +1,4 @@
-export type HeroClass = string;
+﻿export type HeroClass = string;
 export type HeroRole = string;
 export type RelicRarity = string;
 export type RelicType = string;
@@ -147,7 +147,7 @@ export interface Build {
   tips?: string[];
   strength?: string[];
   weakness?: string[];
-  /** Demo / patch label, e.g. Demo 0.5.2 */
+  /** Demo / patch label, e.g. Demo 0.5.3 */
   patch?: string;
   featured?: boolean;
   updatedAt: string;

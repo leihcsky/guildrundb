@@ -126,8 +126,8 @@
     "balancing": {
       "disabledInGame": false,
       "maxHealth": 675,
-      "maxMana": 80,
-      "startingMana": 45,
+      "maxMana": 75,
+      "startingMana": 40,
       "manaRegen": 4,
       "manaLockTime": 0.5,
       "moveSpeed": 1.5,
@@ -148,8 +148,8 @@
     "guildId": 2,
     "stats": {
       "maxHealth": 675,
-      "maxMana": 80,
-      "startingMana": 45,
+      "maxMana": 75,
+      "startingMana": 40,
       "manaRegen": 4,
       "defense": 30,
       "attack": 0,
@@ -785,8 +785,8 @@
     "balancing": {
       "disabledInGame": false,
       "maxHealth": 750,
-      "maxMana": 115,
-      "startingMana": 45,
+      "maxMana": 100,
+      "startingMana": 25,
       "manaRegen": 8,
       "manaLockTime": 0.75,
       "moveSpeed": 1.5,
@@ -807,8 +807,8 @@
     "guildId": 6,
     "stats": {
       "maxHealth": 750,
-      "maxMana": 115,
-      "startingMana": 45,
+      "maxMana": 100,
+      "startingMana": 25,
       "manaRegen": 8,
       "defense": 31,
       "attack": 0,
@@ -1527,13 +1527,13 @@
     "balancing": {
       "disabledInGame": false,
       "maxHealth": 650,
-      "maxMana": 80,
-      "startingMana": 40,
+      "maxMana": 85,
+      "startingMana": 45,
       "manaRegen": 4,
       "manaLockTime": 1,
       "moveSpeed": 1.5,
       "defense": 29,
-      "baseAttackDamage": 30,
+      "baseAttackDamage": 33,
       "attack": 0,
       "magic": 0,
       "attackRange": 5,
@@ -1549,8 +1549,8 @@
     "guildId": 4,
     "stats": {
       "maxHealth": 650,
-      "maxMana": 80,
-      "startingMana": 40,
+      "maxMana": 85,
+      "startingMana": 45,
       "manaRegen": 4,
       "defense": 29,
       "attack": 0,
@@ -1561,7 +1561,7 @@
       "attackRange": 5,
       "manaLockTime": 1,
       "baseAttackSpeed": 0.529998779296875,
-      "baseAttackDamage": 30
+      "baseAttackDamage": 33
     }
   },
   {
@@ -1783,7 +1783,7 @@
       "attack": 0,
       "magic": 25,
       "attackRange": 2,
-      "baseAttackSpeed": 0.4499969482421875,
+      "baseAttackSpeed": 0.4199981689453125,
       "attackSpeed": 0,
       "crit": 15,
       "startWithActiveAbility": false,
@@ -1806,7 +1806,7 @@
       "moveSpeed": 1.5,
       "attackRange": 2,
       "manaLockTime": 1,
-      "baseAttackSpeed": 0.4499969482421875,
+      "baseAttackSpeed": 0.4199981689453125,
       "baseAttackDamage": 30
     }
   },
