@@ -28,8 +28,8 @@ export default function BuildsPage() {
         ]}
       />
       <PageHeader
-        title="Builds"
-        description="Practical comps for Demo 0.5.3 — when to pick them, how to place them, and what to buy."
+        title="Guildrun Builds"
+        description="Hero team comps for Demo 0.5.3 — Irini, Zuri, Nyx, and more. When to pick each build, relics, items, and positioning."
       />
       <div className="grid gap-4 md:grid-cols-2">
         {builds.map((build) => (

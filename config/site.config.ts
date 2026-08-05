@@ -78,9 +78,9 @@
           "Explore all 7 Guildrun hero classes, signature keywords, and class-specific relic synergies.",
       },
       builds: {
-        title: "Team Builds & Comp Notes",
+        title: "Guildrun Builds — Hero Team Comps",
         description:
-          "Curated Guildrun team builds with core heroes, relics, playstyles, and starter comps.",
+          "Guildrun Irini, Zuri, Nyx, and other hero builds for Demo 0.5.3 — team comps, relics, items, and positioning.",
       },
       guides: {
         title: "Strategy Guides & Demo Tips",

@@ -151,6 +151,16 @@ export interface Build {
   patch?: string;
   featured?: boolean;
   updatedAt: string;
+  /** GSC hero for "{name} build guildrun" — defaults to first core hero. */
+  seoPrimaryHero?: string;
+  /** Override meta title (keep short; site name appended automatically). */
+  seoTitle?: string;
+  /** Override meta description (~150 chars). */
+  seoDescription?: string;
+  /** Optional on-page H1; defaults to "Guildrun {Hero} Build". */
+  seoHeading?: string;
+  /** Extra URL slugs, e.g. "irini" → /builds/irini/ (canonical stays on slug). */
+  aliases?: string[];
 }
 
 export interface Guide {

@@ -38,6 +38,10 @@
     ],
     "patch": "Demo 0.5.3",
     "featured": true,
+    "seoPrimaryHero": "irini",
+    "seoTitle": "Guildrun Irini Build",
+    "seoDescription": "Guildrun Irini build for Demo 0.5.3 — attack-speed carry with Nyx Rush and Reyna frontline. Relics, items, and starter comp tips.",
+    "aliases": ["irini"],
     "updatedAt": "2026-07-29"
   },
   {
@@ -84,6 +88,10 @@
     ],
     "patch": "Demo 0.5.3",
     "featured": true,
+    "seoPrimaryHero": "nyx",
+    "seoTitle": "Guildrun Nyx Rush Build",
+    "seoDescription": "Guildrun Nyx and Rush Duelist build — Rip Vanguard HP scaling with Nyx and Irini attack speed. Relics, items, and when to commit.",
+    "aliases": ["nyx"],
     "updatedAt": "2026-07-29"
   },
   {
@@ -129,6 +137,10 @@
     ],
     "patch": "Demo 0.5.3",
     "featured": false,
+    "seoPrimaryHero": "reyna",
+    "seoTitle": "Guildrun Warrior Shield Build",
+    "seoDescription": "Guildrun Warrior shield build — Reyna and Logan frontline with Kai finisher. Shield relics, items, and survival-first gameplan.",
+    "aliases": ["reyna", "logan"],
     "updatedAt": "2026-07-29"
   },
   {
@@ -171,6 +183,10 @@
     ],
     "patch": "Demo 0.5.3",
     "featured": false,
+    "seoPrimaryHero": "grace",
+    "seoTitle": "Guildrun Mystic Sustain Build",
+    "seoDescription": "Guildrun Mystic sustain build — Fiona and Pollen shields with Grace recovery. Mana regen, stall tools, and attrition wins.",
+    "aliases": ["fiona", "grace"],
     "updatedAt": "2026-07-29"
   },
   {
@@ -216,6 +232,10 @@
     ],
     "patch": "Demo 0.5.3",
     "featured": false,
+    "seoPrimaryHero": "zuri",
+    "seoTitle": "Guildrun Zuri Build",
+    "seoDescription": "Guildrun Zuri Assassin build — Hoyoung and Yuuna backline burst with Zuri hybrid front. Crit relics, items, and pick-off gameplan.",
+    "aliases": ["zuri"],
     "updatedAt": "2026-07-29"
   }
 ]

@@ -8,18 +8,25 @@ import { RelicCard } from "@/components/relics/relic-card";
 import { ItemCard } from "@/components/items/item-card";
 import { TagList } from "@/components/mechanics/tag-list";
 import {
+  getAllBuildRouteSlugs,
   getBuildBySlug,
-  getBuilds,
   resolveHeroesBySlugs,
   resolveItemsBySlugs,
   resolveRelicsBySlugs,
 } from "@/lib/data";
-import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/seo";
+import {
+  buildBuildMetadata,
+  buildPageHeading,
+  buildSeoDescription,
+  buildSeoTitle,
+  getBuildCanonicalSlug,
+} from "@/lib/build-seo";
+import { breadcrumbJsonLd, entityJsonLd } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
-  return getBuilds().map((build) => ({ slug: build.slug }));
+  return getAllBuildRouteSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -27,13 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const build = getBuildBySlug(slug);
   if (!build) return {};
 
-  return buildGameEntityMetadata({
-    name: build.title,
-    kind: "build",
-    signal: [build.playstyle, build.keywords?.[0]],
-    description: build.overview,
-    path: `/builds/${build.slug}`,
-  });
+  return buildBuildMetadata(build, slug);
 }
 
 export default async function BuildDetailPage({ params }: Props) {
@@ -45,6 +46,10 @@ export default async function BuildDetailPage({ params }: Props) {
   const flexHeroes = resolveHeroesBySlugs(build.flexHeroes ?? []);
   const relics = resolveRelicsBySlugs(build.relics);
   const items = resolveItemsBySlugs(build.items);
+  const canonicalSlug = getBuildCanonicalSlug(build);
+  const heading = buildPageHeading(build);
+  const seoTitle = buildSeoTitle(build);
+  const seoDescription = buildSeoDescription(build);
 
   return (
     <>
@@ -55,7 +60,7 @@ export default async function BuildDetailPage({ params }: Props) {
             breadcrumbJsonLd([
               { name: "Home", path: "/" },
               { name: "Builds", path: "/builds" },
-              { name: build.title, path: `/builds/${build.slug}` },
+              { name: seoTitle, path: `/builds/${canonicalSlug}` },
             ]),
           ),
         }}
@@ -66,9 +71,9 @@ export default async function BuildDetailPage({ params }: Props) {
           __html: JSON.stringify(
             entityJsonLd({
               type: "Article",
-              name: build.title,
-              description: build.overview,
-              path: `/builds/${build.slug}`,
+              name: seoTitle,
+              description: seoDescription,
+              path: `/builds/${canonicalSlug}`,
               dateModified: build.updatedAt,
             }),
           ),
@@ -80,7 +85,7 @@ export default async function BuildDetailPage({ params }: Props) {
         items={[
           { label: "Home", href: "/" },
           { label: "Builds", href: "/builds" },
-          { label: build.title },
+          { label: heading },
         ]}
       />
 
@@ -89,7 +94,10 @@ export default async function BuildDetailPage({ params }: Props) {
           {build.patch ? <Badge variant="secondary">{build.patch}</Badge> : null}
           {build.featured ? <Badge variant="outline">Featured</Badge> : null}
         </div>
-        <h1 className="font-display text-4xl font-bold">{build.title}</h1>
+        <h1 className="font-display text-4xl font-bold">{heading}</h1>
+        {heading !== build.title ? (
+          <p className="text-lg text-muted-foreground">{build.title}</p>
+        ) : null}
         <p className="max-w-3xl text-muted-foreground">{build.overview}</p>
         {build.goal ? (
           <p className="max-w-3xl rounded-lg border border-border bg-card p-4 text-sm">
