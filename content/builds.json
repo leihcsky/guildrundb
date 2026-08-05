@@ -41,7 +41,6 @@
     "seoPrimaryHero": "irini",
     "seoTitle": "Guildrun Irini Build",
     "seoDescription": "Guildrun Irini build for Demo 0.5.3 — attack-speed carry with Nyx Rush and Reyna frontline. Relics, items, and starter comp tips.",
-    "aliases": ["irini"],
     "updatedAt": "2026-07-29"
   },
   {
@@ -91,7 +90,6 @@
     "seoPrimaryHero": "nyx",
     "seoTitle": "Guildrun Nyx Rush Build",
     "seoDescription": "Guildrun Nyx and Rush Duelist build — Rip Vanguard HP scaling with Nyx and Irini attack speed. Relics, items, and when to commit.",
-    "aliases": ["nyx"],
     "updatedAt": "2026-07-29"
   },
   {
@@ -140,7 +138,6 @@
     "seoPrimaryHero": "reyna",
     "seoTitle": "Guildrun Warrior Shield Build",
     "seoDescription": "Guildrun Warrior shield build — Reyna and Logan frontline with Kai finisher. Shield relics, items, and survival-first gameplan.",
-    "aliases": ["reyna", "logan"],
     "updatedAt": "2026-07-29"
   },
   {
@@ -186,7 +183,6 @@
     "seoPrimaryHero": "grace",
     "seoTitle": "Guildrun Mystic Sustain Build",
     "seoDescription": "Guildrun Mystic sustain build — Fiona and Pollen shields with Grace recovery. Mana regen, stall tools, and attrition wins.",
-    "aliases": ["fiona", "grace"],
     "updatedAt": "2026-07-29"
   },
   {
@@ -235,7 +231,62 @@
     "seoPrimaryHero": "zuri",
     "seoTitle": "Guildrun Zuri Build",
     "seoDescription": "Guildrun Zuri Assassin build — Hoyoung and Yuuna backline burst with Zuri hybrid front. Crit relics, items, and pick-off gameplan.",
-    "aliases": ["zuri"],
     "updatedAt": "2026-07-29"
+  },
+  {
+    "slug": "aria-stall-mage",
+    "title": "Aria Stall Mage",
+    "overview": "S-tier back-line carry: Aria channels Requiem Barrage through packs while Reyna holds contact and Pollen keeps Stall online for permanent Magic and longer beams.",
+    "goal": "Commit when Aria appears early, Mage or Stall banners keep showing, and you can draft a real frontliner before the third slot — this is a scaling Mage board, not a three-carry glass rush.",
+    "heroes": ["aria", "reyna", "pollen"],
+    "flexHeroes": ["funke", "sal", "rowan", "grace", "skorn"],
+    "relics": [
+      "mage-s-enlightenment-banner-601",
+      "mage-s-elemental-banner-595",
+      "mage-s-serenity-banner-604"
+    ],
+    "items": [
+      "emerald-charm-640",
+      "battlemage-robes-636",
+      "mage-s-staff-320",
+      "mage-s-wand-606"
+    ],
+    "keywords": ["mage", "stall", "burn", "frost", "debuff"],
+    "playstyle": "Aria wins when Requiem Barrage covers the pack for the full channel — Burn and Frost tick the whole fight. Reyna buys time on contact; Pollen turns Stall into shields, zone pressure, and the triggers Crescendo needs. If the beam misses or Aria dies mid-cast, fix placement before buying another Magic relic.",
+    "positioning": "Reyna front-center on the dive hex. Pollen mid-back so Sanctuary covers the melee pit where packs stand. Aria back row, aimed down the main lane — re-angle after every loss until enemies sit in the beam for the full duration. Never put Aria on a dive tile.",
+    "gameplan": [
+      "Open: lock Aria + Reyna (or Rowan). Do not draft a second Mage before a wall exists — a dead channel is zero DPS.",
+      "Third pick: Pollen when Stall/Mystic shops appear; Funke or Sal if you already have Stall tools and want more Burn/Frost application.",
+      "Rank B Aria → The Crescendo (default Stall snowball). Take The Harmony only if the board needs beam Shields; The Resplendent when you run three Mages.",
+      "Rank B Pollen → The Bloomer for double shields/heals after Stall, or The Earth's Child when you want Frost+Burn ticks in the field.",
+      "Shops: Mage's Enlightenment + Elemental/Serenity banners first. Stall triggers permanent Magic and Mana — Crescendo without Stall is half a build.",
+      "Items: Emerald Charm and Battlemage Robes keep cast uptime and survival; stack Mage's Staff/Wand on Aria before challenge fights.",
+      "Finish: one fully itemized Aria with Enlightenment online beats three spread-out Mage items."
+    ],
+    "tips": [
+      "After every loss ask: did Requiem Barrage hit the pack? Move Aria or Reyna before rerolling relics.",
+      "Funke flexes when Burn density matters — Wildfire plus Aria's beam melts wide packs. Sal flexes for Frost cleave behind Reyna.",
+      "Grace replaces Pollen when you need resurrection more than zone Stall — keep at least one Stall source somewhere on the board.",
+      "Rowan or Skorn flex when Reyna is missing; do not leave Aria with zero frontline.",
+      "Serenity Banner fixes Mana drought after Stall — take it before greed-stacking raw Magic on items."
+    ],
+    "strength": [
+      "S-tier Mage ceiling when channel geometry is correct",
+      "Stall permanently scales Magic for the whole Mage core",
+      "Dual Burn/Frost debuff engine for Elemental Banner payoffs",
+      "Pollen stabilizes long Red Rift and challenge fights"
+    ],
+    "weakness": [
+      "Fragile to dive and AoE if Reyna falls early",
+      "Slow start — needs Stall triggers before Crescendo snowballs",
+      "Beam aim is a hard skill check; wrong angle wastes the whole comp",
+      "Low burst if fights end before first full channel"
+    ],
+    "patch": "Demo 0.5.3",
+    "featured": true,
+    "seoPrimaryHero": "aria",
+    "seoTitle": "Guildrun Aria Build",
+    "seoDescription": "Guildrun Aria build for Demo 0.5.3 — Requiem Barrage carry with Reyna front and Pollen Stall. Rank B paths, Mage relics, items, and beam positioning.",
+    "updatedAt": "2026-08-05"
   }
 ]

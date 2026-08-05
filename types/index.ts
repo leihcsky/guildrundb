@@ -159,8 +159,6 @@ export interface Build {
   seoDescription?: string;
   /** Optional on-page H1; defaults to "Guildrun {Hero} Build". */
   seoHeading?: string;
-  /** Extra URL slugs, e.g. "irini" → /builds/irini/ (canonical stays on slug). */
-  aliases?: string[];
 }
 
 export interface Guide {

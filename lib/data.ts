@@ -832,19 +832,7 @@ export function getBuilds(): Build[] {
 }
 
 export function getBuildBySlug(slug: string): Build | undefined {
-  const builds = getBuilds();
-  const direct = builds.find((build) => build.slug === slug);
-  if (direct) return direct;
-  return builds.find((build) => build.aliases?.includes(slug));
-}
-
-export function getAllBuildRouteSlugs(): string[] {
-  const slugs: string[] = [];
-  for (const build of getBuilds()) {
-    slugs.push(build.slug);
-    if (build.aliases) slugs.push(...build.aliases);
-  }
-  return slugs;
+  return getBuilds().find((build) => build.slug === slug);
 }
 
 const SYNTHETIC_GUIDES = [ADJACENT_GUIDE, RED_RIFT_GUIDE];

@@ -8,8 +8,8 @@ import { RelicCard } from "@/components/relics/relic-card";
 import { ItemCard } from "@/components/items/item-card";
 import { TagList } from "@/components/mechanics/tag-list";
 import {
-  getAllBuildRouteSlugs,
   getBuildBySlug,
+  getBuilds,
   resolveHeroesBySlugs,
   resolveItemsBySlugs,
   resolveRelicsBySlugs,
@@ -19,14 +19,13 @@ import {
   buildPageHeading,
   buildSeoDescription,
   buildSeoTitle,
-  getBuildCanonicalSlug,
 } from "@/lib/build-seo";
 import { breadcrumbJsonLd, entityJsonLd } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
-  return getAllBuildRouteSlugs().map((slug) => ({ slug }));
+  return getBuilds().map((build) => ({ slug: build.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -34,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const build = getBuildBySlug(slug);
   if (!build) return {};
 
-  return buildBuildMetadata(build, slug);
+  return buildBuildMetadata(build);
 }
 
 export default async function BuildDetailPage({ params }: Props) {
@@ -46,7 +45,6 @@ export default async function BuildDetailPage({ params }: Props) {
   const flexHeroes = resolveHeroesBySlugs(build.flexHeroes ?? []);
   const relics = resolveRelicsBySlugs(build.relics);
   const items = resolveItemsBySlugs(build.items);
-  const canonicalSlug = getBuildCanonicalSlug(build);
   const heading = buildPageHeading(build);
   const seoTitle = buildSeoTitle(build);
   const seoDescription = buildSeoDescription(build);
@@ -60,7 +58,7 @@ export default async function BuildDetailPage({ params }: Props) {
             breadcrumbJsonLd([
               { name: "Home", path: "/" },
               { name: "Builds", path: "/builds" },
-              { name: seoTitle, path: `/builds/${canonicalSlug}` },
+              { name: seoTitle, path: `/builds/${build.slug}` },
             ]),
           ),
         }}
@@ -73,7 +71,7 @@ export default async function BuildDetailPage({ params }: Props) {
               type: "Article",
               name: seoTitle,
               description: seoDescription,
-              path: `/builds/${canonicalSlug}`,
+              path: `/builds/${build.slug}`,
               dateModified: build.updatedAt,
             }),
           ),

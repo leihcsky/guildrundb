@@ -80,7 +80,7 @@
       builds: {
         title: "Guildrun Builds — Hero Team Comps",
         description:
-          "Guildrun Irini, Zuri, Nyx, and other hero builds for Demo 0.5.3 — team comps, relics, items, and positioning.",
+          "Guildrun Aria, Irini, Zuri, and other hero builds for Demo 0.5.3 — team comps, relics, items, and positioning.",
       },
       guides: {
         title: "Strategy Guides & Demo Tips",

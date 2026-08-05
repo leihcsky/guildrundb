@@ -18,10 +18,6 @@ export function getBuildPrimaryHeroSlug(build: Build): string | undefined {
   return build.heroes[0];
 }
 
-export function getBuildCanonicalSlug(build: Build): string {
-  return build.slug;
-}
-
 /** Short SEO title (~30–45 chars before site suffix). Matches GSC "hero build guildrun" patterns. */
 export function buildSeoTitle(build: Build): string {
   if (build.seoTitle?.trim()) return build.seoTitle.trim();
@@ -68,26 +64,10 @@ export function buildPageHeading(build: Build): string {
   return build.title;
 }
 
-export function buildBuildMetadata(build: Build, routeSlug: string): Metadata {
-  const canonicalSlug = getBuildCanonicalSlug(build);
-  const isAlias = routeSlug !== canonicalSlug;
-
-  const meta = buildMetadata({
+export function buildBuildMetadata(build: Build): Metadata {
+  return buildMetadata({
     title: buildSeoTitle(build),
     description: buildSeoDescription(build),
-    path: `/builds/${canonicalSlug}`,
+    path: `/builds/${build.slug}`,
   });
-
-  if (isAlias) {
-    return {
-      ...meta,
-      alternates: {
-        ...meta.alternates,
-        canonical: meta.alternates?.canonical,
-      },
-      robots: { index: false, follow: true },
-    };
-  }
-
-  return meta;
 }

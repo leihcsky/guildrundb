@@ -107,10 +107,7 @@
         "Cast uptime dependent"
       ],
       "bestModes": ["Climb", "Red Rift"],
-      "recommendedBuildSlug": null
-    },
-    {
-      "heroSlug": "grace",
+      "recommendedBuildSlug": "aria-stall-mage"
       "tier": "S",
       "rank": 5,
       "role": "Late Sustain Support",
