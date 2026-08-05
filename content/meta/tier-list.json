@@ -108,6 +108,9 @@
       ],
       "bestModes": ["Climb", "Red Rift"],
       "recommendedBuildSlug": "aria-stall-mage"
+    },
+    {
+      "heroSlug": "grace",
       "tier": "S",
       "rank": 5,
       "role": "Late Sustain Support",
