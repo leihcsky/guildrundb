@@ -1,0 +1,46 @@
+{
+  "intro": "The Mage is Guildrun's Magic class: back-line casters that deal damage and disrupt enemies with powerful active abilities. Mages scale Magic and lean on Stall, Burn, and Frost — their casts detonate packs and stack damage-over-time when the fight lasts. In Demo 0.5.3 they are the highest AoE ceiling in the game, but every Mage lives or dies by cast geometry: a spell that misses the pack or a caster that dies mid-channel is a wasted turn. Build Mages when Magic, Stall, and Elemental banners keep appearing and you can protect the back row.",
+  "seoDescription": "Guildrun Mage class guide: Magic back-line casters scaling Stall, Burn, and Frost. Best Mage heroes, relics, positioning, and comp tips.",
+  "roleLabel": "Back-line Magic caster — Stall / Burn / Frost AoE",
+  "strength": "Massive area payoff: Mage casts hit whole packs and scale with Stall-driven permanent Magic",
+  "weakness": "Positioning-dependent and fragile — a missed cast or an opened-on Mage loses the fight",
+  "howToPlay": {
+    "draft": "Draft a Mage only with a front line to protect it. Rank B toward Stall snowball (permanent Magic, longer casts) or tribal Debuff paths if you run multiple Mages. Aim casts before adding more Magic.",
+    "shop": "Stall enablers and Mage banners (Enlightenment / Elemental) first — Stall triggers permanent Magic. Then Mana / cast uptime, then raw Magic amplifiers.",
+    "positioning": "Back row aimed down the main lane so casts cover where packs actually stand. Re-angle after every loss; never leave a Mage on a dive tile."
+  },
+  "shopPriorities": [
+    "Stall enablers so Mage abilities grow permanent Magic",
+    "Mage banners (Enlightenment for Magic, Elemental for Burn/Frost)",
+    "Mana / cast uptime pieces to guarantee casts land",
+    "Magic amplifiers last, once geometry and uptime are solved"
+  ],
+  "signatureHeroes": [
+    { "name": "Aria", "why": "Dual Burn/Frost channel carry — Requiem Barrage melts packs when aimed well." },
+    { "name": "Funke", "why": "Area Burn Mage whose Wildfire cooks every enemy in range at once." },
+    { "name": "Ratna", "why": "Burst nuke Mage for single big-cast payoffs." },
+    { "name": "Sal", "why": "Short-range Frost Mage that cleaves and supports Debuff loops." }
+  ],
+  "faq": [
+    {
+      "question": "What is the Mage class in Guildrun?",
+      "answer": "Mages are a Magic-based back-line class that deals damage and disrupts enemies with active abilities, scaling Stall, Burn, and Frost. Their casts hit whole packs and grow with Stall-driven permanent Magic."
+    },
+    {
+      "question": "What are the best Mage heroes in Guildrun?",
+      "answer": "Aria (dual Burn/Frost channel carry), Funke (area Burn), Ratna (burst nuke), and Sal (short-range Frost support) are the standout Mage picks."
+    },
+    {
+      "question": "What relics work with Mages?",
+      "answer": "Stall enablers and Mage banners (Enlightenment, Elemental) first, then Mana/cast uptime, then raw Magic amplifiers. Stall triggers permanent Magic, so it comes before flat damage."
+    },
+    {
+      "question": "Why does my Mage feel weak?",
+      "answer": "Usually a geometry problem: the cast isn't hitting the pack, or the Mage dies before casting. Fix aim and add a front line before buying more Magic relics."
+    }
+  ],
+  "tips": [
+    "After every loss ask: did the cast hit the pack? Move the Mage or the tank before rerolling relics.",
+    "A Stall-scaling Mage without Stall sources is half-powered — add Stall enablers or switch the Rank B path."
+  ]
+}

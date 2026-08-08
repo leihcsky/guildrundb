@@ -1,0 +1,46 @@
+{
+  "intro": "The Mystic is Guildrun's Mana Regen class: support casters that repeatedly fire active abilities to shield allies and disrupt enemies. Mystics scale Mana Regen and lean on Shields, Shards, Debuffs, and Stall — the more casts they get, the more the whole board benefits. In Demo 0.5.3 they are the glue that stabilizes messy mid-run boards and turns long fights into wins. Draft a Mystic when you keep seeing Mana Regen and Shield banners or need attrition tools against durable enemy packs.",
+  "seoDescription": "Guildrun Mystic class guide: Mana Regen support casters with Shields and Debuffs. Best Mystic heroes, relics, and how to stabilize your board.",
+  "roleLabel": "Mana Regen support caster — Shields / Debuffs / Stall",
+  "strength": "Repeatable casts: high Mana Regen means constant shields, debuffs, and utility for the whole team",
+  "weakness": "Low native burst — starved of Mana Regen or opened on by dive, a Mystic contributes little",
+  "howToPlay": {
+    "draft": "Take a Mystic to stabilize, not to solo-clear. Secure cast-loop Mystics early, Rank B toward economy or team shields, and add a real front-liner so the support engine has something to protect.",
+    "shop": "Mana Regen and Max Mana first — they are both uptime and coverage. Then Shield and Stall payoffs. Raw Magic on a Mystic is a trap before cast uptime is solved.",
+    "positioning": "Back or second row behind the tankiest body. Never leave a Mystic alone on a dive tile — a dead caster stops the whole loop."
+  },
+  "shopPriorities": [
+    "Mana Regen and Max Mana to fix cast uptime first",
+    "Mystic Shield / Barrier banners for team peel",
+    "Stall enablers for cast-after-Stall payoffs",
+    "A borrowed front-liner or defensive item so the Mystic survives"
+  ],
+  "signatureHeroes": [
+    { "name": "Grace", "why": "Late-game panic button — shields, healing, and clutch resurrection in long fights." },
+    { "name": "Pollen", "why": "Sanctuary field Mystic that Poisons enemies while shielding allies inside." },
+    { "name": "Fiona", "why": "Economy / cast-loop Mystic that keeps the support engine funded." },
+    { "name": "Gustav", "why": "Shield-zone Mystic that layers protection across the board." }
+  ],
+  "faq": [
+    {
+      "question": "What is the Mystic class in Guildrun?",
+      "answer": "Mystics are a Mana Regen class of support casters that repeatedly use active abilities to shield allies and disrupt enemies, scaling Shields, Shards, Debuffs, and Stall. More casts mean more team value."
+    },
+    {
+      "question": "What are the best Mystic heroes in Guildrun?",
+      "answer": "Grace (shields, heals, resurrection), Pollen (Poison/shield field), Fiona (economy cast-loop), and Gustav (shield zone) are the top Mystic picks for stabilizing a board."
+    },
+    {
+      "question": "What relics work with Mystics?",
+      "answer": "Mana Regen and Max Mana first for cast uptime, then Mystic Shield/Barrier banners and Stall enablers for cast-after-Stall payoffs. Solve uptime before stacking raw Magic."
+    },
+    {
+      "question": "Are Mystics good on their own?",
+      "answer": "No — Mystics are a support core, not a full clear squad. Pair them with a real carry and a front line; they win attrition fights but lack native burst."
+    }
+  ],
+  "tips": [
+    "If casts are rare, fix Mana Regen / Max Mana before buying more shield amulets.",
+    "A Mystic core needs borrowed damage from a carry, items, or events — don't expect it to solo Act 1."
+  ]
+}

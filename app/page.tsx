@@ -4,6 +4,7 @@ import { DecisionPaths } from "@/components/home/decision-paths";
 import { QuickNav } from "@/components/home/quick-nav";
 import { DataStats } from "@/components/home/data-stats";
 import { AboutCoverage } from "@/components/home/about-coverage";
+import { FeaturedGuides } from "@/components/home/featured-guides";
 import { HomeFaq } from "@/components/home/home-faq";
 import { HeroCard } from "@/components/heroes/hero-card";
 import { RelicCard } from "@/components/relics/relic-card";
@@ -121,6 +122,8 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <FeaturedGuides />
 
       <section className="space-y-6">
         <div className="flex items-end justify-between gap-4">

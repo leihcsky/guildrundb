@@ -9,6 +9,8 @@ export const metadata: Metadata = buildMetadata({
   title: "Search",
   description: "Search heroes, relics, items, builds, and guides.",
   path: "/search",
+  // Client-side utility page with no standalone content — keep it out of search.
+  noIndex: true,
 });
 
 export default function SearchPage() {

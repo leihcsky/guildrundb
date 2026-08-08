@@ -50,6 +50,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: item.stats || `Guildrun item: ${item.name}`,
     path: `/items/${item.slug}`,
     image: item.image,
+    // Thin, templated per-item pages: keep usable for readers, but noindex,follow
+    // so Google focuses crawl/quality on hubs, guides, builds, and heroes.
+    noIndex: true,
   });
 }
 

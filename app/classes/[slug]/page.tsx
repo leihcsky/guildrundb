@@ -12,10 +12,43 @@ import {
   getHeroesByClassSlug,
   getRelicsByTag,
 } from "@/lib/data";
-import { breadcrumbJsonLd, buildGameEntityMetadata, entityJsonLd } from "@/lib/seo";
+import { getClassGuide } from "@/lib/class-guide";
+import {
+  ClassDecisionSummary,
+  ClassGuideFaq,
+  ClassGuideTips,
+  ClassHowToPlay,
+  ClassSignatureHeroes,
+} from "@/components/classes/class-guide-sections";
+import {
+  breadcrumbJsonLd,
+  buildGameEntityMetadata,
+  entityJsonLd,
+  faqJsonLd,
+} from "@/lib/seo";
 import { getTagDefinition } from "@/lib/tags";
 
 type Props = { params: Promise<{ slug: string }> };
+
+const META_DESCRIPTION_MAX = 155;
+
+/** Prefer a hand-written short description; otherwise trim intro to a clean sentence. */
+function classMetaDescription(
+  seoDescription: string | undefined,
+  intro: string | undefined,
+  fallback: string,
+): string {
+  const preferred = seoDescription?.trim();
+  if (preferred) return preferred;
+
+  const source = (intro ?? fallback).replace(/\s+/g, " ").trim();
+  if (source.length <= META_DESCRIPTION_MAX) return source;
+
+  const clipped = source.slice(0, META_DESCRIPTION_MAX);
+  const lastStop = Math.max(clipped.lastIndexOf(". "), clipped.lastIndexOf("! "));
+  if (lastStop > 80) return clipped.slice(0, lastStop + 1);
+  return `${clipped.slice(0, clipped.lastIndexOf(" ")).trimEnd()}…`;
+}
 
 export function generateStaticParams() {
   return getHeroClasses().map((heroClass) => ({ slug: heroClass.slug }));
@@ -31,11 +64,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .filter((label): label is string => Boolean(label))
     .slice(0, 2);
 
+  const guide = getClassGuide(heroClass.slug);
+  const description = classMetaDescription(
+    guide?.seoDescription,
+    guide?.intro,
+    heroClass.description,
+  );
+
   return buildGameEntityMetadata({
     name: heroClass.name,
     kind: "class",
     signal: mechanicLabels,
-    description: heroClass.description,
+    description,
     path: `/classes/${heroClass.slug}`,
     image: heroClass.image,
   });
@@ -57,6 +97,7 @@ export default async function ClassDetailPage({ params }: Props) {
   const relics = classRelics.length > 0 ? classRelics : mechanicRelics;
   const otherClasses = getHeroClasses().filter((item) => item.slug !== heroClass.slug);
   const classHeroes = getHeroesByClassSlug(heroClass.slug);
+  const guide = getClassGuide(heroClass.slug);
 
   return (
     <>
@@ -79,13 +120,21 @@ export default async function ClassDetailPage({ params }: Props) {
             entityJsonLd({
               type: "Thing",
               name: heroClass.name,
-              description: heroClass.description,
+              description: guide?.intro || heroClass.description,
               path: `/classes/${heroClass.slug}`,
               image: heroClass.image,
             }),
           ),
         }}
       />
+      {guide ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqJsonLd(guide.faq)),
+          }}
+        />
+      ) : null}
 
       <Breadcrumb
         className="mb-6"
@@ -105,6 +154,9 @@ export default async function ClassDetailPage({ params }: Props) {
         />
         <div className="space-y-3">
           <h1 className="font-display text-4xl font-bold">{heroClass.name}</h1>
+          {guide ? (
+            <p className="text-sm font-medium text-foreground">{guide.roleLabel}</p>
+          ) : null}
           <p className="max-w-3xl whitespace-pre-line text-muted-foreground">
             {heroClass.description}
           </p>
@@ -112,7 +164,21 @@ export default async function ClassDetailPage({ params }: Props) {
         </div>
       </section>
 
+      {guide ? (
+        <section className="mb-10 space-y-4">
+          <p className="max-w-3xl text-muted-foreground">{guide.intro}</p>
+        </section>
+      ) : null}
+
       <div className="grid gap-10">
+        {guide ? (
+          <>
+            <ClassDecisionSummary guide={guide} />
+            <ClassHowToPlay guide={guide} />
+            <ClassSignatureHeroes guide={guide} />
+          </>
+        ) : null}
+
         {classHeroes.length > 0 ? (
           <section className="space-y-4">
             <h2 className="font-display text-2xl font-semibold">Heroes</h2>
@@ -139,6 +205,13 @@ export default async function ClassDetailPage({ params }: Props) {
               ))}
             </div>
           </section>
+        ) : null}
+
+        {guide ? (
+          <>
+            <ClassGuideTips guide={guide} />
+            <ClassGuideFaq guide={guide} />
+          </>
         ) : null}
 
         <section className="space-y-4">

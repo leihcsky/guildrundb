@@ -10,10 +10,13 @@ import { TagList } from "@/components/mechanics/tag-list";
 import {
   getBuildBySlug,
   getBuilds,
+  getGuides,
   resolveHeroesBySlugs,
   resolveItemsBySlugs,
   resolveRelicsBySlugs,
 } from "@/lib/data";
+import { RelatedGuides } from "@/components/guides/related-guides";
+import { getGuidesForBuild } from "@/lib/guide-nav";
 import {
   buildBuildMetadata,
   buildPageHeading,
@@ -48,6 +51,7 @@ export default async function BuildDetailPage({ params }: Props) {
   const heading = buildPageHeading(build);
   const seoTitle = buildSeoTitle(build);
   const seoDescription = buildSeoDescription(build);
+  const relatedGuides = getGuidesForBuild(getGuides(), build, 3);
 
   return (
     <>
@@ -218,6 +222,13 @@ export default async function BuildDetailPage({ params }: Props) {
             ) : null}
           </section>
         ) : null}
+
+        <RelatedGuides
+          guides={relatedGuides}
+          title="Guides for this build"
+          description="How to spend Shards and read the shop while piloting this comp."
+          className="space-y-4"
+        />
 
         <p className="text-sm text-muted-foreground">
           Need a name lookup mid-run?{" "}

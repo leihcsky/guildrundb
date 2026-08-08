@@ -1,0 +1,46 @@
+{
+  "intro": "The Assassin is Guildrun's Crit class: burst carries that delete priority targets with critical auto attacks and abilities. Assassins scale Crit, Shards, Poison, Rush, and Stealth — they win the opening pick-off, then clean up. In Demo 0.5.3 they are the highest-ceiling back-line damage in the game, but only if a front line keeps them alive long enough to land the hit. Commit to Assassins when Crit relics show up early and you can protect the back row.",
+  "seoDescription": "Guildrun Assassin class guide: Crit burst carries that delete priority targets. Best Assassin heroes, relics, positioning, and comp tips.",
+  "roleLabel": "Crit burst carry — pick-off damage from the back line",
+  "strength": "Explosive single-target removal: high Crit lets Assassins delete the enemy threat before it acts",
+  "weakness": "Fragile — no living front line means the Assassins never get their window; hard-countered by AoE and dive",
+  "howToPlay": {
+    "draft": "Start one Assassin carry plus a body, not three squishies. Rank B the Assassin who is already getting kills; feed the one your seed supports. Add a wall before a second carry.",
+    "shop": "Crit and Assassin tags first. Poison, Shards, and Stealth are optional payoffs, not the identity. Buy one defensive item for the front before bosses.",
+    "positioning": "Assassins sit max range at the back, slightly offset so splash doesn't delete two carries at once. Use Stealth / Rush tools to open a second engage angle."
+  },
+  "shopPriorities": [
+    "Crit and Assassin banners for the burst identity",
+    "Assassin-tag damage items on your primary carry",
+    "Stealth / Rush tools to create engage angles",
+    "One defensive item for whoever holds the front"
+  ],
+  "signatureHeroes": [
+    { "name": "Hoyoung", "why": "Safe-range Assassin carry that likes staying back and cleaning up." },
+    { "name": "Yuuna", "why": "Low-HP finisher Assassin — excellent at executing chunked targets." },
+    { "name": "Dragomir", "why": "Execute / economy Assassin line for Shard-and-kill snowball." },
+    { "name": "Zuri", "why": "Tank / Assassin hybrid that gives the comp a front instead of pure glass." }
+  ],
+  "faq": [
+    {
+      "question": "What is the Assassin class in Guildrun?",
+      "answer": "Assassins are a Crit-based burst class that removes priority targets with critical auto attacks and abilities, scaling Crit, Shards, Poison, Rush, and Stealth. They are back-line carries that need protection."
+    },
+    {
+      "question": "What are the best Assassin heroes in Guildrun?",
+      "answer": "Hoyoung (safe-range carry), Yuuna (low-HP finisher), Dragomir (execute/economy), and Zuri (Tank/Assassin hybrid front) are the standout Assassin picks."
+    },
+    {
+      "question": "What relics work with Assassins?",
+      "answer": "Crit and Assassin banners plus Assassin-tag damage items. Poison, Shards, and Stealth are secondary payoffs — buy them only when the core Crit engine is online."
+    },
+    {
+      "question": "Why do my Assassins keep dying?",
+      "answer": "Almost always a front-line problem, not a damage problem. Assassins are fragile; add a wall (like Zuri or a Tank) so they survive to land their burst."
+    }
+  ],
+  "tips": [
+    "If you lose because carries die first, it's a positioning / front-line issue — not a missing damage relic.",
+    "Missing-HP Crit items only work when someone is already chunked; they won't carry even fights alone."
+  ]
+}

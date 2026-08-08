@@ -1,0 +1,46 @@
+{
+  "intro": "The Warrior is Guildrun's front-line Attack class: heroes who deal damage with autos and active abilities while scaling Crit, Rush, and Shields. Unlike pure Tanks, Warriors want to hit back — they convert survivability into offense, making them the backbone of durable aggro boards in Demo 0.5.3. Build a Warrior core when the shop keeps offering Attack, Rush, and shield pieces and you need a front line that still threatens kills.",
+  "seoDescription": "Guildrun Warrior class guide: Attack front-liners scaling Crit, Rush, and Shields. Best Warrior heroes, relics, and how to build a durable comp.",
+  "roleLabel": "Front-line Attack bruiser — Crit / Rush / Shield scaling",
+  "strength": "Self-sufficient melee: shields from combat let Warriors trade into the front hex and still output damage",
+  "weakness": "Needs hits to land — kited, stunned, or out-ranged Warriors give up both damage and shields",
+  "howToPlay": {
+    "draft": "Anchor the board with one or two Warriors before greedy back-line carries. A Warrior who is already winning trades is your Rank B priority; do not spread ranks across three fragile picks.",
+    "shop": "Filter for Warrior banners, Attack, and Shield pieces first. Rush duration matters if your Warriors trigger it every fight. Crit becomes strong once the wall already holds.",
+    "positioning": "Warriors belong on the dive hex or front-mid where their autos connect. Idle Warriors are dead cards — keep them in melee contact, not tucked in the back."
+  },
+  "shopPriorities": [
+    "Warrior banners (Endurance / Bravery / Mending) for class commitment",
+    "Attack and Shield items that feed the damage-into-survivability loop",
+    "Rush duration when your Warriors reliably trigger Rush",
+    "Crit pieces last — only once the front line is stable"
+  ],
+  "signatureHeroes": [
+    { "name": "Reyna", "why": "Combo Warrior who self-shields from damage dealt — the beginner-friendly staple front-liner." },
+    { "name": "Logan", "why": "Growth Warrior who scales into long fights and converts durability into damage." },
+    { "name": "Kai", "why": "Turns shields and survival into finishing damage behind the Warrior wall." },
+    { "name": "Tilly", "why": "Warrior / Duelist flex that leans Attack Speed when you want faster autos." }
+  ],
+  "faq": [
+    {
+      "question": "What is the Warrior class in Guildrun?",
+      "answer": "Warriors are an Attack-based front-line class that deals damage with auto attacks and abilities while scaling Crit, Rush, and Shields. They fight on contact and turn survivability into offense."
+    },
+    {
+      "question": "What are the best Warrior heroes in Guildrun?",
+      "answer": "Reyna and Logan are the core Warrior front-liners, Kai converts shields into finishing damage, and Tilly flexes into a Warrior/Duelist Attack Speed role."
+    },
+    {
+      "question": "What relics work with Warriors?",
+      "answer": "Warrior banners (Endurance, Bravery, Mending), Attack and Shield items, and Rush duration pieces if your Warriors trigger Rush. Crit is a secondary payoff once the front holds."
+    },
+    {
+      "question": "How do you build a Warrior comp?",
+      "answer": "Start with one or two durable Warriors, buy Warrior/Attack/Shield relics, Rank B whichever Warrior is winning trades, and add a finisher only after the front line is stable."
+    }
+  ],
+  "tips": [
+    "A Warrior board that never applies shields is wasting Shield relics — check your applicators before buying more.",
+    "Don't draft three walls and no finisher; Warriors want to convert durability into a kill threat."
+  ]
+}

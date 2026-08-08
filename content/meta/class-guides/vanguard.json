@@ -1,0 +1,46 @@
+{
+  "intro": "The Vanguard is Guildrun's Max HP class: bruising front-liners who absorb damage and dish it back while scaling Rush, Shields, and Burn. Where Tanks stall and Warriors trade with Attack, Vanguards turn a huge health pool into pressure — many convert Rush triggers directly into permanent Max HP. In Demo 0.5.3 they are the engine behind Rush comps and the front line that still threatens damage. Build around a Vanguard when the shop offers Rush duration and Max HP scaling.",
+  "seoDescription": "Guildrun Vanguard class guide: Max HP bruisers scaling Rush, Shields, and Burn. Best Vanguard heroes, relics, and how to build a Rush comp.",
+  "roleLabel": "Max HP bruiser — Rush / Shield / Burn engine",
+  "strength": "Scales two ways at once: a growing health pool that both survives and powers Rush / damage payoffs",
+  "weakness": "Falls off if Rush never fires or the board can't pack allies to share Rush windows",
+  "howToPlay": {
+    "draft": "Stabilize a Vanguard early — a dead Max HP front means no Rush engine. Add Rush partners (Duelists) once the wall holds. Rank B toward whichever payoff your seed supports: HP growth or Rush uptime.",
+    "shop": "Prioritize Rush duration, Vanguard banners, and Max HP items. Burn relics reward the Vanguards that apply it. Skip off-theme damage pieces you can't trigger.",
+    "positioning": "Front row on the engage hex, with Rush partners adjacent or just behind so everyone shares the same Rush window instead of eating the dive alone."
+  },
+  "shopPriorities": [
+    "Rush duration and Vanguard banners (Endurance / Aegis)",
+    "Max HP items that scale the survive-and-scale loop",
+    "Burn relics for Vanguards that apply Burn",
+    "Shield pieces to reinforce the front on contact"
+  ],
+  "signatureHeroes": [
+    { "name": "Rip", "why": "Converts Rush into Max HP pressure and enables Duelist partners — the core Rush Vanguard." },
+    { "name": "Ming", "why": "Burn-aura Vanguard that adds damage-over-time to the Rush front." },
+    { "name": "Niklas", "why": "Item-eating economy Vanguard that funds the run while holding the line." },
+    { "name": "Rowan", "why": "Vanguard / Tank flex for a harder wall when you need more Defense." }
+  ],
+  "faq": [
+    {
+      "question": "What is the Vanguard class in Guildrun?",
+      "answer": "Vanguards are a Max HP front-line class that absorbs and deals damage while scaling Rush, Shields, and Burn. Many turn Rush triggers into permanent Max HP, making them durable and threatening at once."
+    },
+    {
+      "question": "What are the best Vanguard heroes in Guildrun?",
+      "answer": "Rip is the core Rush Vanguard, Ming adds Burn pressure, Niklas funds the economy while tanking, and Rowan flexes into a Vanguard/Tank wall."
+    },
+    {
+      "question": "What relics work with Vanguards?",
+      "answer": "Rush duration and Vanguard banners, Max HP items, and Burn relics for Vanguards that apply it. Prioritize Rush uptime over random damage pieces."
+    },
+    {
+      "question": "How do you build a Vanguard comp?",
+      "answer": "Secure the Vanguard front early, add Rush partners like Duelists, prioritize Rush and Max HP relics, and make sure at least two heroes benefit from each Rush window before bosses."
+    }
+  ],
+  "tips": [
+    "Count Rush triggers per fight — if you see zero or one, fix relics and specs before buying more damage.",
+    "A Vanguard is your Rush foundation; letting it die first collapses the whole engine."
+  ]
+}

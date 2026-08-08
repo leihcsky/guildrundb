@@ -72,6 +72,85 @@ export function injectHeadingIds(html: string, outline: GuideOutlineItem[]) {
   });
 }
 
+/**
+ * Contextual guides to surface on a build page. Every build links the two
+ * universal shop guides (so they get inbound links from indexed build pages),
+ * plus a themed pick based on the build's keywords.
+ */
+export function getGuidesForBuild(
+  guides: Guide[],
+  build: { slug: string; keywords?: string[] },
+  limit = 3,
+): Guide[] {
+  const keywords = new Set((build.keywords ?? []).map((k) => k.toLowerCase()));
+
+  const themed: string[] = [];
+  if (
+    keywords.has("rush") ||
+    keywords.has("stall") ||
+    keywords.has("attackspeed") ||
+    keywords.has("duelist") ||
+    keywords.has("mage")
+  ) {
+    themed.push("rush-vs-stall");
+  }
+
+  const ordered = [
+    "shop-order-shards",
+    ...themed,
+    "reading-relic-offers",
+    "rush-vs-stall",
+    "fight-loss-checklist",
+  ];
+
+  const picked: Guide[] = [];
+  const seen = new Set<string>();
+  for (const slug of ordered) {
+    if (seen.has(slug)) continue;
+    const guide = guides.find((item) => item.slug === slug);
+    if (!guide) continue;
+    picked.push(guide);
+    seen.add(slug);
+    if (picked.length >= limit) break;
+  }
+  return picked;
+}
+
+/**
+ * Ordered set of guides to feature on the homepage, resolved against whatever
+ * guides actually exist. Guarantees the flagship decision guides get an inbound
+ * link from the site's highest-authority page.
+ */
+export function getFeaturedGuides(guides: Guide[], limit = 6): Guide[] {
+  const order = [
+    "getting-started",
+    "rush-vs-stall",
+    "shop-order-shards",
+    "fight-loss-checklist",
+    "reading-relic-offers",
+    "red-rift",
+  ];
+
+  const picked: Guide[] = [];
+  const seen = new Set<string>();
+  for (const slug of order) {
+    const guide = guides.find((item) => item.slug === slug);
+    if (!guide || seen.has(slug)) continue;
+    picked.push(guide);
+    seen.add(slug);
+    if (picked.length >= limit) return picked;
+  }
+
+  for (const guide of guides) {
+    if (seen.has(guide.slug)) continue;
+    picked.push(guide);
+    seen.add(guide.slug);
+    if (picked.length >= limit) break;
+  }
+
+  return picked.slice(0, limit);
+}
+
 export function getRelatedGuides(
   guides: Guide[],
   currentSlug: string,

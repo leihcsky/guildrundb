@@ -1,0 +1,46 @@
+{
+  "intro": "The Duelist is Guildrun's Attack Speed class: rapid-fire auto attackers that snowball through fast hits. Duelists scale Attack Speed and lean on Stall, Rush, Debuffs, Crit, and Shards — every extra auto feeds on-hit effects and stacking payoffs. In Demo 0.5.3 they are late-fight monsters that start slow and detonate once Attack Speed and trigger counts build. Draft Duelists when you can protect them early and the shop offers Attack Speed, Rush, and Stall payoffs.",
+  "seoDescription": "Guildrun Duelist class guide: Attack Speed auto-attackers scaling Stall, Rush, and Crit. Best Duelist heroes, relics, and comp tips.",
+  "roleLabel": "Attack Speed auto-attacker — Stall / Rush / Crit snowball",
+  "strength": "Compounding autos: more Attack Speed means more on-hit procs, Stall/Rush triggers, and late-fight damage",
+  "weakness": "Slow to come online — early burst can end a Duelist before Attack Speed stacking matters",
+  "howToPlay": {
+    "draft": "Duelists are a clock, not an opener — pair them with a front line that buys time. Rank B toward Attack Speed / Stall payoffs, then support their Rush uptime with an enabler.",
+    "shop": "Attack Speed and Duelist banners first, then Rush duration and Stall enablers so per-trigger payoffs scale. Crit is a strong secondary once autos are fast.",
+    "positioning": "Mid or safe side where a Duelist can auto freely without eating the opening dive. Keep them in range of the pack but out of first contact."
+  },
+  "shopPriorities": [
+    "Attack Speed items and Duelist banners (Precision / Fury / Outbreak)",
+    "Rush duration and Stall enablers to scale per-trigger payoffs",
+    "Crit pieces once autos are already fast",
+    "A frontline enabler so Duelists survive to stack"
+  ],
+  "signatureHeroes": [
+    { "name": "Irini", "why": "Attack Speed snowball carry whose Gathering Storm scales with Stall and Rush counts." },
+    { "name": "Nyx", "why": "Rush enabler that keeps Rush windows alive for the whole Duelist core." },
+    { "name": "Karsu", "why": "Frost-applying Duelist that adds control to the auto-attack plan." },
+    { "name": "Tilly", "why": "Warrior / Duelist flex that brings a sturdier body to the Attack Speed line." }
+  ],
+  "faq": [
+    {
+      "question": "What is the Duelist class in Guildrun?",
+      "answer": "Duelists are an Attack Speed class that rapidly auto attacks, scaling Stall, Rush, Debuffs, Crit, and Shards. Fast autos feed on-hit effects and stacking payoffs, making Duelists strong late-fight carries."
+    },
+    {
+      "question": "What are the best Duelist heroes in Guildrun?",
+      "answer": "Irini is the premier Attack Speed snowball carry, Nyx keeps Rush windows alive, Karsu adds Frost control, and Tilly flexes a sturdier Warrior/Duelist body."
+    },
+    {
+      "question": "What relics work with Duelists?",
+      "answer": "Attack Speed items, Duelist banners (Precision, Fury, Outbreak), and Rush/Stall enablers that scale per-trigger payoffs. Crit is a strong secondary once autos are fast."
+    },
+    {
+      "question": "Why are my Duelists weak early?",
+      "answer": "That's expected — Duelists start slow and scale with Attack Speed and trigger counts. Protect them through the opening fights and judge them after several combats, not on fight one."
+    }
+  ],
+  "tips": [
+    "Judging a Duelist on fight one is a mistake — check fight five after Attack Speed has stacked.",
+    "If Rush rarely fires, fix Rush uptime before buying more raw damage; Duelist payoffs are per-trigger."
+  ]
+}

@@ -42,6 +42,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: relic.effect,
     path: `/relics/${relic.slug}`,
     image: relic.image,
+    // Thin, templated per-relic pages: keep usable for readers, but noindex,follow
+    // so Google focuses crawl/quality on hubs, guides, builds, and heroes.
+    noIndex: true,
   });
 }
 

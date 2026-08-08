@@ -87,7 +87,7 @@ export function buildMetadata({
       images: [ogImage],
     },
     robots: noIndex
-      ? { index: false, follow: false }
+      ? { index: false, follow: true }
       : { index: true, follow: true },
   };
 }
@@ -142,6 +142,8 @@ export function buildGameEntityMetadata(input: {
   image?: string;
   /** Differentiator after an em dash, e.g. "Mystic · Requiem Barrage" */
   signal?: string | Array<string | undefined | null>;
+  /** Thin/templated pages (e.g. per-relic, per-item) opt out of indexing. */
+  noIndex?: boolean;
 }): Metadata {
   const signal =
     typeof input.signal === "string"
@@ -174,6 +176,7 @@ export function buildGameEntityMetadata(input: {
     description: input.description,
     path: input.path,
     image: input.image,
+    noIndex: input.noIndex,
   });
 }
 

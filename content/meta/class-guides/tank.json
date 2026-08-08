@@ -1,0 +1,46 @@
+{
+  "intro": "The Tank is Guildrun's Defense class: front-line heroes who protect allies and disrupt enemies rather than race for kills. Tanks scale Defense and lean on Stall, Poison, and Frost to slow the fight down until your carries take over. In Demo 0.5.3 a Tank is the piece that lets fragile Mages, Assassins, and Duelists survive the opening exchange — draft one whenever your board would otherwise fold to early burst.",
+  "seoDescription": "Guildrun Tank class guide: Defense front-liners using Stall, Poison, and Frost to protect carries. Best Tank heroes, relics, and comp tips.",
+  "roleLabel": "Defensive front-line disruptor — Stall / Poison / Frost",
+  "strength": "Buys time: high Defense plus Stall/Frost control keeps carries alive through the dangerous opening seconds",
+  "weakness": "Low solo damage — a Tank with no carry behind it stalls fights it cannot actually win",
+  "howToPlay": {
+    "draft": "Take a Tank the moment your board is dying to first contact. One reliable wall usually beats a second glass carry. Rank B toward Defense growth and Stall thresholds that fix your current losses.",
+    "shop": "Prioritize Defense, Stall enablers, and Tank banners. Frost and Poison relics turn your wall into passive disruption. Economy help matters so you can afford Rank spikes.",
+    "positioning": "Front-center on the enemy engage path so the Tank soaks the opening dive and holds bodies in place for Stall / field effects behind it."
+  },
+  "shopPriorities": [
+    "Defense and Max Defense-after-Stall pieces (Tank banners)",
+    "Stall enablers so Tank abilities trigger faster and more often",
+    "Frost / Poison relics to convert tankiness into disruption",
+    "Economy relics to fund Rank spikes before challenge nodes"
+  ],
+  "signatureHeroes": [
+    { "name": "Skorn", "why": "Retaliation Tank that punishes enemies for attacking into the wall." },
+    { "name": "Pimenta", "why": "Formation Tank that anchors the front tile (great with Sal's Lover pairing)." },
+    { "name": "Zuri", "why": "Tank / Assassin hybrid that gives durability plus Crit-scaling pressure." },
+    { "name": "Rowan", "why": "Vanguard / Tank flex when you want a Max HP wall instead of pure Defense." }
+  ],
+  "faq": [
+    {
+      "question": "What is the Tank class in Guildrun?",
+      "answer": "Tanks are a Defense-based front-line class that protects allies and disrupts enemies using Stall, Poison, and Frost. They win by outlasting the enemy spike, not by dealing burst damage."
+    },
+    {
+      "question": "What are the best Tank heroes in Guildrun?",
+      "answer": "Skorn (retaliation), Pimenta (formation anchor), Zuri (Tank/Assassin hybrid), and Rowan (Vanguard/Tank flex) are the standout picks depending on whether you want disruption, formation, or hybrid damage."
+    },
+    {
+      "question": "What relics work with Tanks?",
+      "answer": "Defense and Stall-scaling Tank banners, plus Frost and Poison relics that turn durability into disruption. Economy pieces help you afford Rank spikes."
+    },
+    {
+      "question": "Do I need a Tank in every comp?",
+      "answer": "Not always, but any board with fragile back-line carries usually wants one wall. If you keep losing because carries die on contact, a Tank fixes it faster than more damage."
+    }
+  ],
+  "tips": [
+    "A Tank without a carry behind it just delays a loss — pair the wall with a real damage source.",
+    "Stall thresholds are the payoff clock; buy Stall enablers before stacking raw Defense."
+  ]
+}
