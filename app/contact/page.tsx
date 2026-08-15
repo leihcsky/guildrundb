@@ -31,12 +31,15 @@ export default function ContactPage() {
         <section className="space-y-3">
           <h2>Email</h2>
           <p>
-            Primary contact:{" "}
+            Primary contact for {siteConfig.name} ({siteConfig.creator}):{" "}
             <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>
           </p>
           <p>
-            We read every message, but response time may vary depending on volume. For
-            the fastest fix, include the page URL and what looks wrong.
+            This inbox is the same accountable contact listed on{" "}
+            <Link href="/about">About</Link> for data corrections, copyright notices,
+            privacy questions, and partnerships. We read every message, but response
+            time may vary depending on volume. For the fastest fix, include the page
+            URL and what looks wrong.
           </p>
         </section>
 

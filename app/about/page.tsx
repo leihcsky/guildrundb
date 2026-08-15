@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "About Guildrun Hub",
-  description: `Learn what ${siteConfig.name} is, what data we cover for ${siteConfig.gameVersion}, and how this unofficial Guildrun wiki is built.`,
+  description: `Learn who runs ${siteConfig.name}, what data we cover for ${siteConfig.gameVersion}, and how this unofficial Guildrun wiki is edited.`,
   path: "/about",
 });
 
@@ -24,7 +24,7 @@ export default function AboutPage() {
       />
       <PageHeader
         title="About"
-        description={`What ${siteConfig.name} is for — and what it is not.`}
+        description={`Who runs ${siteConfig.name}, what we publish, and how we keep pages useful.`}
       />
       <LegalNav current="/about" />
       <LegalProse>
@@ -41,6 +41,54 @@ export default function AboutPage() {
             announcements or store pages, use Steam or Leyline&apos;s official channels.
             If you need to compare a shop offer, check a hero kit, or plan a starter
             team, that is what this hub is for.
+          </p>
+        </section>
+
+        <section className="space-y-3">
+          <h2>Who operates this site</h2>
+          <p>
+            {siteConfig.name} is operated as an independent editorial project under the
+            publishing name <strong>{siteConfig.creator}</strong>. There is no separate
+            company entity behind the site. Day-to-day publishing, corrections, and
+            policy pages are handled by the same project contact.
+          </p>
+          <p>
+            Accountable contact for data fixes, copyright notices, privacy questions,
+            and partnerships:{" "}
+            <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>
+            . See <Link href="/contact">Contact</Link> for what to include in a report.
+          </p>
+          <p>
+            Legal pages on this site were last reviewed on{" "}
+            <strong>{siteConfig.legalUpdatedAt}</strong>.
+          </p>
+        </section>
+
+        <section className="space-y-3">
+          <h2>Editorial standards</h2>
+          <p>
+            We separate <strong>reference data</strong> from{" "}
+            <strong>curated advice</strong>:
+          </p>
+          <ul>
+            <li>
+              Hero kits, relic effects, and item text are normalized from localized
+              game sheets for {siteConfig.gameVersion}. We do not invent missing numbers.
+            </li>
+            <li>
+              Builds, guides, class playbooks, and the tier list are written and
+              reviewed as decision content — when to pick a line, what to skip, and how
+              a composition is meant to play.
+            </li>
+            <li>
+              Unfinished or disabled sheet rows (test items, boosters, empty stubs) are
+              filtered out of public lists so the database does not look like a dump of
+              half-finished export files.
+            </li>
+          </ul>
+          <p>
+            If in-game text and a page disagree after a patch, email the page URL and we
+            will correct it. Balance advice can lag sheet updates; {siteConfig.dataNotes}
           </p>
         </section>
 
@@ -70,11 +118,10 @@ export default function AboutPage() {
               other combat tags from in-game text
             </li>
             <li>
-              <Link href="/builds">Builds</Link> and <Link href="/guides">Guides</Link> —
-              curated comps and beginner-oriented tips
+              <Link href="/builds">Builds</Link>, <Link href="/guides">Guides</Link>, and
+              the <Link href="/tier-list">tier list</Link> — curated comps and strategy
             </li>
           </ul>
-          <p>{siteConfig.dataNotes}</p>
         </section>
 
         <section className="space-y-3">
@@ -86,8 +133,8 @@ export default function AboutPage() {
             content can be linked without hand-tagging every row.
           </p>
           <p>
-            Some numeric placeholders and unfinished sheet fields may still appear as
-            the dataset expands. When that happens, we prefer clear English labels over
+            Some numeric placeholders may still appear where the sheet only ships a
+            template argument. When that happens, we prefer clear English labels over
             inventing values.
           </p>
         </section>

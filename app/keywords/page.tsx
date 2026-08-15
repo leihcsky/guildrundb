@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { MechanicCard } from "@/components/mechanics/mechanic-card";
 import { Breadcrumb } from "@/components/shared/breadcrumb";
+import { HubIntro } from "@/components/shared/hub-intro";
 import { PageHeader } from "@/components/shared/page-header";
 import { getMechanicsIndex } from "@/lib/data";
 import { breadcrumbJsonLd, buildListMetadata } from "@/lib/seo";
@@ -35,9 +37,22 @@ export default function KeywordsPage() {
         ]}
       />
       <PageHeader
-        title="Keywords"
-        description="Combat and class tags from in-game relic and ability text — the same keywords you see on hero skills and relic descriptions."
+        title="Combat & Class Keywords"
+        description="The same tags printed on relics and abilities — grouped for cross-links."
       />
+      <HubIntro>
+        <p>
+          Keywords are extracted from in-game markup (Rush, Crit, Shield, class names,
+          and core stats). Use this hub when a relic or skill description highlights a
+          tag and you want every related relic, ability, and class in one place —
+          without hunting the full relic index by hand.
+        </p>
+        <p>
+          Keyword pages are connection tools, not full strategy guides. For how a tag
+          plays in a real run, open the matching <Link href="/classes">class guide</Link>{" "}
+          or a <Link href="/builds">build</Link> that leans on that mechanic.
+        </p>
+      </HubIntro>
 
       <div className="space-y-12">
         <section className="space-y-4">

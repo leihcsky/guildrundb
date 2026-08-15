@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { ItemsBrowser } from "@/components/items/items-browser";
 import { Breadcrumb } from "@/components/shared/breadcrumb";
+import { HubIntro } from "@/components/shared/hub-intro";
 import { PageHeader } from "@/components/shared/page-header";
+import { siteConfig } from "@/config/site.config";
 import { getItems } from "@/lib/data";
 import { breadcrumbJsonLd, buildListMetadata } from "@/lib/seo";
 
@@ -28,9 +31,23 @@ export default function ItemsPage() {
         ]}
       />
       <PageHeader
-        title="Items"
-        description="Filter gear by combat and class keywords, then open an item for stats and effects."
+        title="Guildrun Items"
+        description="Between-fight gear reference — stats, triggers, and keyword filters."
       />
+      <HubIntro>
+        <p>
+          Items fill the gaps relics leave open: raw stats, combat triggers, and
+          situational tools. Filter by combat or class keywords when a shop row looks
+          familiar but you cannot remember whether it is an early engine piece or a
+          late luxury buy.
+        </p>
+        <p>
+          Treat item pages as lookup cards. For &quot;what should this hero buy first?&quot;
+          prefer the item order inside a <Link href="/builds">build</Link> or the shop
+          notes on a <Link href="/heroes">hero</Link> guide. Coverage follows{" "}
+          {siteConfig.gameVersion}; unfinished sheet stubs are filtered out of this list.
+        </p>
+      </HubIntro>
       <ItemsBrowser items={items} />
     </>
   );

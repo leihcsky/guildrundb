@@ -15,7 +15,7 @@
   googleAdsenseClientId: "ca-pub-3293976111230987",
   dataNotes:
     "Database extracted from Guildrun Demo 0.5.3 game sheets. Balance-sensitive values may change with future patches.",
-  legalUpdatedAt: "2026-08-04",
+  legalUpdatedAt: "2026-08-15",
   faq: [
     {
       question: "What is Guildrun?",
@@ -60,32 +60,32 @@
       heroes: {
         title: "Guildrun Heroes — Roster, Classes & Abilities",
         description:
-          "Browse all 25 Guildrun heroes with classes, abilities, specializations, and synergy relics.",
+          "Draft the Guildrun Demo roster by class or combat keyword. Open hero kits for abilities, ranks, and synergy entry points.",
       },
       relics: {
         title: "Relic Index — Effects, Rarity & Keywords",
         description:
-          "Search 300+ Guildrun relics by name, rarity, and combat keywords like Rush, Crit, and Shield.",
+          "Shop-focused Guildrun relic index — filter 300+ relics by rarity and keywords like Rush, Crit, and Shield.",
       },
       items: {
         title: "Item Index — Stats, Triggers & Pairings",
         description:
-          "Browse Guildrun items with stats, triggered effects, and recommended hero pairings.",
+          "Between-fight Guildrun item reference — stats, triggers, and keyword filters for shop decisions.",
       },
       classes: {
         title: "Class Index — Roles, Keywords & Synergies",
         description:
-          "Explore all 7 Guildrun hero classes, signature keywords, and class-specific relic synergies.",
+          "Seven Guildrun class playbooks — role fantasy, shop priorities, signature heroes, and keyword synergies.",
       },
       builds: {
         title: "Guildrun Builds — Hero Team Comps",
         description:
-          "Guildrun Aria, Irini, Zuri, and other hero builds for Demo 0.5.3 — team comps, relics, items, and positioning.",
+          "Hand-written Guildrun builds for Demo 0.5.3 — when to pick each comp, relics, items, and positioning.",
       },
       guides: {
         title: "Strategy Guides & Demo Tips",
         description:
-          "Read Guildrun guides covering drafting, builds, relic picks, and demo progression.",
+          "Guildrun strategy guides for drafting, economy, positioning, and hard nodes in Demo 0.5.3.",
       },
       tierList: {
         title: "Guildrun Tier List — Best Heroes Ranked",
@@ -95,7 +95,7 @@
       keywords: {
         title: "Keyword Hub — Rush, Crit, Shield & More",
         description:
-          "Combat and class keywords from in-game text — find related relics, abilities, and classes.",
+          "Cross-link Guildrun combat and class tags from relic and ability text to related content.",
       },
     },
   },

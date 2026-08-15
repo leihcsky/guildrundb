@@ -571,8 +571,22 @@ export function getFeaturedHeroes(limit = 6): Hero[] {
   return (withImages.length > 0 ? withImages : heroes).slice(0, limit);
 }
 
+/**
+ * Hide unfinished / retired game data from public pages: entries flagged
+ * `disabledInGame`, internal test rows, and placeholder dummies. Keeps the
+ * public database high-quality (AdSense low-value-content compliance).
+ */
+function isRetiredGameEntry(raw: { name?: string; balancing?: BalancingLike }): boolean {
+  if (raw.balancing && typeof raw.balancing === "object" && raw.balancing.disabledInGame) {
+    return true;
+  }
+  const name = (raw.name || "").trim();
+  return /^test\b/i.test(name) || /^dummy/i.test(name);
+}
+
 export function getRelics(): Relic[] {
   return readJson<RawRelic[]>("relics.json")
+    .filter((raw) => !isRetiredGameEntry(raw))
     .map(normalizeRelic)
     .sort((a, b) => a.name.localeCompare(b.name));
 }
@@ -592,7 +606,9 @@ export function getFeaturedRelics(limit = 6): Relic[] {
 
 export function getItems(): Item[] {
   return readJson<RawItem[]>("items.json")
+    .filter((raw) => !isRetiredGameEntry(raw))
     .map(normalizeItem)
+    .filter((item) => item.stats.trim().length > 0)
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
