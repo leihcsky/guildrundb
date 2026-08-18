@@ -790,12 +790,12 @@
         {
           "source": "SerializedJson",
           "actionType": "NyxaAction",
-          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.NyxaAction, ember.simulation.core\",\"_percentDamage\":\"1.00\",\"_attackAndMagicScalingInterval\":4,\"_attackSpeedScalingInterval\":3,\"_attacks\":{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing\",\"_attacks\":[{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.80\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.17\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.33\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.42\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.69\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]}]}}",
+          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.NyxaAction, ember.simulation.core\",\"_percentDamage\":\"1.00\",\"_attackAndMagicScalingInterval\":3,\"_attackSpeedScalingInterval\":2,\"_attacks\":{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing\",\"_attacks\":[{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.80\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.17\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.33\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.42\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.69\",\"<Damage>k__BackingField\":0,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[]}]}}",
           "data": {
             "$type": "Ember.Simulation.Core.Fsm.States.ActiveAbilities.NyxaAction, ember.simulation.core",
             "_percentDamage": "1.00",
-            "_attackAndMagicScalingInterval": 4,
-            "_attackSpeedScalingInterval": 3,
+            "_attackAndMagicScalingInterval": 3,
+            "_attackSpeedScalingInterval": 2,
             "_attacks": {
               "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing",
               "_attacks": [
@@ -803,81 +803,31 @@
                   "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing",
                   "<Delay>k__BackingField": "0.80",
                   "<Damage>k__BackingField": 0,
-                  "<ExtraDamagePerRank>k__BackingField": 0,
-                  "<Scalings>k__BackingField": [
-                    {
-                      "$type": "Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing",
-                      "Stat": 7,
-                      "Rank1Factor": "1.00",
-                      "Rank2Factor": "1.00",
-                      "Rank3Factor": "1.00",
-                      "Rank4Factor": "1.00"
-                    }
-                  ]
+                  "<ExtraDamagePerRank>k__BackingField": 0
                 },
                 {
                   "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing",
                   "<Delay>k__BackingField": "0.17",
                   "<Damage>k__BackingField": 0,
-                  "<ExtraDamagePerRank>k__BackingField": 0,
-                  "<Scalings>k__BackingField": [
-                    {
-                      "$type": "Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing",
-                      "Stat": 7,
-                      "Rank1Factor": "1.00",
-                      "Rank2Factor": "1.00",
-                      "Rank3Factor": "1.00",
-                      "Rank4Factor": "1.00"
-                    }
-                  ]
+                  "<ExtraDamagePerRank>k__BackingField": 0
                 },
                 {
                   "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing",
                   "<Delay>k__BackingField": "0.33",
                   "<Damage>k__BackingField": 0,
-                  "<ExtraDamagePerRank>k__BackingField": 0,
-                  "<Scalings>k__BackingField": [
-                    {
-                      "$type": "Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing",
-                      "Stat": 7,
-                      "Rank1Factor": "1.00",
-                      "Rank2Factor": "1.00",
-                      "Rank3Factor": "1.00",
-                      "Rank4Factor": "1.00"
-                    }
-                  ]
+                  "<ExtraDamagePerRank>k__BackingField": 0
                 },
                 {
                   "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing",
                   "<Delay>k__BackingField": "0.42",
                   "<Damage>k__BackingField": 0,
-                  "<ExtraDamagePerRank>k__BackingField": 0,
-                  "<Scalings>k__BackingField": [
-                    {
-                      "$type": "Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing",
-                      "Stat": 7,
-                      "Rank1Factor": "1.00",
-                      "Rank2Factor": "1.00",
-                      "Rank3Factor": "1.00",
-                      "Rank4Factor": "1.00"
-                    }
-                  ]
+                  "<ExtraDamagePerRank>k__BackingField": 0
                 },
                 {
                   "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing",
                   "<Delay>k__BackingField": "0.69",
                   "<Damage>k__BackingField": 0,
-                  "<ExtraDamagePerRank>k__BackingField": 0,
-                  "<Scalings>k__BackingField": [
-                    {
-                      "$type": "Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing",
-                      "Stat": 7,
-                      "Rank1Factor": "1.00",
-                      "Rank2Factor": "1.00",
-                      "Rank3Factor": "1.00",
-                      "Rank4Factor": "1.00"
-                    }
-                  ]
+                  "<ExtraDamagePerRank>k__BackingField": 0
                 }
               ]
             }
@@ -888,8 +838,8 @@
       "descriptionArgs": [
         1.0,
         0,
-        4,
-        1.0,
+        2,
+        3,
         3
       ],
       "descriptionArgsFilled": 5,
@@ -1490,18 +1440,18 @@
         {
           "source": "SerializedJson",
           "actionType": "NiklasAction",
-          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.NiklasAction, ember.simulation.core\",\"_baseStunDuration\":3,\"_itemPercentAsInt\":25,\"_attacks\":{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing\",\"_attacks\":[{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"1.23\",\"<Damage>k__BackingField\":175,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.50\",\"Rank2Factor\":\"1.50\",\"Rank3Factor\":\"1.50\",\"Rank4Factor\":\"1.50\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"2.00\",\"Rank2Factor\":\"2.00\",\"Rank3Factor\":\"2.00\",\"Rank4Factor\":\"2.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":1,\"Rank1Factor\":\"0.25\",\"Rank2Factor\":\"0.25\",\"Rank3Factor\":\"0.25\",\"Rank4Factor\":\"0.25\"}]}]}}",
+          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.NiklasAction, ember.simulation.core\",\"_baseStunDuration\":3,\"_castInterval\":4,\"_attacks\":{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing\",\"_attacks\":[{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"1.23\",\"<Damage>k__BackingField\":225,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.50\",\"Rank2Factor\":\"1.50\",\"Rank3Factor\":\"1.50\",\"Rank4Factor\":\"1.50\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"2.00\",\"Rank2Factor\":\"2.00\",\"Rank3Factor\":\"2.00\",\"Rank4Factor\":\"2.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":1,\"Rank1Factor\":\"0.25\",\"Rank2Factor\":\"0.25\",\"Rank3Factor\":\"0.25\",\"Rank4Factor\":\"0.25\"}]}]}}",
           "data": {
             "$type": "Ember.Simulation.Core.Fsm.States.ActiveAbilities.NiklasAction, ember.simulation.core",
             "_baseStunDuration": 3,
-            "_itemPercentAsInt": 25,
+            "_castInterval": 4,
             "_attacks": {
               "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing",
               "_attacks": [
                 {
                   "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing",
                   "<Delay>k__BackingField": "1.23",
-                  "<Damage>k__BackingField": 175,
+                  "<Damage>k__BackingField": 225,
                   "<ExtraDamagePerRank>k__BackingField": 0,
                   "<Scalings>k__BackingField": [
                     {
@@ -1537,7 +1487,7 @@
       ],
       "abilityEffects": [],
       "descriptionArgs": [
-        25,
+        4,
         0.25,
         2.0,
         1.5,
@@ -1638,7 +1588,7 @@
         {
           "source": "SerializedJson",
           "actionType": "RookAction",
-          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.RookAction, ember.simulation.core\",\"_delay\":\"0.50\",\"_duration\":\"0.50\",\"_regularAoeEntry\":{\"$type\":\"Ember.Balancing.Aoe.AoeEntry, ember.balancing\",\"<AoePrefab>k__BackingField\":{\"$type\":\"UnityEngine.GameObject, UnityEngine.CoreModule\"},\"<Collisors>k__BackingField\":[{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.RectCollisor, ember.balancing\",\"P1\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-0.50\",\"Y\":\"-0.25\"},\"P2\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.50\",\"Y\":\"-0.25\"},\"P3\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.50\",\"Y\":\"8.25\"},\"P4\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-0.50\",\"Y\":\"8.25\"},\"<CollisorType>k__BackingField\":2,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.00\",\"Y\":\"4.00\"}},{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.RectCollisor, ember.balancing\",\"P1\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-0.19\",\"Y\":\"0.24\"},\"P2\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.30\",\"Y\":\"-0.63\"},\"P3\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"7.71\",\"Y\":\"3.54\"},\"P4\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"7.22\",\"Y\":\"4.41\"},\"<CollisorType>k__BackingField\":2,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"3.76\",\"Y\":\"1.89\"}},{\"$id\":\"3\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.RectCollisor, ember.balancing\",\"P1\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-0.29\",\"Y\":\"-0.39\"},\"P2\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.14\",\"Y\":\"0.51\"},\"P3\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-7.53\",\"Y\":\"4.17\"},\"P4\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-7.96\",\"Y\":\"3.27\"},\"<CollisorType>k__BackingField\":2,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-3.91\",\"Y\":\"1.89\"}}],\"<Id>k__BackingField\":\"guid:13ebe08a-b3c1-4989-ac59-b4ed3dd123ab\",\"<Title>k__BackingField\":\"RookAoeEntry\",\"<DisabledInGame>k__BackingField\":false},\"_regularEffects\":[{\"$id\":\"4\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"5\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"6\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusWithDurationAction, ember.balancing\",\"Status\":4,\"Amount\":1,\"Duration\":\"4.00\"},{\"$id\":\"7\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":1,\"Rank1Factor\":\"0.25\",\"Rank2Factor\":\"0.25\",\"Rank3Factor\":\"0.25\",\"Rank4Factor\":\"0.25\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":4,\"Rank1Factor\":\"2.00\",\"Rank2Factor\":\"2.00\",\"Rank3Factor\":\"2.00\",\"Rank4Factor\":\"2.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}],\"BaseDamage\":50}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.40\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"8\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"9\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"10\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyShieldFromStatAction, ember.balancing\",\"StatType\":1,\"Percent\":\"0.33\",\"Duration\":\"10.00\"}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.40\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}]}",
+          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.RookAction, ember.simulation.core\",\"_delay\":\"0.50\",\"_duration\":\"0.50\",\"_regularAoeEntry\":{\"$type\":\"Ember.Balancing.Aoe.AoeEntry, ember.balancing\",\"<AoePrefab>k__BackingField\":{\"$type\":\"UnityEngine.GameObject, UnityEngine.CoreModule\"},\"<Collisors>k__BackingField\":[{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.RectCollisor, ember.balancing\",\"P1\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-0.50\",\"Y\":\"-0.25\"},\"P2\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.50\",\"Y\":\"-0.25\"},\"P3\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.50\",\"Y\":\"8.25\"},\"P4\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-0.50\",\"Y\":\"8.25\"},\"<CollisorType>k__BackingField\":2,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.00\",\"Y\":\"4.00\"}},{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.RectCollisor, ember.balancing\",\"P1\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-0.19\",\"Y\":\"0.24\"},\"P2\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.30\",\"Y\":\"-0.63\"},\"P3\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"7.71\",\"Y\":\"3.54\"},\"P4\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"7.22\",\"Y\":\"4.41\"},\"<CollisorType>k__BackingField\":2,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"3.76\",\"Y\":\"1.89\"}},{\"$id\":\"3\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.RectCollisor, ember.balancing\",\"P1\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-0.29\",\"Y\":\"-0.39\"},\"P2\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.14\",\"Y\":\"0.51\"},\"P3\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-7.53\",\"Y\":\"4.17\"},\"P4\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-7.96\",\"Y\":\"3.27\"},\"<CollisorType>k__BackingField\":2,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"-3.91\",\"Y\":\"1.89\"}}],\"<Id>k__BackingField\":\"guid:13ebe08a-b3c1-4989-ac59-b4ed3dd123ab\",\"<Title>k__BackingField\":\"RookAoeEntry\",\"<DisabledInGame>k__BackingField\":false},\"_regularEffects\":[{\"$id\":\"4\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"5\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"6\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusWithDurationAction, ember.balancing\",\"Status\":4,\"Amount\":1,\"Duration\":\"4.00\"},{\"$id\":\"7\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":1,\"Rank1Factor\":\"0.25\",\"Rank2Factor\":\"0.25\",\"Rank3Factor\":\"0.25\",\"Rank4Factor\":\"0.25\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":4,\"Rank1Factor\":\"2.00\",\"Rank2Factor\":\"2.00\",\"Rank3Factor\":\"2.00\",\"Rank4Factor\":\"2.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}],\"BaseDamage\":50}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.40\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"8\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"9\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"10\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyShieldFromStatAction, ember.balancing\",\"StatType\":1,\"Percent\":\"0.25\",\"Duration\":\"10.00\"}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.40\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}]}",
           "data": {
             "$type": "Ember.Simulation.Core.Fsm.States.ActiveAbilities.RookAction, ember.simulation.core",
             "_delay": "0.50",
@@ -1794,7 +1744,7 @@
                     "$id": "10",
                     "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.ApplyShieldFromStatAction, ember.balancing",
                     "StatType": 1,
-                    "Percent": "0.33",
+                    "Percent": "0.25",
                     "Duration": "10.00"
                   }
                 ],
@@ -1815,9 +1765,9 @@
       "abilityEffects": [],
       "descriptionArgs": [
         0.5,
-        0.33,
+        0.25,
         0.5,
-        0.33,
+        0.25,
         4.0,
         0.5,
         0.5
@@ -1855,11 +1805,12 @@
         {
           "source": "SerializedJson",
           "actionType": "SkornShieldTauntAction",
-          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.SkornShieldTauntAction, ember.simulation.core\",\"_delay\":\"0.25\",\"_baseShieldPerStall\":10,\"_shieldDefensePercent\":\"0.10\",\"_shieldMagicPercent\":\"0.10\",\"_duration\":\"10.00\"}",
+          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.SkornShieldTauntAction, ember.simulation.core\",\"_delay\":\"0.25\",\"_baseShieldPerStall\":10,\"_shieldsPerRank\":100,\"_shieldDefensePercent\":\"0.10\",\"_shieldMagicPercent\":\"0.10\",\"_duration\":\"10.00\"}",
           "data": {
             "$type": "Ember.Simulation.Core.Fsm.States.ActiveAbilities.SkornShieldTauntAction, ember.simulation.core",
             "_delay": "0.25",
             "_baseShieldPerStall": 10,
+            "_shieldsPerRank": 100,
             "_shieldDefensePercent": "0.10",
             "_shieldMagicPercent": "0.10",
             "_duration": "10.00"
@@ -2088,11 +2039,11 @@
         {
           "source": "SerializedJson",
           "actionType": "FunkeAbilityAction",
-          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.FunkeAbilityAction, ember.simulation.core\",\"_baseBurn\":\"12.00\",\"_burnMagicMod\":\"0.66\",\"_projectileSpeed\":\"3.00\",\"_attacks\":{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing\",\"_attacks\":[{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"1.62\",\"<Damage>k__BackingField\":175,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"2.00\",\"Rank2Factor\":\"2.00\",\"Rank3Factor\":\"2.00\",\"Rank4Factor\":\"2.00\"}]}]}}",
+          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.FunkeAbilityAction, ember.simulation.core\",\"_baseBurn\":\"0.00\",\"_burnMagicMod\":\"0.75\",\"_projectileSpeed\":\"3.00\",\"_attacks\":{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing\",\"_attacks\":[{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"1.62\",\"<Damage>k__BackingField\":175,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"2.00\",\"Rank2Factor\":\"2.00\",\"Rank3Factor\":\"2.00\",\"Rank4Factor\":\"2.00\"}]}]}}",
           "data": {
             "$type": "Ember.Simulation.Core.Fsm.States.ActiveAbilities.FunkeAbilityAction, ember.simulation.core",
-            "_baseBurn": "12.00",
-            "_burnMagicMod": "0.66",
+            "_baseBurn": "0.00",
+            "_burnMagicMod": "0.75",
             "_projectileSpeed": "3.00",
             "_attacks": {
               "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing",
@@ -2304,7 +2255,7 @@
         {
           "source": "SerializedJson",
           "actionType": "GustavAbilityAction",
-          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.GustavAbilityAction, ember.simulation.core\",\"_delay\":\"0.98\",\"_duration\":\"5.10\",\"_regularAoeEntry\":{\"$type\":\"Ember.Balancing.Aoe.AoeEntry, ember.balancing\",\"<AoePrefab>k__BackingField\":{\"$type\":\"UnityEngine.GameObject, UnityEngine.CoreModule\"},\"<Collisors>k__BackingField\":[{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.CircleCollisor, ember.balancing\",\"Radius\":\"6.00\",\"<CollisorType>k__BackingField\":1,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.00\",\"Y\":\"0.00\"}}],\"<Id>k__BackingField\":\"guid:1d25d4db-100b-4fd9-a10c-97037bcac8f0\",\"<Title>k__BackingField\":\"GustavLargeAoeEntry\",\"<DisabledInGame>k__BackingField\":false},\"_regularEffects\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"3\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"4\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusFlatFromStatWithBaseAction, ember.balancing\",\"Base\":1,\"Increment\":8,\"Stat\":12,\"Status\":2}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"5\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"6\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"7\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"0.50\",\"Rank2Factor\":\"0.50\",\"Rank3Factor\":\"0.50\",\"Rank4Factor\":\"0.50\"}],\"BaseDamage\":10}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"8\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":2,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"9\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"10\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.ApplyShieldWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"0.75\",\"Rank2Factor\":\"0.75\",\"Rank3Factor\":\"0.75\",\"Rank4Factor\":\"0.75\"}],\"BaseShield\":10}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}],\"_glacierEffects\":[{\"$id\":\"11\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"12\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"13\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusFlatFromStatWithBaseAction, ember.balancing\",\"Base\":1,\"Increment\":8,\"Stat\":12,\"Status\":2}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"14\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"15\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"16\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"0.50\",\"Rank2Factor\":\"0.50\",\"Rank3Factor\":\"0.50\",\"Rank4Factor\":\"0.50\"}],\"BaseDamage\":10}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"17\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":2,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"18\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"19\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.ApplyShieldWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"0.75\",\"Rank2Factor\":\"0.75\",\"Rank3Factor\":\"0.75\",\"Rank4Factor\":\"0.75\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":4,\"Rank1Factor\":\"0.75\",\"Rank2Factor\":\"0.75\",\"Rank3Factor\":\"0.75\",\"Rank4Factor\":\"0.75\"}],\"BaseShield\":10}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}]}",
+          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.GustavAbilityAction, ember.simulation.core\",\"_delay\":\"0.98\",\"_duration\":\"5.10\",\"_regularAoeEntry\":{\"$type\":\"Ember.Balancing.Aoe.AoeEntry, ember.balancing\",\"<AoePrefab>k__BackingField\":{\"$type\":\"UnityEngine.GameObject, UnityEngine.CoreModule\"},\"<Collisors>k__BackingField\":[{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.CircleCollisor, ember.balancing\",\"Radius\":\"6.00\",\"<CollisorType>k__BackingField\":1,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.00\",\"Y\":\"0.00\"}}],\"<Id>k__BackingField\":\"guid:1d25d4db-100b-4fd9-a10c-97037bcac8f0\",\"<Title>k__BackingField\":\"GustavLargeAoeEntry\",\"<DisabledInGame>k__BackingField\":false},\"_regularEffects\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"3\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"4\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusFlatFromStatWithBaseAction, ember.balancing\",\"Base\":2,\"Increment\":8,\"Stat\":12,\"Status\":2}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"5\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"6\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"7\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"0.50\",\"Rank2Factor\":\"0.50\",\"Rank3Factor\":\"0.50\",\"Rank4Factor\":\"0.50\"}],\"BaseDamage\":15}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"8\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":2,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"9\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"10\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.ApplyShieldWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"0.75\",\"Rank2Factor\":\"0.75\",\"Rank3Factor\":\"0.75\",\"Rank4Factor\":\"0.75\"}],\"BaseShield\":10}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}],\"_glacierEffects\":[{\"$id\":\"11\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"12\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"13\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusFlatFromStatWithBaseAction, ember.balancing\",\"Base\":2,\"Increment\":8,\"Stat\":12,\"Status\":2}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"14\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"15\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"16\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"0.50\",\"Rank2Factor\":\"0.50\",\"Rank3Factor\":\"0.50\",\"Rank4Factor\":\"0.50\"}],\"BaseDamage\":15}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0},{\"$id\":\"17\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":2,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"18\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"19\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.ApplyShieldWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"0.75\",\"Rank2Factor\":\"0.75\",\"Rank3Factor\":\"0.75\",\"Rank4Factor\":\"0.75\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":4,\"Rank1Factor\":\"0.75\",\"Rank2Factor\":\"0.75\",\"Rank3Factor\":\"0.75\",\"Rank4Factor\":\"0.75\"}],\"BaseShield\":10}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}]}",
           "data": {
             "$type": "Ember.Simulation.Core.Fsm.States.ActiveAbilities.GustavAbilityAction, ember.simulation.core",
             "_delay": "0.98",
@@ -2346,7 +2297,7 @@
                   {
                     "$id": "4",
                     "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusFlatFromStatWithBaseAction, ember.balancing",
-                    "Base": 1,
+                    "Base": 2,
                     "Increment": 8,
                     "Stat": 12,
                     "Status": 2
@@ -2376,7 +2327,7 @@
                   {
                     "$id": "7",
                     "$type": "Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core",
-                    "BaseDamage": 10
+                    "BaseDamage": 15
                   }
                 ],
                 "<Trigger>k__BackingField": 60,
@@ -2432,7 +2383,7 @@
                   {
                     "$id": "13",
                     "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusFlatFromStatWithBaseAction, ember.balancing",
-                    "Base": 1,
+                    "Base": 2,
                     "Increment": 8,
                     "Stat": 12,
                     "Status": 2
@@ -2462,7 +2413,7 @@
                   {
                     "$id": "16",
                     "$type": "Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core",
-                    "BaseDamage": 10
+                    "BaseDamage": 15
                   }
                 ],
                 "<Trigger>k__BackingField": 60,
@@ -2835,12 +2786,13 @@
         {
           "source": "SerializedJson",
           "actionType": "JavrynAction",
-          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.JavrynAction, ember.simulation.core\",\"_projectileSpeed\":\"6.00\",\"_numShots\":\"5.00\",\"_fallingSnowShotBoost\":5,\"_attacks\":{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing\",\"_attacks\":[{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"1.33\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.20\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.20\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.20\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.20\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]}]}}",
+          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.JavrynAction, ember.simulation.core\",\"_projectileSpeed\":\"6.00\",\"_numShots\":5,\"_shotAttackSpeedIncrement\":50,\"_maxShots\":14,\"_attacks\":{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing\",\"_attacks\":[{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"1.33\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.20\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.20\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.20\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]},{\"$type\":\"Ember.Balancing.SimulationBridge.AbilityActions.AttackData, ember.balancing\",\"<Delay>k__BackingField\":\"0.20\",\"<Damage>k__BackingField\":25,\"<ExtraDamagePerRank>k__BackingField\":0,\"<Scalings>k__BackingField\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"},{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}]}]}}",
           "data": {
             "$type": "Ember.Simulation.Core.Fsm.States.ActiveAbilities.JavrynAction, ember.simulation.core",
             "_projectileSpeed": "6.00",
-            "_numShots": "5.00",
-            "_fallingSnowShotBoost": 5,
+            "_numShots": 5,
+            "_shotAttackSpeedIncrement": 50,
+            "_maxShots": 14,
             "_attacks": {
               "$type": "Ember.Balancing.SimulationBridge.AbilityActions.AbilityActionAttacks, ember.balancing",
               "_attacks": [
@@ -2973,7 +2925,7 @@
         {
           "source": "SerializedJson",
           "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":6,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusFromOwnerStatAction, ember.balancing\",\"Base\":4,\"Increment\":15,\"Multiplier\":\"0.00\",\"Status\":2,\"StatType\":9}],\"<Trigger>k__BackingField\":16,\"<AttachmentType>k__BackingField\":1,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
+          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":6,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusPerOwnerRankWithBaseAction, ember.balancing\",\"Status\":2,\"AmountPerRank\":2,\"Base\":3}],\"<Trigger>k__BackingField\":16,\"<AttachmentType>k__BackingField\":1,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
           "data": {
             "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
             "TargetType": 6,
@@ -2986,12 +2938,10 @@
             "_actions": [
               {
                 "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusFromOwnerStatAction, ember.balancing",
-                "Base": 4,
-                "Increment": 15,
-                "Multiplier": "0.00",
+                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusPerOwnerRankWithBaseAction, ember.balancing",
                 "Status": 2,
-                "StatType": 9
+                "AmountPerRank": 2,
+                "Base": 3
               }
             ],
             "<Trigger>k__BackingField": 16,
@@ -3610,7 +3560,7 @@
         {
           "source": "SerializedJson",
           "actionType": "JoeAbilityAction",
-          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.JoeAbilityAction, ember.simulation.core\",\"_shieldAttackScalingPercent\":\"4.00\",\"_shieldMagicScalingPercent\":\"2.50\",\"_shieldDefenseScalingPercent\":\"4.00\",\"_baseShield\":300,\"_protectorBaseShield\":100,\"_shieldDuration\":10,\"_aoeDuration\":\"0.50\",\"_regularAoeEntry\":{\"$type\":\"Ember.Balancing.Aoe.AoeEntry, ember.balancing\",\"<AoePrefab>k__BackingField\":{\"$type\":\"UnityEngine.GameObject, UnityEngine.CoreModule\"},\"<Collisors>k__BackingField\":[{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.CircleCollisor, ember.balancing\",\"Radius\":\"3.80\",\"<CollisorType>k__BackingField\":1,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.00\",\"Y\":\"0.00\"}}],\"<Id>k__BackingField\":\"guid:78e24722-7e4b-497f-b732-6155ab6aaf45\",\"<Title>k__BackingField\":\"AoE\\\\JoeyMediumAoeEntry\",\"<DisabledInGame>k__BackingField\":false},\"_protectorAoeEntry\":{\"$type\":\"Ember.Balancing.Aoe.AoeEntry, ember.balancing\",\"<AoePrefab>k__BackingField\":{\"$type\":\"UnityEngine.GameObject, UnityEngine.CoreModule\"},\"<Collisors>k__BackingField\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.CircleCollisor, ember.balancing\",\"Radius\":\"6.00\",\"<CollisorType>k__BackingField\":1,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.00\",\"Y\":\"0.00\"}}],\"<Id>k__BackingField\":\"guid:5dddc658-2588-4f79-82cc-df4455bb9f72\",\"<Title>k__BackingField\":\"AoE\\\\JoeyLargeAoeEntry\",\"<DisabledInGame>k__BackingField\":false},\"_regularEffects\":[{\"$id\":\"3\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"4\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.IsInsideEffectAoeCondition, ember.simulation.core\"},\"_actions\":[{\"$id\":\"5\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.00\",\"Rank2Factor\":\"1.00\",\"Rank3Factor\":\"1.00\",\"Rank4Factor\":\"1.00\"}],\"BaseDamage\":100},{\"$id\":\"6\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.KaiDealDamageAction, ember.balancing\",\"_percentShieldDamage\":\"1.00\"}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.49\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}],\"_delay\":\"2.62\"}",
+          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.JoeAbilityAction, ember.simulation.core\",\"_shieldAttackScalingPercent\":\"4.00\",\"_shieldMagicScalingPercent\":\"2.50\",\"_shieldDefenseScalingPercent\":\"4.00\",\"_baseShield\":300,\"_protectorBaseShield\":100,\"_shieldDuration\":10,\"_aoeDuration\":\"0.50\",\"_regularAoeEntry\":{\"$type\":\"Ember.Balancing.Aoe.AoeEntry, ember.balancing\",\"<AoePrefab>k__BackingField\":{\"$type\":\"UnityEngine.GameObject, UnityEngine.CoreModule\"},\"<Collisors>k__BackingField\":[{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.CircleCollisor, ember.balancing\",\"Radius\":\"3.80\",\"<CollisorType>k__BackingField\":1,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.00\",\"Y\":\"0.00\"}}],\"<Id>k__BackingField\":\"guid:78e24722-7e4b-497f-b732-6155ab6aaf45\",\"<Title>k__BackingField\":\"AoE\\\\JoeyMediumAoeEntry\",\"<DisabledInGame>k__BackingField\":false},\"_protectorAoeEntry\":{\"$type\":\"Ember.Balancing.Aoe.AoeEntry, ember.balancing\",\"<AoePrefab>k__BackingField\":{\"$type\":\"UnityEngine.GameObject, UnityEngine.CoreModule\"},\"<Collisors>k__BackingField\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Collisors.CircleCollisor, ember.balancing\",\"Radius\":\"6.00\",\"<CollisorType>k__BackingField\":1,\"<Center>k__BackingField\":{\"$type\":\"Photon.Deterministic.FPVector2, Quantum.Deterministic\",\"X\":\"0.00\",\"Y\":\"0.00\"}}],\"<Id>k__BackingField\":\"guid:5dddc658-2588-4f79-82cc-df4455bb9f72\",\"<Title>k__BackingField\":\"AoE\\\\JoeyLargeAoeEntry\",\"<DisabledInGame>k__BackingField\":false},\"_regularEffects\":[{\"$id\":\"3\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":3,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"4\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.IsInsideEffectAoeCondition, ember.simulation.core\"},\"_actions\":[{\"$id\":\"5\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealCritableDamageWithScalingAction, ember.simulation.core\",\"Scalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":6,\"Rank1Factor\":\"1.50\",\"Rank2Factor\":\"1.50\",\"Rank3Factor\":\"1.50\",\"Rank4Factor\":\"1.50\"}],\"BaseDamage\":100},{\"$id\":\"6\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.KaiDealDamageAction, ember.balancing\",\"_percentShieldDamage\":\"1.00\"}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.49\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}],\"_delay\":\"2.62\"}",
           "data": {
             "$type": "Ember.Simulation.Core.Fsm.States.ActiveAbilities.JoeAbilityAction, ember.simulation.core",
             "_shieldAttackScalingPercent": "4.00",
@@ -3743,11 +3693,11 @@
         {
           "source": "SerializedJson",
           "actionType": "JosephinaAction",
-          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.JosephinaAction, ember.simulation.core\",\"_baseShieldAmount\":125,\"_shieldBaseDuration\":5,\"_healPercent\":\"0.50\",\"_mrShieldDurationPercent\":\"0.25\",\"_shieldScalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.50\",\"Rank2Factor\":\"3.00\",\"Rank3Factor\":\"6.00\",\"Rank4Factor\":\"9.00\"}],\"_delay\":\"0.95\"}",
+          "json": "{\"$type\":\"Ember.Simulation.Core.Fsm.States.ActiveAbilities.JosephinaAction, ember.simulation.core\",\"_baseShieldAmount\":125,\"_shieldBaseDuration\":6,\"_healPercent\":\"0.50\",\"_mrShieldDurationPercent\":\"0.25\",\"_shieldScalings\":[{\"$type\":\"Ember.Balancing.SimulationBridge.Common.DamageScaling, ember.balancing\",\"Stat\":7,\"Rank1Factor\":\"1.50\",\"Rank2Factor\":\"3.00\",\"Rank3Factor\":\"6.00\",\"Rank4Factor\":\"9.00\"}],\"_delay\":\"0.95\"}",
           "data": {
             "$type": "Ember.Simulation.Core.Fsm.States.ActiveAbilities.JosephinaAction, ember.simulation.core",
             "_baseShieldAmount": 125,
-            "_shieldBaseDuration": 5,
+            "_shieldBaseDuration": 6,
             "_healPercent": "0.50",
             "_mrShieldDurationPercent": "0.25",
             "_shieldScalings": [
@@ -3773,7 +3723,7 @@
         9.0,
         125,
         0.25,
-        5
+        6
       ],
       "descriptionArgsFilled": 8,
       "descriptionArgsTotal": 8,

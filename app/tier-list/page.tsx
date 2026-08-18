@@ -18,7 +18,7 @@ import { formatDate } from "@/lib/utils";
 
 const PAGE_TITLE = "Guildrun Tier List — Best Heroes Ranked";
 const PAGE_DESCRIPTION =
-  "Guildrun tier list for Demo 0.5.3 — S to D hero rankings with roles, strengths, weaknesses, Red Rift notes, and recommended builds. Find the best Guildrun heroes for your shop.";
+  "Guildrun tier list for Demo 0.5.5 — S to D hero rankings with roles, strengths, weaknesses, Red Rift notes, and recommended builds. Find the best Guildrun heroes for your shop.";
 
 export const metadata: Metadata = buildMetadata({
   title: PAGE_TITLE,

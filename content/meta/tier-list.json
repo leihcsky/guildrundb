@@ -1,9 +1,9 @@
 {
-  "version": "Demo 0.5.3",
+  "version": "Demo 0.5.5",
   "updatedAt": "2026-08-04",
-  "intro": "Our Guildrun Tier List ranks heroes for Demo 0.5.3 by build flexibility, synergy potential, opener reliability, and performance from first clears through Red Rift — so you can pick a shop hero with a plan, not just a letter grade.",
+  "intro": "Our Guildrun Tier List ranks heroes for Demo 0.5.5 by build flexibility, synergy potential, opener reliability, and performance from first clears through Red Rift — so you can pick a shop hero with a plan, not just a letter grade.",
   "methodology": [
-    "Current Demo 0.5.3 balance and kit read (abilities, specializations, class tags).",
+    "Current Demo 0.5.5 balance and kit read (abilities, specializations, class tags).",
     "How often the hero creates a clear shop and formation plan without perfect RNG.",
     "Synergy with common relic engines (Rush, Stall, Shield, Crit, Poison).",
     "Survivability and who eats first contact — carries that need a wall are marked down if they cannot be protected.",
@@ -13,7 +13,7 @@
   "faq": [
     {
       "question": "What is the best hero in Guildrun?",
-      "answer": "There is no single best hero for every shop. On Demo 0.5.3, S-tier picks like Nyx, Irini, and Pimenta show up often in strong clears — but only when you cover their jobs (tank for Nyx, Rush partners for Irini, a carry behind Pimenta). Use this Guildrun tier list as a shortlist, then check the hero page for how to play."
+      "answer": "There is no single best hero for every shop. On Demo 0.5.5, S-tier picks like Nyx, Irini, and Pimenta show up often in strong clears — but only when you cover their jobs (tank for Nyx, Rush partners for Irini, a carry behind Pimenta). Use this Guildrun tier list as a shortlist, then check the hero page for how to play."
     },
     {
       "question": "Who is the strongest Guildrun hero?",

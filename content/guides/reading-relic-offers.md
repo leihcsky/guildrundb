@@ -9,7 +9,7 @@ tags:
   - keywords
 ---
 
-The relic shop in Guildrun is noisy on purpose. Rarity looks like power; **conditions** are power. This guide teaches you to read an offer in Demo **0.5.3** the way a strong run does: name role → keyword → trigger frequency → then rarity.
+The relic shop in Guildrun is noisy on purpose. Rarity looks like power; **conditions** are power. This guide teaches you to read an offer in Demo **0.5.5** the way a strong run does: name role → keyword → trigger frequency → then rarity.
 
 Pair it with:
 
