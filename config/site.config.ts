@@ -88,9 +88,9 @@
           "Guildrun strategy guides for drafting, economy, positioning, and hard nodes in Demo 0.5.5.",
       },
       tierList: {
-        title: "Guildrun Tier List — Best Heroes Ranked",
+        title: "Guildrun Tier List — Best Builds & Heroes",
         description:
-          "Guildrun hero tier list for Demo 0.5.5 — S to D rankings, Red Rift notes, and recommended builds.",
+          "Guildrun tier list for Demo 0.5.5 — ranked team builds with loadouts, plus hero power rankings for shop picks.",
       },
       keywords: {
         title: "Keyword Hub — Rush, Crit, Shield & More",

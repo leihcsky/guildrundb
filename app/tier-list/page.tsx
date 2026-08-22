@@ -1,9 +1,12 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/shared/breadcrumb";
+import { TierBuildCard } from "@/components/tier-list/tier-build-card";
 import { TierHeroCard } from "@/components/tier-list/tier-hero-card";
 import { siteConfig } from "@/config/site.config";
 import {
+  getBuildTierByTier,
+  getBuildTierEntries,
   getTierGrades,
   getTierListByTier,
   getTierListMeta,
@@ -16,9 +19,9 @@ import {
 } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
 
-const PAGE_TITLE = "Guildrun Tier List — Best Heroes Ranked";
+const PAGE_TITLE = "Guildrun Tier List — Best Builds (Demo 0.5.5)";
 const PAGE_DESCRIPTION =
-  "Guildrun tier list for Demo 0.5.5 — S to D hero rankings with roles, strengths, weaknesses, Red Rift notes, and recommended builds. Find the best Guildrun heroes for your shop.";
+  "Guildrun tier list for Demo 0.5.5 — S to B team builds with hero, item, and relic loadouts, plus a secondary hero power ranking. Find the best Guildrun comps for climb and Red Rift.";
 
 export const metadata: Metadata = buildMetadata({
   title: PAGE_TITLE,
@@ -28,24 +31,30 @@ export const metadata: Metadata = buildMetadata({
 
 export default function TierListPage() {
   const meta = getTierListMeta();
-  const byTier = getTierListByTier();
+  const buildByTier = getBuildTierByTier();
+  const heroByTier = getTierListByTier();
   const grades = getTierGrades();
-  const ranked = Object.values(byTier)
-    .flat()
-    .sort((a, b) => a.rank - b.rank);
+  const buildEntries = getBuildTierEntries();
+
+  const buildTiersWithEntries = grades.filter(
+    (tier) => buildByTier[tier].length > 0,
+  );
+  const heroTiersWithEntries = grades.filter(
+    (tier) => heroByTier[tier].length > 0,
+  );
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
-    numberOfItems: ranked.length,
+    numberOfItems: buildEntries.length,
     itemListOrder: "https://schema.org/ItemListOrderAscending",
-    itemListElement: ranked.map((entry) => ({
+    itemListElement: buildEntries.map((entry) => ({
       "@type": "ListItem",
       position: entry.rank,
-      name: `${entry.hero.name} (${entry.tier} Tier)`,
-      url: absoluteUrl(`/heroes/${entry.hero.slug}`),
+      name: `${entry.build.title} (${entry.tier} Tier)`,
+      url: absoluteUrl(`/builds/${entry.build.slug}`),
     })),
   };
 
@@ -86,7 +95,7 @@ export default function TierListPage() {
       <article className="mx-auto max-w-4xl space-y-12">
         <header className="space-y-4">
           <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl">
-            Guildrun Tier List — Best Heroes Ranked
+            Guildrun Tier List — Best Builds
           </h1>
           <p className="max-w-3xl text-lg text-muted-foreground">{meta.intro}</p>
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
@@ -103,24 +112,36 @@ export default function TierListPage() {
               {siteConfig.gameVersion}
             </p>
           </div>
+          {meta.changelog ? (
+            <p className="rounded-md border border-border bg-muted/40 px-3 py-2 text-sm text-muted-foreground">
+              <span className="font-medium text-foreground">Changelog: </span>
+              {meta.changelog}
+            </p>
+          ) : null}
         </header>
 
         <nav
-          aria-label="Jump to tier"
+          aria-label="Jump to section"
           className="flex flex-wrap gap-2 border-y border-border py-4"
         >
-          {grades.map((tier) => (
+          {buildTiersWithEntries.map((tier) => (
             <a
-              key={tier}
-              href={`#tier-${tier.toLowerCase()}`}
+              key={`build-${tier}`}
+              href={`#build-tier-${tier.toLowerCase()}`}
               className="rounded-md border border-border px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
             >
-              {tier} Tier
+              {tier} Builds
               <span className="ml-1.5 text-xs opacity-70">
-                ({byTier[tier].length})
+                ({buildByTier[tier].length})
               </span>
             </a>
           ))}
+          <a
+            href="#hero-rankings"
+            className="rounded-md border border-border px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+          >
+            Hero rankings
+          </a>
           <a
             href="#methodology"
             className="rounded-md border border-border px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
@@ -137,46 +158,100 @@ export default function TierListPage() {
 
         <section className="space-y-3">
           <h2 className="font-display text-2xl font-semibold">
-            Best Guildrun heroes at a glance
+            Best Guildrun builds right now
           </h2>
           <p className="text-sm text-muted-foreground">
-            This Guildrun hero tier list is a decision aid: pick a letter, read
-            why, then open the hero page for how to play and shop notes. Letter
-            grades alone do not win Red Rift — formation and Shard spend still
-            matter.
+            Start here when you want a runnable plan: each card is a full team
+            package with core heroes, key items, and relics. Letter grades score
+            the <em>comp</em>, not a single unit. Open the build page for shop
+            order, positioning, and flex options.
           </p>
         </section>
 
-        {grades.map((tier) => {
-          const entries = byTier[tier];
-          if (entries.length === 0) return null;
+        {buildTiersWithEntries.map((tier) => {
+          const entries = buildByTier[tier];
           return (
             <section
-              key={tier}
-              id={`tier-${tier.toLowerCase()}`}
+              key={`build-${tier}`}
+              id={`build-tier-${tier.toLowerCase()}`}
               className="scroll-mt-24 space-y-4"
             >
               <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-border pb-2">
-                <h2 className="font-display text-3xl font-bold">{tier} Tier</h2>
+                <h2 className="font-display text-3xl font-bold">
+                  {tier} Tier Builds
+                </h2>
                 <p className="text-sm text-muted-foreground">
-                  {entries.length} hero{entries.length === 1 ? "" : "s"}
+                  {entries.length} build{entries.length === 1 ? "" : "s"}
                 </p>
               </div>
               <div className="grid gap-4">
                 {entries.map((entry) => (
-                  <TierHeroCard key={entry.heroSlug} entry={entry} />
+                  <TierBuildCard key={entry.buildSlug} entry={entry} />
                 ))}
               </div>
             </section>
           );
         })}
 
+        <section id="hero-rankings" className="scroll-mt-24 space-y-6">
+          <div className="space-y-3">
+            <h2 className="font-display text-2xl font-semibold">
+              Hero power rankings
+            </h2>
+            <p className="text-sm text-muted-foreground">
+              Use this section when the shop offers a hero and you need a quick
+              grade. Pair the letter with a build card above — a strong hero still
+              needs a real wall, relic plan, and formation.
+            </p>
+          </div>
+
+          <nav aria-label="Jump to hero tier" className="flex flex-wrap gap-2">
+            {heroTiersWithEntries.map((tier) => (
+              <a
+                key={`hero-nav-${tier}`}
+                href={`#hero-tier-${tier.toLowerCase()}`}
+                className="rounded-md border border-border px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+              >
+                {tier} Heroes
+                <span className="ml-1.5 text-xs opacity-70">
+                  ({heroByTier[tier].length})
+                </span>
+              </a>
+            ))}
+          </nav>
+
+          {heroTiersWithEntries.map((tier) => {
+            const entries = heroByTier[tier];
+            return (
+              <section
+                key={`hero-${tier}`}
+                id={`hero-tier-${tier.toLowerCase()}`}
+                className="scroll-mt-24 space-y-4"
+              >
+                <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-border pb-2">
+                  <h3 className="font-display text-2xl font-bold">
+                    {tier} Tier Heroes
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {entries.length} hero{entries.length === 1 ? "" : "es"}
+                  </p>
+                </div>
+                <div className="grid gap-4">
+                  {entries.map((entry) => (
+                    <TierHeroCard key={entry.heroSlug} entry={entry} />
+                  ))}
+                </div>
+              </section>
+            );
+          })}
+        </section>
+
         <section id="methodology" className="scroll-mt-24 space-y-4">
           <h2 className="font-display text-2xl font-semibold">
-            How we rank heroes
+            How we rank builds and heroes
           </h2>
           <p className="text-muted-foreground">
-            Tier rankings on this Guildrun tier list are editorial judgments for{" "}
+            Rankings on this Guildrun tier list are editorial judgments for{" "}
             {meta.version}, not an automated win-rate dump. We weigh:
           </p>
           <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
@@ -184,12 +259,6 @@ export default function TierListPage() {
               <li key={item}>{item}</li>
             ))}
           </ul>
-          <p className="text-sm text-muted-foreground">
-            Damage output, survivability, build flexibility, synergy potential,
-            difficulty to pilot, and Red Rift performance all feed the grade.
-            Community feedback and in-Demo testing inform updates when the patch
-            shifts.
-          </p>
         </section>
 
         <section id="faq" className="scroll-mt-24 space-y-4">
@@ -216,10 +285,18 @@ export default function TierListPage() {
             Related guides & tools
           </h2>
           <p className="text-muted-foreground">
-            After you shortlist a hero from this tier list, use these pages to
-            turn the pick into a run plan:
+            After you shortlist a build or hero, use these pages to turn the pick
+            into a run plan:
           </p>
           <ul className="grid gap-2 text-sm sm:grid-cols-2">
+            <li>
+              <Link
+                href="/builds"
+                className="text-primary underline-offset-2 hover:underline"
+              >
+                All curated team builds
+              </Link>
+            </li>
             <li>
               <Link
                 href="/guides/red-rift"
@@ -250,14 +327,6 @@ export default function TierListPage() {
                 className="text-primary underline-offset-2 hover:underline"
               >
                 Shop order: Rank vs Relic vs Item
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/builds"
-                className="text-primary underline-offset-2 hover:underline"
-              >
-                Curated team builds
               </Link>
             </li>
             <li>

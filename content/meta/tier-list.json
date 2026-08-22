@@ -1,39 +1,39 @@
 {
   "version": "Demo 0.5.5",
-  "updatedAt": "2026-08-04",
-  "intro": "Our Guildrun Tier List ranks heroes for Demo 0.5.5 by build flexibility, synergy potential, opener reliability, and performance from first clears through Red Rift — so you can pick a shop hero with a plan, not just a letter grade.",
+  "updatedAt": "2026-08-22",
+  "intro": "This Guildrun tier list ranks the strongest team builds for Demo 0.5.5 first — full comps with heroes, items, and relics — then adds a hero power ranking so you can judge shop picks. Open a build card for the loadout snapshot, or jump to hero grades when you only need a letter.",
   "methodology": [
+    "Build tiers weigh clear win conditions, shop consistency, Red Rift / climb reliability, and how complete the published loadout is (heroes + items + relics).",
+    "S-tier builds are copyable plans that win often when you follow the shop rules; A-tier needs a cleaner seed or tighter execution; B-tier is situational or greedier.",
+    "Hero tiers remain a separate shop-aid: kit ceiling, opener reliability, relic hooks, and whether the hero creates a plan without perfect RNG.",
     "Current Demo 0.5.5 balance and kit read (abilities, specializations, class tags).",
-    "How often the hero creates a clear shop and formation plan without perfect RNG.",
-    "Synergy with common relic engines (Rush, Stall, Shield, Crit, Poison).",
-    "Survivability and who eats first contact — carries that need a wall are marked down if they cannot be protected.",
-    "Red Rift and hard-content pressure: death caps, long fights, and economy tightness.",
-    "Beginner accessibility: heroes that teach the run loop without punishing every mistake."
+    "Survivability and who eats first contact — fragile carries drop if they cannot be walled.",
+    "Beginner accessibility: comps and heroes that teach the run loop without punishing every mistake."
   ],
   "faq": [
     {
+      "question": "What is the best build in Guildrun right now?",
+      "answer": "On Demo 0.5.5, start with the S-tier build cards on this page — Rush Duelists for Rush shops, Aria Stall Mage for Mage / Stall lines, and Irini Starter when you want a simpler first-clear plan. Open the full build for items, relics, and positioning."
+    },
+    {
+      "question": "Is the Guildrun tier list for builds or heroes?",
+      "answer": "Both. The main section ranks team builds (the comps you actually play). The hero rankings below are a shop aid when you only need to know if a hero is worth buying."
+    },
+    {
       "question": "What is the best hero in Guildrun?",
-      "answer": "There is no single best hero for every shop. On Demo 0.5.5, S-tier picks like Nyx, Irini, and Pimenta show up often in strong clears — but only when you cover their jobs (tank for Nyx, Rush partners for Irini, a carry behind Pimenta). Use this Guildrun tier list as a shortlist, then check the hero page for how to play."
+      "answer": "There is no single best hero for every shop. S-tier heroes like Nyx, Irini, and Pimenta show up often in strong clears — but only when you cover their jobs (tank for Nyx, Rush partners for Irini, a carry behind Pimenta). Pair the hero grade with a build card."
     },
     {
       "question": "Who is the strongest Guildrun hero?",
-      "answer": "Nyx has one of the highest damage ceilings when protected early and fed Rush resets. Irini is often stronger as a first-clear or flexible carry. For pure frontline, Pimenta and Rowan stabilize boards that otherwise wipe. Strength depends on mode and what the shop offers."
-    },
-    {
-      "question": "Is Nyx good in Guildrun?",
-      "answer": "Yes — Nyx is S tier on this Guildrun hero tier list for Rush-refresh melee carry play. She is weak if she tanks the opener. Buy her with a wall plan, stack Rush and Attack Speed, and read her hero guide for specialization paths."
+      "answer": "Nyx has one of the highest damage ceilings when protected early and fed Rush resets. Irini is often stronger as a first-clear or flexible carry. For pure frontline, Pimenta and Rowan stabilize boards that otherwise wipe."
     },
     {
       "question": "What is S Tier in Guildrun?",
-      "answer": "S Tier means the hero consistently wins runs when drafted with a sensible supporting cast: clear role, strong relic hooks, and good Red Rift or climb performance. It is not a guarantee without items, ranks, or positioning."
+      "answer": "For builds, S Tier means a complete, repeatable plan that wins often when you follow the shop rules. For heroes, S Tier means the unit consistently wins runs with a sensible supporting cast — not a free win without items or positioning."
     },
     {
       "question": "How often is the Guildrun tier list updated?",
-      "answer": "We update when Demo balance or our testing notes change. The version label and last-updated date at the top of this page always show which patch the rankings reflect."
-    },
-    {
-      "question": "Are beginner heroes the same as S Tier?",
-      "answer": "Not always. Some S-tier carries need precise protection. Beginner-friendly picks (often A/B with simple jobs) appear in Best Modes as Beginner when they teach the loop without high mechanical greed."
+      "answer": "We update when Demo balance or our testing notes change. The version label, last-updated date, and changelog near the top of this page show which patch the rankings reflect."
     }
   ],
   "entries": [
@@ -52,7 +52,11 @@
         "Dies if she tanks first contact",
         "Needs a soft first kill to start the train"
       ],
-      "bestModes": ["Red Rift", "Climb", "Endless"],
+      "bestModes": [
+        "Red Rift",
+        "Climb",
+        "Endless"
+      ],
       "recommendedBuildSlug": "rush-duelists"
     },
     {
@@ -70,7 +74,11 @@
         "Needs fights to stack",
         "Collapses if she dies first every fight"
       ],
-      "bestModes": ["Beginner", "Climb", "Red Rift"],
+      "bestModes": [
+        "Beginner",
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": "irini-starter"
     },
     {
@@ -88,7 +96,11 @@
         "Low solo clear without a carry behind her",
         "Wants Defense and formation care"
       ],
-      "bestModes": ["Red Rift", "Beginner", "Climb"],
+      "bestModes": [
+        "Red Rift",
+        "Beginner",
+        "Climb"
+      ],
       "recommendedBuildSlug": null
     },
     {
@@ -106,7 +118,10 @@
         "Dies to dive without a wall",
         "Cast uptime dependent"
       ],
-      "bestModes": ["Climb", "Red Rift"],
+      "bestModes": [
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": "aria-stall-mage"
     },
     {
@@ -124,7 +139,10 @@
         "Quiet early if fights end instantly",
         "Needs Mana Tempo"
       ],
-      "bestModes": ["Red Rift", "Endless"],
+      "bestModes": [
+        "Red Rift",
+        "Endless"
+      ],
       "recommendedBuildSlug": "mystic-sustain"
     },
     {
@@ -142,7 +160,10 @@
         "Weaker if Rush never fires",
         "Adjacent packing matters"
       ],
-      "bestModes": ["Climb", "Red Rift"],
+      "bestModes": [
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": "rush-duelists"
     },
     {
@@ -160,7 +181,10 @@
         "Needs to stay in melee",
         "Falls behind pure late carries"
       ],
-      "bestModes": ["Beginner", "Climb"],
+      "bestModes": [
+        "Beginner",
+        "Climb"
+      ],
       "recommendedBuildSlug": "irini-starter"
     },
     {
@@ -178,7 +202,11 @@
         "Not a solo win condition",
         "Cast windows matter"
       ],
-      "bestModes": ["Beginner", "Climb", "Red Rift"],
+      "bestModes": [
+        "Beginner",
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": "mystic-sustain"
     },
     {
@@ -196,7 +224,10 @@
         "Needs a carry behind the wall",
         "Facing matters for Stun"
       ],
-      "bestModes": ["Red Rift", "Climb"],
+      "bestModes": [
+        "Red Rift",
+        "Climb"
+      ],
       "recommendedBuildSlug": null
     },
     {
@@ -214,7 +245,10 @@
         "Weak if fights are pure Rush races",
         "Geometry dependent"
       ],
-      "bestModes": ["Climb", "Red Rift"],
+      "bestModes": [
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": "mystic-sustain"
     },
     {
@@ -232,7 +266,10 @@
         "Needs packs to clump",
         "Fragile to dive"
       ],
-      "bestModes": ["Climb", "Red Rift"],
+      "bestModes": [
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": null
     },
     {
@@ -250,7 +287,10 @@
         "Empty neighbors waste Inner Flame",
         "Needs Rush uptime"
       ],
-      "bestModes": ["Climb", "Red Rift"],
+      "bestModes": [
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": "rush-duelists"
     },
     {
@@ -268,7 +308,9 @@
         "Needs Shield generation",
         "Less flexible than Reyna early"
       ],
-      "bestModes": ["Climb"],
+      "bestModes": [
+        "Climb"
+      ],
       "recommendedBuildSlug": "warrior-shield-core"
     },
     {
@@ -286,7 +328,9 @@
         "Missed casts stall growth",
         "Slow without cast tempo"
       ],
-      "bestModes": ["Climb"],
+      "bestModes": [
+        "Climb"
+      ],
       "recommendedBuildSlug": "warrior-shield-core"
     },
     {
@@ -304,7 +348,10 @@
         "Deleted by dive if naked",
         "Wrong corner = wrong kill"
       ],
-      "bestModes": ["Climb", "Red Rift"],
+      "bestModes": [
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": "assassin-picks"
     },
     {
@@ -322,7 +369,10 @@
         "Lower ceiling than Nyx/Irini",
         "Needs Stall/Frost payoff"
       ],
-      "bestModes": ["Climb", "Beginner"],
+      "bestModes": [
+        "Climb",
+        "Beginner"
+      ],
       "recommendedBuildSlug": "irini-starter"
     },
     {
@@ -340,7 +390,10 @@
         "Empty field = failed plan",
         "Weak personal DPS"
       ],
-      "bestModes": ["Climb", "Red Rift"],
+      "bestModes": [
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": "mystic-sustain"
     },
     {
@@ -358,7 +411,10 @@
         "Naked taunt is suicide",
         "Needs Stall count"
       ],
-      "bestModes": ["Climb", "Red Rift"],
+      "bestModes": [
+        "Climb",
+        "Red Rift"
+      ],
       "recommendedBuildSlug": null
     },
     {
@@ -376,7 +432,9 @@
         "Greedy setup",
         "Weaker as a pure wall"
       ],
-      "bestModes": ["Climb"],
+      "bestModes": [
+        "Climb"
+      ],
       "recommendedBuildSlug": null
     },
     {
@@ -394,7 +452,9 @@
         "Needs soft targets",
         "Bad as sole opener"
       ],
-      "bestModes": ["Climb"],
+      "bestModes": [
+        "Climb"
+      ],
       "recommendedBuildSlug": "assassin-picks"
     },
     {
@@ -412,7 +472,9 @@
         "Whiffs on full-HP packs",
         "Dies on bad leaps"
       ],
-      "bestModes": ["Climb"],
+      "bestModes": [
+        "Climb"
+      ],
       "recommendedBuildSlug": "assassin-picks"
     },
     {
@@ -430,7 +492,9 @@
         "Dual-class soft-locks upgrades",
         "Easy to overcomplicate shops"
       ],
-      "bestModes": ["Climb"],
+      "bestModes": [
+        "Climb"
+      ],
       "recommendedBuildSlug": null
     },
     {
@@ -448,7 +512,9 @@
         "Needs Crit infrastructure",
         "Lower default floor"
       ],
-      "bestModes": ["Climb"],
+      "bestModes": [
+        "Climb"
+      ],
       "recommendedBuildSlug": null
     },
     {
@@ -465,7 +531,9 @@
         "Short range risk",
         "Harder to build around early"
       ],
-      "bestModes": ["Climb"],
+      "bestModes": [
+        "Climb"
+      ],
       "recommendedBuildSlug": null
     },
     {
@@ -483,8 +551,81 @@
         "Itemization is confusing",
         "Weak if Crit never procs"
       ],
-      "bestModes": ["Climb"],
+      "bestModes": [
+        "Climb"
+      ],
       "recommendedBuildSlug": "assassin-picks"
+    }
+  ],
+  "changelog": "Aug 22, 2026: Rebuild page around meta builds (Rush Duelists / Aria Stall / Irini Starter in S). Hero rankings moved to a secondary section.",
+  "buildEntries": [
+    {
+      "buildSlug": "rush-duelists",
+      "tier": "S",
+      "rank": 1,
+      "summary": "Rip converts Rush into Max HP while Nyx and Irini turn every Rush window into attack-speed snowball — the default Demo climb / Red Rift engine.",
+      "whyTier": "Highest floor when Rush banners appear: clear shop filter, multiple scalers, and a published item + relic package you can follow fight-to-fight.",
+      "bestFor": [
+        "Climb",
+        "Red Rift",
+        "Endless"
+      ]
+    },
+    {
+      "buildSlug": "aria-stall-mage",
+      "tier": "S",
+      "rank": 2,
+      "summary": "Aria channels Requiem Barrage through packs while Reyna holds contact and Pollen keeps Stall online for permanent Magic.",
+      "whyTier": "Best Mage win condition on Demo 0.5.5 when beam geometry is correct — Stall snowball plus a real wall answers long Red Rift fights.",
+      "bestFor": [
+        "Climb",
+        "Red Rift"
+      ]
+    },
+    {
+      "buildSlug": "irini-starter",
+      "tier": "S",
+      "rank": 3,
+      "summary": "Forgiving first-clear board: Irini stacks attack speed, Nyx refreshes Rush, Reyna holds the front while you learn shop timing.",
+      "whyTier": "Teaches the Demo loop without greedy triple-carry drafts, still spikes hard enough for climb once Rush uptime is real.",
+      "bestFor": [
+        "Beginner",
+        "Climb",
+        "Red Rift"
+      ]
+    },
+    {
+      "buildSlug": "mystic-sustain",
+      "tier": "A",
+      "rank": 4,
+      "summary": "Fiona and Pollen layer shields / sustain; Grace recovers lost fights after Stall or wipe threats.",
+      "whyTier": "Excellent stabilizer and attrition plan, but needs borrowed damage or a fourth recruit before it clears bosses cleanly.",
+      "bestFor": [
+        "Climb",
+        "Red Rift",
+        "Beginner"
+      ]
+    },
+    {
+      "buildSlug": "warrior-shield-core",
+      "tier": "A",
+      "rank": 5,
+      "summary": "Reyna and Logan build a Warrior front that lives through contact; Kai turns shields and survival into finishing damage.",
+      "whyTier": "Very sturdy when Warrior / Shield shops appear, slower clear speed if you never find a finisher spike.",
+      "bestFor": [
+        "Beginner",
+        "Climb"
+      ]
+    },
+    {
+      "buildSlug": "assassin-picks",
+      "tier": "B",
+      "rank": 6,
+      "summary": "Hoyoung and Yuuna delete priority targets; Zuri bridges frontline durability with Crit-scaling hybrid pressure.",
+      "whyTier": "High burst when Crit / Assassin relics arrive early, fragile to AoE and dive if the wall never shows — more seed-dependent than S comps.",
+      "bestFor": [
+        "Climb"
+      ]
     }
   ]
 }

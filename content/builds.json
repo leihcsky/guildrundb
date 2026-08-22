@@ -4,15 +4,31 @@
     "title": "Irini Starter Comp",
     "overview": "A forgiving first-clear board: Irini stacks attack speed, Nyx refreshes Rush, Reyna holds the front while you learn shop timing.",
     "goal": "Pick this when you want a simple tempo board for early Demo clears — one scaling carry, one Rush partner, one durable Warrior.",
-    "heroes": ["irini", "nyx", "reyna"],
-    "flexHeroes": ["karsu", "logan", "tilly"],
-    "relics": [
-      "duelist-s-precision-banner-564",
-      "warrior-s-endurance-banner-504",
-      "vanguard-s-endurance-banner-534"
+    "heroes": [
+      "irini",
+      "nyx",
+      "reyna"
     ],
-    "items": ["duelist-s-foil-605", "nimble-boots-627", "eye-of-haste-628"],
-    "keywords": ["rush", "duelist", "attackspeed"],
+    "flexHeroes": [
+      "karsu",
+      "logan",
+      "tilly"
+    ],
+    "relics": [
+      "duelists-precision-banner-564",
+      "warriors-endurance-banner-504",
+      "vanguards-endurance-banner-534"
+    ],
+    "items": [
+      "duelists-foil-605",
+      "nimble-boots-627",
+      "eye-of-haste-628"
+    ],
+    "keywords": [
+      "rush",
+      "duelist",
+      "attackspeed"
+    ],
     "playstyle": "Irini is the clock. Protect her long enough for attack-speed stacking to matter; use Nyx to keep Rush windows alive and Reyna to stop the board collapsing on contact.",
     "positioning": "Reyna front-center. Irini mid/back where she can auto safely. Nyx beside or slightly ahead of Irini so Rush partners share windows without eating the opening dive alone.",
     "gameplan": [
@@ -48,20 +64,33 @@
     "title": "Rush Duelists",
     "overview": "Rip converts Rush into Max HP pressure while Nyx and Irini turn every Rush window into attack-speed snowball.",
     "goal": "Commit when you already have Rip (or another Rush-friendly Vanguard) plus at least one Duelist, and the shop keeps offering Rush duration / Endurance banners.",
-    "heroes": ["rip", "nyx", "irini"],
-    "flexHeroes": ["karsu", "ming", "tilly"],
+    "heroes": [
+      "rip",
+      "nyx",
+      "irini"
+    ],
+    "flexHeroes": [
+      "karsu",
+      "ming",
+      "tilly"
+    ],
     "relics": [
-      "vanguard-s-endurance-banner-534",
-      "duelist-s-precision-banner-564",
-      "warrior-s-endurance-banner-504"
+      "vanguards-endurance-banner-534",
+      "duelists-precision-banner-564",
+      "warriors-endurance-banner-504"
     ],
     "items": [
-      "vanguard-s-bracelet-603",
+      "vanguards-bracelet-603",
       "nimble-boots-627",
       "eye-of-haste-628",
-      "duelist-s-foil-605"
+      "duelists-foil-605"
     ],
-    "keywords": ["rush", "duelist", "vanguard", "attackspeed"],
+    "keywords": [
+      "rush",
+      "duelist",
+      "vanguard",
+      "attackspeed"
+    ],
     "playstyle": "You win by chaining Rush triggers, not by one giant nuke. Rip soaks and scales; Irini / Nyx print speed during those windows. If Rush rarely fires, pivot off this engine.",
     "positioning": "Rip front. Nyx secondary front or pocket so she can refresh without dying first. Irini backline. Leave a gap if enemies splash the clump.",
     "gameplan": [
@@ -97,19 +126,31 @@
     "title": "Warrior Shield Core",
     "overview": "Reyna and Logan build a Warrior front that lives through contact; Kai turns shields and survival into finishing damage.",
     "goal": "Take this when Warrior banners / shield items keep appearing, or when fights last long enough for permanent growth and shield conversion to matter.",
-    "heroes": ["reyna", "logan", "kai"],
-    "flexHeroes": ["rowan", "skorn", "tilly"],
+    "heroes": [
+      "reyna",
+      "logan",
+      "kai"
+    ],
+    "flexHeroes": [
+      "rowan",
+      "skorn",
+      "tilly"
+    ],
     "relics": [
-      "warrior-s-endurance-banner-504",
-      "warrior-s-mending-banner-509"
+      "warriors-endurance-banner-504",
+      "warriors-mending-banner-509"
     ],
     "items": [
       "runic-buckler-620",
-      "guardian-s-lantern-632",
+      "guardians-lantern-632",
       "amulet-of-shields-721",
       "shattering-charm-733"
     ],
-    "keywords": ["warrior", "shield", "crit"],
+    "keywords": [
+      "warrior",
+      "shield",
+      "crit"
+    ],
     "playstyle": "Play for survival first. Win the opening exchange with shields and Defense, then let Logan / Kai convert leftover durability into damage. Do not greed glass cannons into the front three slots.",
     "positioning": "Logan or Reyna on the dive hex. Kai can sit secondary front or pocket if he needs to live into mid-fight. Keep any flex Mage/Mystic off the first hit.",
     "gameplan": [
@@ -145,16 +186,31 @@
     "title": "Mystic Sustain Field",
     "overview": "Fiona and Pollen layer shields / sustain; Grace is the panic button that recovers lost fights after Stall or wipe threats.",
     "goal": "Choose when you keep seeing Mana Regen, Shield, or Mystic banners — or when enemy packs punish short fights and you need attrition tools.",
-    "heroes": ["fiona", "pollen", "grace"],
-    "flexHeroes": ["gustav", "sal", "niklas"],
-    "relics": ["mystic-s-barrier-banner-585"],
+    "heroes": [
+      "fiona",
+      "pollen",
+      "grace"
+    ],
+    "flexHeroes": [
+      "gustav",
+      "sal",
+      "niklas"
+    ],
+    "relics": [
+      "mystics-barrier-banner-585"
+    ],
     "items": [
-      "mystic-s-orb-607",
+      "mystics-orb-607",
       "emerald-charm-640",
       "amulet-of-shields-721",
       "battlemage-robes-636"
     ],
-    "keywords": ["mystic", "shield", "stall", "manaregen"],
+    "keywords": [
+      "mystic",
+      "shield",
+      "stall",
+      "manaregen"
+    ],
     "playstyle": "You are not racing for first blood. Cast often, shield the lowest HP hero, and win after the enemy spike fails. Mana Regen is both uptime and coverage — starve it and the whole plan dies.",
     "positioning": "All three prefer back or second row. Put the tankiest flex (or a borrowed frontliner) ahead of them. Never leave Grace alone on a dive tile.",
     "gameplan": [
@@ -190,19 +246,32 @@
     "title": "Assassin Backline",
     "overview": "Hoyoung and Yuuna delete priority targets; Zuri bridges frontline durability with Crit-scaling hybrid pressure.",
     "goal": "Force this when Crit / Assassin relics appear early and you can keep at least one diver or front piece alive long enough for backline casts and autos to land.",
-    "heroes": ["hoyoung", "yuuna", "zuri"],
-    "flexHeroes": ["dragomir", "reyna", "skorn"],
+    "heroes": [
+      "hoyoung",
+      "yuuna",
+      "zuri"
+    ],
+    "flexHeroes": [
+      "dragomir",
+      "reyna",
+      "skorn"
+    ],
     "relics": [
-      "assassin-s-patience-banner-551",
-      "assassin-s-endurance-banner-549"
+      "assassins-patience-banner-551",
+      "assassins-endurance-banner-549"
     ],
     "items": [
-      "assassin-s-hood-604",
-      "executioner-s-axe-638",
+      "assassins-hood-604",
+      "executioners-axe-638",
       "toxic-dart-618",
-      "rogue-s-cowl-710"
+      "rogues-cowl-710"
     ],
-    "keywords": ["assassin", "crit", "stealth", "poison"],
+    "keywords": [
+      "assassin",
+      "crit",
+      "stealth",
+      "poison"
+    ],
     "playstyle": "Win the opening pick-off. Focus fire the threat that would kill your backline, then clean up. If Zuri (or a flex tank) falls instantly, the Assassins never get their window — fix the wall before buying more Crit.",
     "positioning": "Zuri or flex tank on first contact. Hoyoung max range back. Yuuna slightly offset so splash does not delete both carries. Use Stealth / Rush items to create a second engage angle.",
     "gameplan": [
@@ -238,20 +307,36 @@
     "title": "Aria Stall Mage",
     "overview": "S-tier back-line carry: Aria channels Requiem Barrage through packs while Reyna holds contact and Pollen keeps Stall online for permanent Magic and longer beams.",
     "goal": "Commit when Aria appears early, Mage or Stall banners keep showing, and you can draft a real frontliner before the third slot — this is a scaling Mage board, not a three-carry glass rush.",
-    "heroes": ["aria", "reyna", "pollen"],
-    "flexHeroes": ["funke", "sal", "rowan", "grace", "skorn"],
+    "heroes": [
+      "aria",
+      "reyna",
+      "pollen"
+    ],
+    "flexHeroes": [
+      "funke",
+      "sal",
+      "rowan",
+      "grace",
+      "skorn"
+    ],
     "relics": [
-      "mage-s-enlightenment-banner-601",
-      "mage-s-elemental-banner-595",
-      "mage-s-serenity-banner-604"
+      "mages-enlightenment-banner-601",
+      "mages-elemental-banner-595",
+      "mages-serenity-banner-604"
     ],
     "items": [
       "emerald-charm-640",
       "battlemage-robes-636",
-      "mage-s-staff-320",
-      "mage-s-wand-606"
+      "mages-staff-320",
+      "mages-wand-606"
     ],
-    "keywords": ["mage", "stall", "burn", "frost", "debuff"],
+    "keywords": [
+      "mage",
+      "stall",
+      "burn",
+      "frost",
+      "debuff"
+    ],
     "playstyle": "Aria wins when Requiem Barrage covers the pack for the full channel — Burn and Frost tick the whole fight. Reyna buys time on contact; Pollen turns Stall into shields, zone pressure, and the triggers Crescendo needs. If the beam misses or Aria dies mid-cast, fix placement before buying another Magic relic.",
     "positioning": "Reyna front-center on the dive hex. Pollen mid-back so Sanctuary covers the melee pit where packs stand. Aria back row, aimed down the main lane — re-angle after every loss until enemies sit in the beam for the full duration. Never put Aria on a dive tile.",
     "gameplan": [

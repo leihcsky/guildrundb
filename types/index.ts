@@ -184,12 +184,26 @@ export interface TierListEntry {
   recommendedBuildSlug?: string | null;
 }
 
+export interface BuildTierEntry {
+  buildSlug: string;
+  tier: HeroTierGrade;
+  rank: number;
+  summary: string;
+  whyTier: string;
+  bestFor: string[];
+}
+
 export interface TierListMeta {
   version: string;
   updatedAt: string;
   intro: string;
+  /** Short note for the latest ranking change (shown on-page). */
+  changelog?: string;
   methodology: string[];
   faq: Array<{ question: string; answer: string }>;
+  /** Primary meta: ranked team builds. */
+  buildEntries?: BuildTierEntry[];
+  /** Secondary: individual hero power rankings. */
   entries: TierListEntry[];
 }
 
@@ -197,6 +211,15 @@ export interface TierListMeta {
 export interface ResolvedTierListEntry extends TierListEntry {
   hero: Hero;
   recommendedBuild?: Build;
+}
+
+/** Resolved build-tier row with live Build + roster/item/relic snapshots. */
+export interface ResolvedBuildTierEntry extends BuildTierEntry {
+  build: Build;
+  heroes: Hero[];
+  flexHeroes: Hero[];
+  items: Item[];
+  relics: Relic[];
 }
 
 export type SearchEntityType =
