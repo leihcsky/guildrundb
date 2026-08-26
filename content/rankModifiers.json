@@ -2186,7 +2186,7 @@
         {
           "source": "SerializedJson",
           "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.DoesTriggerTargetHaveStatusCondition, ember.simulation.core\",\"Status\":45},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ModifyStatFromTotalShieldWithMaxAction, ember.balancing\",\"StatType\":6,\"Value\":1,\"Increment\":8,\"Max\":1000}],\"<Trigger>k__BackingField\":2,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
+          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.DoesOwnerHaveStatusCondition, ember.simulation.core\",\"Status\":45},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ModifyStatFromTotalShieldWithMaxAction, ember.balancing\",\"StatType\":6,\"Value\":1,\"Increment\":8,\"Max\":1000}],\"<Trigger>k__BackingField\":2,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
           "data": {
             "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
             "TargetType": 1,
@@ -2194,7 +2194,7 @@
             "GuildId": 0,
             "_condition": {
               "$id": "1",
-              "$type": "Ember.Simulation.Core.State.Effects.Conditions.DoesTriggerTargetHaveStatusCondition, ember.simulation.core",
+              "$type": "Ember.Simulation.Core.State.Effects.Conditions.DoesOwnerHaveStatusCondition, ember.simulation.core",
               "Status": 45
             },
             "_actions": [

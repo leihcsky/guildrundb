@@ -147,7 +147,7 @@ export interface Build {
   tips?: string[];
   strength?: string[];
   weakness?: string[];
-  /** Demo / patch label, e.g. Demo 0.5.5 */
+  /** Demo / patch label, e.g. Demo 0.5.6 */
   patch?: string;
   featured?: boolean;
   updatedAt: string;

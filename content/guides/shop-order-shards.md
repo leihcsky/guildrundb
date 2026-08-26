@@ -11,7 +11,7 @@ tags:
   - items
 ---
 
-Guildrun shops are where runs are won. Combat is the report card; **Shards** are the test. This guide answers one question for Demo **0.5.5**:
+Guildrun shops are where runs are won. Combat is the report card; **Shards** are the test. This guide answers one question for Demo **0.5.6**:
 
 > On this screen, should I buy a **Rank**, a **Relic**, or an **Item**?
 

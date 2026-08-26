@@ -52,11 +52,11 @@
       "Falls behind if you never find Rush partners or Duelist tags",
       "Low team heal; long attrition fights need item answers"
     ],
-    "patch": "Demo 0.5.5",
+    "patch": "Demo 0.5.6",
     "featured": true,
     "seoPrimaryHero": "irini",
     "seoTitle": "Guildrun Irini Build",
-    "seoDescription": "Guildrun Irini build for Demo 0.5.5 — attack-speed carry with Nyx Rush and Reyna frontline. Relics, items, and starter comp tips.",
+    "seoDescription": "Guildrun Irini build for Demo 0.5.6 — attack-speed carry with Nyx Rush and Reyna frontline. Relics, items, and starter comp tips.",
     "updatedAt": "2026-07-29"
   },
   {
@@ -114,7 +114,7 @@
       "Setup-heavy: needs the right banners before it feels strong",
       "Vulnerable to early dive on Irini / Nyx"
     ],
-    "patch": "Demo 0.5.5",
+    "patch": "Demo 0.5.6",
     "featured": true,
     "seoPrimaryHero": "nyx",
     "seoTitle": "Guildrun Nyx Rush Build",
@@ -174,7 +174,7 @@
       "Feels weak if shield relics never show",
       "Can brick if you draft three walls and no finisher"
     ],
-    "patch": "Demo 0.5.5",
+    "patch": "Demo 0.5.6",
     "featured": false,
     "seoPrimaryHero": "reyna",
     "seoTitle": "Guildrun Warrior Shield Build",
@@ -234,7 +234,7 @@
       "Needs frontline help from flex picks or items",
       "Punished hard if Mystics get opened on"
     ],
-    "patch": "Demo 0.5.5",
+    "patch": "Demo 0.5.6",
     "featured": false,
     "seoPrimaryHero": "grace",
     "seoTitle": "Guildrun Mystic Sustain Build",
@@ -295,7 +295,7 @@
       "Needs a living frontline every fight",
       "Inconsistent if Crit never comes online"
     ],
-    "patch": "Demo 0.5.5",
+    "patch": "Demo 0.5.6",
     "featured": false,
     "seoPrimaryHero": "zuri",
     "seoTitle": "Guildrun Zuri Build",
@@ -367,11 +367,11 @@
       "Beam aim is a hard skill check; wrong angle wastes the whole comp",
       "Low burst if fights end before first full channel"
     ],
-    "patch": "Demo 0.5.5",
+    "patch": "Demo 0.5.6",
     "featured": true,
     "seoPrimaryHero": "aria",
     "seoTitle": "Guildrun Aria Build",
-    "seoDescription": "Guildrun Aria build for Demo 0.5.5 — Requiem Barrage carry with Reyna front and Pollen Stall. Rank B paths, Mage relics, items, and beam positioning.",
+    "seoDescription": "Guildrun Aria build for Demo 0.5.6 — Requiem Barrage carry with Reyna front and Pollen Stall. Rank B paths, Mage relics, items, and beam positioning.",
     "updatedAt": "2026-08-05"
   }
 ]

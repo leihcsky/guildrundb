@@ -1,19 +1,19 @@
 {
-  "version": "Demo 0.5.5",
+  "version": "Demo 0.5.6",
   "updatedAt": "2026-08-22",
-  "intro": "This Guildrun tier list ranks the strongest team builds for Demo 0.5.5 first — full comps with heroes, items, and relics — then adds a hero power ranking so you can judge shop picks. Open a build card for the loadout snapshot, or jump to hero grades when you only need a letter.",
+  "intro": "This Guildrun tier list ranks the strongest team builds for Demo 0.5.6 first — full comps with heroes, items, and relics — then adds a hero power ranking so you can judge shop picks. Open a build card for the loadout snapshot, or jump to hero grades when you only need a letter.",
   "methodology": [
     "Build tiers weigh clear win conditions, shop consistency, Red Rift / climb reliability, and how complete the published loadout is (heroes + items + relics).",
     "S-tier builds are copyable plans that win often when you follow the shop rules; A-tier needs a cleaner seed or tighter execution; B-tier is situational or greedier.",
     "Hero tiers remain a separate shop-aid: kit ceiling, opener reliability, relic hooks, and whether the hero creates a plan without perfect RNG.",
-    "Current Demo 0.5.5 balance and kit read (abilities, specializations, class tags).",
+    "Current Demo 0.5.6 balance and kit read (abilities, specializations, class tags).",
     "Survivability and who eats first contact — fragile carries drop if they cannot be walled.",
     "Beginner accessibility: comps and heroes that teach the run loop without punishing every mistake."
   ],
   "faq": [
     {
       "question": "What is the best build in Guildrun right now?",
-      "answer": "On Demo 0.5.5, start with the S-tier build cards on this page — Rush Duelists for Rush shops, Aria Stall Mage for Mage / Stall lines, and Irini Starter when you want a simpler first-clear plan. Open the full build for items, relics, and positioning."
+      "answer": "On Demo 0.5.6, start with the S-tier build cards on this page — Rush Duelists for Rush shops, Aria Stall Mage for Mage / Stall lines, and Irini Starter when you want a simpler first-clear plan. Open the full build for items, relics, and positioning."
     },
     {
       "question": "Is the Guildrun tier list for builds or heroes?",
@@ -576,7 +576,7 @@
       "tier": "S",
       "rank": 2,
       "summary": "Aria channels Requiem Barrage through packs while Reyna holds contact and Pollen keeps Stall online for permanent Magic.",
-      "whyTier": "Best Mage win condition on Demo 0.5.5 when beam geometry is correct — Stall snowball plus a real wall answers long Red Rift fights.",
+      "whyTier": "Best Mage win condition on Demo 0.5.6 when beam geometry is correct — Stall snowball plus a real wall answers long Red Rift fights.",
       "bestFor": [
         "Climb",
         "Red Rift"

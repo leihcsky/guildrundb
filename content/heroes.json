@@ -538,8 +538,8 @@
     "balancing": {
       "disabledInGame": false,
       "maxHealth": 800,
-      "maxMana": 55,
-      "startingMana": 15,
+      "maxMana": 50,
+      "startingMana": 20,
       "manaRegen": 4,
       "manaLockTime": 0.5,
       "moveSpeed": 1.5,
@@ -560,8 +560,8 @@
     "guildId": 2,
     "stats": {
       "maxHealth": 800,
-      "maxMana": 55,
-      "startingMana": 15,
+      "maxMana": 50,
+      "startingMana": 20,
       "manaRegen": 4,
       "defense": 38,
       "attack": 0,

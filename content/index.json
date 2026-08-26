@@ -70,7 +70,8 @@
     "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
     "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
     "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
-    "Runtime balancing merged from GuildrunExport (2026-08-18T23:11Z).",
+    "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates.",
+    "Runtime balancing merged from GuildrunExport (2026-08-26T01:42Z).",
     "descriptionArgs are best-effort: matched from AbilityActions/Effects to loc {n}_Stat templates."
   ],
   "media": {
@@ -127,7 +128,7 @@
     }
   },
   "runtimeMerge": {
-    "at": "2026-08-18T23:11Z",
+    "at": "2026-08-26T01:42Z",
     "report": {
       "heroes.json": {
         "runtime": 25,

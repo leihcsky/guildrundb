@@ -1053,7 +1053,7 @@
         {
           "source": "SerializedJson",
           "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":5,\"ClassId\":4,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.CompoundCondition, ember.simulation.core\",\"_conditions\":[{\"$id\":\"2\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.IsEffectTargetBelowPercentHPCondition, ember.simulation.core\",\"PercentHealth\":\"0.33\"},{\"$id\":\"3\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.HasSmokescreenTriggeredCondition, ember.simulation.core\"}]},\"_actions\":[{\"$id\":\"4\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusWithDurationAction, ember.balancing\",\"Status\":40,\"Amount\":1,\"Duration\":\"3.00\"},{\"$id\":\"5\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.TriggerSmokescreenAction, ember.simulation.core\"}],\"<Trigger>k__BackingField\":3,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
+          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":5,\"ClassId\":4,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.CompoundCondition, ember.simulation.core\",\"_conditions\":[{\"$id\":\"2\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.IsEffectTargetBelowPercentHPCondition, ember.simulation.core\",\"PercentHealth\":\"0.33\"},{\"$id\":\"3\",\"$type\":\"Ember.Simulation.Core.State.Effects.Conditions.HasSmokescreenTriggeredCondition, ember.simulation.core\"}]},\"_actions\":[{\"$id\":\"4\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ApplyStatusWithDurationAction, ember.balancing\",\"Status\":40,\"Amount\":1,\"Duration\":\"3.00\"},{\"$id\":\"5\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.TriggerSmokescreenAction, ember.simulation.core\"}],\"<Trigger>k__BackingField\":13,\"<AttachmentType>k__BackingField\":103,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
           "data": {
             "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
             "TargetType": 5,
@@ -1087,8 +1087,8 @@
                 "$type": "Ember.Simulation.Core.State.Effects.Actions.TriggerSmokescreenAction, ember.simulation.core"
               }
             ],
-            "<Trigger>k__BackingField": 3,
-            "<AttachmentType>k__BackingField": 0,
+            "<Trigger>k__BackingField": 13,
+            "<AttachmentType>k__BackingField": 103,
             "<AttachmentClassId>k__BackingField": 0,
             "<TriggerIncrement>k__BackingField": 1,
             "<EffectInterval>k__BackingField": "0.00",
@@ -1688,7 +1688,7 @@
         {
           "source": "SerializedJson",
           "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":6,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealDamageFromTriggerTargetDebuffTypesAction, ember.simulation.core\",\"_damagePerDebuff\":15}],\"<Trigger>k__BackingField\":17,\"<AttachmentType>k__BackingField\":101,\"<AttachmentClassId>k__BackingField\":5,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
+          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":6,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Simulation.Core.State.Effects.Actions.DealDamageFromTriggerTargetDebuffTypesAction, ember.simulation.core\",\"_damagePerDebuff\":20}],\"<Trigger>k__BackingField\":17,\"<AttachmentType>k__BackingField\":101,\"<AttachmentClassId>k__BackingField\":5,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
           "data": {
             "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
             "TargetType": 6,
@@ -1702,7 +1702,7 @@
               {
                 "$id": "2",
                 "$type": "Ember.Simulation.Core.State.Effects.Actions.DealDamageFromTriggerTargetDebuffTypesAction, ember.simulation.core",
-                "_damagePerDebuff": 15
+                "_damagePerDebuff": 20
               }
             ],
             "<Trigger>k__BackingField": 17,
@@ -25983,38 +25983,6 @@
     "balancing": {
       "disabledInGame": false,
       "rarity": "SingleBattleBoost",
-      "effects": [
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromRiftFuturesIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":6,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromRiftFuturesIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 6,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        }
-      ],
       "hasQuestEffect": false,
       "runtimeTitle": "The Etched Path",
       "exportedSource": "GuildrunExport"
@@ -26204,36 +26172,6 @@
             "<StallDuration>k__BackingField": "0.00",
             "<ProjectileType>k__BackingField": 0
           }
-        },
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromShardbackBeetleIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":6,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromShardbackBeetleIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 6,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
         }
       ],
       "hasQuestEffect": false,
@@ -26289,36 +26227,6 @@
             "<StallDuration>k__BackingField": "0.00",
             "<ProjectileType>k__BackingField": 0
           }
-        },
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateItemFromWoundedHawkIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":6,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateItemFromWoundedHawkIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 6,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
         }
       ],
       "hasQuestEffect": false,
@@ -26341,38 +26249,6 @@
     "balancing": {
       "disabledInGame": false,
       "rarity": "SingleBattleBoost",
-      "effects": [
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromWoundedHawkIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":6,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromWoundedHawkIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 6,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        }
-      ],
       "hasQuestEffect": false,
       "runtimeTitle": "The Fairy Ring",
       "exportedSource": "GuildrunExport"
@@ -26508,38 +26384,6 @@
     "balancing": {
       "disabledInGame": false,
       "rarity": "SingleBattleBoost",
-      "effects": [
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromTheStingIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":6,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromTheStingIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 6,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        }
-      ],
       "hasQuestEffect": false,
       "runtimeTitle": "The Nest",
       "exportedSource": "GuildrunExport"
@@ -26580,38 +26424,6 @@
     "balancing": {
       "disabledInGame": false,
       "rarity": "SingleBattleBoost",
-      "effects": [
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateItemFromRiftFuturesIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":6,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateItemFromRiftFuturesIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 6,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        }
-      ],
       "hasQuestEffect": false,
       "runtimeTitle": "The Well of Temptation",
       "exportedSource": "GuildrunExport"
@@ -26710,36 +26522,6 @@
               }
             ],
             "<Trigger>k__BackingField": 3,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        },
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromStrangeFruitsIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":6,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromStrangeFruitsIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 6,
             "<AttachmentType>k__BackingField": 0,
             "<AttachmentClassId>k__BackingField": 0,
             "<TriggerIncrement>k__BackingField": 1,
@@ -26918,36 +26700,6 @@
         {
           "source": "SerializedJson",
           "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromSingleCombatIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":5,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromSingleCombatIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 5,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        },
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
           "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.SetTeamSizeToBackAction, ember.balancing\"}],\"<Trigger>k__BackingField\":6,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
           "data": {
             "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
@@ -27017,36 +26769,6 @@
               }
             ],
             "<Trigger>k__BackingField": 100,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        },
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateItemFromSingleCombatIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":5,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateItemFromSingleCombatIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 5,
             "<AttachmentType>k__BackingField": 0,
             "<AttachmentClassId>k__BackingField": 0,
             "<TriggerIncrement>k__BackingField": 1,
@@ -27809,36 +27531,6 @@
         {
           "source": "SerializedJson",
           "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromBossIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":5,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromBossIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 5,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        },
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
           "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":2,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.ModifyAllBasicStatsPercentAction, ember.balancing\",\"Percent\":\"-0.10\"}],\"<Trigger>k__BackingField\":1,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
           "data": {
             "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
@@ -27922,36 +27614,6 @@
         {
           "source": "SerializedJson",
           "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromBossIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":5,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromBossIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 5,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        },
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
           "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.DealDamageCombatAction, ember.balancing\",\"_duration\":20}],\"<Trigger>k__BackingField\":60,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"1.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
           "data": {
             "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
@@ -28002,36 +27664,6 @@
       "disabledInGame": false,
       "rarity": "SingleBattleBoost",
       "effects": [
-        {
-          "source": "SerializedJson",
-          "actionType": "ModularEffect",
-          "json": "{\"$type\":\"Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing\",\"TargetType\":1000,\"ClassId\":0,\"GuildId\":0,\"_condition\":{\"$id\":\"1\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing\"},\"_actions\":[{\"$id\":\"2\",\"$type\":\"Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromBossIdAction, ember.balancing\"}],\"<Trigger>k__BackingField\":5,\"<AttachmentType>k__BackingField\":0,\"<AttachmentClassId>k__BackingField\":0,\"<TriggerIncrement>k__BackingField\":1,\"<EffectInterval>k__BackingField\":\"0.00\",\"<Keyword>k__BackingField\":0,\"<RushDuration>k__BackingField\":\"0.00\",\"<StallDuration>k__BackingField\":\"0.00\",\"<ProjectileType>k__BackingField\":0}",
-          "data": {
-            "$type": "Ember.Balancing.SimulationBridge.Effects.ModularEffect, ember.balancing",
-            "TargetType": 1000,
-            "ClassId": 0,
-            "GuildId": 0,
-            "_condition": {
-              "$id": "1",
-              "$type": "Ember.Balancing.SimulationBridge.Effects.Conditions.NoCondition, ember.balancing"
-            },
-            "_actions": [
-              {
-                "$id": "2",
-                "$type": "Ember.Balancing.SimulationBridge.Effects.Actions.CreateRelicFromBossIdAction, ember.balancing"
-              }
-            ],
-            "<Trigger>k__BackingField": 5,
-            "<AttachmentType>k__BackingField": 0,
-            "<AttachmentClassId>k__BackingField": 0,
-            "<TriggerIncrement>k__BackingField": 1,
-            "<EffectInterval>k__BackingField": "0.00",
-            "<Keyword>k__BackingField": 0,
-            "<RushDuration>k__BackingField": "0.00",
-            "<StallDuration>k__BackingField": "0.00",
-            "<ProjectileType>k__BackingField": 0
-          }
-        },
         {
           "source": "SerializedJson",
           "actionType": "ModularEffect",
