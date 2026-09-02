@@ -957,7 +957,7 @@ export function getSearchIndex(): SearchResult[] {
     slug: "tier-list",
     name: "Guildrun Tier List — Best Heroes Ranked",
     description:
-      "S to D hero rankings for Demo 0.5.6 with roles, strengths, Red Rift notes, and builds.",
+      "S to D hero rankings for Demo 0.5.7 with roles, strengths, Red Rift notes, and builds.",
     href: "/tier-list",
     meta: "Tier List",
   });

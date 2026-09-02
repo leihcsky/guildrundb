@@ -7,14 +7,14 @@
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://guildrunhub.online",
   locale: "en_US",
   creator: "Guildrun Hub",
-  gameVersion: "Demo 0.5.6",
+  gameVersion: "Demo 0.5.7",
   contactEmail: "contact@guildrunhub.online",
   /** Google Analytics 4 measurement ID (gtag.js). */
   googleAnalyticsId: "G-MN3QZETG27",
   /** Google AdSense publisher client ID (ca-pub-…). */
   googleAdsenseClientId: "ca-pub-3293976111230987",
   dataNotes:
-    "Database extracted from Guildrun Demo 0.5.6 game sheets. Balance-sensitive values may change with future patches.",
+    "Database extracted from Guildrun Demo 0.5.7 game sheets. Balance-sensitive values may change with future patches.",
   legalUpdatedAt: "2026-08-15",
   faq: [
     {
@@ -25,7 +25,7 @@
     {
       question: "Which game version does Guildrun Hub cover?",
       answer:
-        "Heroes, relics, items, classes, and abilities on this site are maintained against Guildrun Demo 0.5.6. Recheck values after major balance patches.",
+        "Heroes, relics, items, classes, and abilities on this site are maintained against Guildrun Demo 0.5.7. Recheck values after major balance patches.",
     },
     {
       question: "How should a new player start?",
@@ -47,7 +47,7 @@
    * Persistent chrome disclosure (header strip). Keep short; full legal copy lives on /about and /copyright.
    */
   unofficialBanner: {
-    text: "Unofficial fan wiki · Demo 0.5.6 · Not affiliated with Leyline",
+    text: "Unofficial fan wiki · Demo 0.5.7 · Not affiliated with Leyline",
     linkLabel: "About this site",
     href: "/about",
   },
@@ -55,7 +55,7 @@
     // Query-facing: lead with "Guildrun wiki". Unofficial disclosure lives in chrome / About, not meta.
     homeTitle: "Guildrun Wiki — Heroes, Relics, Items & Builds",
     homeDescription:
-      "Guildrun wiki for Demo 0.5.6 — searchable heroes, 300+ relics, items, classes, builds, and guides. Look up stats, effects, and synergies.",
+      "Guildrun wiki for Demo 0.5.7 — searchable heroes, 300+ relics, items, classes, builds, and guides. Look up stats, effects, and synergies.",
     lists: {
       heroes: {
         title: "Guildrun Heroes — Roster, Classes & Abilities",
@@ -80,17 +80,17 @@
       builds: {
         title: "Guildrun Builds — Hero Team Comps",
         description:
-          "Hand-written Guildrun builds for Demo 0.5.6 — when to pick each comp, relics, items, and positioning.",
+          "Hand-written Guildrun builds for Demo 0.5.7 — when to pick each comp, relics, items, and positioning.",
       },
       guides: {
         title: "Strategy Guides & Demo Tips",
         description:
-          "Guildrun strategy guides for drafting, economy, positioning, and hard nodes in Demo 0.5.6.",
+          "Guildrun strategy guides for drafting, economy, positioning, and hard nodes in Demo 0.5.7.",
       },
       tierList: {
         title: "Guildrun Tier List — Best Builds & Heroes",
         description:
-          "Guildrun tier list for Demo 0.5.6 — ranked team builds with loadouts, plus hero power rankings for shop picks.",
+          "Guildrun tier list for Demo 0.5.7 — ranked team builds with loadouts, plus hero power rankings for shop picks.",
       },
       keywords: {
         title: "Keyword Hub — Rush, Crit, Shield & More",

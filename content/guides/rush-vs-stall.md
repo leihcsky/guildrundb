@@ -14,7 +14,7 @@ Most Guildrun boards do not fail because you “needed more Attack.” They fail
 
 One clock wants the fight **short and loud**. The other wants the fight **messy and long**. Rush and Stall are those clocks. If you keep both half-wound, your relics look good on paper and do nothing in the replay.
 
-This page is for Demo **0.5.6**. It will not list every Rush relic. It will help you answer one shop question: **are we racing, or are we waiting?**
+This page is for Demo **0.5.7**. It will not list every Rush relic. It will help you answer one shop question: **are we racing, or are we waiting?**
 
 Jump to the databases when you need names: [Rush](/keywords/rush), [Stall](/keywords/stall), [Relics](/relics). If you just wiped and are not sure why, start with [Why did I wipe?](/guides/fight-loss-checklist) instead.
 

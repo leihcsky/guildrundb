@@ -19,9 +19,9 @@ import {
 } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
 
-const PAGE_TITLE = "Guildrun Tier List — Best Builds (Demo 0.5.6)";
+const PAGE_TITLE = "Guildrun Tier List — Best Builds (Demo 0.5.7)";
 const PAGE_DESCRIPTION =
-  "Guildrun tier list for Demo 0.5.6 — S to B team builds with hero, item, and relic loadouts, plus a secondary hero power ranking. Find the best Guildrun comps for climb and Red Rift.";
+  "Guildrun tier list for Demo 0.5.7 — S to B team builds with hero, item, and relic loadouts, plus a secondary hero power ranking. Find the best Guildrun comps for climb and Red Rift.";
 
 export const metadata: Metadata = buildMetadata({
   title: PAGE_TITLE,
