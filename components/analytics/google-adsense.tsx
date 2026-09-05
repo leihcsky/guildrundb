@@ -32,6 +32,7 @@ const ALLOW_PREFIXES = [
   "/heroes",
   "/classes",
   "/tier-list",
+  "/updates",
   "/about",
 ];
 

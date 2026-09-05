@@ -170,6 +170,23 @@ export interface Guide {
   tags?: string[];
 }
 
+export type UpdateCategory =
+  | "Patch Notes"
+  | "Site Update"
+  | "Meta Notes"
+  | "Release News";
+
+export interface UpdatePost {
+  slug: string;
+  title: string;
+  description: string;
+  content: string;
+  /** Publish / editorial date (ISO date or datetime). */
+  publishedAt: string;
+  category: UpdateCategory;
+  tags?: string[];
+}
+
 export type HeroTierGrade = "S" | "A" | "B" | "C" | "D";
 
 export interface TierListEntry {
@@ -228,6 +245,7 @@ export type SearchEntityType =
   | "item"
   | "build"
   | "guide"
+  | "update"
   | "keyword"
   | "class";
 

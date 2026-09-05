@@ -8,13 +8,15 @@ export type GuideOutlineItem = {
 
 /** Preferred “read next” pairs for the decision-series guides. */
 const CURATED_RELATED: Record<string, string[]> = {
-  "fight-loss-checklist": ["shop-order-shards", "rush-vs-stall"],
-  "shop-order-shards": ["reading-relic-offers", "rush-vs-stall"],
+  "fight-loss-checklist": ["player-handbook", "shop-order-shards"],
+  "shop-order-shards": ["growth-route", "reading-relic-offers"],
   "reading-relic-offers": ["rush-vs-stall", "shop-order-shards"],
-  "rush-vs-stall": ["shop-order-shards", "fight-loss-checklist"],
-  "getting-started": ["rush-vs-stall", "fight-loss-checklist"],
-  "red-rift": ["fight-loss-checklist", "rush-vs-stall"],
-  "adjacent-positioning": ["rush-vs-stall", "fight-loss-checklist"],
+  "rush-vs-stall": ["player-handbook", "shop-order-shards"],
+  "getting-started": ["player-handbook", "growth-route"],
+  "player-handbook": ["growth-route", "fight-loss-checklist"],
+  "growth-route": ["player-handbook", "shop-order-shards"],
+  "red-rift": ["growth-route", "fight-loss-checklist"],
+  "adjacent-positioning": ["player-handbook", "fight-loss-checklist"],
 };
 
 export function slugifyHeading(text: string) {
@@ -98,9 +100,9 @@ export function getGuidesForBuild(
   const ordered = [
     "shop-order-shards",
     ...themed,
+    "player-handbook",
+    "growth-route",
     "reading-relic-offers",
-    "rush-vs-stall",
-    "fight-loss-checklist",
   ];
 
   const picked: Guide[] = [];
@@ -124,11 +126,11 @@ export function getGuidesForBuild(
 export function getFeaturedGuides(guides: Guide[], limit = 6): Guide[] {
   const order = [
     "getting-started",
+    "player-handbook",
+    "growth-route",
     "rush-vs-stall",
     "shop-order-shards",
     "fight-loss-checklist",
-    "reading-relic-offers",
-    "red-rift",
   ];
 
   const picked: Guide[] = [];

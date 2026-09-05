@@ -30,7 +30,7 @@
     {
       question: "How should a new player start?",
       answer:
-        "Browse the hero roster to learn classes and abilities, then explore relics and builds for starter comps. Use keywords like Rush or Crit to find related relics when you spot a effect in-game.",
+        "Start with the Player Handbook for positioning and first contact, then the Growth Route for Rank C→S and board expansion. Use the tier list when you want a starter build, and Heroes/Relics when a shop offer needs a quick lookup.",
     },
     {
       question: "Where can I find hero, relic, and item data?",
@@ -53,9 +53,9 @@
   },
   seo: {
     // Query-facing: lead with "Guildrun wiki". Unofficial disclosure lives in chrome / About, not meta.
-    homeTitle: "Guildrun Wiki — Heroes, Relics, Items & Builds",
+    homeTitle: "Guildrun Wiki — Guides, Builds & Database",
     homeDescription:
-      "Guildrun wiki for Demo 0.5.7 — searchable heroes, 300+ relics, items, classes, builds, and guides. Look up stats, effects, and synergies.",
+      "Guildrun guide and wiki for Demo 0.5.7 — beginner path, ranked builds, tier list, and searchable heroes, relics, and items.",
     lists: {
       heroes: {
         title: "Guildrun Heroes — Roster, Classes & Abilities",
@@ -132,16 +132,17 @@
     { label: "Builds", href: "/builds" },
     { label: "Guides", href: "/guides" },
     { label: "Tier List", href: "/tier-list" },
+    { label: "Updates", href: "/updates" },
     { label: "Keywords", href: "/keywords" },
   ],
   footer: {
     explore: [
       { label: "Heroes", href: "/heroes" },
-      { label: "Relics", href: "/relics" },
-      { label: "Items", href: "/items" },
       { label: "Builds", href: "/builds" },
       { label: "Guides", href: "/guides" },
       { label: "Tier List", href: "/tier-list" },
+      { label: "Updates", href: "/updates" },
+      { label: "Relics", href: "/relics" },
     ],
     legal: [
       { label: "About", href: "/about" },

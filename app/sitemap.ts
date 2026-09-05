@@ -6,6 +6,7 @@ import {
   getHeroes,
 } from "@/lib/data";
 import { absoluteUrl } from "@/lib/seo";
+import { getUpdates } from "@/lib/updates";
 
 // Required for `output: "export"` (Cloudflare Pages static hosting).
 export const dynamic = "force-static";
@@ -41,6 +42,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const updates = getUpdates().map((post) => ({
+    url: absoluteUrl(`/updates/${post.slug}`),
+    lastModified: toDate(post.publishedAt, now),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   const classes = getHeroClasses().map((heroClass) => ({
     url: absoluteUrl(`/classes/${heroClass.slug}`),
     lastModified: now,
@@ -50,7 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Stable site-wide date proxy for hub/static pages: newest content date, so
   // deploys that don't change content don't churn every lastmod (avoids noise).
-  const contentDates = [...heroes, ...builds, ...guides].map(
+  const contentDates = [...heroes, ...builds, ...guides, ...updates].map(
     (entry) => entry.lastModified as Date,
   );
   const latestContentDate = contentDates.reduce(
@@ -73,6 +81,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/builds",
     "/guides",
     "/tier-list",
+    "/updates",
     "/about",
     "/privacy",
     "/terms",
@@ -92,13 +101,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
           ? 0.95
           : path === "/heroes"
             ? 0.9
-            : path === "/about" ||
-                path === "/privacy" ||
-                path === "/terms" ||
-                path === "/copyright" ||
-                path === "/contact"
-              ? 0.3
-              : 0.8,
+            : path === "/updates"
+              ? 0.75
+              : path === "/about" ||
+                  path === "/privacy" ||
+                  path === "/terms" ||
+                  path === "/copyright" ||
+                  path === "/contact"
+                ? 0.3
+                : 0.8,
   }));
 
   return [
@@ -107,5 +118,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...classes,
     ...builds,
     ...guides,
+    ...updates,
   ];
 }

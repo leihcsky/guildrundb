@@ -22,6 +22,7 @@ import {
   resolveActiveAbilityId,
   type HeroAssociationBundle,
 } from "@/lib/hero-links";
+import { getUpdates } from "@/lib/updates";
 import {
   extractTags,
   getCuratedTagIds,
@@ -952,12 +953,23 @@ export function getSearchIndex(): SearchResult[] {
     });
   }
 
+  for (const post of getUpdates()) {
+    results.push({
+      type: "update",
+      slug: post.slug,
+      name: post.title,
+      description: post.description,
+      href: `/updates/${post.slug}`,
+      meta: post.category,
+    });
+  }
+
   results.push({
     type: "guide",
     slug: "tier-list",
-    name: "Guildrun Tier List — Best Heroes Ranked",
+    name: "Guildrun Tier List — Best Builds & Heroes",
     description:
-      "S to D hero rankings for Demo 0.5.7 with roles, strengths, Red Rift notes, and builds.",
+      "S to B team builds with loadouts, plus hero power rankings for Demo shop picks.",
     href: "/tier-list",
     meta: "Tier List",
   });

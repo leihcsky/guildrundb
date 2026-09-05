@@ -11,7 +11,7 @@ tags:
 
 Guildrun is a single-player PvE roguelike autobattler from Leyline. You draft a small guild, place heroes on a hex board, then watch combat resolve automatically. The real game happens **between** fights: shops, events, ranks, items, and relics. This guide is written for the current **Demo 0.5.7** mindset — not as a rigid tier list, but as a checklist of decisions that keep early runs alive long enough for you to learn.
 
-Use this page together with Guildrun Hub’s databases: [Heroes](/heroes), [Relics](/relics), [Items](/items), [Classes](/classes), [Keywords](/keywords), and [Builds](/builds). Look up a name when a shop offer confuses you; come back here when you need the big picture.
+Use this page together with Guildrun Hub’s databases: [Heroes](/heroes), [Relics](/relics), [Items](/items), [Classes](/classes), [Keywords](/keywords), and [Builds](/builds). For deeper pillars, open the [Player Handbook](/guides/player-handbook) (formation / first contact) and the [Growth Route](/guides/growth-route) (Rank C→S and expansion). Look up a name when a shop offer confuses you; come back here when you need the big picture.
 
 ## What you are actually optimizing
 
